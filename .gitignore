@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Environments (uv venvs per role) and local tool settings
+envs/
+/envs
+.venv/
+.claude/settings.local.json
+
+# Data: symlink to the dataset directory
+/data
+
+# Run outputs (large): agent trajectories, per-query eval files, visualizations, logs
+logs/
+results/agent/
+results/baselines/
+results/tmp/
+results/eval/**
+!results/eval/*/
+!results/eval/*/timing.md
+!results/eval/*/spatio_temporal_summary*.csv
+results/eval/partial_*/
+results/eval/zeroshot_*/
+results/eval/e2e*/
+results/eval/*_partial/
+results/probes/*_clips/
+
+# Per-host overrides (see scripts/env.sh)
+/scripts/env.local.sh
+
+# SAM 3 checkout made by scripts/setup.sh
+/third_party/sam3/

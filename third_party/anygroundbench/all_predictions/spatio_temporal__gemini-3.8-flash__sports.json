@@ -1,0 +1,6366 @@
+[
+  {
+    "query_id": "american_football_test_0",
+    "query": "kc_wide_clip151.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        29.452,
+        36.019
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:29",
+          "box_2d": [
+            638.667,
+            734.505,
+            749.444,
+            790.833
+          ]
+        },
+        {
+          "timestamp": "00:30",
+          "box_2d": [
+            581.852,
+            655.432,
+            700.454,
+            700.839
+          ]
+        },
+        {
+          "timestamp": "00:31",
+          "box_2d": [
+            559.981,
+            500.437,
+            655.213,
+            534.417
+          ]
+        },
+        {
+          "timestamp": "00:32",
+          "box_2d": [
+            555.722,
+            431.88,
+            644.13,
+            473.453
+          ]
+        },
+        {
+          "timestamp": "00:33",
+          "box_2d": [
+            547.593,
+            372.104,
+            632.25,
+            397.781
+          ]
+        },
+        {
+          "timestamp": "00:34",
+          "box_2d": [
+            545.537,
+            362.99,
+            645.87,
+            388.651
+          ]
+        },
+        {
+          "timestamp": "00:35",
+          "box_2d": [
+            550.074,
+            403.641,
+            650.417,
+            429.302
+          ]
+        },
+        {
+          "timestamp": "00:36",
+          "box_2d": [
+            602.315,
+            477.844,
+            653.019,
+            524.37
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\n  \"box_2d\": [609, 524, 712, 572],\n  \"timestamp\": \"00:29\"\n },\n {\n  \"box_2d\": [587, 424, 670, 467],\n  \"timestamp\": \"00:30\"\n },\n {\n  \"box_2d\": [576, 362, 661, 406],\n  \"timestamp\": \"00:31\"\n },\n {\n  \"box_2d\": [549, 329, 647, 378],\n  \"timestamp\": \"00:32\"\n },\n {\n  \"box_2d\": [538, 317, 632, 375],\n  \"timestamp\": \"00:33\"\n },\n {\n  \"box_2d\": [529, 323, 622, 373],\n  \"timestamp\": \"00:34\"\n }\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "kc_wide_clip151.mp4"
+  },
+  {
+    "query_id": "american_football_test_1",
+    "query": "kc_wide_clip076.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        14.595,
+        16.195
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:15",
+          "box_2d": [
+            522.222,
+            862.5,
+            582.407,
+            877.083
+          ]
+        },
+        {
+          "timestamp": "00:15",
+          "box_2d": [
+            515.741,
+            840.104,
+            561.111,
+            854.688
+          ]
+        },
+        {
+          "timestamp": "00:16",
+          "box_2d": [
+            516.667,
+            810.937,
+            543.519,
+            819.271
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"timestamp\":\"00:16\",\"box_2d\":[527,477,574,493]}]",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "kc_wide_clip076.mp4"
+  },
+  {
+    "query_id": "american_football_test_2",
+    "query": "kc_wide_clip176.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        25.927,
+        27.894
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:26",
+          "box_2d": [
+            475.148,
+            858.214,
+            593.185,
+            894.255
+          ]
+        },
+        {
+          "timestamp": "00:26",
+          "box_2d": [
+            483.019,
+            855.052,
+            601.056,
+            891.094
+          ]
+        },
+        {
+          "timestamp": "00:27",
+          "box_2d": [
+            470.639,
+            798.141,
+            556.398,
+            829.922
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:25\", \"box_2d\": [513, 689, 616, 739]},\n  {\"timestamp\": \"00:26\", \"box_2d\": [498, 715, 606, 773]},\n  {\"timestamp\": \"00:27\", \"box_2d\": [480, 772, 562, 833]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "kc_wide_clip176.mp4"
+  },
+  {
+    "query_id": "american_football_test_3",
+    "query": "kc_wide_clip005.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        2.238,
+        4.804
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:02",
+          "box_2d": [
+            451.713,
+            263.708,
+            561.009,
+            295.969
+          ]
+        },
+        {
+          "timestamp": "00:03",
+          "box_2d": [
+            471.333,
+            325.995,
+            568.028,
+            357.958
+          ]
+        },
+        {
+          "timestamp": "00:04",
+          "box_2d": [
+            460.407,
+            355.063,
+            544.861,
+            394.656
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:02\", \"box_2d\": [489, 365, 618, 415]},\n  {\"timestamp\": \"00:03\", \"box_2d\": [462, 398, 563, 444]},\n  {\"timestamp\": \"00:04\", \"box_2d\": [430, 375, 532, 436]},\n  {\"timestamp\": \"00:05\", \"box_2d\": [422, 407, 521, 469]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "kc_wide_clip005.mp4"
+  },
+  {
+    "query_id": "american_football_test_4",
+    "query": "kc_wide_clip063.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        15.702,
+        16.569
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:16",
+          "box_2d": [
+            496.296,
+            141.146,
+            631.481,
+            201.042
+          ]
+        },
+        {
+          "timestamp": "00:16",
+          "box_2d": [
+            491.667,
+            171.875,
+            627.778,
+            231.25
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:15\", \"box_2d\": [474, 152, 637, 200]},\n  {\"timestamp\": \"00:16\", \"box_2d\": [492, 248, 634, 291]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "kc_wide_clip063.mp4"
+  },
+  {
+    "query_id": "american_football_test_5",
+    "query": "kc_wide_clip061.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        2.269,
+        3.703
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:02",
+          "box_2d": [
+            478.704,
+            519.792,
+            563.889,
+            542.188
+          ]
+        },
+        {
+          "timestamp": "00:03",
+          "box_2d": [
+            482.407,
+            539.583,
+            568.519,
+            563.021
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\"timestamp\":\"00:03\", \"box_2d\":[565, 538, 700, 574]},\n {\"timestamp\":\"00:04\", \"box_2d\":[565, 538, 699, 573]},\n {\"timestamp\":\"00:05\", \"box_2d\":[576, 535, 737, 569]},\n {\"timestamp\":\"00:06\", \"box_2d\":[641, 533, 763, 569]},\n {\"timestamp\":\"00:07\", \"box_2d\":[640, 534, 762, 569]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "kc_wide_clip061.mp4"
+  },
+  {
+    "query_id": "american_football_test_6",
+    "query": "kc_wide_clip158.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        17.482,
+        17.849
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:18",
+          "box_2d": [
+            401.852,
+            770.312,
+            617.593,
+            834.375
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\"timestamp\":\"00:17\", \"box_2\":[398, 780, 607, 835]},\n {\"timestamp\":\"00:18\", \"box_2\":[425, 876, 655, 932]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "kc_wide_clip158.mp4"
+  },
+  {
+    "query_id": "american_football_test_7",
+    "query": "kc_wide_clip016.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        16.086,
+        18.353
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:16",
+          "box_2d": [
+            443.519,
+            530.729,
+            545.37,
+            566.146
+          ]
+        },
+        {
+          "timestamp": "00:17",
+          "box_2d": [
+            464.815,
+            551.562,
+            601.852,
+            584.896
+          ]
+        },
+        {
+          "timestamp": "00:18",
+          "box_2d": [
+            522.222,
+            531.771,
+            635.185,
+            560.417
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:16\", \"box_2\": [408, 530, 498, 555]},\n  {\"timestamp\": \"00:17\", \"box_2\": [504, 529, 600, 560]},\n  {\"timestamp\": \"00:18\", \"box_2\": [528, 513, 606, 561]},\n  {\"timestamp\": \"00:19\", \"box_2\": [524, 497, 592, 531]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "kc_wide_clip016.mp4"
+  },
+  {
+    "query_id": "american_football_test_8",
+    "query": "ko_wide_clip005.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        15.609,
+        17.276
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:16",
+          "box_2d": [
+            365.741,
+            568.75,
+            414.815,
+            588.542
+          ]
+        },
+        {
+          "timestamp": "00:16",
+          "box_2d": [
+            358.333,
+            550.521,
+            402.778,
+            576.562
+          ]
+        },
+        {
+          "timestamp": "00:17",
+          "box_2d": [
+            368.519,
+            578.646,
+            395.37,
+            609.375
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"box_2d\": [558, 381, 651, 430], \"timestamp\": \"00:16\"},\n  {\"box_2d\": [531, 401, 618, 461], \"timestamp\": \"00:17\"},\n  {\"box_2d\": [496, 436, 564, 491], \"timestamp\": \"00:18\"}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "ko_wide_clip005.mp4"
+  },
+  {
+    "query_id": "american_football_test_9",
+    "query": "ko_wide_clip006.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        21.779,
+        23.679
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:22",
+          "box_2d": [
+            433.333,
+            463.021,
+            514.815,
+            485.417
+          ]
+        },
+        {
+          "timestamp": "00:22",
+          "box_2d": [
+            424.074,
+            439.063,
+            485.185,
+            465.104
+          ]
+        },
+        {
+          "timestamp": "00:23",
+          "box_2d": [
+            371.296,
+            384.375,
+            453.704,
+            401.562
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:22\", \"box_2d\": [405, 405, 470, 435]},\n  {\"timestamp\": \"00:23\", \"box_2d\": [398, 380, 460, 430]},\n  {\"timestamp\": \"00:24\", \"box_2d\": [395, 380, 455, 425]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "ko_wide_clip006.mp4"
+  },
+  {
+    "query_id": "american_football_test_10",
+    "query": "kc_wide_clip084.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        21.551,
+        22.918
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:22",
+          "box_2d": [
+            578.704,
+            229.167,
+            632.407,
+            246.354
+          ]
+        },
+        {
+          "timestamp": "00:22",
+          "box_2d": [
+            575.0,
+            248.958,
+            633.333,
+            261.458
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"box_2d\": [573, 560, 638, 580], \"timestamp\": \"00:23\"}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "kc_wide_clip084.mp4"
+  },
+  {
+    "query_id": "american_football_test_11",
+    "query": "kc_wide_clip036.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        16.516,
+        17.249
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:17",
+          "box_2d": [
+            477.778,
+            800.521,
+            644.444,
+            849.479
+          ]
+        },
+        {
+          "timestamp": "00:17",
+          "box_2d": [
+            450.926,
+            755.729,
+            613.889,
+            802.083
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\"timestamp\": \"00:16\", \"box_2\": [510, 779, 635, 815]},\n {\"timestamp\": \"00:17\", \"box_2\": [477, 770, 636, 817]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "kc_wide_clip036.mp4"
+  },
+  {
+    "query_id": "american_football_test_12",
+    "query": "ko_wide_clip011.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        16.624,
+        18.258
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:17",
+          "box_2d": [
+            331.759,
+            214.271,
+            403.12,
+            242.484
+          ]
+        },
+        {
+          "timestamp": "00:17",
+          "box_2d": [
+            339.593,
+            230.266,
+            410.954,
+            258.479
+          ]
+        },
+        {
+          "timestamp": "00:18",
+          "box_2d": [
+            342.546,
+            285.651,
+            405.75,
+            313.807
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"box_2d\": [347, 275, 444, 319], \"timestamp\": \"00:16\"},\n  {\"box_2d\": [354, 286, 444, 334], \"timestamp\": \"00:17\"},\n  {\"box_2d\": [355, 305, 442, 347], \"timestamp\": \"00:18\"},\n  {\"box_2d\": [367, 313, 446, 355], \"timestamp\": \"00:19\"}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "ko_wide_clip011.mp4"
+  },
+  {
+    "query_id": "american_football_test_13",
+    "query": "kc_wide_clip044.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        15.286,
+        18.453
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:15",
+          "box_2d": [
+            520.37,
+            261.333,
+            598.019,
+            292.818
+          ]
+        },
+        {
+          "timestamp": "00:16",
+          "box_2d": [
+            543.157,
+            235.698,
+            620.806,
+            267.182
+          ]
+        },
+        {
+          "timestamp": "00:17",
+          "box_2d": [
+            550.546,
+            318.151,
+            628.204,
+            349.635
+          ]
+        },
+        {
+          "timestamp": "00:18",
+          "box_2d": [
+            566.565,
+            443.214,
+            644.213,
+            474.698
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:15\", \"box_2d\": [563, 340, 642, 368]},\n  {\"timestamp\": \"00:16\", \"box_2d\": [586, 372, 657, 407]},\n  {\"timestamp\": \"00:17\", \"box_2d\": [569, 381, 647, 414]},\n  {\"timestamp\": \"00:18\", \"box_2d\": [574, 416, 637, 457]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "kc_wide_clip044.mp4"
+  },
+  {
+    "query_id": "american_football_test_14",
+    "query": "kc_wide_clip022.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        16.895,
+        20.028
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:17",
+          "box_2d": [
+            486.454,
+            357.964,
+            553.602,
+            376.573
+          ]
+        },
+        {
+          "timestamp": "00:17",
+          "box_2d": [
+            485.963,
+            360.974,
+            553.12,
+            379.583
+          ]
+        },
+        {
+          "timestamp": "00:18",
+          "box_2d": [
+            506.157,
+            362.75,
+            564.046,
+            381.365
+          ]
+        },
+        {
+          "timestamp": "00:19",
+          "box_2d": [
+            517.13,
+            434.026,
+            577.898,
+            463.906
+          ]
+        },
+        {
+          "timestamp": "00:20",
+          "box_2d": [
+            550.648,
+            471.198,
+            593.028,
+            497.844
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:17\", \"box_2d\": [512, 403, 598, 440]},\n  {\"timestamp\": \"00:18\", \"box_2d\":\": [521, 415, 608, 446]},\n  {\"timestamp\": \"00:19\", \"box_2d\":\": [515, 428, 608, 469]},\n  {\"timestamp\": \"00:20\", \"box_2d\":\": [527, 430, 614, 478]},\n  {\"timestamp\": \"00:21\", \"box_2d\":\": [521, 441, 605, 476]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "kc_wide_clip022.mp4"
+  },
+  {
+    "query_id": "american_football_test_15",
+    "query": "kc_wide_clip100.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        7.852,
+        9.818
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:08",
+          "box_2d": [
+            505.556,
+            595.833,
+            635.185,
+            644.271
+          ]
+        },
+        {
+          "timestamp": "00:08",
+          "box_2d": [
+            514.815,
+            580.208,
+            654.63,
+            632.812
+          ]
+        },
+        {
+          "timestamp": "00:09",
+          "box_2d": [
+            612.037,
+            543.75,
+            720.37,
+            580.729
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:08\", \"box_2d\": [390, 357, 475, 396]},\n  {\"timestamp\": \"00:09\", \"box_2d\": [393, 377, 478, 418]},\n  {\"timestamp\": \"00:10\", \"box_2d\": [419, 381, 504, 414]},\n  {\"timestamp\": \"00:11\", \"box_2d\": [422, 393, 509, 428]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "kc_wide_clip100.mp4"
+  },
+  {
+    "query_id": "american_football_test_16",
+    "query": "kc_wide_clip137.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        22.031,
+        28.231
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:22",
+          "box_2d": [
+            505.556,
+            90.625,
+            619.444,
+            118.229
+          ]
+        },
+        {
+          "timestamp": "00:23",
+          "box_2d": [
+            535.185,
+            24.479,
+            642.593,
+            55.729
+          ]
+        },
+        {
+          "timestamp": "00:24",
+          "box_2d": [
+            599.074,
+            39.583,
+            714.815,
+            77.604
+          ]
+        },
+        {
+          "timestamp": "00:25",
+          "box_2d": [
+            647.222,
+            146.354,
+            749.074,
+            182.292
+          ]
+        },
+        {
+          "timestamp": "00:26",
+          "box_2d": [
+            631.481,
+            241.146,
+            735.185,
+            264.062
+          ]
+        },
+        {
+          "timestamp": "00:27",
+          "box_2d": [
+            656.481,
+            365.104,
+            737.037,
+            390.625
+          ]
+        },
+        {
+          "timestamp": "00:28",
+          "box_2d": [
+            658.333,
+            522.396,
+            753.704,
+            558.854
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"box_2\": [564, 416, 678, 441], \"timestamp\": \"00:23\"},\n  {\"box_2\": [626, 411, 745, 439], \"timestamp\": \"00:24\"},\n  {\"box_2\": [617, 462, 743, 491], \"timestamp\": \"00:25\"},\n  {\"box_2\": [632, 446, 753, 481], \"timestamp\": \"00:26\"},\n  {\"box_2\": [662, 471, 753, 512], \"timestamp\": \"00:27\"},\n  {\"box_2\": [678, 553, 756, 608], \"timestamp\": \"00:28\"}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "kc_wide_clip137.mp4"
+  },
+  {
+    "query_id": "american_football_test_17",
+    "query": "kc_wide_clip152.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        14.995,
+        16.328
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:15",
+          "box_2d": [
+            574.074,
+            232.292,
+            659.259,
+            259.375
+          ]
+        },
+        {
+          "timestamp": "00:16",
+          "box_2d": [
+            547.222,
+            211.458,
+            644.444,
+            244.271
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:14\", \"box_2d\": [538, 222, 638, 248]},\n  {\"timestamp\": \"00:15\", \"box_2d\": [538, 222, 638, 248]},\n  {\"timestamp\": \"00:16\", \"box_2d\": [538, 222, 638, 248]},\n  {\"timestamp\": \"00:17\", \"box_2d\": [538, 222, 638, 248]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "kc_wide_clip152.mp4"
+  },
+  {
+    "query_id": "american_football_test_18",
+    "query": "kc_wide_clip032.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        19.312,
+        22.012
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:19",
+          "box_2d": [
+            449.556,
+            780.036,
+            562.593,
+            810.937
+          ]
+        },
+        {
+          "timestamp": "00:20",
+          "box_2d": [
+            463.796,
+            770.948,
+            576.833,
+            801.849
+          ]
+        },
+        {
+          "timestamp": "00:21",
+          "box_2d": [
+            525.963,
+            636.26,
+            609.417,
+            661.182
+          ]
+        },
+        {
+          "timestamp": "00:22",
+          "box_2d": [
+            605.046,
+            578.641,
+            658.491,
+            615.234
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:19\", \"box_2d\": [462, 580, 558, 612]},\n  {\"timestamp\": \"00:20\", \"box_2d\": [482, 550, 575, 595]},\n  {\"timestamp\": \"00:21\", \"box_2d\": [512, 570, 608, 625]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "kc_wide_clip032.mp4"
+  },
+  {
+    "query_id": "american_football_test_19",
+    "query": "kc_wide_clip127.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        20.094,
+        24.194
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:20",
+          "box_2d": [
+            421.296,
+            166.667,
+            520.37,
+            201.563
+          ]
+        },
+        {
+          "timestamp": "00:21",
+          "box_2d": [
+            438.889,
+            178.125,
+            548.148,
+            213.021
+          ]
+        },
+        {
+          "timestamp": "00:22",
+          "box_2d": [
+            462.037,
+            253.646,
+            557.407,
+            296.354
+          ]
+        },
+        {
+          "timestamp": "00:23",
+          "box_2d": [
+            504.63,
+            240.104,
+            569.444,
+            291.146
+          ]
+        },
+        {
+          "timestamp": "00:24",
+          "box_2d": [
+            525.926,
+            209.375,
+            568.519,
+            280.729
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\n  \"timestamp\": \"00:21\",\n  \"box_2d\": [441, 480, 540, 513]\n },\n {\n  \"timestamp\": \"00:22\",\n  \"box_2d\": [433, 474, 538, 502]\n },\n {\n  \"timestamp\": \"00:23\",\n  \"box_2d\": [433, 470, 532, 498]\n },\n {\n  \"timestamp\": \"00:24\",\n  \"box_2d\": [434, 470, 518, 497]\n }\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "kc_wide_clip127.mp4"
+  },
+  {
+    "query_id": "american_football_test_20",
+    "query": "kc_wide_clip011.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        8.993,
+        12.393
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:09",
+          "box_2d": [
+            566.481,
+            262.547,
+            703.944,
+            298.177
+          ]
+        },
+        {
+          "timestamp": "00:10",
+          "box_2d": [
+            547.611,
+            241.339,
+            640.491,
+            284.177
+          ]
+        },
+        {
+          "timestamp": "00:11",
+          "box_2d": [
+            515.602,
+            277.234,
+            610.185,
+            315.036
+          ]
+        },
+        {
+          "timestamp": "00:12",
+          "box_2d": [
+            545.324,
+            276.167,
+            614.509,
+            326.245
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:08\", \"box_2d\": [585, 483, 735, 518]},\n  {\"timestamp\": \"00:09\", \"box_2d\": [581, 483, 736, 518]},\n  {\"timestamp\": \"00:10\", \"box_2d\": [575, 487, 725, 519]},\n  {\"timestamp\": \"00:11\", \"box_2d\": [571, 493, 703, 521]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "kc_wide_clip011.mp4"
+  },
+  {
+    "query_id": "american_football_test_21",
+    "query": "kc_wide_clip039.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        12.684,
+        14.984
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:13",
+          "box_2d": [
+            313.037,
+            602.682,
+            403.361,
+            642.755
+          ]
+        },
+        {
+          "timestamp": "00:13",
+          "box_2d": [
+            316.852,
+            596.24,
+            407.185,
+            636.313
+          ]
+        },
+        {
+          "timestamp": "00:14",
+          "box_2d": [
+            370.88,
+            647.755,
+            456.167,
+            678.536
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"box_2\": [321, 472, 429, 523], \"timestamp\": \"00:12\"},\n  {\"box_2\": [333, 498, 430, 563], \"timestamp\": \"00:13\"},\n  {\"box_2\": [340, 520, 442, 576], \"timestamp\": \"00:14\"},\n  {\"box_2\": [346, 529, 442, 574], \"timestamp\": \"00:15\"}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "kc_wide_clip039.mp4"
+  },
+  {
+    "query_id": "american_football_test_22",
+    "query": "kc_wide_clip046.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        22.159,
+        24.192
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:22",
+          "box_2d": [
+            568.519,
+            358.333,
+            743.519,
+            413.542
+          ]
+        },
+        {
+          "timestamp": "00:23",
+          "box_2d": [
+            612.037,
+            554.688,
+            768.519,
+            605.208
+          ]
+        },
+        {
+          "timestamp": "00:24",
+          "box_2d": [
+            700.0,
+            679.688,
+            863.889,
+            735.938
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\n  \"box_2d\": [499, 680, 608, 723],\n  \"timestamp\": \"00:23\"\n },\n {\n  \"box_2d\": [649, 786, 735, 829],\n  \"timestamp\": \"00:24\"\n },\n {\n  \"box_2d\": [608, 842, 679, 902],\n  \"timestamp\": \"00:25\"\n },\n {\n  \"box_2d\": [610, 853, 716, 905],\n  \"timestamp\": \"00:26\"\n }\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "kc_wide_clip046.mp4"
+  },
+  {
+    "query_id": "american_football_test_23",
+    "query": "kc_wide_clip136.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        28.358,
+        31.025
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:28",
+          "box_2d": [
+            487.037,
+            810.937,
+            557.407,
+            834.896
+          ]
+        },
+        {
+          "timestamp": "00:29",
+          "box_2d": [
+            487.963,
+            731.771,
+            549.074,
+            752.083
+          ]
+        },
+        {
+          "timestamp": "00:30",
+          "box_2d": [
+            457.407,
+            621.354,
+            516.667,
+            650.521
+          ]
+        },
+        {
+          "timestamp": "00:31",
+          "box_2d": [
+            508.333,
+            602.604,
+            587.037,
+            615.625
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:30\", \"box_2d\": [470, 670, 545, 695]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "kc_wide_clip136.mp4"
+  },
+  {
+    "query_id": "american_football_test_24",
+    "query": "kc_wide_clip098.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        26.093,
+        27.393
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:26",
+          "box_2d": [
+            536.111,
+            159.896,
+            648.148,
+            198.958
+          ]
+        },
+        {
+          "timestamp": "00:27",
+          "box_2d": [
+            510.185,
+            142.708,
+            614.815,
+            182.812
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"box_2d\": [538, 271, 626, 336], \"timestamp\": \"00:26\"},\n  {\"box_2d\": [504, 287, 595, 335], \"timestamp\": \"00:27\"}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "kc_wide_clip098.mp4"
+  },
+  {
+    "query_id": "american_football_test_25",
+    "query": "kc_wide_clip092.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        19.609,
+        20.909
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:20",
+          "box_2d": [
+            510.185,
+            876.563,
+            597.222,
+            903.646
+          ]
+        },
+        {
+          "timestamp": "00:20",
+          "box_2d": [
+            506.481,
+            868.229,
+            597.222,
+            903.125
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"box_2d\": [558, 301, 634, 333], \"timestamp\": \"00:18\"},\n  {\"box_2d\": [564, 300, 638, 332], \"timestamp\": \"00:19\"},\n  {\"box_2d\": [564, 305, 635, 347], \"timestamp\": \"00:20\"},\n  {\"box_2d\": [560, 309, 633, 345], \"timestamp\": \"00:21\"}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "kc_wide_clip092.mp4"
+  },
+  {
+    "query_id": "american_football_test_26",
+    "query": "kc_wide_clip079.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        25.488,
+        31.522
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:26",
+          "box_2d": [
+            555.407,
+            267.844,
+            658.5,
+            299.693
+          ]
+        },
+        {
+          "timestamp": "00:26",
+          "box_2d": [
+            540.519,
+            315.474,
+            643.611,
+            347.323
+          ]
+        },
+        {
+          "timestamp": "00:27",
+          "box_2d": [
+            480.13,
+            464.021,
+            567.139,
+            488.37
+          ]
+        },
+        {
+          "timestamp": "00:28",
+          "box_2d": [
+            482.713,
+            643.526,
+            568.037,
+            674.714
+          ]
+        },
+        {
+          "timestamp": "00:29",
+          "box_2d": [
+            479.565,
+            736.505,
+            564.889,
+            767.693
+          ]
+        },
+        {
+          "timestamp": "00:30",
+          "box_2d": [
+            498.028,
+            723.922,
+            583.343,
+            755.104
+          ]
+        },
+        {
+          "timestamp": "00:31",
+          "box_2d": [
+            553.407,
+            744.292,
+            638.722,
+            775.479
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:26\", \"box_2d\": [588, 521, 715, 560]},\n  {\"timestamp\": \"00:27\", \"box_2d\": [577, 538, 672, 571]},\n  {\"timestamp\": \"00:28\", \"box_2d\": [573, 625, 657, 659]},\n  {\"timestamp\": \"00:29\", \"box_2d\": [560, 690, 637, 723]},\n  {\"timestamp\": \"00:30\", \"box_2d\": [570, 743, 650, 783]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "kc_wide_clip079.mp4"
+  },
+  {
+    "query_id": "american_football_test_27",
+    "query": "ko_wide_clip015.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        22.436,
+        26.57
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:22",
+          "box_2d": [
+            342.944,
+            118.75,
+            418.796,
+            153.474
+          ]
+        },
+        {
+          "timestamp": "00:23",
+          "box_2d": [
+            343.694,
+            162.693,
+            419.546,
+            197.422
+          ]
+        },
+        {
+          "timestamp": "00:24",
+          "box_2d": [
+            381.972,
+            225.516,
+            457.111,
+            254.323
+          ]
+        },
+        {
+          "timestamp": "00:25",
+          "box_2d": [
+            408.037,
+            207.484,
+            488.407,
+            246.87
+          ]
+        },
+        {
+          "timestamp": "00:26",
+          "box_2d": [
+            451.333,
+            222.266,
+            524.157,
+            259.547
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\"box_2\": [342, 236, 432, 268], \"timestamp\": \"00:22\"},\n {\"box_2\": [363, 228, 459, 260], \"timestamp\": \"00:23\"},\n {\"box_2\": [376, 224, 465, 257], \"timestamp\": \"00:24\"},\n {\"box_2\": [386, 227, 467, 257], \"timestamp\": \"00:25\"},\n {\"box_2\": [468, 258, 563, 302], \"timestamp\": \"00:26\"}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "ko_wide_clip015.mp4"
+  },
+  {
+    "query_id": "american_football_test_28",
+    "query": "kc_wide_clip123.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        14.8,
+        18.967
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:15",
+          "box_2d": [
+            419.537,
+            837.375,
+            572.315,
+            887.656
+          ]
+        },
+        {
+          "timestamp": "00:15",
+          "box_2d": [
+            431.074,
+            839.948,
+            583.852,
+            890.229
+          ]
+        },
+        {
+          "timestamp": "00:16",
+          "box_2d": [
+            457.648,
+            816.807,
+            602.824,
+            859.359
+          ]
+        },
+        {
+          "timestamp": "00:17",
+          "box_2d": [
+            592.787,
+            818.63,
+            749.352,
+            875.469
+          ]
+        },
+        {
+          "timestamp": "00:18",
+          "box_2d": [
+            576.972,
+            895.203,
+            752.074,
+            947.042
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"box_2d\": [435, 561, 575, 615], \"timestamp\": \"00:13\"},\n  {\"box_2d\": [453, 587, 581, 648], \"timestamp\": \"00:14\"},\n  {\"box_2d\": [458, 636, 616, 694], \"timestamp\": \"00:15\"},\n  {\"box_2d\": [483, 652, 630, 706], \"timestamp\": \"00:16\"}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "kc_wide_clip123.mp4"
+  },
+  {
+    "query_id": "american_football_test_29",
+    "query": "kc_wide_clip030.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        11.933,
+        17.586
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:14",
+          "box_2d": [
+            458.333,
+            5.208,
+            562.963,
+            27.083
+          ]
+        },
+        {
+          "timestamp": "00:14",
+          "box_2d": [
+            452.778,
+            59.896,
+            555.556,
+            87.5
+          ]
+        },
+        {
+          "timestamp": "00:15",
+          "box_2d": [
+            498.148,
+            301.563,
+            593.519,
+            318.229
+          ]
+        },
+        {
+          "timestamp": "00:16",
+          "box_2d": [
+            518.519,
+            438.542,
+            617.593,
+            460.938
+          ]
+        },
+        {
+          "timestamp": "00:17",
+          "box_2d": [
+            528.704,
+            507.812,
+            635.185,
+            525.521
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:12\", \"box_2d\": [412, 260, 497, 287]},\n  {\"timestamp\": \"00:13\", \"box_2d\": [462, 428, 563, 468]},\n  {\"timestamp\": \"00:14\", \"box_2d\": [460, 171, 545, 196]},\n  {\"timestamp\": \"00:15\", \"box_2d\": [522, 370, 597, 395]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "kc_wide_clip030.mp4"
+  },
+  {
+    "query_id": "american_football_test_30",
+    "query": "kc_wide_clip034.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        20.363,
+        25.163
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:20",
+          "box_2d": [
+            377.648,
+            773.203,
+            471.093,
+            804.016
+          ]
+        },
+        {
+          "timestamp": "00:21",
+          "box_2d": [
+            367.778,
+            788.932,
+            478.176,
+            819.302
+          ]
+        },
+        {
+          "timestamp": "00:22",
+          "box_2d": [
+            383.102,
+            699.854,
+            483.176,
+            733.984
+          ]
+        },
+        {
+          "timestamp": "00:23",
+          "box_2d": [
+            421.583,
+            620.927,
+            511.102,
+            645.807
+          ]
+        },
+        {
+          "timestamp": "00:24",
+          "box_2d": [
+            433.722,
+            483.073,
+            504.352,
+            503.125
+          ]
+        },
+        {
+          "timestamp": "00:25",
+          "box_2d": [
+            475.306,
+            377.615,
+            528.426,
+            414.849
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:22\", \"box_2d\": [427, 856, 559, 901]},\n  {\"timestamp\": \"00:23\", \"box_2d\": [427, 856, 624, 901]},\n  {\"timestamp\": \"00:24\", \"box_2d\": [440, 854, 624, 902]},\n  {\"timestamp\": \"00:25\", \"box_2d\": [434, 855, 622, 902]},\n  {\"timestamp\": \"00:26\", \"box_2d\": [432, 857, 516, 904]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "kc_wide_clip034.mp4"
+  },
+  {
+    "query_id": "american_football_test_31",
+    "query": "kc_wide_clip105.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        22.24,
+        23.54
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:22",
+          "box_2d": [
+            601.852,
+            892.188,
+            694.444,
+            922.917
+          ]
+        },
+        {
+          "timestamp": "00:23",
+          "box_2d": [
+            592.593,
+            900.521,
+            709.259,
+            928.646
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\"box_2d\": [706, 143, 857, 178], \"timestamp\": \"00:22\"},\n {\"box_2d\": [727, 134, 856, 169], \"timestamp\": \"00:23\"},\n {\"box_2d\": [564, 237, 686, 267], \"timestamp\": \"00:24\"}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "kc_wide_clip105.mp4"
+  },
+  {
+    "query_id": "american_football_test_32",
+    "query": "kc_wide_clip128.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        13.026,
+        15.293
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:13",
+          "box_2d": [
+            472.222,
+            791.667,
+            599.074,
+            821.875
+          ]
+        },
+        {
+          "timestamp": "00:14",
+          "box_2d": [
+            564.815,
+            747.917,
+            686.111,
+            798.438
+          ]
+        },
+        {
+          "timestamp": "00:15",
+          "box_2d": [
+            653.704,
+            678.646,
+            753.704,
+            761.458
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"box_2d\": [558, 612, 711, 666], \"timestamp\": \"00:14\"},\n  {\"box_2d\": [617, 666, 771, 745], \"timestamp\": \"00:15\"},\n  {\"box_2d\": [706, 735, 788, 829], \"timestamp\": \"00:16\"}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "kc_wide_clip128.mp4"
+  },
+  {
+    "query_id": "american_football_test_33",
+    "query": "kc_wide_clip056.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        18.071,
+        19.004
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:18",
+          "box_2d": [
+            639.815,
+            740.104,
+            804.63,
+            776.563
+          ]
+        },
+        {
+          "timestamp": "00:19",
+          "box_2d": [
+            578.704,
+            677.083,
+            700.0,
+            708.854
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"box_2d\": [618, 717, 751, 755], \"timestamp\": \"00:18\"}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "kc_wide_clip056.mp4"
+  },
+  {
+    "query_id": "american_football_test_34",
+    "query": "kc_wide_clip130.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        22.379,
+        25.113
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:22",
+          "box_2d": [
+            571.296,
+            554.167,
+            687.037,
+            581.771
+          ]
+        },
+        {
+          "timestamp": "00:23",
+          "box_2d": [
+            595.37,
+            516.146,
+            725.0,
+            538.021
+          ]
+        },
+        {
+          "timestamp": "00:24",
+          "box_2d": [
+            658.333,
+            485.938,
+            803.704,
+            522.396
+          ]
+        },
+        {
+          "timestamp": "00:25",
+          "box_2d": [
+            602.778,
+            393.75,
+            712.963,
+            430.729
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:24\", \"box_2d\": [657, 418, 767, 460]},\n  {\"timestamp\": \"00:25\", \"box_2d\": [577, 356, 684, 404]},\n  {\"timestamp\": \"00:26\", \"box_2d\": [553, 278, 678, 316]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "kc_wide_clip130.mp4"
+  },
+  {
+    "query_id": "american_football_test_35",
+    "query": "kc_wide_clip081.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        13.649,
+        15.282
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:14",
+          "box_2d": [
+            519.444,
+            828.125,
+            665.741,
+            883.333
+          ]
+        },
+        {
+          "timestamp": "00:14",
+          "box_2d": [
+            519.444,
+            900.521,
+            683.333,
+            939.583
+          ]
+        },
+        {
+          "timestamp": "00:15",
+          "box_2d": [
+            549.074,
+            917.708,
+            701.852,
+            964.583
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:13\", \"box_2d\": [498, 606, 681, 655]},\n  {\"timestamp\": \"00:14\", \"box_2d\": [491, 630, 688, 672]},\n  {\"timestamp\": \"00:15\", \"box_2d\": [504, 630, 689, 671]},\n  {\"timestamp\": \"00:16\", \"box_2d\": [517, 685, 684, 715]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "kc_wide_clip081.mp4"
+  },
+  {
+    "query_id": "american_football_test_36",
+    "query": "kc_wide_clip160.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        24.771,
+        26.204
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:25",
+          "box_2d": [
+            438.889,
+            736.979,
+            499.074,
+            751.563
+          ]
+        },
+        {
+          "timestamp": "00:25",
+          "box_2d": [
+            434.259,
+            732.292,
+            497.222,
+            746.354
+          ]
+        },
+        {
+          "timestamp": "00:26",
+          "box_2d": [
+            420.37,
+            664.583,
+            474.074,
+            684.896
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"box_2d\": [492, 803, 555, 818], \"timestamp\": \"00:26\"}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "kc_wide_clip160.mp4"
+  },
+  {
+    "query_id": "multisports_test_0",
+    "query": "v_1yHWGw8DH4A_c077.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        4.8,
+        5.36
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:05",
+          "box_2d": [
+            352.778,
+            288.023,
+            456.486,
+            321.875
+          ]
+        },
+        {
+          "timestamp": "00:05",
+          "box_2d": [
+            347.222,
+            286.461,
+            450.931,
+            320.312
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"88:47\", \"box_2d\": [788, 357, 878, 417]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_1yHWGw8DH4A_c077.mp4"
+  },
+  {
+    "query_id": "multisports_test_1",
+    "query": "v_4nikeBZNYRE_c006.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        1.72,
+        6.24
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:02",
+          "box_2d": [
+            354.167,
+            571.875,
+            516.667,
+            625.781
+          ]
+        },
+        {
+          "timestamp": "00:02",
+          "box_2d": [
+            369.444,
+            583.594,
+            518.056,
+            637.5
+          ]
+        },
+        {
+          "timestamp": "00:03",
+          "box_2d": [
+            426.389,
+            627.344,
+            595.833,
+            700.0
+          ]
+        },
+        {
+          "timestamp": "00:04",
+          "box_2d": [
+            440.278,
+            700.0,
+            604.167,
+            766.406
+          ]
+        },
+        {
+          "timestamp": "00:05",
+          "box_2d": [
+            404.167,
+            761.719,
+            576.389,
+            822.656
+          ]
+        },
+        {
+          "timestamp": "00:06",
+          "box_2d": [
+            441.667,
+            758.594,
+            591.667,
+            807.031
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\n  \"timestamp\": \"00:07\",\n  \"box_2d\": [438, 722, 582, 781]\n },\n {\n  \"timestamp\": \"00:08\",\n  \"box_2d\": [425, 755, 568, 813]\n },\n {\n  \"timestamp\": \"00:14\",\n  \"box_2d\": [347, 656, 478, 718]\n },\n {\n  \"timestamp\": \"00:15\",\n  \"box_2d\": [358, 671, 499, 731]\n },\n {\n  \"timestamp\": \"00:16\",\n  \"box_2d\": [408, 634, 521, 679]\n },\n {\n  \"timestamp\": \"00:17\",\n  \"box_2d\": [449, 592, 565, 634]\n }\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_4nikeBZNYRE_c006.mp4"
+  },
+  {
+    "query_id": "multisports_test_2",
+    "query": "v_2j7kLB-vEEk_c004.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        3.88,
+        4.2
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:04",
+          "box_2d": [
+            641.667,
+            404.687,
+            848.611,
+            559.375
+          ]
+        },
+        {
+          "timestamp": "00:04",
+          "box_2d": [
+            625.0,
+            386.719,
+            854.167,
+            522.656
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:02\", \"box_2d\": [557, 360, 792, 444]},\n  {\"timestamp\": \"00:03\", \"box_2d\": [624, 498, 831, 596]},\n  {\"timestamp\": \"00:05\", \"box_2d\": [509, 238, 749, 316]},\n  {\"timestamp\": \"00:06\", \"box_2d\": [510, 137, 719, 241]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_2j7kLB-vEEk_c004.mp4"
+  },
+  {
+    "query_id": "multisports_test_3",
+    "query": "v_a-FbBlvBkSE_c004.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        2.48,
+        3.0
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:02",
+          "box_2d": [
+            394.444,
+            632.812,
+            507.403,
+            675.523
+          ]
+        },
+        {
+          "timestamp": "00:03",
+          "box_2d": [
+            403.708,
+            581.773,
+            512.042,
+            617.188
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\"timestamp\": \"00:02\", \"box_2d\": [400, 630, 506, 671]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_a-FbBlvBkSE_c004.mp4"
+  },
+  {
+    "query_id": "multisports_test_4",
+    "query": "v_82WN8C8qJmI_c014.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        8.56,
+        9.24
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:09",
+          "box_2d": [
+            534.264,
+            480.727,
+            748.153,
+            560.414
+          ]
+        },
+        {
+          "timestamp": "00:09",
+          "box_2d": [
+            524.069,
+            506.773,
+            744.444,
+            581.773
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\"timestamp\": \"00:10\", \"box_2d\": [547, 482, 740, 544]},\n {\"timestamp\": \"00:11\", \"box_2d\": [521, 501, 740, 548]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_82WN8C8qJmI_c014.mp4"
+  },
+  {
+    "query_id": "multisports_test_5",
+    "query": "v_g34vS_2KvYY_c006.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        6.16,
+        6.36
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:06",
+          "box_2d": [
+            580.556,
+            660.414,
+            683.333,
+            694.273
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\n  \"timestamp\": \"00:06\",\n  \"box_2d\": [628, 645, 777, 680]\n },\n {\n  \"timestamp\": \"00:07\",\n  \"box_2d\": [626, 680, 776, 712]\n }\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_g34vS_2KvYY_c006.mp4"
+  },
+  {
+    "query_id": "multisports_test_6",
+    "query": "v_gEjQ2Ttbs9M_c002.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        5.04,
+        5.8
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:05",
+          "box_2d": [
+            500.931,
+            498.961,
+            654.625,
+            550.0
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\"timestamp\": \"00:04\", \"box_2d\": [462, 533, 606, 577]},\n {\"timestamp\": \"00:05\", \"box_2d\": [461, 590, 611, 627]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_gEjQ2Ttbs9M_c002.mp4"
+  },
+  {
+    "query_id": "multisports_test_7",
+    "query": "v_4LXTUim5anY_c013.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        26.4,
+        26.92
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:26",
+          "box_2d": [
+            470.375,
+            270.313,
+            615.736,
+            316.664
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"box_2d\": [492, 261, 609, 309], \"timestamp\": \"05:07\"},\n  {\"box_2d\": [437, 381, 590, 430], \"timestamp\": \"05:06\"},\n  {\"box_2d\": [417, 571, 608, 614], \"timestamp\": \"05:05\"}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_4LXTUim5anY_c013.mp4"
+  },
+  {
+    "query_id": "multisports_test_8",
+    "query": "v_jZj2UkglB9E_c003.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        3.92,
+        4.72
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:04",
+          "box_2d": [
+            511.111,
+            282.813,
+            729.625,
+            386.461
+          ]
+        },
+        {
+          "timestamp": "00:04",
+          "box_2d": [
+            497.222,
+            282.813,
+            721.292,
+            402.602
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"box_2d\": [504, 287, 722, 381], \"timestamp\": \"00:10\"},\n  {\"box_2d\": [483, 321, 697, 417], \"timestamp\": \"00:11\"},\n  {\"box_2d\": [474, 340, 665, 439], \"timestamp\": \"00:12\"},\n  {\"box_2d\": [431, 328, 660, 410], \"timestamp\": \"00:13\"}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_jZj2UkglB9E_c003.mp4"
+  },
+  {
+    "query_id": "multisports_test_9",
+    "query": "v_-hhDbvY5aAM_c602.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        16.8,
+        17.28
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:17",
+          "box_2d": [
+            264.819,
+            417.711,
+            378.708,
+            460.938
+          ]
+        },
+        {
+          "timestamp": "00:17",
+          "box_2d": [
+            276.847,
+            413.539,
+            388.889,
+            456.773
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:16\", \"box_2d\": [302, 441, 381, 467]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_-hhDbvY5aAM_c602.mp4"
+  },
+  {
+    "query_id": "multisports_test_10",
+    "query": "v_Y0SCvur8ZK0_c006.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        0.04,
+        1.28
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:00",
+          "box_2d": [
+            523.153,
+            867.188,
+            666.667,
+            919.789
+          ]
+        },
+        {
+          "timestamp": "00:01",
+          "box_2d": [
+            504.625,
+            806.25,
+            636.111,
+            868.227
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:04\", \"box_2d\": [746, 126, 856, 197]},\n  {\"timestamp\": \"00:08\", \"box_2d\": [630, 801, 745, 858]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_Y0SCvur8ZK0_c006.mp4"
+  },
+  {
+    "query_id": "multisports_test_11",
+    "query": "v_Fsbu9m-6xQ4_c016.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        0.04,
+        0.32
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:00",
+          "box_2d": [
+            188.889,
+            277.086,
+            999.069,
+            891.148
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\"timestamp\": \"00:00\", \"box_2d\": [348, 91, 521, 126]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_Fsbu9m-6xQ4_c016.mp4"
+  },
+  {
+    "query_id": "multisports_test_12",
+    "query": "v_KLIa2UaE2KE_c005.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        7.2,
+        7.92
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:07",
+          "box_2d": [
+            491.667,
+            390.625,
+            671.292,
+            426.563
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\"timestamp\":\"00:01\", \"box_2d\":[241, 483, 528, 527]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_KLIa2UaE2KE_c005.mp4"
+  },
+  {
+    "query_id": "multisports_test_13",
+    "query": "v_Y0SCvur8ZK0_c014.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        18.72,
+        19.2
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:19",
+          "box_2d": [
+            515.736,
+            455.211,
+            691.667,
+            490.625
+          ]
+        },
+        {
+          "timestamp": "00:19",
+          "box_2d": [
+            485.181,
+            453.125,
+            640.736,
+            483.336
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\n  \"timestamp\": \"00:03\",\n  \"box_2d\": [518, 452, 699, 497]\n },\n {\n  \"timestamp\": \"00:15\",\n  \"box_2d\": [363, 412, 537, 449]\n },\n {\n  \"timestamp\": \"00:18\",\n  \"box_2d\": [413, 508, 550, 540]\n }\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_Y0SCvur8ZK0_c014.mp4"
+  },
+  {
+    "query_id": "multisports_test_14",
+    "query": "v_-hhDbvY5aAM_c003.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        3.88,
+        4.2
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:04",
+          "box_2d": [
+            212.958,
+            451.039,
+            300.931,
+            475.523
+          ]
+        },
+        {
+          "timestamp": "00:04",
+          "box_2d": [
+            209.264,
+            455.727,
+            292.597,
+            480.211
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:03\", \"box_2d\": [372, 292, 477, 323]},\n  {\"timestamp\": \"00:04\", \"box_2d\": [358, 319, 452, 348]},\n  {\"timestamp\": \"00:05\", \"box_2d\": [315, 346, 419, 377]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_-hhDbvY5aAM_c003.mp4"
+  },
+  {
+    "query_id": "multisports_test_15",
+    "query": "v_8Ndq_1uw98w_c042.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        0.48,
+        1.2
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:00",
+          "box_2d": [
+            446.292,
+            366.148,
+            550.931,
+            413.023
+          ]
+        },
+        {
+          "timestamp": "00:01",
+          "box_2d": [
+            383.333,
+            442.711,
+            493.514,
+            487.5
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"box_2d\": [421, 608, 512, 637], \"timestamp\": \"00:05\"}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_8Ndq_1uw98w_c042.mp4"
+  },
+  {
+    "query_id": "multisports_test_16",
+    "query": "v_4LXTUim5anY_c008.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        3.28,
+        4.12
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:03",
+          "box_2d": [
+            438.889,
+            581.25,
+            594.444,
+            628.648
+          ]
+        },
+        {
+          "timestamp": "00:04",
+          "box_2d": [
+            428.708,
+            668.75,
+            589.819,
+            760.414
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"box_2d\": [386, 523, 564, 610], \"timestamp\": \"00:03\"},\n  {\"box_2d\": [405, 571, 608, 637], \"timestamp\": \"00:04\"},\n  {\"box_2d\": [427, 576, 608, 636], \"timestamp\": \"00:05\"}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_4LXTUim5anY_c008.mp4"
+  },
+  {
+    "query_id": "multisports_test_17",
+    "query": "v_Y0SCvur8ZK0_c015.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        3.16,
+        3.96
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:03",
+          "box_2d": [
+            415.736,
+            533.852,
+            577.778,
+            578.125
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"box_2d\": [372, 608, 550, 640], \"timestamp\": \"00:02\"},\n  {\"box_2d\": [372, 608, 550, 640], \"timestamp\": \"00:03\"}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_Y0SCvur8ZK0_c015.mp4"
+  },
+  {
+    "query_id": "multisports_test_18",
+    "query": "v_DjtFlW2eHFI_c017.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        2.96,
+        3.32
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:03",
+          "box_2d": [
+            579.778,
+            244.273,
+            676.25,
+            283.852
+          ]
+        },
+        {
+          "timestamp": "00:03",
+          "box_2d": [
+            579.778,
+            249.477,
+            679.042,
+            289.586
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\"box_2d\": [566, 440, 646, 475], \"timestamp\": \"00:02\"}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_DjtFlW2eHFI_c017.mp4"
+  },
+  {
+    "query_id": "multisports_test_19",
+    "query": "v_4LXTUim5anY_c009.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        4.0,
+        4.92
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:04",
+          "box_2d": [
+            331.486,
+            249.477,
+            497.222,
+            325.0
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\"timestamp\":\"00:03\", \"box_2d\":[451, 461, 715, 545]},\n {\"timestamp\":\"00:04\", \"box_2d\":[490, 490, 711, 548]},\n {\"timestamp\":\"00:05\", \"box_2d\":[454, 453, 758, 517]},\n {\"timestamp\":\"00:06\", \"box_2d\":[542, 442, 804, 498]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_4LXTUim5anY_c009.mp4"
+  },
+  {
+    "query_id": "multisports_test_20",
+    "query": "v_6oTxfzKdG6Q_c007.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        3.04,
+        4.2
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:03",
+          "box_2d": [
+            358.333,
+            554.688,
+            548.611,
+            610.156
+          ]
+        },
+        {
+          "timestamp": "00:04",
+          "box_2d": [
+            291.667,
+            575.0,
+            559.722,
+            614.844
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\"timestamp\": \"00:00\", \"box_2d\": [209, 492, 426, 532]},\n {\"timestamp\": \"00:01\", \"box_2d\": [210, 492, 427, 532]},\n {\"timestamp\": \"00:02\", \"box_2d\": [214, 491, 429, 532]},\n {\"timestamp\": \"00:03\", \"box_2d\": [214, 492, 429, 532]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_6oTxfzKdG6Q_c007.mp4"
+  },
+  {
+    "query_id": "multisports_test_21",
+    "query": "v_4LXTUim5anY_c006.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        5.04,
+        5.4
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:05",
+          "box_2d": [
+            544.444,
+            294.273,
+            822.222,
+            397.914
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\"timestamp\":\"00:00\", \"box_2d\":[575, 544, 810, 603]},\n {\"timestamp\":\"00:01\", \"box_2d\":[573, 540, 810, 603]},\n {\"timestamp\":\"00:05\", \"box_2d\":[545, 318, 775, 376]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_4LXTUim5anY_c006.mp4"
+  },
+  {
+    "query_id": "multisports_test_22",
+    "query": "v_-6Os86HzwCs_c004.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        16.44,
+        17.04
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:16",
+          "box_2d": [
+            447.222,
+            689.063,
+            597.222,
+            751.563
+          ]
+        },
+        {
+          "timestamp": "00:17",
+          "box_2d": [
+            462.5,
+            746.094,
+            661.111,
+            803.125
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\"timestamp\": \"00:07\", \"box_2d\": [419, 341, 663, 411]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_-6Os86HzwCs_c004.mp4"
+  },
+  {
+    "query_id": "multisports_test_23",
+    "query": "v_2Dnx8BpgUEs_c007.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        0.76,
+        2.92
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:01",
+          "box_2d": [
+            383.333,
+            820.836,
+            587.042,
+            913.023
+          ]
+        },
+        {
+          "timestamp": "00:01",
+          "box_2d": [
+            370.375,
+            836.977,
+            593.514,
+            890.625
+          ]
+        },
+        {
+          "timestamp": "00:02",
+          "box_2d": [
+            487.958,
+            732.289,
+            668.514,
+            793.227
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:02\", \"box_2d\": [384, 827, 591, 912]},\n  {\"timestamp\": \"00:03\", \"box_2d\": [442, 792, 609, 887]},\n  {\"timestamp\": \"00:04\", \"box_2d\": [486, 734, 674, 804]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_2Dnx8BpgUEs_c007.mp4"
+  },
+  {
+    "query_id": "multisports_test_24",
+    "query": "v_Y0SCvur8ZK0_c003.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        4.24,
+        4.8
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:04",
+          "box_2d": [
+            437.042,
+            466.148,
+            633.333,
+            497.914
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\"timestamp\": \"00:04\", \"box_2d\": [394, 441, 534, 515]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_Y0SCvur8ZK0_c003.mp4"
+  },
+  {
+    "query_id": "multisports_test_25",
+    "query": "v_07uuHJ9yXBw_c085.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        12.8,
+        13.36
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:13",
+          "box_2d": [
+            374.069,
+            334.375,
+            466.667,
+            374.477
+          ]
+        },
+        {
+          "timestamp": "00:13",
+          "box_2d": [
+            350.931,
+            365.102,
+            448.153,
+            411.461
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:13\", \"box_2d\": [398, 396, 494, 433]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_07uuHJ9yXBw_c085.mp4"
+  },
+  {
+    "query_id": "multisports_test_26",
+    "query": "v_a-FbBlvBkSE_c015.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        9.84,
+        10.92
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:10",
+          "box_2d": [
+            260.181,
+            615.102,
+            375.0,
+            656.773
+          ]
+        },
+        {
+          "timestamp": "00:10",
+          "box_2d": [
+            269.444,
+            585.938,
+            371.292,
+            642.711
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:09\", \"box_2d\": [260, 435, 338, 465]},\n  {\"timestamp\": \"00:10\", \"box_2d\": [335, 530, 395, 595]},\n  {\"timestamp\": \"00:11\", \"box_2d\": [338, 535, 395, 595]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_a-FbBlvBkSE_c015.mp4"
+  },
+  {
+    "query_id": "multisports_test_27",
+    "query": "v_gEjQ2Ttbs9M_c008.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        4.88,
+        5.44
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:05",
+          "box_2d": [
+            520.375,
+            578.125,
+            662.958,
+            620.836
+          ]
+        },
+        {
+          "timestamp": "00:05",
+          "box_2d": [
+            520.375,
+            572.914,
+            662.958,
+            633.852
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:08\", \"box_2d\": [486, 652, 649, 687]},\n  {\"timestamp\": \"00:09\", \"box_2d\": [487, 652, 646, 687]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_gEjQ2Ttbs9M_c008.mp4"
+  },
+  {
+    "query_id": "multisports_test_28",
+    "query": "v_9MHDmAMxO5I_c004.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        2.04,
+        2.48
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:02",
+          "box_2d": [
+            645.375,
+            73.961,
+            775.0,
+            133.852
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\"timestamp\": \"00:03\", \"box_2d\": [488, 175, 642, 240]},\n {\"timestamp\": \"00:04\", \"box_2d\": [620, 617, 829, 676]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_9MHDmAMxO5I_c004.mp4"
+  },
+  {
+    "query_id": "multisports_test_29",
+    "query": "v_iO0QqaR5E24_c010.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        0.6,
+        2.24
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:01",
+          "box_2d": [
+            391.667,
+            399.219,
+            708.333,
+            488.281
+          ]
+        },
+        {
+          "timestamp": "00:01",
+          "box_2d": [
+            350.0,
+            402.344,
+            716.667,
+            487.5
+          ]
+        },
+        {
+          "timestamp": "00:02",
+          "box_2d": [
+            691.667,
+            296.875,
+            997.222,
+            360.156
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"box_2d\": [308, 403, 762, 482], \"timestamp\": \"00:01\"}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_iO0QqaR5E24_c010.mp4"
+  },
+  {
+    "query_id": "multisports_test_30",
+    "query": "v_-hhDbvY5aAM_c001.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        8.88,
+        9.28
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:09",
+          "box_2d": [
+            301.847,
+            301.563,
+            412.042,
+            352.602
+          ]
+        },
+        {
+          "timestamp": "00:09",
+          "box_2d": [
+            304.625,
+            319.273,
+            414.819,
+            364.586
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"74:55\", \"box_2d\": [470, 437, 490, 448]},\n  {\"timestamp\": \"74:57\", \"box_2d\": [375, 304, 393, 317]},\n  {\"timestamp\": \"74:58\", \"box_2d\": [378, 410, 393, 419]},\n  {\"timestamp\": \"74:59\", \"box_2d\": [364, 519, 379, 527]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_-hhDbvY5aAM_c001.mp4"
+  },
+  {
+    "query_id": "multisports_test_31",
+    "query": "v_4nikeBZNYRE_c001.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        0.48,
+        1.92
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:00",
+          "box_2d": [
+            295.833,
+            492.188,
+            445.833,
+            526.563
+          ]
+        },
+        {
+          "timestamp": "00:01",
+          "box_2d": [
+            318.056,
+            471.875,
+            468.056,
+            516.406
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\"timestamp\":\"00:00\", \"box_2d\":[304, 497, 444, 532]},\n {\"timestamp\":\"00:01\", \"box_2d\":[343, 509, 478, 544]},\n {\"timestamp\":\"00:02\", \"box_2d\":[343, 537, 494, 574]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_4nikeBZNYRE_c001.mp4"
+  },
+  {
+    "query_id": "multisports_test_32",
+    "query": "v_gEjQ2Ttbs9M_c010.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        5.96,
+        6.88
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:06",
+          "box_2d": [
+            588.889,
+            359.375,
+            772.222,
+            425.0
+          ]
+        },
+        {
+          "timestamp": "00:06",
+          "box_2d": [
+            586.111,
+            367.188,
+            776.847,
+            425.523
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:09\", \"box_2d\": [578, 384, 773, 434]},\n  {\"timestamp\": \"00:15\", \"box_2d\": [427, 511, 514, 561]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_gEjQ2Ttbs9M_c010.mp4"
+  },
+  {
+    "query_id": "multisports_test_33",
+    "query": "v_DjtFlW2eHFI_c031.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        105.8,
+        106.32
+      ],
+      "boxes": [
+        {
+          "timestamp": "01:46",
+          "box_2d": [
+            463.819,
+            351.562,
+            542.667,
+            398.438
+          ]
+        },
+        {
+          "timestamp": "01:46",
+          "box_2d": [
+            471.236,
+            351.562,
+            548.236,
+            388.539
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"77:52\", \"box_2d\": [542, 516, 608, 557]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_DjtFlW2eHFI_c031.mp4"
+  },
+  {
+    "query_id": "multisports_test_34",
+    "query": "v_9MHDmAMxO5I_c005.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        3.24,
+        4.32
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:03",
+          "box_2d": [
+            515.736,
+            263.023,
+            709.264,
+            340.102
+          ]
+        },
+        {
+          "timestamp": "00:04",
+          "box_2d": [
+            403.708,
+            482.812,
+            644.444,
+            531.25
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\"timestamp\": \"00:03\", \"box_2d\": [462, 354, 676, 387]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_9MHDmAMxO5I_c005.mp4"
+  },
+  {
+    "query_id": "multisports_test_35",
+    "query": "v_-6Os86HzwCs_c007.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        4.68,
+        5.16
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:05",
+          "box_2d": [
+            450.0,
+            536.719,
+            631.944,
+            613.281
+          ]
+        },
+        {
+          "timestamp": "00:05",
+          "box_2d": [
+            375.0,
+            536.719,
+            638.889,
+            603.906
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:07\", \"box_2d\": [429, 546, 635, 597]},\n  {\"timestamp\": \"00:08\", \"box_2d\": [386, 545, 637, 601]},\n  {\"timestamp\": \"00:09\", \"box_2d\": [471, 568, 689, 628]},\n  {\"timestamp\": \"00:10\", \"box_2d\": [486, 548, 693, 642]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_-6Os86HzwCs_c007.mp4"
+  },
+  {
+    "query_id": "multisports_test_36",
+    "query": "v_IATp4zy18jA_c003.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        13.72,
+        14.12
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:14",
+          "box_2d": [
+            345.375,
+            641.148,
+            481.486,
+            690.102
+          ]
+        },
+        {
+          "timestamp": "00:14",
+          "box_2d": [
+            459.264,
+            525.0,
+            538.889,
+            620.836
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:14\", \"box_2d\": [516, 422, 594, 503]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_IATp4zy18jA_c003.mp4"
+  },
+  {
+    "query_id": "multisports_test_37",
+    "query": "v_gEjQ2Ttbs9M_c009.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        4.16,
+        4.72
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:04",
+          "box_2d": [
+            524.069,
+            593.227,
+            689.819,
+            630.211
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\"box_2d\": [555, 392, 763, 444], \"timestamp\": \"00:05\"}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_gEjQ2Ttbs9M_c009.mp4"
+  },
+  {
+    "query_id": "multisports_test_38",
+    "query": "v_hDBjIvCw7Kk_c001.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        1.2,
+        1.32
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:01",
+          "box_2d": [
+            712.042,
+            458.852,
+            904.625,
+            529.164
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:00\", \"box_2d\": [717, 477, 903, 526]},\n  {\"timestamp\": \"00:01\", \"box_2d\": [712, 477, 897, 524]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_hDBjIvCw7Kk_c001.mp4"
+  },
+  {
+    "query_id": "multisports_test_39",
+    "query": "v_xd9oKtYYSGQ_c006.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        5.2,
+        5.68
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:05",
+          "box_2d": [
+            325.0,
+            612.5,
+            500.0,
+            649.219
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:09\", \"box_2d\": [364, 391, 519, 437]},\n  {\"timestamp\": \"00:10\", \"box_2d\": [342, 438, 545, 501]},\n  {\"timestamp\": \"00:10\", \"box_2d\": [459, 275, 545, 345]},\n  {\"timestamp\": \"00:11\", \"box_2d\": [415, 267, 521, 332]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_xd9oKtYYSGQ_c006.mp4"
+  },
+  {
+    "query_id": "multisports_test_40",
+    "query": "v_Fsbu9m-6xQ4_c010.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        2.72,
+        3.32
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:03",
+          "box_2d": [
+            466.667,
+            87.5,
+            587.042,
+            132.289
+          ]
+        },
+        {
+          "timestamp": "00:03",
+          "box_2d": [
+            437.042,
+            126.039,
+            579.625,
+            172.914
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:03\", \"box_2d\": [552, 98, 730, 160]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_Fsbu9m-6xQ4_c010.mp4"
+  },
+  {
+    "query_id": "multisports_test_41",
+    "query": "v_DC3D_JZQUqQ_c012.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        16.88,
+        17.72
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:17",
+          "box_2d": [
+            376.389,
+            443.75,
+            587.5,
+            500.0
+          ]
+        },
+        {
+          "timestamp": "00:17",
+          "box_2d": [
+            344.444,
+            419.531,
+            597.222,
+            489.844
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\"timestamp\":\"00:16\",\"box_2d\":[274,430, 444, 486]},\n {\"timestamp\":\"00:17\",\"box_2d\":[308, 437, 463, 485]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_DC3D_JZQUqQ_c012.mp4"
+  },
+  {
+    "query_id": "multisports_test_42",
+    "query": "v_8Ndq_1uw98w_c602.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        10.2,
+        10.52
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:10",
+          "box_2d": [
+            492.597,
+            294.273,
+            586.111,
+            342.187
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\"timestamp\": \"00:10\", \"box_2d\": [487, 318, 581, 373]},\n {\"timestamp\": \"00:11\", \"box_2d\": [442, 335, 532, 394]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_8Ndq_1uw98w_c602.mp4"
+  },
+  {
+    "query_id": "multisports_test_43",
+    "query": "v_-hhDbvY5aAM_c009.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        1.44,
+        2.16
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:01",
+          "box_2d": [
+            650.931,
+            580.211,
+            836.111,
+            622.398
+          ]
+        },
+        {
+          "timestamp": "00:02",
+          "box_2d": [
+            671.292,
+            591.148,
+            840.736,
+            648.961
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"box_2d\": [676, 568, 836, 611], \"timestamp\": \"00:00\"},\n  {\"box_2d\": [662, 578, 840, 614], \"timestamp\": \"00:01\"},\n  {\"box_2d\": [651, 597, 835, 640], \"timestamp\": \"00:02\"}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_-hhDbvY5aAM_c009.mp4"
+  },
+  {
+    "query_id": "multisports_test_44",
+    "query": "v_SHFVKZ6HJc8_c011.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        9.56,
+        10.36
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:10",
+          "box_2d": [
+            369.444,
+            255.727,
+            536.111,
+            334.375
+          ]
+        },
+        {
+          "timestamp": "00:10",
+          "box_2d": [
+            371.292,
+            359.375,
+            512.958,
+            420.836
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\n  \"timestamp\": \"05:44\",\n  \"box_2d\": [383, 467, 549, 522]\n },\n {\n  \"timestamp\": \"05:44\",\n  \"box_2d\": [393, 532, 537, 582]\n },\n {\n  \"timestamp\": \"05:43\",\n  \"box_2d\": [351, 520, 528, 574]\n }\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_SHFVKZ6HJc8_c011.mp4"
+  },
+  {
+    "query_id": "multisports_test_45",
+    "query": "v_xd9oKtYYSGQ_c003.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        7.8,
+        8.32
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:08",
+          "box_2d": [
+            533.333,
+            468.75,
+            745.833,
+            526.563
+          ]
+        },
+        {
+          "timestamp": "00:08",
+          "box_2d": [
+            484.722,
+            477.344,
+            688.889,
+            525.781
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:17\", \"box_2d\": [345, 540, 585, 599]},\n  {\"timestamp\": \"00:18\", \"box_2d\": [345, 560, 575, 604]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_xd9oKtYYSGQ_c003.mp4"
+  },
+  {
+    "query_id": "multisports_test_46",
+    "query": "v_iO0QqaR5E24_c004.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        11.44,
+        12.28
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:11",
+          "box_2d": [
+            413.889,
+            394.531,
+            643.056,
+            453.906
+          ]
+        },
+        {
+          "timestamp": "00:12",
+          "box_2d": [
+            370.833,
+            307.812,
+            626.389,
+            388.281
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:13\", \"box_2d\": [425, 417, 638, 495]},\n  {\"timestamp\": \"00:14\", \"box_2d\": [320, 321, 624, 394]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_iO0QqaR5E24_c004.mp4"
+  },
+  {
+    "query_id": "multisports_test_47",
+    "query": "v_8Ndq_1uw98w_c602.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        10.04,
+        10.56
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:10",
+          "box_2d": [
+            482.403,
+            326.039,
+            567.597,
+            365.625
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:04\", \"box_2d\": [136, 775, 772, 989]},\n  {\"timestamp\": \"00:05\", \"box_2d\": [359, 781, 706, 959]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_8Ndq_1uw98w_c602.mp4"
+  },
+  {
+    "query_id": "multisports_test_48",
+    "query": "v_-hhDbvY5aAM_c008.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        17.8,
+        18.44
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:18",
+          "box_2d": [
+            562.958,
+            683.336,
+            672.222,
+            742.711
+          ]
+        },
+        {
+          "timestamp": "00:18",
+          "box_2d": [
+            572.222,
+            682.289,
+            685.181,
+            753.125
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:12\", \"box_2d\": [468, 502, 608, 550]},\n  {\"timestamp\": \"00:18\", \"box_2d\": [580, 585, 717, 638]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_-hhDbvY5aAM_c008.mp4"
+  },
+  {
+    "query_id": "multisports_test_49",
+    "query": "v_2Dnx8BpgUEs_c001.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        5.2,
+        5.96
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:05",
+          "box_2d": [
+            553.708,
+            309.898,
+            849.069,
+            353.125
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\"box_2d\": [517, 274, 754, 329], \"timestamp\": \"00:05\"},\n {\"box_2d\": [569, 269, 764, 329], \"timestamp\": \"00:06\"}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_2Dnx8BpgUEs_c001.mp4"
+  },
+  {
+    "query_id": "multisports_test_50",
+    "query": "v_Fsbu9m-6xQ4_c018.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        2.2,
+        2.72
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:02",
+          "box_2d": [
+            575.0,
+            75.0,
+            725.0,
+            129.164
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:02\", \"box_2d\": [530, 97, 715, 146]},\n  {\"timestamp\": \"00:03\", \"box_2d\": [530, 90, 715, 143]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_Fsbu9m-6xQ4_c018.mp4"
+  },
+  {
+    "query_id": "multisports_test_51",
+    "query": "v_07uuHJ9yXBw_c020.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        3.88,
+        4.44
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:04",
+          "box_2d": [
+            293.514,
+            239.586,
+            386.111,
+            286.977
+          ]
+        },
+        {
+          "timestamp": "00:04",
+          "box_2d": [
+            298.153,
+            245.836,
+            400.0,
+            283.852
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"box_2d\": [267, 224, 430, 254], \"timestamp\": \"00:02\"},\n  {\"box_2d\": [268, 224, 430, 254], \"timestamp\": \"00:03\"},\n  {\"box_2d\": [270, 178, 401, 203], \"timestamp\": \"00:04\"}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_07uuHJ9yXBw_c020.mp4"
+  },
+  {
+    "query_id": "multisports_test_52",
+    "query": "v_07uuHJ9yXBw_c041.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        24.84,
+        26.36
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:25",
+          "box_2d": [
+            632.403,
+            471.875,
+            781.486,
+            534.898
+          ]
+        },
+        {
+          "timestamp": "00:25",
+          "box_2d": [
+            637.042,
+            457.289,
+            785.181,
+            514.062
+          ]
+        },
+        {
+          "timestamp": "00:26",
+          "box_2d": [
+            625.0,
+            403.125,
+            776.847,
+            454.688
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:01\", \"box_2d\": [687, 479, 759, 521]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_07uuHJ9yXBw_c041.mp4"
+  },
+  {
+    "query_id": "multisports_test_53",
+    "query": "v_SHFVKZ6HJc8_c007.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        0.56,
+        0.68
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:01",
+          "box_2d": [
+            724.069,
+            544.789,
+            996.292,
+            622.914
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\"box_2d\": [721, 537, 989, 619], \"timestamp\": \"00:01\"},\n {\"box_2d\": [691, 536, 978, 597], \"timestamp\": \"00:02\"},\n {\"box_2d\": [662, 562, 936, 618], \"timestamp\": \"00:03\"}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_SHFVKZ6HJc8_c007.mp4"
+  },
+  {
+    "query_id": "multisports_test_54",
+    "query": "v_4LXTUim5anY_c002.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        0.04,
+        1.2
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:00",
+          "box_2d": [
+            384.264,
+            550.523,
+            589.819,
+            647.398
+          ]
+        },
+        {
+          "timestamp": "00:01",
+          "box_2d": [
+            416.667,
+            563.539,
+            637.958,
+            656.25
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\"timestamp\": \"00:14\", \"box_2d\": [421, 582, 689, 646]},\n {\"timestamp\": \"00:15\", \"box_2d\": [468, 597, 738, 666]},\n {\"timestamp\": \"00:16\", \"box_2d\": [476, 576, 736, 631]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_4LXTUim5anY_c002.mp4"
+  },
+  {
+    "query_id": "multisports_test_55",
+    "query": "v_4LXTUim5anY_c009.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        2.0,
+        2.28
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:02",
+          "box_2d": [
+            333.333,
+            289.062,
+            535.181,
+            368.75
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:00\", \"box_2d\": [360, 299, 532, 383]},\n  {\"timestamp\": \"00:01\", \"box_2d\": [360, 299, 532, 383]},\n  {\"timestamp\": \"00:03\", \"box_2d\": [442, 417, 715, 496]},\n  {\"timestamp\": \"00:04\", \"box_2d\": [442, 417, 715, 496]},\n  {\"timestamp\": \"00:05\", \"box_2d\": [325, 149, 563, 218]},\n  {\"timestamp\": \"00:06\", \"box_2d\": [325, 149, 563, 218]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_4LXTUim5anY_c009.mp4"
+  },
+  {
+    "query_id": "multisports_test_56",
+    "query": "v_jZj2UkglB9E_c005.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        5.04,
+        5.88
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:05",
+          "box_2d": [
+            433.333,
+            510.938,
+            650.931,
+            611.461
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\"timestamp\":\"00:05\", \"box_2d\":[308, 588, 638, 691]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_jZj2UkglB9E_c005.mp4"
+  },
+  {
+    "query_id": "multisports_test_57",
+    "query": "v_6oTxfzKdG6Q_c004.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        1.96,
+        2.76
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:02",
+          "box_2d": [
+            288.889,
+            673.438,
+            523.611,
+            723.437
+          ]
+        },
+        {
+          "timestamp": "00:02",
+          "box_2d": [
+            288.889,
+            667.188,
+            526.389,
+            726.562
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\"timestamp\": \"00:01\", \"box_2d\": [295, 666, 494, 733]},\n {\"timestamp\": \"00:02\", \"box_2d\": [323, 672, 519, 740]},\n {\"timestamp\": \"00:03\", \"box_2d\": [296, 712, 506, 777]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_6oTxfzKdG6Q_c004.mp4"
+  },
+  {
+    "query_id": "multisports_test_58",
+    "query": "v_4LXTUim5anY_c007.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        8.92,
+        9.24
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:09",
+          "box_2d": [
+            387.958,
+            448.437,
+            521.292,
+            503.125
+          ]
+        },
+        {
+          "timestamp": "00:09",
+          "box_2d": [
+            391.667,
+            446.352,
+            525.0,
+            501.039
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:21\", \"box_2d\": [375, 459, 517, 521]},\n  {\"timestamp\": \"00:22\", \"box_2d\": [404, 438, 548, 481]},\n  {\"timestamp\": \"00:23\", \"box_2d\": [412, 429, 598, 477]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_4LXTUim5anY_c007.mp4"
+  },
+  {
+    "query_id": "multisports_test_59",
+    "query": "v_hDBjIvCw7Kk_c002.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        4.12,
+        7.16
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:04",
+          "box_2d": [
+            637.042,
+            310.937,
+            901.847,
+            422.398
+          ]
+        },
+        {
+          "timestamp": "00:05",
+          "box_2d": [
+            663.889,
+            243.227,
+            912.042,
+            329.688
+          ]
+        },
+        {
+          "timestamp": "00:06",
+          "box_2d": [
+            544.444,
+            323.437,
+            737.042,
+            400.0
+          ]
+        },
+        {
+          "timestamp": "00:07",
+          "box_2d": [
+            478.708,
+            352.602,
+            677.778,
+            408.336
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:04\", \"box_2d\": [594, 150, 915, 240]},\n  {\"timestamp\": \"00:07\", \"box_2d\": [415, 463, 600, 514]},\n  {\"timestamp\": \"00:08\", \"box_2d\": [413, 237, 659, 313]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_hDBjIvCw7Kk_c002.mp4"
+  },
+  {
+    "query_id": "multisports_test_60",
+    "query": "v_g34vS_2KvYY_c008.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        4.92,
+        5.68
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:05",
+          "box_2d": [
+            704.625,
+            448.961,
+            848.153,
+            488.539
+          ]
+        },
+        {
+          "timestamp": "00:05",
+          "box_2d": [
+            683.333,
+            444.789,
+            849.069,
+            482.289
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"box_2d\": [587, 432, 680, 468], \"timestamp\": \"00:05\"}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_g34vS_2KvYY_c008.mp4"
+  },
+  {
+    "query_id": "multisports_test_61",
+    "query": "v_SHFVKZ6HJc8_c010.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        1.96,
+        2.24
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:02",
+          "box_2d": [
+            537.042,
+            560.414,
+            799.069,
+            678.125
+          ]
+        },
+        {
+          "timestamp": "00:02",
+          "box_2d": [
+            533.333,
+            561.461,
+            801.847,
+            688.023
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\"timestamp\": \"00:02\", \"box_2d\": [429, 595, 673, 674]},\n {\"timestamp\": \"00:03\", \"box_2d\": [478, 721, 726, 806]},\n {\"timestamp\": \"00:04\", \"box_2d\": [435, 627, 668, 725]},\n {\"timestamp\": \"00:05\", \"box_2d\": [475, 584, 687, 671]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_SHFVKZ6HJc8_c010.mp4"
+  },
+  {
+    "query_id": "multisports_test_62",
+    "query": "v_9MHDmAMxO5I_c007.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        1.04,
+        3.16
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:01",
+          "box_2d": [
+            509.264,
+            690.102,
+            737.958,
+            773.961
+          ]
+        },
+        {
+          "timestamp": "00:02",
+          "box_2d": [
+            593.514,
+            661.461,
+            777.778,
+            760.938
+          ]
+        },
+        {
+          "timestamp": "00:03",
+          "box_2d": [
+            409.264,
+            877.602,
+            580.556,
+            947.914
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:00\", \"box_2d\": [143, 518, 988, 706]},\n  {\"timestamp\": \"00:01\", \"box_2d\":\": [550, 707, 764, 781]},\n  {\"timestamp\": \"00:02\", \"box_2d\":\": [469, 706, 644, 755]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_9MHDmAMxO5I_c007.mp4"
+  },
+  {
+    "query_id": "multisports_test_63",
+    "query": "v_-hhDbvY5aAM_c005.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        3.2,
+        3.52
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:03",
+          "box_2d": [
+            356.486,
+            710.414,
+            461.111,
+            751.563
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:05\", \"box_2d\": [343, 650, 442, 707]},\n  {\"timestamp\": \"00:06\", \"box_2d\": [344, 588, 446, 642]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_-hhDbvY5aAM_c005.mp4"
+  },
+  {
+    "query_id": "multisports_test_64",
+    "query": "v_2j7kLB-vEEk_c006.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        3.8,
+        5.28
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:04",
+          "box_2d": [
+            433.333,
+            425.0,
+            677.778,
+            527.344
+          ]
+        },
+        {
+          "timestamp": "00:04",
+          "box_2d": [
+            423.611,
+            421.094,
+            677.778,
+            550.0
+          ]
+        },
+        {
+          "timestamp": "00:05",
+          "box_2d": [
+            418.056,
+            395.313,
+            690.278,
+            467.969
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:00\", \"box_2d\": [267, 253, 451, 317]},\n  {\"timestamp\": \"00:01\", \"box_2d\": [310, 248, 574, 305]},\n  {\"timestamp\": \"00:02\", \"box_2d\": [381, 281, 638, 344]},\n  {\"timestamp\": \"00:03\", \"box_2d\": [409, 304, 686, 411]},\n  {\"timestamp\": \"00:04\", \"box_2d\": [414, 332, 693, 442]},\n  {\"timestamp\": \"00:05\", \"box_2d\": [401, 375, 680, 446]},\n  {\"timestamp\": \"00:06\", \"box_2d\": [432, 427, 672, 499]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_2j7kLB-vEEk_c006.mp4"
+  },
+  {
+    "query_id": "multisports_test_65",
+    "query": "v_6oTxfzKdG6Q_c003.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        7.24,
+        7.92
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:07",
+          "box_2d": [
+            340.278,
+            642.188,
+            662.5,
+            711.719
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\n  \"timestamp\": \"00:08\",\n  \"box_2d\": [335, 715, 582, 764]\n },\n {\n  \"timestamp\": \"00:09\",\n  \"box_2d\": [334, 693, 580, 742]\n }\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_6oTxfzKdG6Q_c003.mp4"
+  },
+  {
+    "query_id": "multisports_test_66",
+    "query": "v_SHFVKZ6HJc8_c602.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        2.92,
+        3.48
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:03",
+          "box_2d": [
+            529.625,
+            245.836,
+            772.222,
+            327.602
+          ]
+        },
+        {
+          "timestamp": "00:03",
+          "box_2d": [
+            521.292,
+            243.75,
+            777.778,
+            322.914
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"box_2d\": [530, 193, 734, 273], \"timestamp\": \"00:03\"}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_SHFVKZ6HJc8_c602.mp4"
+  },
+  {
+    "query_id": "multisports_test_67",
+    "query": "v_gEjQ2Ttbs9M_c001.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        4.6,
+        5.36
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:05",
+          "box_2d": [
+            575.0,
+            447.398,
+            733.333,
+            488.539
+          ]
+        },
+        {
+          "timestamp": "00:05",
+          "box_2d": [
+            481.486,
+            422.398,
+            692.597,
+            457.813
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\n  \"timestamp\": \"00:04\",\n  \"box_2d\": [473, 381, 608, 432]\n }\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_gEjQ2Ttbs9M_c001.mp4"
+  },
+  {
+    "query_id": "multisports_test_68",
+    "query": "v_Y0SCvur8ZK0_c011.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        2.8,
+        3.76
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:03",
+          "box_2d": [
+            446.292,
+            499.477,
+            584.264,
+            543.75
+          ]
+        },
+        {
+          "timestamp": "00:03",
+          "box_2d": [
+            376.847,
+            502.602,
+            554.625,
+            533.336
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\"timestamp\": \"00:02\", \"box_2d\": [313, 530, 430, 561]},\n {\"timestamp\": \"00:03\", \"box_2d\": [313, 531, 429, 561]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_Y0SCvur8ZK0_c011.mp4"
+  },
+  {
+    "query_id": "multisports_test_69",
+    "query": "v_Fsbu9m-6xQ4_c018.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        0.68,
+        1.76
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:01",
+          "box_2d": [
+            373.153,
+            844.789,
+            518.514,
+            905.727
+          ]
+        },
+        {
+          "timestamp": "00:01",
+          "box_2d": [
+            388.889,
+            838.539,
+            530.556,
+            879.687
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\"timestamp\": \"00:00\", \"box_2d\": [366, 856, 483, 903]},\n {\"timestamp\": \"00:01\", \"box_2d\": [367, 868, 486, 910]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_Fsbu9m-6xQ4_c018.mp4"
+  },
+  {
+    "query_id": "multisports_test_70",
+    "query": "v_I-tZTTBt3rc_c004.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        10.12,
+        10.96
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:10",
+          "box_2d": [
+            406.486,
+            121.875,
+            668.514,
+            225.523
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:09\", \"box_2d\": [344, 439, 563, 497]},\n  {\"timestamp\": \"00:10\", \"box_2d\": [339, 441, 624, 520]},\n  {\"timestamp\": \"00:11\", \"box_2d\": [339, 441, 624, 520]},\n  {\"timestamp\": \"00:12\", \"box_2d\": [339, 574, 582, 635]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_I-tZTTBt3rc_c004.mp4"
+  },
+  {
+    "query_id": "multisports_test_71",
+    "query": "v_Fsbu9m-6xQ4_c002.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        3.12,
+        4.28
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:03",
+          "box_2d": [
+            558.333,
+            340.102,
+            711.111,
+            385.414
+          ]
+        },
+        {
+          "timestamp": "00:04",
+          "box_2d": [
+            540.736,
+            293.227,
+            717.597,
+            335.938
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:03\", \"box_2d\": [542, 324, 748, 362]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_Fsbu9m-6xQ4_c002.mp4"
+  },
+  {
+    "query_id": "multisports_test_72",
+    "query": "v_iO0QqaR5E24_c001.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        21.52,
+        21.88
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:22",
+          "box_2d": [
+            348.611,
+            598.437,
+            526.389,
+            635.938
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\"timestamp\": \"00:18\", \"box_2d\": [386, 510, 516, 562]},\n {\"timestamp\": \"00:19\", \"box_2d\": [376, 512, 575, 599]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_iO0QqaR5E24_c001.mp4"
+  },
+  {
+    "query_id": "multisports_test_73",
+    "query": "v_xd9oKtYYSGQ_c007.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        12.52,
+        13.08
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:13",
+          "box_2d": [
+            341.667,
+            331.25,
+            561.111,
+            372.656
+          ]
+        },
+        {
+          "timestamp": "00:13",
+          "box_2d": [
+            363.889,
+            302.344,
+            551.389,
+            346.094
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\n  \"timestamp\": \"00:13\",\n  \"box_2d\": [349, 579, 523, 616]\n }\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_xd9oKtYYSGQ_c007.mp4"
+  },
+  {
+    "query_id": "multisports_test_74",
+    "query": "v_Y0SCvur8ZK0_c008.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        0.04,
+        0.96
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:00",
+          "box_2d": [
+            319.444,
+            63.539,
+            460.181,
+            108.336
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"box_2d\": [273, 76, 403, 114], \"timestamp\": \"00:00\"}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_Y0SCvur8ZK0_c008.mp4"
+  },
+  {
+    "query_id": "multisports_test_75",
+    "query": "v_1yHWGw8DH4A_c047.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        7.68,
+        8.36
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:08",
+          "box_2d": [
+            466.667,
+            695.836,
+            574.069,
+            755.211
+          ]
+        },
+        {
+          "timestamp": "00:08",
+          "box_2d": [
+            488.889,
+            740.625,
+            593.514,
+            801.562
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"58:37\", \"box_2d\": [453, 706, 563, 748]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_1yHWGw8DH4A_c047.mp4"
+  },
+  {
+    "query_id": "multisports_test_76",
+    "query": "v_a-FbBlvBkSE_c017.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        5.2,
+        5.8
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:05",
+          "box_2d": [
+            352.778,
+            313.023,
+            462.958,
+            365.102
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\"box_2d\": [333, 381, 404, 420], \"timestamp\": \"00:05\"}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_a-FbBlvBkSE_c017.mp4"
+  },
+  {
+    "query_id": "multisports_test_77",
+    "query": "v_KLIa2UaE2KE_c005.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        2.0,
+        2.48
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:02",
+          "box_2d": [
+            562.042,
+            265.102,
+            852.778,
+            435.414
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"box_2d\": [577, 298, 725, 419], \"timestamp\": \"00:02\"}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_KLIa2UaE2KE_c005.mp4"
+  },
+  {
+    "query_id": "multisports_test_78",
+    "query": "v_4LXTUim5anY_c010.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        6.72,
+        6.96
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:07",
+          "box_2d": [
+            517.597,
+            510.414,
+            735.181,
+            582.812
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:10\", \"box_2d\": [502, 505, 713, 555]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_4LXTUim5anY_c010.mp4"
+  },
+  {
+    "query_id": "multisports_test_79",
+    "query": "v_07uuHJ9yXBw_c069.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        12.76,
+        13.28
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:13",
+          "box_2d": [
+            595.375,
+            481.773,
+            750.0,
+            541.148
+          ]
+        },
+        {
+          "timestamp": "00:13",
+          "box_2d": [
+            616.667,
+            490.625,
+            736.111,
+            535.414
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\"timestamp\":\"00:04\", \"box_2d\":[300, 465, 407, 497]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_07uuHJ9yXBw_c069.mp4"
+  },
+  {
+    "query_id": "multisports_test_80",
+    "query": "v_DjtFlW2eHFI_c009.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        30.72,
+        31.08
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:31",
+          "box_2d": [
+            474.028,
+            577.602,
+            601.111,
+            610.414
+          ]
+        },
+        {
+          "timestamp": "00:31",
+          "box_2d": [
+            482.375,
+            598.961,
+            594.625,
+            631.25
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"52:31\", \"box_2d\": [488, 590, 577, 627]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_DjtFlW2eHFI_c009.mp4"
+  },
+  {
+    "query_id": "multisports_test_81",
+    "query": "v_9MHDmAMxO5I_c003.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        4.36,
+        5.2
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:04",
+          "box_2d": [
+            589.819,
+            492.188,
+            787.042,
+            548.438
+          ]
+        },
+        {
+          "timestamp": "00:05",
+          "box_2d": [
+            548.153,
+            420.312,
+            799.069,
+            472.914
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:04\", \"box_2d\": [548, 492, 770, 530]},\n  {\"timestamp\": \"00:05\", \"box_2d\": [548, 490, 769, 529]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_9MHDmAMxO5I_c003.mp4"
+  },
+  {
+    "query_id": "multisports_test_82",
+    "query": "v_4nikeBZNYRE_c005.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        6.92,
+        7.64
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:07",
+          "box_2d": [
+            608.333,
+            605.469,
+            822.222,
+            658.594
+          ]
+        },
+        {
+          "timestamp": "00:07",
+          "box_2d": [
+            608.333,
+            605.469,
+            822.222,
+            658.594
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\"timestamp\": \"00:06\", \"box_2d\": [552, 592, 804, 659]},\n {\"timestamp\": \"00:07\", \"box_2d\": [552, 592, 804, 659]},\n {\"timestamp\": \"00:08\", \"box_2d\": [552, 592, 804, 659]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_4nikeBZNYRE_c005.mp4"
+  },
+  {
+    "query_id": "multisports_test_83",
+    "query": "v_U8AcLO8xmkg_c006.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        4.32,
+        6.36
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:04",
+          "box_2d": [
+            710.181,
+            327.086,
+            821.292,
+            380.211
+          ]
+        },
+        {
+          "timestamp": "00:05",
+          "box_2d": [
+            701.847,
+            257.289,
+            820.375,
+            296.352
+          ]
+        },
+        {
+          "timestamp": "00:06",
+          "box_2d": [
+            386.111,
+            583.852,
+            734.264,
+            665.102
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\"timestamp\": \"00:01\", \"box_2d\": [390, 666, 994, 822]},\n {\"timestamp\": \"00:02\", \"box_2d\": [390, 520, 831, 642]},\n {\"timestamp\": \"00:03\", \"box_2d\": [453, 696, 687, 762]},\n {\"timestamp\": \"00:04\", \"box_2d\": [706, 296, 819, 357]},\n {\"timestamp\": \"00:05\", \"box_2d\": [405, 570, 755, 715]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_U8AcLO8xmkg_c006.mp4"
+  },
+  {
+    "query_id": "multisports_test_84",
+    "query": "v_-6Os86HzwCs_c004.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        11.2,
+        11.76
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:11",
+          "box_2d": [
+            513.889,
+            537.5,
+            759.722,
+            593.75
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\"timestamp\": \"00:16\", \"box_2d\": [563, 524, 757, 590]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_-6Os86HzwCs_c004.mp4"
+  },
+  {
+    "query_id": "multisports_test_85",
+    "query": "v_07uuHJ9yXBw_c605.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        1.92,
+        2.56
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:02",
+          "box_2d": [
+            402.778,
+            540.102,
+            496.292,
+            579.688
+          ]
+        },
+        {
+          "timestamp": "00:02",
+          "box_2d": [
+            405.556,
+            513.023,
+            499.069,
+            550.523
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\"timestamp\":\"00:02\", \"box_2d\":[418, 873, 480, 904]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_07uuHJ9yXBw_c605.mp4"
+  },
+  {
+    "query_id": "multisports_test_86",
+    "query": "v_g34vS_2KvYY_c006.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        4.56,
+        5.4
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:05",
+          "box_2d": [
+            660.181,
+            432.812,
+            790.736,
+            472.398
+          ]
+        },
+        {
+          "timestamp": "00:05",
+          "box_2d": [
+            570.375,
+            409.375,
+            752.778,
+            444.273
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\n  \"timestamp\": \"00:05\",\n  \"box_2d\": [525, 411, 678, 441]\n }\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_g34vS_2KvYY_c006.mp4"
+  },
+  {
+    "query_id": "multisports_test_87",
+    "query": "v_9MHDmAMxO5I_c005.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        0.2,
+        1.24
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:00",
+          "box_2d": [
+            135.181,
+            446.352,
+            998.153,
+            778.648
+          ]
+        },
+        {
+          "timestamp": "00:01",
+          "box_2d": [
+            0.931,
+            359.375,
+            998.153,
+            617.711
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"box_2d\": [224, 412, 1000, 756], \"timestamp\": \"00:00\"}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_9MHDmAMxO5I_c005.mp4"
+  },
+  {
+    "query_id": "multisports_test_88",
+    "query": "v_SHFVKZ6HJc8_c004.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        20.08,
+        20.28
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:20",
+          "box_2d": [
+            598.153,
+            374.477,
+            800.931,
+            463.023
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\n  \"timestamp\": \"00:05\",\n  \"box_2d\": [611, 496, 816, 564]\n }\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_SHFVKZ6HJc8_c004.mp4"
+  },
+  {
+    "query_id": "multisports_test_89",
+    "query": "v_ITo3sCnpw_k_c010.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        9.52,
+        11.44
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:10",
+          "box_2d": [
+            410.181,
+            590.102,
+            492.597,
+            630.727
+          ]
+        },
+        {
+          "timestamp": "00:10",
+          "box_2d": [
+            442.597,
+            596.352,
+            529.625,
+            630.727
+          ]
+        },
+        {
+          "timestamp": "00:11",
+          "box_2d": [
+            421.292,
+            682.813,
+            551.847,
+            731.25
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:03\", \"box_2d\": [487, 836, 597, 876]},\n  {\"timestamp\": \"00:04\", \"box_2d\": [462, 738, 560, 775]},\n  {\"timestamp\": \"00:05\", \"box_2d\": [448, 716, 549, 755]},\n  {\"timestamp\": \"00:06\", \"box_2d\": [433, 869, 541, 903]},\n  {\"timestamp\": \"00:07\", \"box_2d\": [638, 628, 804, 694]},\n  {\"timestamp\": \"00:13\", \"box_2d\": [643, 497, 814, 558]},\n  {\"timestamp\": \"00:14\", \"box_2d\": [648, 672, 829, 718]},\n  {\"timestamp\": \"00:18\", \"box_2d\": [371, 881, 467, 915]},\n  {\"timestamp\": \"00:19\", \"box_2d\": [390, 853, 483, 883]},\n  {\"timestamp\": \"00:22\", \"box_2d\": [373, 530, 863, 785]},\n  {\"timestamp\": \"00:23\", \"box_2d\": [373, 468, 868, 609]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_ITo3sCnpw_k_c010.mp4"
+  },
+  {
+    "query_id": "multisports_test_90",
+    "query": "v_g34vS_2KvYY_c009.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        3.88,
+        4.36
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:04",
+          "box_2d": [
+            604.625,
+            692.711,
+            730.556,
+            718.75
+          ]
+        },
+        {
+          "timestamp": "00:04",
+          "box_2d": [
+            591.667,
+            697.914,
+            723.153,
+            721.875
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\"timestamp\": \"00:02\", \"box_2d\": [618, 615, 736, 690]},\n {\"timestamp\": \"00:03\", \"box_2d\": [627, 613, 736, 689]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_g34vS_2KvYY_c009.mp4"
+  },
+  {
+    "query_id": "multisports_test_91",
+    "query": "v_Fsbu9m-6xQ4_c005.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        5.28,
+        5.68
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:05",
+          "box_2d": [
+            525.0,
+            159.375,
+            663.889,
+            210.414
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\"timestamp\":\"00:02\", \"box_2d\":[474, 705, 642, 747]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_Fsbu9m-6xQ4_c005.mp4"
+  },
+  {
+    "query_id": "multisports_test_92",
+    "query": "v_4nikeBZNYRE_c005.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        0.2,
+        1.48
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:00",
+          "box_2d": [
+            359.722,
+            240.625,
+            543.056,
+            310.937
+          ]
+        },
+        {
+          "timestamp": "00:01",
+          "box_2d": [
+            377.778,
+            226.562,
+            577.778,
+            302.344
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\n  \"box_2d\": [396, 438, 609, 484],\n  \"timestamp\": \"00:00\"\n },\n {\n  \"box_2d\": [556, 510, 714, 574],\n  \"timestamp\": \"00:02\"\n },\n {\n  \"box_2d\": [413, 605, 571, 672],\n  \"timestamp\": \"00:05\"\n }\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_4nikeBZNYRE_c005.mp4"
+  },
+  {
+    "query_id": "multisports_test_93",
+    "query": "v_82WN8C8qJmI_c015.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        7.32,
+        7.68
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:07",
+          "box_2d": [
+            523.153,
+            679.688,
+            716.667,
+            784.898
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:05\", \"box_2d\": [462, 672, 668, 747]},\n  {\"timestamp\": \"00:06\", \"box_2d\": [515, 755, 693, 831]},\n  {\"timestamp\": \"00:07\", \"box_2d\": [530, 678, 775, 742]},\n  {\"timestamp\": \"00:08\", \"box_2d\": [486, 477, 725, 545]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_82WN8C8qJmI_c015.mp4"
+  },
+  {
+    "query_id": "multisports_test_94",
+    "query": "v_aAb0psypDj4_c009.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        14.0,
+        14.32
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:14",
+          "box_2d": [
+            607.403,
+            641.664,
+            707.403,
+            691.148
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\n  \"box_2d\": [489, 527, 638, 558],\n  \"timestamp\": \"00:11\"\n },\n {\n  \"box_2d\": [507, 488, 635, 510],\n  \"timestamp\": \"00:18\"\n },\n {\n  \"box_2d\": [511, 463, 630, 486],\n  \"timestamp\": \"00:19\"\n },\n {\n  \"box_2d\": [509, 482, 628, 506],\n  \"timestamp\": \"00:19\"\n }\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_aAb0psypDj4_c009.mp4"
+  },
+  {
+    "query_id": "multisports_test_95",
+    "query": "v_Fsbu9m-6xQ4_c019.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        3.12,
+        4.2
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:03",
+          "box_2d": [
+            495.375,
+            369.273,
+            644.444,
+            407.289
+          ]
+        },
+        {
+          "timestamp": "00:04",
+          "box_2d": [
+            444.444,
+            351.562,
+            612.042,
+            394.273
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:03\", \"box_2d\": [451, 351, 567, 393]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_Fsbu9m-6xQ4_c019.mp4"
+  },
+  {
+    "query_id": "multisports_test_96",
+    "query": "v_hDBjIvCw7Kk_c008.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        7.68,
+        8.2
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:08",
+          "box_2d": [
+            486.111,
+            598.961,
+            719.444,
+            672.914
+          ]
+        },
+        {
+          "timestamp": "00:08",
+          "box_2d": [
+            409.264,
+            617.711,
+            721.292,
+            668.75
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:11\", \"box_2d\": [542, 638, 747, 709]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_hDBjIvCw7Kk_c008.mp4"
+  },
+  {
+    "query_id": "multisports_test_97",
+    "query": "v_1yHWGw8DH4A_c606.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        1.2,
+        4.16
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:01",
+          "box_2d": [
+            754.625,
+            447.914,
+            887.958,
+            485.938
+          ]
+        },
+        {
+          "timestamp": "00:02",
+          "box_2d": [
+            726.847,
+            536.461,
+            844.444,
+            588.023
+          ]
+        },
+        {
+          "timestamp": "00:03",
+          "box_2d": [
+            716.667,
+            600.523,
+            844.444,
+            663.023
+          ]
+        },
+        {
+          "timestamp": "00:04",
+          "box_2d": [
+            708.333,
+            581.773,
+            840.736,
+            638.539
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\"timestamp\": \"00:01\", \"box_2d\": [716, 497, 867, 552]},\n {\"timestamp\": \"00:02\", \"box_2d\": [727, 559, 876, 642]},\n {\"timestamp\": \"00:03\", \"box_2d\": [719, 582, 856, 646]},\n {\"timestamp\": \"00:23\", \"box_2d\": [443, 646, 566, 696]},\n {\"timestamp\": \"00:24\", \"box_2d\": [443, 649, 566, 696]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_1yHWGw8DH4A_c606.mp4"
+  },
+  {
+    "query_id": "multisports_test_98",
+    "query": "v_4LXTUim5anY_c006.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        0.88,
+        1.0
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:01",
+          "box_2d": [
+            589.819,
+            540.102,
+            829.625,
+            604.688
+          ]
+        },
+        {
+          "timestamp": "00:01",
+          "box_2d": [
+            591.667,
+            525.523,
+            830.556,
+            595.313
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"box_2d\": [568, 532, 796, 603], \"timestamp\": \"00:00\"},\n  {\"box_2d\": [570, 532, 796, 603], \"timestamp\": \"00:01\"},\n  {\"box_2d\": [578, 530, 799, 597], \"timestamp\": \"00:02\"}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_4LXTUim5anY_c006.mp4"
+  },
+  {
+    "query_id": "multisports_test_99",
+    "query": "v_1yHWGw8DH4A_c055.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        13.28,
+        13.56
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:13",
+          "box_2d": [
+            467.597,
+            166.148,
+            573.153,
+            198.961
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:13\", \"box_2d\": [504, 120, 591, 147]},\n  {\"timestamp\": \"00:14\", \"box_2d\": [479, 174, 565, 199]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_1yHWGw8DH4A_c055.mp4"
+  },
+  {
+    "query_id": "multisports_test_100",
+    "query": "v_It_vvQR6RPM_c009.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        1.64,
+        2.56
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:02",
+          "box_2d": [
+            544.444,
+            405.727,
+            725.931,
+            462.5
+          ]
+        },
+        {
+          "timestamp": "00:02",
+          "box_2d": [
+            539.819,
+            435.937,
+            767.597,
+            488.023
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:02\", \"box_2d\": [466, 483, 631, 541]},\n  {\"timestamp\": \"00:03\", \"box_2d\": [462, 482, 636, 542]},\n  {\"timestamp\": \"00:04\", \"box_2d\": [464, 477, 632, 532]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_It_vvQR6RPM_c009.mp4"
+  },
+  {
+    "query_id": "multisports_test_101",
+    "query": "v_Y0SCvur8ZK0_c009.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        2.76,
+        3.6
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:03",
+          "box_2d": [
+            382.403,
+            811.977,
+            540.736,
+            856.25
+          ]
+        },
+        {
+          "timestamp": "00:03",
+          "box_2d": [
+            387.958,
+            777.602,
+            537.958,
+            822.914
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\"timestamp\":\"00:04\",\"box_2d\":[459,636,609, 688]},\n {\"timestamp\":\"00:05\",\"box_2d\":[458, 635, 608, 687]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_Y0SCvur8ZK0_c009.mp4"
+  },
+  {
+    "query_id": "multisports_test_102",
+    "query": "v_a-FbBlvBkSE_c004.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        3.56,
+        4.16
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:04",
+          "box_2d": [
+            411.111,
+            485.414,
+            525.931,
+            542.711
+          ]
+        },
+        {
+          "timestamp": "00:04",
+          "box_2d": [
+            463.889,
+            486.461,
+            570.375,
+            519.273
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:04\", \"box_2d\": [427, 517, 532, 569]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_a-FbBlvBkSE_c004.mp4"
+  },
+  {
+    "query_id": "multisports_test_103",
+    "query": "v_xd9oKtYYSGQ_c008.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        4.24,
+        4.56
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:04",
+          "box_2d": [
+            529.167,
+            551.562,
+            777.778,
+            587.5
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:05\", \"box_2d\": [521, 468, 662, 548]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_xd9oKtYYSGQ_c008.mp4"
+  },
+  {
+    "query_id": "multisports_test_104",
+    "query": "v_-6Os86HzwCs_c009.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        18.52,
+        19.16
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:19",
+          "box_2d": [
+            461.111,
+            665.625,
+            658.333,
+            708.594
+          ]
+        },
+        {
+          "timestamp": "00:19",
+          "box_2d": [
+            412.5,
+            655.469,
+            620.833,
+            696.094
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:18\", \"box_2d\": [384, 508, 582, 571]},\n  {\"timestamp\": \"00:19\", \"box_2d\": [410, 658, 624, 689]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_-6Os86HzwCs_c009.mp4"
+  },
+  {
+    "query_id": "multisports_test_105",
+    "query": "v_1yHWGw8DH4A_c055.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        10.16,
+        11.36
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:10",
+          "box_2d": [
+            545.375,
+            344.273,
+            633.333,
+            391.664
+          ]
+        },
+        {
+          "timestamp": "00:11",
+          "box_2d": [
+            549.069,
+            205.211,
+            638.889,
+            233.336
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\n  \"timestamp\": \"00:18\",\n  \"box_2d\": [628, 242, 702, 276]\n },\n {\n  \"timestamp\": \"00:19\",\n  \"box_2d\": [604, 244, 696, 272]\n },\n {\n  \"timestamp\": \"00:20\",\n  \"box_2d\": [556, 321, 642, 346]\n },\n {\n  \"timestamp\": \"00:21\",\n  \"box_2d\": [557, 225, 638, 248]\n },\n {\n  \"timestamp\": \"00:22\",\n  \"box_2d\": [526, 213, 633, 242]\n },\n {\n  \"timestamp\": \"00:23\",\n  \"box_2d\": [537, 169, 637, 211]\n },\n {\n  \"timestamp\": \"00:24\",\n  \"box_2d\": [519, 116, 655, 151]\n },\n {\n  \"timestamp\": \"00:25\",\n  \"box_2d\": [503, 120, 595, 148]\n },\n {\n  \"timestamp\": \"00:26\",\n  \"box_2d\": [477, 174, 563, 203]\n }\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_1yHWGw8DH4A_c055.mp4"
+  },
+  {
+    "query_id": "multisports_test_106",
+    "query": "v_07uuHJ9yXBw_c602.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        2.72,
+        9.08
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:03",
+          "box_2d": [
+            281.486,
+            356.773,
+            352.778,
+            400.523
+          ]
+        },
+        {
+          "timestamp": "00:03",
+          "box_2d": [
+            286.111,
+            343.75,
+            360.181,
+            382.289
+          ]
+        },
+        {
+          "timestamp": "00:04",
+          "box_2d": [
+            287.042,
+            310.937,
+            363.889,
+            338.023
+          ]
+        },
+        {
+          "timestamp": "00:05",
+          "box_2d": [
+            286.111,
+            298.438,
+            375.931,
+            318.227
+          ]
+        },
+        {
+          "timestamp": "00:06",
+          "box_2d": [
+            303.708,
+            290.625,
+            382.403,
+            313.539
+          ]
+        },
+        {
+          "timestamp": "00:07",
+          "box_2d": [
+            318.514,
+            278.125,
+            394.444,
+            309.375
+          ]
+        },
+        {
+          "timestamp": "00:08",
+          "box_2d": [
+            340.736,
+            297.914,
+            430.556,
+            329.164
+          ]
+        },
+        {
+          "timestamp": "00:09",
+          "box_2d": [
+            350.931,
+            270.313,
+            443.514,
+            313.023
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\n  \"timestamp\": \"00:00\",\n  \"box_2d\": [391, 467, 497, 503]\n },\n {\n  \"timestamp\": \"00:01\",\n  \"box_2d\": [367, 463, 467, 496]\n },\n {\n  \"timestamp\": \"00:12\",\n  \"box_2d\": [462, 305, 592, 342]\n },\n {\n  \"timestamp\": \"00:13\",\n  \"box_2d\": [440, 321, 560, 365]\n }\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_07uuHJ9yXBw_c602.mp4"
+  },
+  {
+    "query_id": "multisports_test_107",
+    "query": "v_-6Os86HzwCs_c002.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        2.76,
+        2.92
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:03",
+          "box_2d": [
+            356.944,
+            607.031,
+            845.833,
+            700.0
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:07\", \"box_2d\": [347, 151, 582, 213]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_-6Os86HzwCs_c002.mp4"
+  },
+  {
+    "query_id": "multisports_test_108",
+    "query": "v_iO0QqaR5E24_c001.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        25.44,
+        26.0
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:25",
+          "box_2d": [
+            302.778,
+            542.188,
+            484.722,
+            590.625
+          ]
+        },
+        {
+          "timestamp": "00:26",
+          "box_2d": [
+            233.333,
+            570.312,
+            493.056,
+            628.125
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:06\", \"box_2d\": [486, 524, 764, 606]},\n  {\"timestamp\": \"00:07\", \"box_2d\": [366, 563, 755, 608]},\n  {\"timestamp\": \"00:08\", \"box_2d\": [550, 653, 929, 746]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_iO0QqaR5E24_c001.mp4"
+  },
+  {
+    "query_id": "multisports_test_109",
+    "query": "v_SHFVKZ6HJc8_c010.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        15.44,
+        15.76
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:15",
+          "box_2d": [
+            598.153,
+            571.875,
+            887.958,
+            632.812
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:20\", \"box_2d\": [579, 574, 878, 646]},\n  {\"timestamp\": \"00:21\", \"box_2d\": [547, 532, 804, 608]},\n  {\"timestamp\": \"00:22\", \"box_2d\": [610, 421, 856, 513]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_SHFVKZ6HJc8_c010.mp4"
+  },
+  {
+    "query_id": "multisports_test_110",
+    "query": "v_2Dnx8BpgUEs_c002.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        3.04,
+        3.68
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:03",
+          "box_2d": [
+            382.403,
+            602.602,
+            606.486,
+            650.523
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"box_2d\": [324, 646, 547, 693], \"timestamp\": \"00:03\"}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_2Dnx8BpgUEs_c002.mp4"
+  },
+  {
+    "query_id": "multisports_test_111",
+    "query": "v_CW0mQbgYIF4_c001.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        6.92,
+        7.2
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:07",
+          "box_2d": [
+            470.375,
+            319.789,
+            590.736,
+            370.312
+          ]
+        },
+        {
+          "timestamp": "00:07",
+          "box_2d": [
+            465.736,
+            336.461,
+            587.042,
+            386.977
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\"timestamp\":\"00:04\", \"box_2d\":[512, 658, 663, 692]},\n {\"timestamp\":\"00:05\", \"box_2d\":[511, 665, 661, 696]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_CW0mQbgYIF4_c001.mp4"
+  },
+  {
+    "query_id": "multisports_test_112",
+    "query": "v_It_vvQR6RPM_c001.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        1.88,
+        2.32
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:02",
+          "box_2d": [
+            622.222,
+            530.727,
+            845.375,
+            575.523
+          ]
+        },
+        {
+          "timestamp": "00:02",
+          "box_2d": [
+            625.0,
+            528.125,
+            847.222,
+            576.039
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:09\", \"box_2d\": [500, 378, 734, 427]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_It_vvQR6RPM_c001.mp4"
+  },
+  {
+    "query_id": "multisports_test_113",
+    "query": "v_foGDoBblREI_c014.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        4.48,
+        5.24
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:04",
+          "box_2d": [
+            409.264,
+            230.211,
+            568.514,
+            274.477
+          ]
+        },
+        {
+          "timestamp": "00:05",
+          "box_2d": [
+            388.889,
+            321.875,
+            548.153,
+            353.648
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:03\", \"box_2d\": [418, 243, 563, 276]},\n  {\"timestamp\": \"00:04\", \"box_2d\": [410, 240, 560, 276]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_foGDoBblREI_c014.mp4"
+  },
+  {
+    "query_id": "multisports_test_114",
+    "query": "v_-hhDbvY5aAM_c010.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        5.48,
+        6.04
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:05",
+          "box_2d": [
+            425.0,
+            566.148,
+            544.444,
+            617.711
+          ]
+        },
+        {
+          "timestamp": "00:06",
+          "box_2d": [
+            417.597,
+            433.336,
+            552.778,
+            476.562
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\"box_2d\": [465, 529, 605, 602], \"timestamp\": \"00:05\"}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_-hhDbvY5aAM_c010.mp4"
+  },
+  {
+    "query_id": "multisports_test_115",
+    "query": "v_2Dnx8BpgUEs_c006.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        0.6,
+        2.84
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:01",
+          "box_2d": [
+            265.736,
+            856.773,
+            457.403,
+            919.789
+          ]
+        },
+        {
+          "timestamp": "00:01",
+          "box_2d": [
+            273.153,
+            834.898,
+            454.625,
+            895.836
+          ]
+        },
+        {
+          "timestamp": "00:02",
+          "box_2d": [
+            305.556,
+            713.023,
+            469.444,
+            776.563
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"box_2d\": [274, 755, 439, 815], \"timestamp\": \"00:01\"},\n  {\"box_2d\": [274, 753, 440, 816], \"timestamp\": \"00:02\"},\n  {\"box_2d\": [274, 755, 439, 816], \"timestamp\": \"00:03\"}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_2Dnx8BpgUEs_c006.mp4"
+  },
+  {
+    "query_id": "multisports_test_116",
+    "query": "v_I-tZTTBt3rc_c004.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        7.0,
+        7.56
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:07",
+          "box_2d": [
+            428.708,
+            215.625,
+            700.931,
+            316.148
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:06\", \"box_2d\": [444, 276, 690, 327]},\n  {\"timestamp\": \"00:07\", \"box_2d\": [444, 182, 686, 257]},\n  {\"timestamp\": \"00:08\", \"box_2d\": [419, 181, 642, 274]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_I-tZTTBt3rc_c004.mp4"
+  },
+  {
+    "query_id": "multisports_test_117",
+    "query": "v_7kWJSZRlItU_c028.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        1.04,
+        1.68
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:01",
+          "box_2d": [
+            436.111,
+            316.148,
+            534.264,
+            348.961
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:00\", \"box_2d\": [421, 244, 526, 277]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_7kWJSZRlItU_c028.mp4"
+  },
+  {
+    "query_id": "multisports_test_118",
+    "query": "v_9MHDmAMxO5I_c003.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        2.52,
+        3.16
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:03",
+          "box_2d": [
+            584.264,
+            7.812,
+            689.819,
+            49.477
+          ]
+        },
+        {
+          "timestamp": "00:03",
+          "box_2d": [
+            544.444,
+            235.414,
+            669.444,
+            266.148
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"box_2d\": [608, 260, 712, 324], \"timestamp\": \"00:03\"}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_9MHDmAMxO5I_c003.mp4"
+  },
+  {
+    "query_id": "multisports_test_119",
+    "query": "v_07uuHJ9yXBw_c044.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        12.0,
+        12.48
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:12",
+          "box_2d": [
+            669.444,
+            407.289,
+            820.375,
+            470.313
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\":\"00:17\", \"box_2d\":[497, 430, 606, 459]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_07uuHJ9yXBw_c044.mp4"
+  },
+  {
+    "query_id": "multisports_test_120",
+    "query": "v_rAvkSZKlyVo_c011.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        3.64,
+        4.36
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:04",
+          "box_2d": [
+            310.181,
+            585.938,
+            486.111,
+            615.625
+          ]
+        },
+        {
+          "timestamp": "00:04",
+          "box_2d": [
+            265.736,
+            591.148,
+            446.292,
+            619.273
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:03\", \"box_2d\": [368, 549, 494, 590]},\n  {\"timestamp\": \"00:04\", \"box_2d\": [372, 547, 492, 587]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_rAvkSZKlyVo_c011.mp4"
+  },
+  {
+    "query_id": "multisports_test_121",
+    "query": "v_IATp4zy18jA_c007.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        33.48,
+        34.04
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:33",
+          "box_2d": [
+            450.0,
+            518.227,
+            600.931,
+            572.914
+          ]
+        },
+        {
+          "timestamp": "00:34",
+          "box_2d": [
+            431.486,
+            402.086,
+            600.931,
+            451.039
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:03\", \"box_2d\": [315, 783, 436, 832]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_IATp4zy18jA_c007.mp4"
+  },
+  {
+    "query_id": "multisports_test_122",
+    "query": "v_xd9oKtYYSGQ_c004.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        1.28,
+        1.96
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:01",
+          "box_2d": [
+            525.0,
+            470.313,
+            677.778,
+            514.062
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\"timestamp\": \"00:05\", \"box_2d\": [580, 381, 804, 434]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_xd9oKtYYSGQ_c004.mp4"
+  },
+  {
+    "query_id": "multisports_test_123",
+    "query": "v_4nikeBZNYRE_c006.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        10.64,
+        11.84
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:11",
+          "box_2d": [
+            463.889,
+            541.406,
+            643.056,
+            585.156
+          ]
+        },
+        {
+          "timestamp": "00:11",
+          "box_2d": [
+            481.944,
+            592.969,
+            663.889,
+            666.406
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\"timestamp\":\"00:00\", \"box_2d\":[425, 656, 646, 712]},\n {\"timestamp\":\"00:01\", \"box_2d\":[430, 646, 646, 693]},\n {\"timestamp\":\"00:02\", \"box_2d\":[440, 621, 660, 665]},\n {\"timestamp\":\"00:03\", \"box_2d\":[447, 611, 672, 655]},\n {\"timestamp\":\"00:04\", \"box_2d\":[467, 631, 690, 676]},\n {\"timestamp\":\"00:05\", \"box_2d\":[473, 656, 706, 706]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_4nikeBZNYRE_c006.mp4"
+  },
+  {
+    "query_id": "multisports_test_124",
+    "query": "v_aAb0psypDj4_c003.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        2.56,
+        3.28
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:03",
+          "box_2d": [
+            570.375,
+            284.375,
+            692.597,
+            326.562
+          ]
+        },
+        {
+          "timestamp": "00:03",
+          "box_2d": [
+            495.375,
+            396.352,
+            653.708,
+            427.602
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\"timestamp\": \"00:03\", \"box_2d\": [517, 364, 665, 399]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_aAb0psypDj4_c003.mp4"
+  },
+  {
+    "query_id": "multisports_test_125",
+    "query": "v_6oTxfzKdG6Q_c005.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        13.08,
+        14.12
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:13",
+          "box_2d": [
+            359.722,
+            642.188,
+            536.111,
+            697.656
+          ]
+        },
+        {
+          "timestamp": "00:14",
+          "box_2d": [
+            358.333,
+            617.969,
+            581.944,
+            673.438
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:15\", \"box_2d\": [316, 680, 486, 724]},\n  {\"timestamp\": \"00:16\", \"box_2d\": [294, 684, 501, 724]}\n]\n```",
+    "domain_name": "sports",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_6oTxfzKdG6Q_c005.mp4"
+  }
+]

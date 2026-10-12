@@ -1,0 +1,7209 @@
+[
+  {
+    "query_id": "enigma_test_0",
+    "query": "ENIGMA_046_018.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        0.545164,
+        5.379164
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:01",
+          "box_2d": [
+            512.52,
+            400.088,
+            884.977,
+            807.218
+          ]
+        },
+        {
+          "timestamp": "00:01",
+          "box_2d": [
+            555.556,
+            427.377,
+            937.402,
+            844.63
+          ]
+        },
+        {
+          "timestamp": "00:02",
+          "box_2d": [
+            547.731,
+            431.778,
+            929.577,
+            850.792
+          ]
+        },
+        {
+          "timestamp": "00:03",
+          "box_2d": [
+            546.166,
+            432.218,
+            927.23,
+            852.113
+          ]
+        },
+        {
+          "timestamp": "00:04",
+          "box_2d": [
+            534.429,
+            422.095,
+            913.146,
+            839.789
+          ]
+        },
+        {
+          "timestamp": "00:05",
+          "box_2d": [
+            540.689,
+            437.94,
+            920.97,
+            859.595
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\n  \"timestamp\": \"00:00\",\n  \"box_2d\": [513, 392, 929, 804]\n },\n {\n  \"timestamp\": \"00:01\",\n  \"box_2d\": [550, 427, 989, 846]\n },\n {\n  \"timestamp\": \"00:02\",\n  \"box_2d\": [549, 431, 989, 856]\n },\n {\n  \"timestamp\": \"00:03\",\n  \"box_2d\": [551, 434, 988, 856]\n },\n {\n  \"timestamp\": \"00:04\",\n  \"box_2d\": [553, 431, 987, 852]\n },\n {\n  \"timestamp\": \"00:05\",\n  \"box_2d\": [617, 370, 994, 764]\n }\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "ENIGMA_046_018.mp4"
+  },
+  {
+    "query_id": "enigma_test_1",
+    "query": "ENIGMA_047_012.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        0.890154,
+        5.623154
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:01",
+          "box_2d": [
+            553.208,
+            497.799,
+            980.438,
+            921.215
+          ]
+        },
+        {
+          "timestamp": "00:01",
+          "box_2d": [
+            542.254,
+            503.521,
+            976.526,
+            931.778
+          ]
+        },
+        {
+          "timestamp": "00:02",
+          "box_2d": [
+            583.725,
+            471.391,
+            999.218,
+            886.444
+          ]
+        },
+        {
+          "timestamp": "00:03",
+          "box_2d": [
+            596.244,
+            482.835,
+            967.136,
+            901.408
+          ]
+        },
+        {
+          "timestamp": "00:04",
+          "box_2d": [
+            600.939,
+            485.475,
+            974.178,
+            905.37
+          ]
+        },
+        {
+          "timestamp": "00:05",
+          "box_2d": [
+            598.592,
+            479.313,
+            970.266,
+            896.127
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"box_2d\": [588, 338, 921, 718], \"timestamp\": \"00:00\"},\n  {\"box_2d\": [583, 477, 988, 894], \"timestamp\": \"00:01\"},\n  {\"box_2d\": [583, 477, 990, 894], \"timestamp\": \"00:02\"},\n  {\"box_2d\": [583, 482, 990, 903], \"timestamp\": \"00:03\"},\n  {\"box_2d\": [583, 477, 989, 898], \"timestamp\": \"00:04\"},\n  {\"box_2d\": [626, 461, 989, 875], \"timestamp\": \"00:05\"}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "ENIGMA_047_012.mp4"
+  },
+  {
+    "query_id": "enigma_test_2",
+    "query": "ENIGMA_047_028.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        2.340279,
+        3.007279
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:02",
+          "box_2d": [
+            583.725,
+            317.342,
+            999.218,
+            720.511
+          ]
+        },
+        {
+          "timestamp": "00:03",
+          "box_2d": [
+            556.338,
+            378.521,
+            999.218,
+            790.933
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:02\", \"box_2d\": [558, 335, 1000, 755]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "ENIGMA_047_028.mp4"
+  },
+  {
+    "query_id": "enigma_test_3",
+    "query": "ENIGMA_049_005.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        10.171617,
+        10.737617
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:10",
+          "box_2d": [
+            317.684,
+            362.236,
+            551.643,
+            552.817
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:04\", \"box_2d\": [408, 431, 620, 608]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "ENIGMA_049_005.mp4"
+  },
+  {
+    "query_id": "enigma_test_4",
+    "query": "ENIGMA_049_005.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        25.071617,
+        26.904617
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:25",
+          "box_2d": [
+            485.915,
+            0.0,
+            808.294,
+            488.116
+          ]
+        },
+        {
+          "timestamp": "00:26",
+          "box_2d": [
+            464.789,
+            0.0,
+            798.905,
+            465.229
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\n  \"box_2d\": [757, 206, 959, 656],\n  \"timestamp\": \"00:05\"\n },\n {\n  \"box_2d\": [516, 0, 830, 460],\n  \"timestamp\": \"00:06\"\n },\n {\n  \"box_2d\": [551, 0, 863, 463],\n  \"timestamp\": \"00:08\"\n },\n {\n  \"box_2d\": [597, 394, 714, 812],\n  \"timestamp\": \"00:09\"\n },\n {\n  \"box_2d\": [554, 490, 700, 981],\n  \"timestamp\": \"00:10\"\n },\n {\n  \"box_2d\": [574, 467, 730, 920],\n  \"timestamp\": \"00:11\"\n },\n {\n  \"box_2d\": [575, 539, 706, 998],\n  \"timestamp\": \"00:19\"\n }\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "ENIGMA_049_005.mp4"
+  },
+  {
+    "query_id": "enigma_test_5",
+    "query": "ENIGMA_049_005.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        35.737617,
+        36.304617
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:36",
+          "box_2d": [
+            834.116,
+            504.401,
+            999.218,
+            728.433
+          ]
+        },
+        {
+          "timestamp": "00:36",
+          "box_2d": [
+            735.524,
+            493.398,
+            999.218,
+            760.563
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\n  \"timestamp\": \"00:08\",\n  \"box_2d\": [813, 724, 1000, 949]\n }\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "ENIGMA_049_005.mp4"
+  },
+  {
+    "query_id": "enigma_test_6",
+    "query": "ENIGMA_049_005.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        65.704617,
+        66.104617
+      ],
+      "boxes": [
+        {
+          "timestamp": "01:06",
+          "box_2d": [
+            306.729,
+            297.975,
+            579.03,
+            495.158
+          ]
+        },
+        {
+          "timestamp": "01:06",
+          "box_2d": [
+            301.252,
+            320.863,
+            579.812,
+            518.926
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"box_2d\": [407, 431, 617, 610], \"timestamp\": \"00:05\"},\n  {\"box_2d\": [407, 431, 617, 610], \"timestamp\": \"00:06\"}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "ENIGMA_049_005.mp4"
+  },
+  {
+    "query_id": "enigma_test_7",
+    "query": "ENIGMA_049_005.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        75.471617,
+        93.004617
+      ],
+      "boxes": [
+        {
+          "timestamp": "01:15",
+          "box_2d": [
+            148.67,
+            255.722,
+            634.585,
+            415.933
+          ]
+        },
+        {
+          "timestamp": "01:16",
+          "box_2d": [
+            100.939,
+            339.789,
+            524.257,
+            485.475
+          ]
+        },
+        {
+          "timestamp": "01:17",
+          "box_2d": [
+            157.277,
+            411.532,
+            575.9,
+            551.937
+          ]
+        },
+        {
+          "timestamp": "01:18",
+          "box_2d": [
+            177.621,
+            380.722,
+            606.416,
+            522.007
+          ]
+        },
+        {
+          "timestamp": "01:19",
+          "box_2d": [
+            308.294,
+            398.327,
+            721.44,
+            533.891
+          ]
+        },
+        {
+          "timestamp": "01:20",
+          "box_2d": [
+            273.865,
+            371.479,
+            716.745,
+            511.444
+          ]
+        },
+        {
+          "timestamp": "01:21",
+          "box_2d": [
+            251.956,
+            436.62,
+            662.754,
+            571.743
+          ]
+        },
+        {
+          "timestamp": "01:22",
+          "box_2d": [
+            243.349,
+            427.817,
+            652.582,
+            563.38
+          ]
+        },
+        {
+          "timestamp": "01:23",
+          "box_2d": [
+            239.437,
+            425.176,
+            725.352,
+            560.739
+          ]
+        },
+        {
+          "timestamp": "01:24",
+          "box_2d": [
+            254.304,
+            410.651,
+            705.79,
+            546.215
+          ]
+        },
+        {
+          "timestamp": "01:25",
+          "box_2d": [
+            247.261,
+            411.972,
+            720.657,
+            547.975
+          ]
+        },
+        {
+          "timestamp": "01:26",
+          "box_2d": [
+            251.956,
+            398.327,
+            687.011,
+            533.891
+          ]
+        },
+        {
+          "timestamp": "01:27",
+          "box_2d": [
+            240.219,
+            399.648,
+            671.362,
+            535.651
+          ]
+        },
+        {
+          "timestamp": "01:28",
+          "box_2d": [
+            234.742,
+            386.884,
+            665.102,
+            524.648
+          ]
+        },
+        {
+          "timestamp": "01:29",
+          "box_2d": [
+            233.959,
+            389.085,
+            671.362,
+            527.289
+          ]
+        },
+        {
+          "timestamp": "01:30",
+          "box_2d": [
+            235.524,
+            380.722,
+            679.186,
+            518.486
+          ]
+        },
+        {
+          "timestamp": "01:31",
+          "box_2d": [
+            223.787,
+            378.081,
+            675.274,
+            517.606
+          ]
+        },
+        {
+          "timestamp": "01:32",
+          "box_2d": [
+            223.005,
+            378.961,
+            673.709,
+            518.486
+          ]
+        },
+        {
+          "timestamp": "01:33",
+          "box_2d": [
+            214.397,
+            374.56,
+            629.89,
+            515.405
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\"box_2d\": [96, 338, 531, 489], \"timestamp\": \"00:28\"},\n {\"box_2d\": [253, 439, 707, 574], \"timestamp\": \"00:30\"},\n {\"box_2d\": [252, 403, 678, 541], \"timestamp\": \"00:32\"},\n {\"box_2d\": [228, 378, 689, 520], \"timestamp\": \"00:34\"}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "ENIGMA_049_005.mp4"
+  },
+  {
+    "query_id": "enigma_test_8",
+    "query": "ENIGMA_049_005.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        117.971617,
+        118.371617
+      ],
+      "boxes": [
+        {
+          "timestamp": "01:58",
+          "box_2d": [
+            340.376,
+            323.063,
+            636.933,
+            511.004
+          ]
+        },
+        {
+          "timestamp": "01:58",
+          "box_2d": [
+            335.681,
+            328.345,
+            634.585,
+            517.165
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:03\", \"box_2d\": [407, 431, 617, 610]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "ENIGMA_049_005.mp4"
+  },
+  {
+    "query_id": "enigma_test_9",
+    "query": "ENIGMA_049_005.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        135.237617,
+        140.004617
+      ],
+      "boxes": [
+        {
+          "timestamp": "02:15",
+          "box_2d": [
+            301.252,
+            316.901,
+            779.343,
+            719.63
+          ]
+        },
+        {
+          "timestamp": "02:16",
+          "box_2d": [
+            282.473,
+            295.775,
+            767.606,
+            732.835
+          ]
+        },
+        {
+          "timestamp": "02:17",
+          "box_2d": [
+            308.294,
+            249.56,
+            737.872,
+            687.94
+          ]
+        },
+        {
+          "timestamp": "02:18",
+          "box_2d": [
+            344.288,
+            133.803,
+            778.56,
+            570.863
+          ]
+        },
+        {
+          "timestamp": "02:19",
+          "box_2d": [
+            302.817,
+            89.349,
+            742.567,
+            561.18
+          ]
+        },
+        {
+          "timestamp": "02:20",
+          "box_2d": [
+            338.811,
+            202.465,
+            744.914,
+            618.838
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\n  \"timestamp\": \"00:44\",\n  \"box_2d\": [343, 137, 773, 608]\n }\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "ENIGMA_049_005.mp4"
+  },
+  {
+    "query_id": "enigma_test_10",
+    "query": "ENIGMA_049_021.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        10.233302,
+        11.000302
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:10",
+          "box_2d": [
+            413.928,
+            55.898,
+            903.756,
+            518.486
+          ]
+        },
+        {
+          "timestamp": "00:11",
+          "box_2d": [
+            468.701,
+            128.521,
+            913.928,
+            567.342
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\n  \"box_2d\": [452, 60, 913, 518],\n  \"timestamp\": \"00:14\"\n },\n {\n  \"box_2d\": [460, 97, 918, 549],\n  \"timestamp\": \"00:15\"\n },\n {\n  \"box_2d\": [483, 166, 915, 599],\n  \"timestamp\": \"00:16\"\n },\n {\n  \"box_2d\": [292, 86, 754, 545],\n  \"timestamp\": \"00:23\"\n }\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "ENIGMA_049_021.mp4"
+  },
+  {
+    "query_id": "enigma_test_11",
+    "query": "ENIGMA_053_005.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        3.349876,
+        6.015876
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:03",
+          "box_2d": [
+            168.232,
+            368.398,
+            699.531,
+            781.25
+          ]
+        },
+        {
+          "timestamp": "00:04",
+          "box_2d": [
+            75.117,
+            401.849,
+            620.501,
+            838.028
+          ]
+        },
+        {
+          "timestamp": "00:05",
+          "box_2d": [
+            110.329,
+            442.782,
+            707.355,
+            900.088
+          ]
+        },
+        {
+          "timestamp": "00:06",
+          "box_2d": [
+            147.105,
+            415.933,
+            719.092,
+            860.915
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:00\", \"box_2d\": [39, 442, 575, 804]},\n  {\"timestamp\": \"00:01\", \"box_2d\": [46, 442, 574, 804]},\n  {\"timestamp\": \"00:02\", \"box_2d\": [72, 442, 584, 804]},\n  {\"timestamp\": \"00:03\", \"box_2d\": [141, 436, 691, 775]},\n  {\"timestamp\": \"00:04\", \"box_2d\": [141, 436, 691, 775]},\n  {\"timestamp\": \"00:05\", \"box_2d\": [141, 436, 691, 775]},\n  {\"timestamp\": \"00:06\", \"box_2d\": [136, 437, 689, 784]},\n  {\"timestamp\": \"00:07\", \"box_2d\": [136, 437, 686, 784]},\n  {\"timestamp\": \"00:08\", \"box_2d\": [136, 437, 686, 784]},\n  {\"timestamp\": \"00:09\", \"box_2d\": [136, 437, 686, 784]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "ENIGMA_053_005.mp4"
+  },
+  {
+    "query_id": "enigma_test_12",
+    "query": "ENIGMA_053_020.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        0.335446,
+        0.768446
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:00",
+          "box_2d": [
+            285.603,
+            0.0,
+            944.444,
+            659.331
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"box_2d\": [267, 0, 917, 668], \"timestamp\": \"00:00\"},\n  {\"box_2d\": [267, 0, 917, 668], \"timestamp\": \"00:01\"},\n  {\"box_2d\": [267, 0, 917, 668], \"timestamp\": \"00:02\"},\n  {\"box_2d\": [267, 0, 917, 668], \"timestamp\": \"00:06\"},\n  {\"box_2d\": [267, 0, 917, 668], \"timestamp\": \"00:07\"},\n  {\"box_2d\": [267, 0, 917, 668], \"timestamp\": \"00:08\"},\n  {\"box_2d\": [267, 0, 917, 668], \"timestamp\": \"00:09\"},\n  {\"box_2d\": [267, 0, 917, 668], \"timestamp\": \"00:10\"},\n  {\"box_2d\": [267, 0, 917, 668], \"timestamp\": \"00:11\"},\n  {\"box_2d\": [267, 0, 917, 668], \"timestamp\": \"00:12\"}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "ENIGMA_053_020.mp4"
+  },
+  {
+    "query_id": "enigma_test_13",
+    "query": "ENIGMA_053_026.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        2.659365,
+        11.559365
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:03",
+          "box_2d": [
+            420.97,
+            346.831,
+            991.393,
+            597.711
+          ]
+        },
+        {
+          "timestamp": "00:03",
+          "box_2d": [
+            287.95,
+            321.743,
+            913.146,
+            591.549
+          ]
+        },
+        {
+          "timestamp": "00:04",
+          "box_2d": [
+            133.02,
+            314.701,
+            774.648,
+            589.789
+          ]
+        },
+        {
+          "timestamp": "00:05",
+          "box_2d": [
+            117.371,
+            306.778,
+            769.953,
+            585.387
+          ]
+        },
+        {
+          "timestamp": "00:06",
+          "box_2d": [
+            90.767,
+            296.215,
+            759.781,
+            584.507
+          ]
+        },
+        {
+          "timestamp": "00:07",
+          "box_2d": [
+            90.767,
+            283.891,
+            763.693,
+            573.504
+          ]
+        },
+        {
+          "timestamp": "00:08",
+          "box_2d": [
+            76.682,
+            284.771,
+            754.304,
+            577.465
+          ]
+        },
+        {
+          "timestamp": "00:09",
+          "box_2d": [
+            72.77,
+            283.451,
+            754.304,
+            577.905
+          ]
+        },
+        {
+          "timestamp": "00:10",
+          "box_2d": [
+            79.03,
+            290.053,
+            759.781,
+            585.827
+          ]
+        },
+        {
+          "timestamp": "00:11",
+          "box_2d": [
+            86.072,
+            290.493,
+            765.258,
+            582.746
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"box_2d\": [82, 287, 765, 584], \"timestamp\": \"00:06\"}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "ENIGMA_053_026.mp4"
+  },
+  {
+    "query_id": "enigma_test_14",
+    "query": "ENIGMA_053_026.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        12.193365,
+        13.026365
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:12",
+          "box_2d": [
+            120.501,
+            430.018,
+            428.795,
+            669.454
+          ]
+        },
+        {
+          "timestamp": "00:13",
+          "box_2d": [
+            89.202,
+            445.863,
+            398.279,
+            672.975
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:04\", \"box_2d\": [81, 430, 390, 659]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "ENIGMA_053_026.mp4"
+  },
+  {
+    "query_id": "enigma_test_15",
+    "query": "ENIGMA_053_042.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        0.24423,
+        0.77723
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:00",
+          "box_2d": [
+            424.883,
+            0.0,
+            999.218,
+            522.007
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:00\", \"box_2d\": [404, 0, 1000, 563]},\n  {\"timestamp\": \"00:01\", \"box_2d\": [404, 0, 1000, 563]},\n  {\"timestamp\": \"00:02\", \"box_2d\": [404, 0, 1000, 563]},\n  {\"timestamp\": \"00:03\", \"box_2d\": [404, 0, 1000, 563]},\n  {\"timestamp\": \"00:04\", \"box_2d\": [404, 0, 1000, 563]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "ENIGMA_053_042.mp4"
+  },
+  {
+    "query_id": "enigma_test_16",
+    "query": "ENIGMA_065_008.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        1.935945,
+        5.968945
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:02",
+          "box_2d": [
+            455.399,
+            305.898,
+            725.352,
+            618.838
+          ]
+        },
+        {
+          "timestamp": "00:02",
+          "box_2d": [
+            457.746,
+            308.539,
+            708.138,
+            617.077
+          ]
+        },
+        {
+          "timestamp": "00:03",
+          "box_2d": [
+            437.402,
+            310.299,
+            647.887,
+            609.595
+          ]
+        },
+        {
+          "timestamp": "00:04",
+          "box_2d": [
+            381.847,
+            391.725,
+            570.423,
+            648.768
+          ]
+        },
+        {
+          "timestamp": "00:05",
+          "box_2d": [
+            393.584,
+            361.796,
+            576.682,
+            630.722
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:09\", \"box_2d\": [386, 319, 589, 597]},\n  {\"timestamp\": \"00:11\", \"box_2d\": [398, 252, 591, 552]},\n  {\"timestamp\": \"00:13\", \"box_2d\": [427, 276, 629, 580]},\n  {\"timestamp\": \"00:27\", \"box_2d\": [336, 396, 723, 567]},\n  {\"timestamp\": \"00:39\", \"box_2d\": [276, 426, 853, 471]},\n  {\"timestamp\": \"00:41\", \"box_2d\": [225, 427, 765, 474]},\n  {\"timestamp\": \"01:05\", \"box_2d\": [369, 554, 547, 953]},\n  {\"timestamp\": \"01:08\", \"box_2d\": [392, 423, 498, 750]},\n  {\"timestamp\": \"01:10\", \"box_2d\": [473, 51, 775, 477]},\n  {\"timestamp\": \"01:12\", \"box_2d\": [530, 240, 663, 523]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "ENIGMA_065_008.mp4"
+  },
+  {
+    "query_id": "enigma_test_17",
+    "query": "ENIGMA_065_008.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        119.935945,
+        123.335945
+      ],
+      "boxes": [
+        {
+          "timestamp": "02:00",
+          "box_2d": [
+            258.216,
+            406.25,
+            770.736,
+            520.687
+          ]
+        },
+        {
+          "timestamp": "02:00",
+          "box_2d": [
+            267.606,
+            406.25,
+            769.953,
+            521.127
+          ]
+        },
+        {
+          "timestamp": "02:01",
+          "box_2d": [
+            376.369,
+            318.222,
+            736.307,
+            675.616
+          ]
+        },
+        {
+          "timestamp": "02:02",
+          "box_2d": [
+            451.487,
+            235.915,
+            642.41,
+            695.863
+          ]
+        },
+        {
+          "timestamp": "02:03",
+          "box_2d": [
+            435.837,
+            216.549,
+            646.322,
+            692.782
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:41\", \"box_2d\": [784, 366, 988, 712]},\n  {\"timestamp\": \"00:42\", \"box_2d\": [580, 411, 770, 713]},\n  {\"timestamp\": \"00:43\", \"box_2d\": [372, 471, 546, 954]},\n  {\"timestamp\": \"00:44\", \"box_2d\": [372, 442, 542, 950]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "ENIGMA_065_008.mp4"
+  },
+  {
+    "query_id": "enigma_test_18",
+    "query": "ENIGMA_065_008.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        136.468945,
+        150.235945
+      ],
+      "boxes": [
+        {
+          "timestamp": "02:16",
+          "box_2d": [
+            262.128,
+            337.588,
+            671.362,
+            536.972
+          ]
+        },
+        {
+          "timestamp": "02:17",
+          "box_2d": [
+            235.524,
+            322.183,
+            667.449,
+            533.011
+          ]
+        },
+        {
+          "timestamp": "02:18",
+          "box_2d": [
+            218.31,
+            347.711,
+            647.105,
+            556.338
+          ]
+        },
+        {
+          "timestamp": "02:19",
+          "box_2d": [
+            190.141,
+            338.468,
+            621.283,
+            547.095
+          ]
+        },
+        {
+          "timestamp": "02:20",
+          "box_2d": [
+            183.881,
+            345.511,
+            615.023,
+            554.137
+          ]
+        },
+        {
+          "timestamp": "02:21",
+          "box_2d": [
+            169.797,
+            346.831,
+            602.504,
+            558.979
+          ]
+        },
+        {
+          "timestamp": "02:22",
+          "box_2d": [
+            169.014,
+            348.592,
+            603.286,
+            560.299
+          ]
+        },
+        {
+          "timestamp": "02:23",
+          "box_2d": [
+            219.092,
+            354.313,
+            648.67,
+            565.141
+          ]
+        },
+        {
+          "timestamp": "02:24",
+          "box_2d": [
+            210.485,
+            359.595,
+            640.063,
+            570.863
+          ]
+        },
+        {
+          "timestamp": "02:25",
+          "box_2d": [
+            208.92,
+            360.915,
+            640.063,
+            573.063
+          ]
+        },
+        {
+          "timestamp": "02:26",
+          "box_2d": [
+            205.79,
+            360.915,
+            637.715,
+            574.384
+          ]
+        },
+        {
+          "timestamp": "02:27",
+          "box_2d": [
+            209.703,
+            360.035,
+            642.41,
+            572.623
+          ]
+        },
+        {
+          "timestamp": "02:28",
+          "box_2d": [
+            226.917,
+            360.915,
+            658.842,
+            572.623
+          ]
+        },
+        {
+          "timestamp": "02:29",
+          "box_2d": [
+            232.394,
+            360.475,
+            665.102,
+            571.303
+          ]
+        },
+        {
+          "timestamp": "02:30",
+          "box_2d": [
+            230.047,
+            360.475,
+            654.93,
+            566.021
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"box_2d\": [216, 361, 649, 574], \"timestamp\": \"03:10\"}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "ENIGMA_065_008.mp4"
+  },
+  {
+    "query_id": "enigma_test_19",
+    "query": "ENIGMA_065_008.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        154.468945,
+        155.635945
+      ],
+      "boxes": [
+        {
+          "timestamp": "02:34",
+          "box_2d": [
+            302.034,
+            345.951,
+            603.286,
+            542.694
+          ]
+        },
+        {
+          "timestamp": "02:35",
+          "box_2d": [
+            334.116,
+            356.954,
+            637.715,
+            556.778
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"01:37\", \"box_2d\": [255, 384, 519, 568]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "ENIGMA_065_008.mp4"
+  },
+  {
+    "query_id": "enigma_test_20",
+    "query": "ENIGMA_065_008.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        220.568945,
+        221.168945
+      ],
+      "boxes": [
+        {
+          "timestamp": "03:41",
+          "box_2d": [
+            320.814,
+            449.384,
+            592.332,
+            654.93
+          ]
+        },
+        {
+          "timestamp": "03:41",
+          "box_2d": [
+            287.167,
+            452.025,
+            560.25,
+            656.25
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"01:31\", \"box_2d\": [330, 376, 558, 513]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "ENIGMA_065_008.mp4"
+  },
+  {
+    "query_id": "enigma_test_21",
+    "query": "ENIGMA_065_008.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        231.468945,
+        242.201945
+      ],
+      "boxes": [
+        {
+          "timestamp": "03:51",
+          "box_2d": [
+            203.443,
+            427.377,
+            619.718,
+            578.785
+          ]
+        },
+        {
+          "timestamp": "03:52",
+          "box_2d": [
+            153.365,
+            430.458,
+            575.9,
+            581.866
+          ]
+        },
+        {
+          "timestamp": "03:53",
+          "box_2d": [
+            161.189,
+            437.94,
+            589.202,
+            588.468
+          ]
+        },
+        {
+          "timestamp": "03:54",
+          "box_2d": [
+            163.537,
+            431.778,
+            553.991,
+            583.187
+          ]
+        },
+        {
+          "timestamp": "03:55",
+          "box_2d": [
+            171.362,
+            428.257,
+            572.77,
+            579.225
+          ]
+        },
+        {
+          "timestamp": "03:56",
+          "box_2d": [
+            154.93,
+            430.018,
+            559.468,
+            580.986
+          ]
+        },
+        {
+          "timestamp": "03:57",
+          "box_2d": [
+            170.579,
+            431.778,
+            577.465,
+            581.426
+          ]
+        },
+        {
+          "timestamp": "03:58",
+          "box_2d": [
+            158.842,
+            435.739,
+            565.728,
+            586.268
+          ]
+        },
+        {
+          "timestamp": "03:59",
+          "box_2d": [
+            164.319,
+            430.898,
+            571.987,
+            580.986
+          ]
+        },
+        {
+          "timestamp": "04:00",
+          "box_2d": [
+            169.014,
+            430.898,
+            575.117,
+            579.225
+          ]
+        },
+        {
+          "timestamp": "04:01",
+          "box_2d": [
+            169.014,
+            433.099,
+            575.9,
+            582.746
+          ]
+        },
+        {
+          "timestamp": "04:02",
+          "box_2d": [
+            170.579,
+            442.782,
+            571.987,
+            590.229
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\n  \"timestamp\": \"01:25\",\n  \"box_2d\": [167, 431, 581, 581]\n }\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "ENIGMA_065_008.mp4"
+  },
+  {
+    "query_id": "enigma_test_22",
+    "query": "ENIGMA_065_008.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        277.635945,
+        279.268945
+      ],
+      "boxes": [
+        {
+          "timestamp": "04:38",
+          "box_2d": [
+            273.865,
+            382.042,
+            519.562,
+            552.817
+          ]
+        },
+        {
+          "timestamp": "04:38",
+          "box_2d": [
+            258.216,
+            384.243,
+            516.432,
+            565.141
+          ]
+        },
+        {
+          "timestamp": "04:39",
+          "box_2d": [
+            308.294,
+            377.201,
+            561.815,
+            555.018
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\"timestamp\": \"00:26\", \"box_2d\": [212, 381, 519, 569]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "ENIGMA_065_008.mp4"
+  },
+  {
+    "query_id": "enigma_test_23",
+    "query": "ENIGMA_065_008.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        292.001945,
+        297.035945
+      ],
+      "boxes": [
+        {
+          "timestamp": "04:52",
+          "box_2d": [
+            384.194,
+            262.324,
+            751.174,
+            658.891
+          ]
+        },
+        {
+          "timestamp": "04:53",
+          "box_2d": [
+            376.369,
+            261.444,
+            757.433,
+            669.454
+          ]
+        },
+        {
+          "timestamp": "04:54",
+          "box_2d": [
+            389.671,
+            262.324,
+            757.433,
+            658.011
+          ]
+        },
+        {
+          "timestamp": "04:55",
+          "box_2d": [
+            384.194,
+            264.525,
+            755.086,
+            661.972
+          ]
+        },
+        {
+          "timestamp": "04:56",
+          "box_2d": [
+            377.152,
+            262.764,
+            754.304,
+            666.373
+          ]
+        },
+        {
+          "timestamp": "04:57",
+          "box_2d": [
+            372.457,
+            252.201,
+            745.696,
+            646.127
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"box_2d\": [367, 245, 727, 627], \"timestamp\": \"01:04\"}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "ENIGMA_065_008.mp4"
+  },
+  {
+    "query_id": "enigma_test_24",
+    "query": "ENIGMA_065_010.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        2.013672,
+        3.880672
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:02",
+          "box_2d": [
+            377.152,
+            153.609,
+            751.174,
+            566.901
+          ]
+        },
+        {
+          "timestamp": "00:03",
+          "box_2d": [
+            457.746,
+            104.754,
+            851.33,
+            534.771
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\"box_2d\": [319, 199, 656, 574], \"timestamp\": \"00:01\"},\n {\"box_2d\": [468, 137, 856, 563], \"timestamp\": \"00:02\"},\n {\"box_2d\": [468, 112, 856, 550], \"timestamp\": \"00:03\"}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "ENIGMA_065_010.mp4"
+  },
+  {
+    "query_id": "enigma_test_25",
+    "query": "ENIGMA_065_035.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        8.86726,
+        12.96726
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:09",
+          "box_2d": [
+            365.415,
+            191.461,
+            755.869,
+            602.553
+          ]
+        },
+        {
+          "timestamp": "00:09",
+          "box_2d": [
+            365.415,
+            189.261,
+            759.781,
+            599.472
+          ]
+        },
+        {
+          "timestamp": "00:10",
+          "box_2d": [
+            376.369,
+            194.542,
+            768.388,
+            602.553
+          ]
+        },
+        {
+          "timestamp": "00:11",
+          "box_2d": [
+            332.551,
+            154.93,
+            729.264,
+            589.349
+          ]
+        },
+        {
+          "timestamp": "00:12",
+          "box_2d": [
+            326.291,
+            166.373,
+            719.875,
+            596.391
+          ]
+        },
+        {
+          "timestamp": "00:13",
+          "box_2d": [
+            338.028,
+            186.18,
+            708.92,
+            591.109
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:03\", \"box_2d\": [356, 203, 733, 620]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "ENIGMA_065_035.mp4"
+  },
+  {
+    "query_id": "enigma_test_26",
+    "query": "ENIGMA_065_035.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        17.73426,
+        18.33426
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:18",
+          "box_2d": [
+            400.626,
+            384.243,
+            653.365,
+            573.063
+          ]
+        },
+        {
+          "timestamp": "00:18",
+          "box_2d": [
+            352.895,
+            385.563,
+            605.634,
+            578.345
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\n  \"timestamp\": \"00:10\",\n  \"box_2d\": [426, 41, 992, 473]\n },\n {\n  \"timestamp\": \"00:11\",\n  \"box_2d\": [463, 49, 990, 480]\n },\n {\n  \"timestamp\": \"00:12\",\n  \"box_2d\": [390, 1, 992, 485]\n },\n {\n  \"timestamp\": \"00:13\",\n  \"box_2d\": [474, 88, 993, 494]\n },\n {\n  \"timestamp\": \"00:14\",\n  \"box_2d\": [869, 430, 996, 680]\n }\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "ENIGMA_065_035.mp4"
+  },
+  {
+    "query_id": "enigma_test_27",
+    "query": "ENIGMA_065_035.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        49.83426,
+        51.06726
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:50",
+          "box_2d": [
+            330.203,
+            334.947,
+            533.646,
+            674.736
+          ]
+        },
+        {
+          "timestamp": "00:50",
+          "box_2d": [
+            342.723,
+            338.908,
+            537.559,
+            674.296
+          ]
+        },
+        {
+          "timestamp": "00:51",
+          "box_2d": [
+            805.947,
+            308.979,
+            999.218,
+            750.88
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\n  \"box_2d\": [483, 439, 582, 672],\n  \"timestamp\": \"00:09\"\n },\n {\n  \"box_2d\": [909, 303, 1000, 746],\n  \"timestamp\": \"00:10\"\n }\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "ENIGMA_065_035.mp4"
+  },
+  {
+    "query_id": "enigma_test_28",
+    "query": "ENIGMA_065_035.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        80.06726,
+        89.10026
+      ],
+      "boxes": [
+        {
+          "timestamp": "01:20",
+          "box_2d": [
+            279.343,
+            454.225,
+            615.023,
+            782.57
+          ]
+        },
+        {
+          "timestamp": "01:21",
+          "box_2d": [
+            298.122,
+            291.373,
+            582.16,
+            648.768
+          ]
+        },
+        {
+          "timestamp": "01:22",
+          "box_2d": [
+            0.0,
+            352.993,
+            780.908,
+            746.479
+          ]
+        },
+        {
+          "timestamp": "01:23",
+          "box_2d": [
+            0.0,
+            416.373,
+            816.901,
+            759.243
+          ]
+        },
+        {
+          "timestamp": "01:24",
+          "box_2d": [
+            0.0,
+            52.377,
+            781.69,
+            518.046
+          ]
+        },
+        {
+          "timestamp": "01:25",
+          "box_2d": [
+            0.0,
+            123.68,
+            672.144,
+            541.373
+          ]
+        },
+        {
+          "timestamp": "01:26",
+          "box_2d": [
+            0.0,
+            0.0,
+            559.468,
+            386.444
+          ]
+        },
+        {
+          "timestamp": "01:27",
+          "box_2d": [
+            59.468,
+            146.127,
+            949.139,
+            486.796
+          ]
+        },
+        {
+          "timestamp": "01:28",
+          "box_2d": [
+            162.754,
+            451.144,
+            532.081,
+            607.835
+          ]
+        },
+        {
+          "timestamp": "01:29",
+          "box_2d": [
+            425.665,
+            547.535,
+            810.642,
+            671.215
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:06\", \"box_2d\": [60, 437, 617, 875]},\n  {\"timestamp\": \"00:07\", \"box_2d\": [60, 437, 617, 875]},\n  {\"timestamp\": \"00:08\", \"box_2d\": [75, 458, 608, 633]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "ENIGMA_065_035.mp4"
+  },
+  {
+    "query_id": "enigma_test_29",
+    "query": "ENIGMA_065_035.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        84.06726,
+        94.23426
+      ],
+      "boxes": [
+        {
+          "timestamp": "01:24",
+          "box_2d": [
+            439.75,
+            376.32,
+            783.255,
+            521.127
+          ]
+        },
+        {
+          "timestamp": "01:25",
+          "box_2d": [
+            401.408,
+            375.88,
+            672.144,
+            541.813
+          ]
+        },
+        {
+          "timestamp": "01:26",
+          "box_2d": [
+            414.71,
+            465.669,
+            666.667,
+            650.528
+          ]
+        },
+        {
+          "timestamp": "01:27",
+          "box_2d": [
+            684.664,
+            515.845,
+            934.272,
+            685.299
+          ]
+        },
+        {
+          "timestamp": "01:28",
+          "box_2d": [
+            503.912,
+            628.081,
+            761.346,
+            816.901
+          ]
+        },
+        {
+          "timestamp": "01:29",
+          "box_2d": [
+            462.441,
+            635.563,
+            712.05,
+            835.827
+          ]
+        },
+        {
+          "timestamp": "01:30",
+          "box_2d": [
+            527.387,
+            569.982,
+            780.908,
+            751.32
+          ]
+        },
+        {
+          "timestamp": "01:31",
+          "box_2d": [
+            392.801,
+            463.468,
+            608.764,
+            631.162
+          ]
+        },
+        {
+          "timestamp": "01:32",
+          "box_2d": [
+            464.006,
+            423.856,
+            682.316,
+            585.827
+          ]
+        },
+        {
+          "timestamp": "01:33",
+          "box_2d": [
+            453.052,
+            387.764,
+            687.011,
+            534.331
+          ]
+        },
+        {
+          "timestamp": "01:34",
+          "box_2d": [
+            406.103,
+            442.342,
+            659.624,
+            593.31
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\n  \"box_2d\": [517, 431, 785, 626],\n  \"timestamp\": \"00:11\"\n },\n {\n  \"box_2d\": [788, 578, 1000, 767],\n  \"timestamp\": \"00:12\"\n }\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "ENIGMA_065_035.mp4"
+  },
+  {
+    "query_id": "enigma_test_30",
+    "query": "ENIGMA_065_035.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        96.53426,
+        97.26726
+      ],
+      "boxes": [
+        {
+          "timestamp": "01:37",
+          "box_2d": [
+            332.551,
+            331.426,
+            636.933,
+            529.489
+          ]
+        },
+        {
+          "timestamp": "01:37",
+          "box_2d": [
+            347.418,
+            351.673,
+            651.017,
+            547.975
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\n  \"timestamp\": \"00:25\",\n  \"box_2d\": [501, 461, 516, 478]\n },\n {\n  \"timestamp\": \"00:26\",\n  \"box_2d\": [501, 464, 515, 479]\n },\n {\n  \"timestamp\": \"00:27\",\n  \"box_2d\": [568, 483, 584, 494]\n },\n {\n  \"timestamp\": \"00:28\",\n  \"box_2d\": [568, 483, 584, 494]\n }\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "ENIGMA_065_035.mp4"
+  },
+  {
+    "query_id": "enigma_test_31",
+    "query": "ENIGMA_065_035.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        132.66726,
+        135.30026
+      ],
+      "boxes": [
+        {
+          "timestamp": "02:13",
+          "box_2d": [
+            201.878,
+            422.975,
+            968.701,
+            827.465
+          ]
+        },
+        {
+          "timestamp": "02:13",
+          "box_2d": [
+            308.294,
+            408.011,
+            999.218,
+            886.884
+          ]
+        },
+        {
+          "timestamp": "02:14",
+          "box_2d": [
+            108.764,
+            147.887,
+            744.131,
+            655.37
+          ]
+        },
+        {
+          "timestamp": "02:15",
+          "box_2d": [
+            280.125,
+            242.958,
+            776.213,
+            626.32
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"box_2d\": [14, 98, 977, 689], \"timestamp\": \"00:34\"}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "ENIGMA_065_035.mp4"
+  },
+  {
+    "query_id": "enigma_test_32",
+    "query": "ENIGMA_065_035.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        152.23426,
+        153.20026
+      ],
+      "boxes": [
+        {
+          "timestamp": "02:32",
+          "box_2d": [
+            492.958,
+            493.398,
+            550.078,
+            534.771
+          ]
+        },
+        {
+          "timestamp": "02:33",
+          "box_2d": [
+            530.516,
+            461.708,
+            593.114,
+            502.201
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:52\", \"box_2d\": [544, 513, 608, 552]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "ENIGMA_065_035.mp4"
+  },
+  {
+    "query_id": "enigma_test_33",
+    "query": "ENIGMA_065_035.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        154.06726,
+        154.73426
+      ],
+      "boxes": [
+        {
+          "timestamp": "02:34",
+          "box_2d": [
+            547.731,
+            506.602,
+            607.199,
+            546.655
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:27\", \"box_2d\": [541, 510, 608, 552]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "ENIGMA_065_035.mp4"
+  },
+  {
+    "query_id": "enigma_test_34",
+    "query": "ENIGMA_066_007.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        2.341268,
+        4.308268
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:02",
+          "box_2d": [
+            551.643,
+            398.327,
+            931.142,
+            652.729
+          ]
+        },
+        {
+          "timestamp": "00:03",
+          "box_2d": [
+            447.574,
+            377.641,
+            800.469,
+            632.042
+          ]
+        },
+        {
+          "timestamp": "00:04",
+          "box_2d": [
+            312.207,
+            373.68,
+            651.017,
+            581.426
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:03\", \"box_2d\": [38, 326, 290, 524]},\n  {\"timestamp\": \"00:04\", \"box_2d\": [287, 257, 417, 437]},\n  {\"timestamp\": \"00:06\", \"box_2d\": [308, 277, 467, 451]},\n  {\"timestamp\": \"00:13\", \"box_2d\": [595, 298, 824, 471]},\n  {\"timestamp\": \"00:15\", \"box_2d\": [693, 233, 966, 440]},\n  {\"timestamp\": \"00:16\", \"box_2d\": [291, 309, 523, 475]},\n  {\"timestamp\": \"00:20\", \"box_2d\": [166, 241, 366, 403]},\n  {\"timestamp\": \"00:22\", \"box_2d\": [384, 389, 607, 563]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "ENIGMA_066_007.mp4"
+  },
+  {
+    "query_id": "enigma_test_35",
+    "query": "ENIGMA_066_007.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        5.075268,
+        7.341268
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:05",
+          "box_2d": [
+            330.203,
+            250.44,
+            767.606,
+            671.655
+          ]
+        },
+        {
+          "timestamp": "00:06",
+          "box_2d": [
+            324.726,
+            275.528,
+            786.385,
+            651.408
+          ]
+        },
+        {
+          "timestamp": "00:07",
+          "box_2d": [
+            372.457,
+            258.363,
+            999.218,
+            743.398
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:13\", \"box_2d\": [18, 509, 887, 599]},\n  {\"timestamp\": \"00:14\", \"box_2d\": [404, 432, 999, 501]},\n  {\"timestamp\": \"00:15\", \"box_2d\": [538, 532, 999, 674]},\n  {\"timestamp\": \"00:16\", \"box_2d\": [178, 480, 1000, 576]},\n  {\"timestamp\": \"00:17\", \"box_2d\": [98, 172, 977, 465]},\n  {\"timestamp\": \"00:18\", \"box_2d\": [14, 258, 946, 492]},\n  {\"timestamp\": \"00:19\", \"box_2d\": [112, 122, 978, 369]},\n  {\"timestamp\": \"00:20\", \"box_2d\": [0, 253, 887, 496]},\n  {\"timestamp\": \"00:21\", \"box_2d\": [311, 261, 1000, 400]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "ENIGMA_066_007.mp4"
+  },
+  {
+    "query_id": "enigma_test_36",
+    "query": "ENIGMA_066_007.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        147.041268,
+        158.808268
+      ],
+      "boxes": [
+        {
+          "timestamp": "02:27",
+          "box_2d": [
+            275.43,
+            360.035,
+            654.147,
+            529.489
+          ]
+        },
+        {
+          "timestamp": "02:28",
+          "box_2d": [
+            268.388,
+            355.194,
+            664.319,
+            532.57
+          ]
+        },
+        {
+          "timestamp": "02:29",
+          "box_2d": [
+            275.43,
+            347.711,
+            674.491,
+            527.729
+          ]
+        },
+        {
+          "timestamp": "02:30",
+          "box_2d": [
+            275.43,
+            349.032,
+            672.926,
+            527.289
+          ]
+        },
+        {
+          "timestamp": "02:31",
+          "box_2d": [
+            266.823,
+            345.511,
+            666.667,
+            524.648
+          ]
+        },
+        {
+          "timestamp": "02:32",
+          "box_2d": [
+            264.476,
+            349.472,
+            665.102,
+            532.13
+          ]
+        },
+        {
+          "timestamp": "02:33",
+          "box_2d": [
+            251.956,
+            345.951,
+            654.93,
+            530.37
+          ]
+        },
+        {
+          "timestamp": "02:34",
+          "box_2d": [
+            241.002,
+            345.511,
+            646.322,
+            531.69
+          ]
+        },
+        {
+          "timestamp": "02:35",
+          "box_2d": [
+            252.739,
+            344.19,
+            658.059,
+            529.489
+          ]
+        },
+        {
+          "timestamp": "02:36",
+          "box_2d": [
+            250.391,
+            350.352,
+            656.495,
+            536.972
+          ]
+        },
+        {
+          "timestamp": "02:37",
+          "box_2d": [
+            242.567,
+            345.951,
+            647.887,
+            531.69
+          ]
+        },
+        {
+          "timestamp": "02:38",
+          "box_2d": [
+            239.437,
+            338.908,
+            647.105,
+            526.408
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"02:30\", \"box_2d\": [267, 348, 663, 531]},\n  {\"timestamp\": \"02:38\", \"box_2d\": [240, 351, 649, 540]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "ENIGMA_066_007.mp4"
+  },
+  {
+    "query_id": "enigma_test_37",
+    "query": "ENIGMA_066_007.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        161.908268,
+        162.541268
+      ],
+      "boxes": [
+        {
+          "timestamp": "02:42",
+          "box_2d": [
+            395.149,
+            354.313,
+            643.975,
+            504.401
+          ]
+        },
+        {
+          "timestamp": "02:42",
+          "box_2d": [
+            402.191,
+            352.113,
+            651.8,
+            503.521
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:23\", \"box_2d\": [361, 359, 608, 509]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "ENIGMA_066_007.mp4"
+  },
+  {
+    "query_id": "enigma_test_38",
+    "query": "ENIGMA_066_007.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        167.775268,
+        173.075268
+      ],
+      "boxes": [
+        {
+          "timestamp": "02:48",
+          "box_2d": [
+            417.058,
+            382.042,
+            770.736,
+            712.148
+          ]
+        },
+        {
+          "timestamp": "02:48",
+          "box_2d": [
+            334.898,
+            373.68,
+            682.316,
+            700.264
+          ]
+        },
+        {
+          "timestamp": "02:49",
+          "box_2d": [
+            333.333,
+            364.877,
+            677.621,
+            687.94
+          ]
+        },
+        {
+          "timestamp": "02:50",
+          "box_2d": [
+            363.85,
+            366.637,
+            705.79,
+            686.62
+          ]
+        },
+        {
+          "timestamp": "02:51",
+          "box_2d": [
+            388.106,
+            374.56,
+            726.135,
+            693.662
+          ]
+        },
+        {
+          "timestamp": "02:52",
+          "box_2d": [
+            394.366,
+            371.039,
+            737.089,
+            692.342
+          ]
+        },
+        {
+          "timestamp": "02:53",
+          "box_2d": [
+            472.613,
+            441.901,
+            831.768,
+            764.525
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:30\", \"box_2d\": [391, 378, 743, 712]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "ENIGMA_066_007.mp4"
+  },
+  {
+    "query_id": "enigma_test_39",
+    "query": "ENIGMA_066_013.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        0.345212,
+        1.379212
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:00",
+          "box_2d": [
+            450.704,
+            147.007,
+            851.33,
+            552.377
+          ]
+        },
+        {
+          "timestamp": "00:01",
+          "box_2d": [
+            445.227,
+            138.204,
+            861.502,
+            558.539
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"box_2d\": [433, 142, 856, 562], \"timestamp\": \"00:00\"},\n  {\"box_2d\": [469, 182, 866, 560], \"timestamp\": \"00:01\"}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "ENIGMA_066_013.mp4"
+  },
+  {
+    "query_id": "enigma_test_40",
+    "query": "ENIGMA_066_028.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        18.522676,
+        19.322676
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:19",
+          "box_2d": [
+            203.443,
+            535.211,
+            721.44,
+            868.838
+          ]
+        },
+        {
+          "timestamp": "00:19",
+          "box_2d": [
+            206.573,
+            552.817,
+            766.041,
+            950.264
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:00\", \"box_2d\": [292, 240, 994, 773]},\n  {\"timestamp\": \"00:01\", \"box_2d\": [347, 335, 966, 717]},\n  {\"timestamp\": \"00:02\", \"box_2d\": [507, 444, 997, 792]},\n  {\"timestamp\": \"00:03\", \"box_2d\": [565, 287, 998, 987]},\n  {\"timestamp\": \"00:04\", \"box_2d\": [403, 386, 893, 831]},\n  {\"timestamp\": \"00:05\", \"box_2d\": [316, 417, 829, 810]},\n  {\"timestamp\": \"00:06\", \"box_2d\": [570, 473, 998, 846]},\n  {\"timestamp\": \"00:07\", \"box_2d\": [561, 386, 999, 786]},\n  {\"timestamp\": \"00:08\", \"box_2d\": [535, 229, 999, 645]},\n  {\"timestamp\": \"00:09\", \"box_2d\": [326, 285, 844, 622]},\n  {\"timestamp\": \"00:10\", \"box_2d\": [298, 339, 878, 804]},\n  {\"timestamp\": \"00:11\", \"box_2d\": [662, 230, 999, 998]},\n  {\"timestamp\": \"00:12\", \"box_2d\": [51, 227, 999, 915]},\n  {\"timestamp\": \"00:13\", \"box_2d\": [146, 169, 999, 706]},\n  {\"timestamp\": \"00:14\", \"box_2d\": [174, 204, 999, 693]},\n  {\"timestamp\": \"00:15\", \"box_2d\": [351, 215, 1000, 694]},\n  {\"timestamp\": \"00:16\", \"box_2d\": [390, 313, 882, 759]},\n  {\"timestamp\": \"00:17\", \"box_2d\": [390, 296, 856, 735]},\n  {\"timestamp\": \"00:18\", \"box_2d\": [700, 328, 1000, 839]},\n  {\"timestamp\": \"00:19\", \"box_2d\": [662, 226, 999, 686]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "ENIGMA_066_028.mp4"
+  },
+  {
+    "query_id": "enigma_test_41",
+    "query": "ENIGMA_066_028.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        93.822676,
+        95.088676
+      ],
+      "boxes": [
+        {
+          "timestamp": "01:34",
+          "box_2d": [
+            532.864,
+            641.725,
+            829.421,
+            817.342
+          ]
+        },
+        {
+          "timestamp": "01:34",
+          "box_2d": [
+            459.311,
+            742.958,
+            754.304,
+            926.496
+          ]
+        },
+        {
+          "timestamp": "01:35",
+          "box_2d": [
+            417.84,
+            472.271,
+            630.673,
+            586.268
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:11\", \"box_2d\": [812, 131, 997, 289]},\n  {\"timestamp\": \"00:15\", \"box_2d\": [363, 412, 558, 533]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "ENIGMA_066_028.mp4"
+  },
+  {
+    "query_id": "enigma_test_42",
+    "query": "ENIGMA_066_031.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        3.612774,
+        13.645774
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:04",
+          "box_2d": [
+            61.815,
+            423.856,
+            707.355,
+            870.599
+          ]
+        },
+        {
+          "timestamp": "00:04",
+          "box_2d": [
+            48.513,
+            382.042,
+            688.576,
+            816.901
+          ]
+        },
+        {
+          "timestamp": "00:05",
+          "box_2d": [
+            105.634,
+            377.641,
+            719.875,
+            783.451
+          ]
+        },
+        {
+          "timestamp": "00:06",
+          "box_2d": [
+            336.463,
+            363.116,
+            891.236,
+            747.359
+          ]
+        },
+        {
+          "timestamp": "00:07",
+          "box_2d": [
+            398.279,
+            292.694,
+            961.659,
+            664.173
+          ]
+        },
+        {
+          "timestamp": "00:08",
+          "box_2d": [
+            177.621,
+            491.637,
+            754.304,
+            888.204
+          ]
+        },
+        {
+          "timestamp": "00:09",
+          "box_2d": [
+            488.263,
+            503.961,
+            829.421,
+            901.408
+          ]
+        },
+        {
+          "timestamp": "00:10",
+          "box_2d": [
+            523.474,
+            498.239,
+            786.385,
+            895.246
+          ]
+        },
+        {
+          "timestamp": "00:11",
+          "box_2d": [
+            584.507,
+            492.958,
+            767.606,
+            869.278
+          ]
+        },
+        {
+          "timestamp": "00:12",
+          "box_2d": [
+            452.269,
+            492.958,
+            731.612,
+            832.746
+          ]
+        },
+        {
+          "timestamp": "00:13",
+          "box_2d": [
+            472.613,
+            492.958,
+            757.433,
+            830.106
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:00\", \"box_2d\": [385, 344, 998, 762]},\n  {\"timestamp\": \"00:01\", \"box_2d\": [214, 425, 755, 856]},\n  {\"timestamp\": \"00:02\", \"box_2d\": [147, 417, 788, 861]},\n  {\"timestamp\": \"00:03\", \"box_2d\": [111, 417, 775, 865]},\n  {\"timestamp\": \"00:04\", \"box_2d\": [153, 414, 783, 853]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "ENIGMA_066_031.mp4"
+  },
+  {
+    "query_id": "enigma_test_43",
+    "query": "ENIGMA_085_002.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        0.79637,
+        5.26237
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:01",
+          "box_2d": [
+            586.854,
+            376.32,
+            795.775,
+            858.715
+          ]
+        },
+        {
+          "timestamp": "00:01",
+          "box_2d": [
+            557.903,
+            439.261,
+            785.603,
+            851.673
+          ]
+        },
+        {
+          "timestamp": "00:02",
+          "box_2d": [
+            552.426,
+            329.225,
+            774.648,
+            817.342
+          ]
+        },
+        {
+          "timestamp": "00:03",
+          "box_2d": [
+            532.081,
+            393.486,
+            749.609,
+            792.254
+          ]
+        },
+        {
+          "timestamp": "00:04",
+          "box_2d": [
+            579.812,
+            233.275,
+            808.294,
+            614.437
+          ]
+        },
+        {
+          "timestamp": "00:05",
+          "box_2d": [
+            528.169,
+            288.732,
+            744.131,
+            676.496
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\n  \"box_2d\": [662, 458, 808, 878],\n  \"timestamp\": \"00:00\"\n },\n {\n  \"box_2d\": [678, 106, 836, 529],\n  \"timestamp\": \"00:01\"\n },\n {\n  \"box_2d\": [841, 226, 999, 722],\n  \"timestamp\": \"00:02\"\n },\n {\n  \"box_2d\": [668, 412, 1000, 597],\n  \"timestamp\": \"00:10\"\n },\n {\n  \"box_2d\": [705, 408, 1000, 599],\n  \"timestamp\": \"00:11\"\n },\n {\n  \"box_2d\": [662, 363, 1000, 550],\n  \"timestamp\": \"00:13\"\n },\n {\n  \"box_2d\": [541, 241, 1000, 404],\n  \"timestamp\": \"00:18\"\n },\n {\n  \"box_2d\": [477, 321, 1000, 495],\n  \"timestamp\": \"00:19\"\n },\n {\n  \"box_2d\": [573, 345, 742, 804],\n  \"timestamp\": \"00:22\"\n },\n {\n  \"box_2d\": [617, 172, 756, 589],\n  \"timestamp\": \"00:23\"\n }\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "ENIGMA_085_002.mp4"
+  },
+  {
+    "query_id": "enigma_test_44",
+    "query": "ENIGMA_085_002.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        24.62937,
+        25.02937
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:25",
+          "box_2d": [
+            610.329,
+            575.704,
+            836.463,
+            720.511
+          ]
+        },
+        {
+          "timestamp": "00:25",
+          "box_2d": [
+            546.166,
+            552.377,
+            784.038,
+            703.785
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:01\", \"box_2d\": [655, 503, 693, 520]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "ENIGMA_085_002.mp4"
+  },
+  {
+    "query_id": "enigma_test_45",
+    "query": "ENIGMA_085_002.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        28.46237,
+        37.66237
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:28",
+          "box_2d": [
+            469.484,
+            437.94,
+            889.671,
+            632.042
+          ]
+        },
+        {
+          "timestamp": "00:29",
+          "box_2d": [
+            505.477,
+            468.75,
+            921.753,
+            661.972
+          ]
+        },
+        {
+          "timestamp": "00:30",
+          "box_2d": [
+            487.48,
+            473.151,
+            903.756,
+            667.254
+          ]
+        },
+        {
+          "timestamp": "00:31",
+          "box_2d": [
+            453.052,
+            475.792,
+            864.632,
+            671.215
+          ]
+        },
+        {
+          "timestamp": "00:32",
+          "box_2d": [
+            315.336,
+            436.18,
+            722.222,
+            628.521
+          ]
+        },
+        {
+          "timestamp": "00:33",
+          "box_2d": [
+            432.707,
+            435.299,
+            851.33,
+            628.521
+          ]
+        },
+        {
+          "timestamp": "00:34",
+          "box_2d": [
+            436.62,
+            453.345,
+            852.895,
+            647.007
+          ]
+        },
+        {
+          "timestamp": "00:35",
+          "box_2d": [
+            419.405,
+            455.106,
+            836.463,
+            650.088
+          ]
+        },
+        {
+          "timestamp": "00:36",
+          "box_2d": [
+            420.97,
+            457.746,
+            838.028,
+            652.729
+          ]
+        },
+        {
+          "timestamp": "00:37",
+          "box_2d": [
+            417.058,
+            455.546,
+            834.116,
+            651.408
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\n  \"timestamp\": \"00:09\",\n  \"box_2d\": [357, 405, 887, 627]\n },\n {\n  \"timestamp\": \"00:10\",\n  \"box_2d\": [426, 458, 843, 656]\n },\n {\n  \"timestamp\": \"00:46\",\n  \"box_2d\": [562, 712, 921, 915]\n }\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "ENIGMA_085_002.mp4"
+  },
+  {
+    "query_id": "enigma_test_46",
+    "query": "ENIGMA_085_002.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        255.59637,
+        255.86237
+      ],
+      "boxes": [
+        {
+          "timestamp": "04:16",
+          "box_2d": [
+            498.435,
+            565.581,
+            805.947,
+            770.246
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "ENIGMA_085_002.mp4"
+  },
+  {
+    "query_id": "enigma_test_47",
+    "query": "ENIGMA_085_002.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        258.76237,
+        270.22937
+      ],
+      "boxes": [
+        {
+          "timestamp": "04:19",
+          "box_2d": [
+            369.327,
+            375.0,
+            784.82,
+            514.525
+          ]
+        },
+        {
+          "timestamp": "04:19",
+          "box_2d": [
+            394.366,
+            390.845,
+            862.285,
+            537.412
+          ]
+        },
+        {
+          "timestamp": "04:20",
+          "box_2d": [
+            391.236,
+            399.208,
+            849.765,
+            542.694
+          ]
+        },
+        {
+          "timestamp": "04:21",
+          "box_2d": [
+            405.321,
+            375.44,
+            859.155,
+            514.965
+          ]
+        },
+        {
+          "timestamp": "04:22",
+          "box_2d": [
+            515.649,
+            283.011,
+            971.831,
+            429.137
+          ]
+        },
+        {
+          "timestamp": "04:23",
+          "box_2d": [
+            495.305,
+            291.813,
+            946.009,
+            437.94
+          ]
+        },
+        {
+          "timestamp": "04:24",
+          "box_2d": [
+            449.922,
+            295.335,
+            899.061,
+            442.782
+          ]
+        },
+        {
+          "timestamp": "04:25",
+          "box_2d": [
+            457.746,
+            290.053,
+            906.886,
+            436.62
+          ]
+        },
+        {
+          "timestamp": "04:26",
+          "box_2d": [
+            446.009,
+            289.173,
+            895.931,
+            437.06
+          ]
+        },
+        {
+          "timestamp": "04:27",
+          "box_2d": [
+            438.185,
+            276.849,
+            888.106,
+            426.056
+          ]
+        },
+        {
+          "timestamp": "04:28",
+          "box_2d": [
+            428.013,
+            280.81,
+            877.152,
+            430.018
+          ]
+        },
+        {
+          "timestamp": "04:29",
+          "box_2d": [
+            432.707,
+            276.408,
+            883.412,
+            426.496
+          ]
+        },
+        {
+          "timestamp": "04:30",
+          "box_2d": [
+            424.883,
+            276.408,
+            873.239,
+            426.496
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\n  \"timestamp\": \"00:24\",\n  \"box_2d\": [442, 291, 893, 441]\n }\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "ENIGMA_085_002.mp4"
+  },
+  {
+    "query_id": "enigma_test_48",
+    "query": "ENIGMA_085_015.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        2.65175,
+        3.28475
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:03",
+          "box_2d": [
+            762.128,
+            488.556,
+            925.665,
+            735.035
+          ]
+        },
+        {
+          "timestamp": "00:03",
+          "box_2d": [
+            763.693,
+            495.158,
+            939.75,
+            783.891
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:01\", \"box_2d\": [705, 582, 915, 1000]},\n  {\"timestamp\": \"00:02\", \"box_2d\": [735, 442, 857, 507]},\n  {\"timestamp\": \"00:03\", \"box_2d\": [771, 545, 846, 584]},\n  {\"timestamp\": \"00:04\", \"box_2d\": [788, 554, 929, 638]},\n  {\"timestamp\": \"00:05\", \"box_2d\": [819, 578, 978, 646]},\n  {\"timestamp\": \"00:06\", \"box_2d\": [892, 556, 1000, 655]},\n  {\"timestamp\": \"00:07\", \"box_2d\": [905, 552, 1000, 658]},\n  {\"timestamp\": \"01:14\", \"box_2d\": [731, 377, 914, 870]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "ENIGMA_085_015.mp4"
+  },
+  {
+    "query_id": "enigma_test_49",
+    "query": "ENIGMA_085_015.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        25.45175,
+        39.98475
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:25",
+          "box_2d": [
+            575.9,
+            443.222,
+            996.088,
+            884.243
+          ]
+        },
+        {
+          "timestamp": "00:26",
+          "box_2d": [
+            593.897,
+            412.852,
+            993.74,
+            840.669
+          ]
+        },
+        {
+          "timestamp": "00:27",
+          "box_2d": [
+            570.423,
+            407.57,
+            994.523,
+            838.028
+          ]
+        },
+        {
+          "timestamp": "00:28",
+          "box_2d": [
+            563.38,
+            367.958,
+            999.218,
+            800.176
+          ]
+        },
+        {
+          "timestamp": "00:29",
+          "box_2d": [
+            534.429,
+            354.754,
+            971.049,
+            790.053
+          ]
+        },
+        {
+          "timestamp": "00:30",
+          "box_2d": [
+            535.211,
+            381.162,
+            974.178,
+            817.342
+          ]
+        },
+        {
+          "timestamp": "00:31",
+          "box_2d": [
+            536.776,
+            388.644,
+            960.094,
+            829.225
+          ]
+        },
+        {
+          "timestamp": "00:32",
+          "box_2d": [
+            556.338,
+            399.648,
+            992.175,
+            841.989
+          ]
+        },
+        {
+          "timestamp": "00:33",
+          "box_2d": [
+            580.595,
+            397.007,
+            999.218,
+            837.148
+          ]
+        },
+        {
+          "timestamp": "00:34",
+          "box_2d": [
+            568.075,
+            403.169,
+            996.87,
+            845.511
+          ]
+        },
+        {
+          "timestamp": "00:35",
+          "box_2d": [
+            546.948,
+            404.93,
+            989.828,
+            849.472
+          ]
+        },
+        {
+          "timestamp": "00:36",
+          "box_2d": [
+            579.03,
+            413.732,
+            999.218,
+            858.715
+          ]
+        },
+        {
+          "timestamp": "00:37",
+          "box_2d": [
+            572.77,
+            394.366,
+            968.701,
+            833.627
+          ]
+        },
+        {
+          "timestamp": "00:38",
+          "box_2d": [
+            564.163,
+            380.722,
+            958.529,
+            818.662
+          ]
+        },
+        {
+          "timestamp": "00:39",
+          "box_2d": [
+            550.861,
+            391.725,
+            946.009,
+            833.187
+          ]
+        },
+        {
+          "timestamp": "00:40",
+          "box_2d": [
+            553.991,
+            380.722,
+            947.574,
+            818.662
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:08\", \"box_2d\": [567, 0, 998, 461]},\n  {\"timestamp\": \"00:12\", \"box_2d\": [567, 426, 994, 858]},\n  {\"timestamp\": \"00:13\", \"box_2d\": [524, 353, 959, 783]},\n  {\"timestamp\": \"00:14\", \"box_2d\": [541, 368, 981, 804]},\n  {\"timestamp\": \"00:15\", \"box_2d\": [536, 393, 985, 836]},\n  {\"timestamp\": \"00:16\", \"box_2d\": [571, 401, 998, 842]},\n  {\"timestamp\": \"00:17\", \"box_2d\": [560, 410, 995, 856]},\n  {\"timestamp\": \"00:18\", \"box_2d\": [574, 381, 994, 818]},\n  {\"timestamp\": \"00:19\", \"box_2d\": [549, 395, 991, 839]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "ENIGMA_085_015.mp4"
+  },
+  {
+    "query_id": "enigma_test_50",
+    "query": "ENIGMA_085_017.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        4.209639,
+        4.975639
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:04",
+          "box_2d": [
+            492.958,
+            271.127,
+            996.87,
+            705.106
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"box_2d\": [405, 338, 915, 804], \"timestamp\": \"00:04\"}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "ENIGMA_085_017.mp4"
+  },
+  {
+    "query_id": "enigma_test_51",
+    "query": "ENIGMA_086_011.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        0.323658,
+        1.323658
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:00",
+          "box_2d": [
+            514.867,
+            226.232,
+            960.094,
+            637.324
+          ]
+        },
+        {
+          "timestamp": "00:01",
+          "box_2d": [
+            599.374,
+            236.356,
+            996.088,
+            653.609
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"box_2d\": [513, 235, 965, 678], \"timestamp\": \"00:00\"}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "ENIGMA_086_011.mp4"
+  },
+  {
+    "query_id": "enigma_test_52",
+    "query": "ENIGMA_086_018.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        7.399799,
+        12.499799
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:07",
+          "box_2d": [
+            322.379,
+            441.461,
+            716.745,
+            614.877
+          ]
+        },
+        {
+          "timestamp": "00:08",
+          "box_2d": [
+            248.826,
+            460.827,
+            654.147,
+            625.44
+          ]
+        },
+        {
+          "timestamp": "00:09",
+          "box_2d": [
+            267.606,
+            463.908,
+            678.404,
+            624.12
+          ]
+        },
+        {
+          "timestamp": "00:10",
+          "box_2d": [
+            241.002,
+            445.423,
+            658.059,
+            606.954
+          ]
+        },
+        {
+          "timestamp": "00:11",
+          "box_2d": [
+            233.959,
+            440.581,
+            648.67,
+            603.873
+          ]
+        },
+        {
+          "timestamp": "00:12",
+          "box_2d": [
+            189.358,
+            419.894,
+            608.764,
+            584.947
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:02\", \"box_2d\": [287, 491, 692, 711]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "ENIGMA_086_018.mp4"
+  },
+  {
+    "query_id": "enigma_test_53",
+    "query": "ENIGMA_086_018.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        15.132799,
+        15.432799
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:15",
+          "box_2d": [
+            428.795,
+            501.32,
+            648.67,
+            679.577
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"03:40\", \"box_2d\": [715, 540, 775, 572]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "ENIGMA_086_018.mp4"
+  },
+  {
+    "query_id": "enigma_test_54",
+    "query": "ENIGMA_086_018.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        85.532799,
+        91.766799
+      ],
+      "boxes": [
+        {
+          "timestamp": "01:26",
+          "box_2d": [
+            895.931,
+            367.958,
+            999.218,
+            692.782
+          ]
+        },
+        {
+          "timestamp": "01:26",
+          "box_2d": [
+            952.269,
+            418.134,
+            999.218,
+            700.264
+          ]
+        },
+        {
+          "timestamp": "01:27",
+          "box_2d": [
+            913.146,
+            341.109,
+            999.218,
+            685.299
+          ]
+        },
+        {
+          "timestamp": "01:28",
+          "box_2d": [
+            863.85,
+            421.655,
+            999.218,
+            764.525
+          ]
+        },
+        {
+          "timestamp": "01:29",
+          "box_2d": [
+            838.028,
+            421.215,
+            999.218,
+            772.887
+          ]
+        },
+        {
+          "timestamp": "01:30",
+          "box_2d": [
+            670.579,
+            375.88,
+            999.218,
+            682.658
+          ]
+        },
+        {
+          "timestamp": "01:31",
+          "box_2d": [
+            546.948,
+            358.275,
+            992.175,
+            699.384
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:05\", \"box_2d\": [491, 169, 946, 529]},\n  {\"timestamp\": \"00:06\", \"box_2d\": [582, 23, 992, 492]},\n  {\"timestamp\": \"00:09\", \"box_2d\": [577, 340, 929, 613]},\n  {\"timestamp\": \"00:10\", \"box_2d\": [886, 219, 1000, 580]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "ENIGMA_086_018.mp4"
+  },
+  {
+    "query_id": "enigma_test_55",
+    "query": "ENIGMA_107_007.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        0.150255,
+        0.583255
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:00",
+          "box_2d": [
+            450.704,
+            150.088,
+            856.025,
+            553.257
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"box_2d\": [487, 151, 893, 552], \"timestamp\": \"00:00\"},\n  {\"box_2d\": [488, 151, 897, 552], \"timestamp\": \"00:01\"}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "ENIGMA_107_007.mp4"
+  },
+  {
+    "query_id": "enigma_test_56",
+    "query": "ENIGMA_107_021.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        10.039038,
+        10.739038
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:10",
+          "box_2d": [
+            489.045,
+            129.842,
+            966.354,
+            551.056
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"box_2d\": [00:09, 00:10, [471, 513, 994, 995]},\n  {\"box_2d\": [00:09, 00:11, [386, 143, 788, 555]},\n  {\"box_2d\": [00:10, 0:11, [524, 126, 958, 508]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "ENIGMA_107_021.mp4"
+  },
+  {
+    "query_id": "enigma_test_57",
+    "query": "ENIGMA_107_031.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        0.398034,
+        1.032034
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:00",
+          "box_2d": [
+            480.438,
+            121.919,
+            904.538,
+            566.021
+          ]
+        },
+        {
+          "timestamp": "00:01",
+          "box_2d": [
+            562.598,
+            161.532,
+            999.218,
+            596.831
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"box_2d\": [460, 126, 876, 584], \"timestamp\": \"00:00\"}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "ENIGMA_107_031.mp4"
+  },
+  {
+    "query_id": "meccano_test_0",
+    "query": "0019_24.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        2.364,
+        3.364
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:03",
+          "box_2d": [
+            271.296,
+            298.958,
+            301.852,
+            332.813
+          ]
+        },
+        {
+          "timestamp": "00:03",
+          "box_2d": [
+            297.222,
+            232.292,
+            327.778,
+            284.896
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:01\", \"box_2d\": [342, 474, 435, 516]},\n  {\"timestamp\": \"00:02\", \"box_2d\": [339, 401, 453, 479]},\n  {\"timestamp\": \"00:03\", \"box_2d\": [385, 294, 502, 370]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0019_24.mp4"
+  },
+  {
+    "query_id": "meccano_test_1",
+    "query": "0019_24.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        29.534,
+        31.364
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:30",
+          "box_2d": [
+            175.926,
+            190.104,
+            701.852,
+            822.917
+          ]
+        },
+        {
+          "timestamp": "00:30",
+          "box_2d": [
+            153.704,
+            308.333,
+            720.37,
+            863.542
+          ]
+        },
+        {
+          "timestamp": "00:31",
+          "box_2d": [
+            445.37,
+            262.5,
+            999.074,
+            815.104
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\n  \"start\": \"00:23\",\n  \"end\": \"00:26\",\n  \"label\": \"take booklet\"\n }\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0019_24.mp4"
+  },
+  {
+    "query_id": "meccano_test_2",
+    "query": "0010_9.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        23.121,
+        24.371
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:24",
+          "box_2d": [
+            1.852,
+            392.188,
+            214.815,
+            573.438
+          ]
+        },
+        {
+          "timestamp": "00:24",
+          "box_2d": [
+            21.296,
+            432.812,
+            239.815,
+            645.833
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\"timestamp\": \"00:27\", \"box_2d\": [0, 436, 150, 583]},\n {\"timestamp\": \"00:29\", \"box_2d\": [0, 442, 270, 627]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0010_9.mp4"
+  },
+  {
+    "query_id": "meccano_test_3",
+    "query": "0010_9.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        14.781,
+        16.281
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:15",
+          "box_2d": [
+            216.667,
+            674.479,
+            371.296,
+            798.438
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"02:54\", \"box_2d\": [232, 678, 390, 799]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0010_9.mp4"
+  },
+  {
+    "query_id": "meccano_test_4",
+    "query": "0010_9.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        26.451,
+        27.951
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:27",
+          "box_2d": [
+            236.111,
+            370.312,
+            322.222,
+            503.125
+          ]
+        },
+        {
+          "timestamp": "00:27",
+          "box_2d": [
+            244.444,
+            410.938,
+            328.704,
+            523.958
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"box_2d\": [231, 678, 391, 799], \"timestamp\": \"00:11\"},\n  {\"box_2d\": [259, 476, 345, 584], \"timestamp\": \"00:15\"}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0010_9.mp4"
+  },
+  {
+    "query_id": "meccano_test_5",
+    "query": "0010_17.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        16.13,
+        17.8
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:16",
+          "box_2d": [
+            80.556,
+            122.917,
+            569.444,
+            806.771
+          ]
+        },
+        {
+          "timestamp": "00:17",
+          "box_2d": [
+            144.444,
+            173.437,
+            683.333,
+            806.25
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"box_2d\": [103, 584, 505, 652], \"label\": \"00:09\"},\n  {\"box_2d\": [98, 582, 506, 656], \"label\": \"00:10\"},\n  {\"box_2d\": [140, 116, 549, 796], \"label\": \"00:11\"},\n  {\"box_2d\": [212, 131, 663, 757], \"label\": \"00:12\"},\n  {\"box_2d\": [155, 444, 655, 1000], \"label\": \"00:13\"},\n  {\"box_2d\": [189, 432, 667, 1000], \"label\": \"00:14\"},\n  {\"box_2d\": [190, 423, 667, 1000], \"label\": \"00:15\"},\n  {\"box_2d\": [189, 401, 655, 1000], \"label\": \"00:16\"},\n  {\"box_2d\": [198, 381, 638, 970], \"label\": \"00:17\"},\n  {\"box_2d\": [168, 394, 652, 1000], \"label\": \"00:18\"}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0010_17.mp4"
+  },
+  {
+    "query_id": "meccano_test_6",
+    "query": "0010_17.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        43.8,
+        45.21
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:44",
+          "box_2d": [
+            176.852,
+            824.479,
+            198.148,
+            843.75
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:20\", \"box_2d\": [108, 857, 197, 900]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0010_17.mp4"
+  },
+  {
+    "query_id": "meccano_test_7",
+    "query": "0010_29.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        36.978,
+        42.398
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:38",
+          "box_2d": [
+            163.889,
+            35.417,
+            737.963,
+            745.313
+          ]
+        },
+        {
+          "timestamp": "00:40",
+          "box_2d": [
+            300.926,
+            254.688,
+            839.815,
+            746.875
+          ]
+        },
+        {
+          "timestamp": "00:41",
+          "box_2d": [
+            297.222,
+            219.792,
+            867.593,
+            749.479
+          ]
+        },
+        {
+          "timestamp": "00:42",
+          "box_2d": [
+            320.37,
+            169.271,
+            855.556,
+            711.979
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\"timestamp\": \"00:09\", \"box_2d\": [214, 40, 957, 760]},\n {\"timestamp\": \"00:10\", \"box_2d\": [299, 63, 835, 754]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0010_29.mp4"
+  },
+  {
+    "query_id": "meccano_test_8",
+    "query": "0010_29.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        44.068,
+        45.978
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:44",
+          "box_2d": [
+            150.0,
+            884.375,
+            167.593,
+            904.167
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:00\", \"box_2d\": [237, 519, 298, 573]},\n  {\"timestamp\": \"00:01\", \"box_2d\": [272, 483, 332, 534]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0010_29.mp4"
+  },
+  {
+    "query_id": "meccano_test_9",
+    "query": "0012_10.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        2.553,
+        3.723
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:03",
+          "box_2d": [
+            46.296,
+            257.292,
+            68.519,
+            267.708
+          ]
+        },
+        {
+          "timestamp": "00:03",
+          "box_2d": [
+            78.704,
+            494.792,
+            112.963,
+            518.75
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:23\", \"box\": [147, 331, 206, 395]},\n  {\"timestamp\": \"00:24\", \"box\": [163, 333, 207, 376]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0012_10.mp4"
+  },
+  {
+    "query_id": "meccano_test_10",
+    "query": "0012_10.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        15.303,
+        16.223
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:16",
+          "box_2d": [
+            95.37,
+            702.083,
+            312.037,
+            791.667
+          ]
+        },
+        {
+          "timestamp": "00:16",
+          "box_2d": [
+            1.852,
+            521.354,
+            283.333,
+            663.542
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"box\": [259, 651, 402, 850], \"timestamp\": \"00:15\"}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0012_10.mp4"
+  },
+  {
+    "query_id": "meccano_test_11",
+    "query": "0019_1.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        30.248,
+        32.078
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:31",
+          "box_2d": [
+            423.148,
+            897.917,
+            503.704,
+            938.021
+          ]
+        },
+        {
+          "timestamp": "00:31",
+          "box_2d": [
+            422.222,
+            913.542,
+            464.815,
+            928.125
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:19\", \"box_2d\": [418, 907, 484, 938]},\n  {\"timestamp\": \"00:20\", \"box_2d\": [108, 783, 190, 836]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0019_1.mp4"
+  },
+  {
+    "query_id": "meccano_test_12",
+    "query": "0019_1.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        25.658,
+        26.498
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:26",
+          "box_2d": [
+            307.407,
+            711.979,
+            519.444,
+            835.938
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:14\", \"box_2d\": [252, 606, 492, 742]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0019_1.mp4"
+  },
+  {
+    "query_id": "meccano_test_13",
+    "query": "0008_8.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        39.205,
+        40.125
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:40",
+          "box_2d": [
+            88.889,
+            791.406,
+            225.0,
+            900.0
+          ]
+        },
+        {
+          "timestamp": "00:40",
+          "box_2d": [
+            172.222,
+            427.344,
+            425.0,
+            587.5
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\"timestamp\":\"00:40\", \"box_2\":[178, 390, 430, 533]},\n {\"timestamp\":\"00:45\", \"box_2\":[168, 492, 444, 604]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0008_8.mp4"
+  },
+  {
+    "query_id": "meccano_test_14",
+    "query": "0011_13.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        13.554,
+        14.474
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:14",
+          "box_2d": [
+            209.259,
+            459.375,
+            246.296,
+            477.083
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:00\", \"box_2d\": [16, 632, 73, 678]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0011_13.mp4"
+  },
+  {
+    "query_id": "meccano_test_15",
+    "query": "0011_13.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        16.554,
+        21.054
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:17",
+          "box_2d": [
+            235.185,
+            904.687,
+            905.556,
+            996.875
+          ]
+        },
+        {
+          "timestamp": "00:21",
+          "box_2d": [
+            225.0,
+            764.062,
+            824.074,
+            996.875
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\"start\": \"00:05\", \"end\": \"00:07\", \"label\": \"take partial model\"},\n {\"start\": \"00:16\", \"end\": \"00:18\", \"label\": \"take partial model\"}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0011_13.mp4"
+  },
+  {
+    "query_id": "meccano_test_16",
+    "query": "0010_1.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        10.352,
+        11.522
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:11",
+          "box_2d": [
+            119.444,
+            446.875,
+            200.0,
+            526.042
+          ]
+        },
+        {
+          "timestamp": "00:11",
+          "box_2d": [
+            262.963,
+            345.833,
+            380.556,
+            496.875
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:07\", \"box_2d\": [136, 451, 222, 541]},\n  {\"timestamp\": \"00:16\", \"box_2d\": [226, 486, 526, 843]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0010_1.mp4"
+  },
+  {
+    "query_id": "meccano_test_17",
+    "query": "0010_1.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        15.022,
+        16.272
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:15",
+          "box_2d": [
+            88.889,
+            405.729,
+            200.926,
+            446.875
+          ]
+        },
+        {
+          "timestamp": "00:16",
+          "box_2d": [
+            88.889,
+            429.167,
+            190.741,
+            481.771
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:18\", \"box_2d\": [60, 417, 180, 461]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0010_1.mp4"
+  },
+  {
+    "query_id": "meccano_test_18",
+    "query": "0010_1.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        43.692,
+        44.852
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:44",
+          "box_2d": [
+            207.407,
+            645.312,
+            256.481,
+            681.771
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:21\", \"box_2d\": [208, 601, 281, 666]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0010_1.mp4"
+  },
+  {
+    "query_id": "meccano_test_19",
+    "query": "0010_1.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        36.102,
+        37.352
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:36",
+          "box_2d": [
+            74.074,
+            380.208,
+            111.111,
+            397.917
+          ]
+        },
+        {
+          "timestamp": "00:37",
+          "box_2d": [
+            3.704,
+            385.937,
+            40.741,
+            411.458
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:21\", \"box_2d\": [68, 409, 116, 448]},\n  {\"timestamp\": \"00:24\", \"box_2d\": [104, 344, 144, 364]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0010_1.mp4"
+  },
+  {
+    "query_id": "meccano_test_20",
+    "query": "0012_18.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        23.972,
+        24.802
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:24",
+          "box_2d": [
+            3.704,
+            506.25,
+            326.852,
+            799.479
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"box_2d\": [2, 513, 334, 808], \"timestamp\": \"00:24\"},\n  {\"box_2d\": [78, 792, 517, 1000], \"timestamp\": \"00:25\"}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0012_18.mp4"
+  },
+  {
+    "query_id": "meccano_test_21",
+    "query": "0008_24.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        11.194,
+        12.034
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:11",
+          "box_2d": [
+            287.5,
+            245.312,
+            384.722,
+            296.875
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:24\", \"box_2d\": [168, 672, 219, 810]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0008_24.mp4"
+  },
+  {
+    "query_id": "meccano_test_22",
+    "query": "0008_24.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        27.694,
+        29.114
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:28",
+          "box_2d": [
+            173.611,
+            24.219,
+            800.0,
+            627.344
+          ]
+        },
+        {
+          "timestamp": "00:29",
+          "box_2d": [
+            98.611,
+            0.781,
+            998.611,
+            631.25
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"box_2d\": [188, 38, 1000, 818], \"timestamp\": \"00:29\"},\n  {\"box_2d\": [238, 93, 1000, 929], \"timestamp\": \"00:30\"},\n  {\"box_2d\": [245, 106, 1000, 932], \"timestamp\": \"00:31\"},\n  {\"box_2d\": [245, 102, 1000, 928], \"timestamp\": \"00:32\"},\n  {\"box_2d\": [243, 102, 1000, 928], \"timestamp\": \"00:33\"},\n  {\"box_2d\": [242, 98, 1000, 927], \"timestamp\": \"00:34\"},\n  {\"box_2d\": [240, 96, 1000, 926], \"timestamp\": \"00:35\"},\n  {\"box_2d\": [239, 94, 1000, 926], \"timestamp\": \"00:36\"},\n  {\"box_2d\": [235, 91, 1000, 926], \"timestamp\": \"00:37\"},\n  {\"box_2d\": [318, 0, 1000, 312], \"timestamp\": \"00:38\"},\n  {\"box_2d\": [232, 29, 1000, 634], \"label\": \"timestamp\": \"00:39\"},\n  {\"box_2d\": [188, 91, 1000, 807], \"timestamp\": \"00:40\"}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0008_24.mp4"
+  },
+  {
+    "query_id": "meccano_test_23",
+    "query": "0008_24.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        7.534,
+        8.364
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:08",
+          "box_2d": [
+            584.722,
+            385.937,
+            783.333,
+            482.812
+          ]
+        },
+        {
+          "timestamp": "00:08",
+          "box_2d": [
+            388.889,
+            158.594,
+            576.389,
+            291.406
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\n  \"timestamp\": \"00:21\",\n  \"box_2\": [0, 488, 381, 804]\n },\n {\n  \"timestamp\": \"00:22\",\n  \"box_2\": [0, 786, 238, 999]\n }\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0008_24.mp4"
+  },
+  {
+    "query_id": "meccano_test_24",
+    "query": "0019_15.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        17.415,
+        18.415
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:18",
+          "box_2d": [
+            3.704,
+            957.812,
+            60.185,
+            997.917
+          ]
+        },
+        {
+          "timestamp": "00:18",
+          "box_2d": [
+            85.185,
+            681.25,
+            156.481,
+            757.292
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:16\", \"box_2d\": [48, 934, 100, 998]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0019_15.mp4"
+  },
+  {
+    "query_id": "meccano_test_25",
+    "query": "0020_24.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        5.866,
+        6.706
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:06",
+          "box_2d": [
+            0.0,
+            441.667,
+            117.593,
+            540.625
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:04\", \"box_2d\": [54, 455, 150, 580]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0020_24.mp4"
+  },
+  {
+    "query_id": "meccano_test_26",
+    "query": "0020_1.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        36.102,
+        36.942
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:37",
+          "box_2d": [
+            408.333,
+            450.521,
+            459.259,
+            473.438
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\n  \"timestamp\": \"00:19\",\n  \"box_2d\": [581, 485, 686, 537]\n },\n {\n  \"timestamp\": \"00:20\",\n  \"box_2d\": [583, 501, 687, 552]\n },\n {\n  \"timestamp\": \"00:21\",\n  \"box_2d\": [527, 433, 608, 471]\n }\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0020_1.mp4"
+  },
+  {
+    "query_id": "meccano_test_27",
+    "query": "0020_1.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        11.942,
+        13.442
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:12",
+          "box_2d": [
+            474.074,
+            906.771,
+            600.926,
+            970.833
+          ]
+        },
+        {
+          "timestamp": "00:13",
+          "box_2d": [
+            608.333,
+            823.958,
+            693.519,
+            905.729
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:06\", \"box_2d\": [346, 604, 607, 683]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0020_1.mp4"
+  },
+  {
+    "query_id": "meccano_test_28",
+    "query": "0020_1.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        0.022,
+        0.852
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:00",
+          "box_2d": [
+            601.852,
+            803.125,
+            737.037,
+            898.958
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:01\", \"box_2d\": [301, 528, 431, 730]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0020_1.mp4"
+  },
+  {
+    "query_id": "meccano_test_29",
+    "query": "0020_1.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        26.942,
+        27.692
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:27",
+          "box_2d": [
+            525.926,
+            627.604,
+            566.667,
+            654.167
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\"timestamp\":\"00:18\", \"box_2d\":[248, 588, 770, 856]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0020_1.mp4"
+  },
+  {
+    "query_id": "meccano_test_30",
+    "query": "0020_1.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        18.602,
+        19.602
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:19",
+          "box_2d": [
+            260.185,
+            405.729,
+            312.963,
+            451.042
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"box_2d\": [288, 642, 442, 759], \"timestamp\": \"00:26\"}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0020_1.mp4"
+  },
+  {
+    "query_id": "meccano_test_31",
+    "query": "0011_15.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        34.505,
+        35.255
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:35",
+          "box_2d": [
+            310.185,
+            868.229,
+            384.259,
+            916.667
+          ]
+        },
+        {
+          "timestamp": "00:35",
+          "box_2d": [
+            304.63,
+            872.396,
+            362.963,
+            904.167
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:15\", \"box_2d\": [238, 735, 719, 963]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0011_15.mp4"
+  },
+  {
+    "query_id": "meccano_test_32",
+    "query": "0011_15.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        2.505,
+        3.255
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:03",
+          "box_2d": [
+            236.111,
+            468.229,
+            403.704,
+            527.604
+          ]
+        },
+        {
+          "timestamp": "00:03",
+          "box_2d": [
+            255.556,
+            450.521,
+            384.259,
+            521.875
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"02:48\", \"box_2d\": [233, 468, 395, 529]},\n  {\"timestamp\": \"02:49\", \"box_2d\": [200, 442, 334, 520]},\n  {\"timestamp\": \"02:50\", \"box_2d\": [181, 436, 317, 508]},\n  {\"timestamp\": \"02:51\", \"box_2d\": [181, 436, 317, 508]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0011_15.mp4"
+  },
+  {
+    "query_id": "meccano_test_33",
+    "query": "0011_15.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        33.505,
+        34.335
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:34",
+          "box_2d": [
+            302.778,
+            593.229,
+            362.963,
+            626.042
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:11\", \"box_2d\": [338, 846, 1000, 1000]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0011_15.mp4"
+  },
+  {
+    "query_id": "meccano_test_34",
+    "query": "0012_11.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        18.751,
+        19.501
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:19",
+          "box_2d": [
+            202.778,
+            509.896,
+            250.926,
+            537.5
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:10\", \"box_2d\": [217, 513, 304, 545]},\n  {\"timestamp\": \"00:11\", \"box_2d\": [146, 553, 226, 589]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0012_11.mp4"
+  },
+  {
+    "query_id": "meccano_test_35",
+    "query": "0012_11.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        24.001,
+        24.921
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:24",
+          "box_2d": [
+            58.333,
+            733.854,
+            256.481,
+            829.688
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:24\", \"box_2\": [61, 735, 244, 829]},\n  {\"timestamp\": \"00:25\", \"box_\": [77, 517, 255, 631]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0012_11.mp4"
+  },
+  {
+    "query_id": "meccano_test_36",
+    "query": "0010_14.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        35.063,
+        36.563
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:35",
+          "box_2d": [
+            19.444,
+            685.937,
+            44.444,
+            723.437
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:17\", \"box_2d\": [17, 707, 105, 742]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0010_14.mp4"
+  },
+  {
+    "query_id": "meccano_test_37",
+    "query": "0020_11.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        7.996,
+        8.826
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:08",
+          "box_2d": [
+            0.0,
+            277.083,
+            288.889,
+            628.646
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:20\", \"box_2d\": [0, 2, 532, 258]},\n  {\"timestamp\": \"00:21\", \"box_2d\": [0, 245, 715, 486]},\n  {\"timestamp\": \"00:22\", \"box_2d\": [0, 269, 650, 507]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0020_11.mp4"
+  },
+  {
+    "query_id": "meccano_test_38",
+    "query": "0020_11.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        38.166,
+        38.826
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:38",
+          "box_2d": [
+            23.148,
+            872.396,
+            70.37,
+            918.75
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\"timestamp\": \"00:28\", \"box_2d\": [41, 451, 142, 537]},\n {\"timestamp\": \"00:29\", \"box_2d\": [17, 461, 125, 537]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0020_11.mp4"
+  },
+  {
+    "query_id": "meccano_test_39",
+    "query": "0020_11.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        38.576,
+        40.416
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:38",
+          "box_2d": [
+            23.148,
+            872.396,
+            70.37,
+            918.75
+          ]
+        },
+        {
+          "timestamp": "00:40",
+          "box_2d": [
+            74.074,
+            783.333,
+            134.259,
+            853.646
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\"timestamp\": \"00:46\", \"box_2d\": [145, 946, 298, 1000]},\n {\"timestamp\": \"00:48\", \"box_2d\": [40, 452, 140, 508]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0020_11.mp4"
+  },
+  {
+    "query_id": "meccano_test_40",
+    "query": "0012_5.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        5.067,
+        5.987
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:05",
+          "box_2d": [
+            258.333,
+            634.896,
+            318.519,
+            679.167
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"box_2d\": [7, 617, 317, 693], \"timestamp\": \"00:05\"},\n  {\"box_2d\": [187, 532, 453, 587], \"timestamp\": \"00:06\"},\n  {\"box_2d\": [187, 529, 453, 631], \"timestamp\": \"00:07\"},\n  {\"box_2d\": [187, 529, 568, 631], \"timestamp\": \"00:08\"}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0012_5.mp4"
+  },
+  {
+    "query_id": "meccano_test_41",
+    "query": "0009_27.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        24.25,
+        25.08
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:25",
+          "box_2d": [
+            29.63,
+            650.521,
+            93.519,
+            665.625
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"box_2d\": [78, 501, 172, 639], \"timestamp\": \"00:24\"}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0009_27.mp4"
+  },
+  {
+    "query_id": "meccano_test_42",
+    "query": "0008_4.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        46.977,
+        47.727
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:47",
+          "box_2d": [
+            384.722,
+            511.719,
+            501.389,
+            689.063
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:47\", \"box\": [386, 469, 529, 651]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0008_4.mp4"
+  },
+  {
+    "query_id": "meccano_test_43",
+    "query": "0012_8.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        9.659,
+        10.999
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:11",
+          "box_2d": [
+            37.963,
+            640.625,
+            60.185,
+            660.937
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"box_2\": [140, 757, 252, 796], \"timestamp\": \"00:07\"}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0012_8.mp4"
+  },
+  {
+    "query_id": "meccano_test_44",
+    "query": "0012_13.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        24.735,
+        26.315
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:25",
+          "box_2d": [
+            358.333,
+            721.354,
+            453.704,
+            820.312
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"box_2d\": [357, 747, 437, 810], \"timestamp\": \"00:24\"}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0012_13.mp4"
+  },
+  {
+    "query_id": "meccano_test_45",
+    "query": "0012_13.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        22.065,
+        23.065
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:22",
+          "box_2d": [
+            252.778,
+            821.354,
+            442.593,
+            898.958
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"box\": [00:22, 00:24, 893], \"timestamp\": \"take screwdriver\"}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0012_13.mp4"
+  },
+  {
+    "query_id": "meccano_test_46",
+    "query": "0020_15.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        41.085,
+        42.005
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:41",
+          "box_2d": [
+            0.0,
+            3.125,
+            425.0,
+            602.604
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\"timestamp\":\"00:23\", \"box_2d\":[0, 4, 480, 690]},\n {\"timestamp\":\"00:24\", \"box_2d\":[0, 60, 488, 692]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0020_15.mp4"
+  },
+  {
+    "query_id": "meccano_test_47",
+    "query": "0020_15.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        12.665,
+        13.255
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:13",
+          "box_2d": [
+            23.148,
+            647.396,
+            116.667,
+            690.104
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\"timestamp\":\"00:17\", \"box_2d\":[275, 388, 348, 458]},\n {\"timestamp\":\"00:18\", \"box_2d\":[380, 404, 532, 453]},\n {\"timestamp\":\"00:19\", \"box_2d\":[469, 433, 542, 464]},\n {\"timestamp\":\"00:20\", \"box_2d\":[504, 426, 610, 484]},\n {\"timestamp\":\"00:21\", \"box_2d\":[473, 431, 596, 508]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0020_15.mp4"
+  },
+  {
+    "query_id": "meccano_test_48",
+    "query": "0020_15.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        26.255,
+        27.835
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:27",
+          "box_2d": [
+            86.111,
+            386.458,
+            457.407,
+            613.542
+          ]
+        },
+        {
+          "timestamp": "00:27",
+          "box_2d": [
+            118.519,
+            457.813,
+            560.185,
+            633.333
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\n  \"timestamp\": \"00:13\",\n  \"box_2d\": [3, 484, 439, 663]\n },\n {\n  \"timestamp\": \"00:14\",\n  \"box_2d\": [3, 483, 437, 663]\n },\n {\n  \"timestamp\": \"00:26\",\n  \"box_2d\": [0, 507, 342, 715]\n }\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0020_15.mp4"
+  },
+  {
+    "query_id": "meccano_test_49",
+    "query": "0020_15.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        13.085,
+        13.915
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:13",
+          "box_2d": [
+            23.148,
+            647.396,
+            116.667,
+            690.104
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\"timestamp\": \"00:10\", \"box_2d\": [41, 381, 137, 444]},\n {\"timestamp\": \"00:11\", \"box_2d\": [51, 391, 126, 442]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0020_15.mp4"
+  },
+  {
+    "query_id": "meccano_test_50",
+    "query": "0019_26.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        2.689,
+        3.689
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:03",
+          "box_2d": [
+            90.741,
+            725.521,
+            587.963,
+            981.25
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\"box_2d\": [133, 706, 421, 954], \"timestamp\": \"00:07\"},\n {\"box_2d\": [206, 638, 412, 869], \"timestamp\": \"00:09\"}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0019_26.mp4"
+  },
+  {
+    "query_id": "meccano_test_51",
+    "query": "0008_12.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        14.512,
+        15.512
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:15",
+          "box_2d": [
+            12.5,
+            725.0,
+            230.556,
+            810.156
+          ]
+        },
+        {
+          "timestamp": "00:15",
+          "box_2d": [
+            2.778,
+            722.656,
+            195.833,
+            801.562
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\"box_2d\": [0, 630, 87, 725], \"timestamp\": \"00:00\"},\n {\"box_2d\": [27, 752, 192, 881], \"timestamp\": \"00:02\"}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0008_12.mp4"
+  },
+  {
+    "query_id": "meccano_test_52",
+    "query": "0008_12.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        20.932,
+        21.852
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:21",
+          "box_2d": [
+            265.278,
+            648.438,
+            326.389,
+            664.062
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\"timestamp\": \"00:30\", \"box_2\": [88, 521, 161, 567]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0008_12.mp4"
+  },
+  {
+    "query_id": "meccano_test_53",
+    "query": "0008_12.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        43.852,
+        44.682
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:44",
+          "box_2d": [
+            97.222,
+            686.719,
+            305.556,
+            853.125
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\"timestamp\": \"00:44\", \"box\": [0, 520, 168, 713]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0008_12.mp4"
+  },
+  {
+    "query_id": "meccano_test_54",
+    "query": "0008_6.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        1.296,
+        1.966
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:02",
+          "box_2d": [
+            526.389,
+            719.531,
+            570.833,
+            748.437
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:08\", \"box\": [0.353, 0.553, 0.441, 0.603]},\n  {\"timestamp\": \"00:09\", \"box\": [0.358, 0.575, 0.408, 0.607]},\n  {\"timestamp\": \"00:10\", \"box\": [0.370, 0.584, 0.404, 0.612]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0008_6.mp4"
+  },
+  {
+    "query_id": "meccano_test_55",
+    "query": "0008_6.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        12.716,
+        13.796
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:13",
+          "box_2d": [
+            318.056,
+            347.656,
+            547.222,
+            503.906
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\"box_2d\": [189, 686, 442, 856], \"timestamp\": \"00:03\"},\n {\"box_2d\": [179, 396, 388, 563], \"timestamp\": \"00:13\"},\n {\"box_2d\": [303, 815, 684, 963], \"timestamp\": \"00:47\"}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0008_6.mp4"
+  },
+  {
+    "query_id": "meccano_test_56",
+    "query": "0008_6.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        7.546,
+        8.296
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:08",
+          "box_2d": [
+            440.278,
+            623.437,
+            490.278,
+            664.062
+          ]
+        },
+        {
+          "timestamp": "00:08",
+          "box_2d": [
+            397.222,
+            609.375,
+            458.333,
+            659.375
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\"timestamp\": \"00:01\", \"box\": [549, 674, 608, 706]},\n {\"timestamp\": \"00:08\", \"box\": [357, 562, 410, 583]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0008_6.mp4"
+  },
+  {
+    "query_id": "meccano_test_57",
+    "query": "0008_6.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        39.716,
+        40.466
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:40",
+          "box_2d": [
+            222.222,
+            499.219,
+            400.0,
+            640.625
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\"box_2d\": [310, 437, 444, 558], \"timestamp\": \"00:40\"}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0008_6.mp4"
+  },
+  {
+    "query_id": "meccano_test_58",
+    "query": "0012_14.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        13.093,
+        13.933
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:14",
+          "box_2d": [
+            384.259,
+            589.063,
+            440.741,
+            644.792
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:13\", \"box_2d\": [281, 602, 344, 665]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0012_14.mp4"
+  },
+  {
+    "query_id": "meccano_test_59",
+    "query": "0012_3.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        10.592,
+        11.672
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:11",
+          "box_2d": [
+            886.111,
+            335.417,
+            991.667,
+            534.375
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:05\", \"box_2d\": [713, 427, 1000, 634]},\n  {\"timestamp\": \"00:11\", \"box_2d\": [490, 394, 735, 574]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0012_3.mp4"
+  },
+  {
+    "query_id": "meccano_test_60",
+    "query": "0012_3.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        17.172,
+        18.012
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:18",
+          "box_2d": [
+            532.407,
+            469.792,
+            609.259,
+            491.667
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\"box_2d\": [721, 493, 824, 538], \"timestamp\": \"00:11\"},\n {\"box_2d\": [676, 501, 750, 535], \"timestamp\": \"00:17\"}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0012_3.mp4"
+  },
+  {
+    "query_id": "meccano_test_61",
+    "query": "0009_9.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        16.42,
+        17.42
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:17",
+          "box_2d": [
+            0.0,
+            539.062,
+            275.0,
+            748.437
+          ]
+        },
+        {
+          "timestamp": "00:17",
+          "box_2d": [
+            1.852,
+            531.25,
+            270.37,
+            842.187
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"box_2d\": [0, 563, 298, 805], \"timestamp\": \"00:13\"}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0009_9.mp4"
+  },
+  {
+    "query_id": "meccano_test_62",
+    "query": "0011_20.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        5.783,
+        6.693
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:06",
+          "box_2d": [
+            244.444,
+            915.625,
+            473.148,
+            979.167
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:03\", \"box_2d\": [0, 922, 102, 1000]},\n  {\"timestamp\": \"00:04\", \"box_2d\": [14, 822, 126, 999]},\n  {\"timestamp\": \"00:05\", \"box_2d\": [0, 868, 224, 923]},\n  {\"timestamp\": \"00:06\", \"box_2d\": [0, 856, 336, 908]},\n  {\"timestamp\": \"00:07\", \"box_2d\": [0, 775, 222, 936]},\n  {\"timestamp\": \"00:08\", \"box_2d\": [0, 755, 201, 862]},\n  {\"timestamp\": \"00:09\", \"box_2d\": [0, 927, 118, 999]},\n  {\"timestamp\": \"00:11\", \"box_2d\": [0, 810, 201, 1000]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0011_20.mp4"
+  },
+  {
+    "query_id": "meccano_test_63",
+    "query": "0020_26.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        0.001,
+        0.831
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:00",
+          "box_2d": [
+            0.0,
+            543.229,
+            61.111,
+            584.375
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"box_2d\": [138, 518, 223, 545], \"timestamp\": \"00:16\"},\n  {\"box_2d\": [140, 516, 222, 536], \"timestamp\": \"00:17\"},\n  {\"box_2d\": [164, 532, 246, 552], \"timestamp\": \"00:18\"}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0020_26.mp4"
+  },
+  {
+    "query_id": "meccano_test_64",
+    "query": "0012_0.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        23.0,
+        24.0
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:24",
+          "box_2d": [
+            432.407,
+            460.938,
+            495.37,
+            493.75
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:14\", \"box_2d\": [504, 601, 641, 755]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0012_0.mp4"
+  },
+  {
+    "query_id": "meccano_test_65",
+    "query": "0012_0.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        5.33,
+        6.83
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:06",
+          "box_2d": [
+            216.667,
+            221.875,
+            303.704,
+            290.104
+          ]
+        },
+        {
+          "timestamp": "00:06",
+          "box_2d": [
+            184.259,
+            210.417,
+            281.481,
+            279.687
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"box_2d\": [0, 321, 114, 407], \"timestamp\": \"00:06\"}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0012_0.mp4"
+  },
+  {
+    "query_id": "meccano_test_66",
+    "query": "0012_0.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        11.42,
+        12.25
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:12",
+          "box_2d": [
+            208.333,
+            556.25,
+            279.63,
+            605.208
+          ]
+        },
+        {
+          "timestamp": "00:12",
+          "box_2d": [
+            276.852,
+            583.333,
+            391.667,
+            642.708
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:11\", \"box_2d\": [197, 568, 269, 631]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0012_0.mp4"
+  },
+  {
+    "query_id": "meccano_test_67",
+    "query": "0012_0.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        14.58,
+        15.42
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:15",
+          "box_2d": [
+            485.185,
+            590.625,
+            534.259,
+            605.208
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:14\", \"box_2d\": [507, 601, 610, 663]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0012_0.mp4"
+  },
+  {
+    "query_id": "meccano_test_68",
+    "query": "0009_28.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        11.08,
+        11.83
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:11",
+          "box_2d": [
+            0.0,
+            711.979,
+            291.667,
+            842.187
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\n  \"box_2d\": [0, 532, 232, 882],\n  \"timestamp\": \"00:12\"\n }\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0009_28.mp4"
+  },
+  {
+    "query_id": "meccano_test_69",
+    "query": "0011_9.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        42.251,
+        43.081
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:43",
+          "box_2d": [
+            232.407,
+            514.062,
+            251.852,
+            521.875
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"box_2d\": [587, 810, 878, 839], \"timestamp\": \"00:06\"},\n  {\"box_2d\": [591, 793, 731, 829], \"timestamp\": \"00:08\"},\n  {\"box_2d\": [318, 835, 362, 895], \"timestamp\": \"00:09\"},\n  {\"box_2d\": [386, 921, 461, 974], \"timestamp\": \"00:09\"},\n  {\"box_2d\": [318, 835, 362, 894], \"timestamp\": \"00:10\"},\n  {\"box_2d\": [294, 838, 362, 899], \"timestamp\": \"00:11\"},\n  {\"box_2d\": [701, 902, 830, 934], \"timestamp\": \"00:16\"},\n  {\"box_2d\": [576, 978, 730, 1000], \"timestamp\": \"00:17\"},\n  {\"box_2d\": [582, 879, 631, 928], \"timestamp\": \"00:19\"},\n  {\"box_2d\": [353, 812, 538, 868], \"timestamp\": \"00:23\"},\n  {\"box_2d\": [571, 636, 668, 686], \"label\": \"timestamp\": \"00:24\"}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0011_9.mp4"
+  },
+  {
+    "query_id": "meccano_test_70",
+    "query": "0012_28.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        3.695,
+        4.525
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:04",
+          "box_2d": [
+            462.963,
+            1.042,
+            997.222,
+            640.104
+          ]
+        },
+        {
+          "timestamp": "00:04",
+          "box_2d": [
+            459.259,
+            52.604,
+            997.222,
+            632.812
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:03\", \"box_2d\": [37, 57, 743, 778]},\n  {\"timestamp\": \"00:04\", \"box_2\": [527, 114, 1000, 616]},\n  {\"timestamp\": \"00:05\", \"box_2\": [507, 0, 1000, 584]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0012_28.mp4"
+  },
+  {
+    "query_id": "meccano_test_71",
+    "query": "0012_28.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        1.355,
+        2.695
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:02",
+          "box_2d": [
+            447.222,
+            86.458,
+            999.074,
+            670.312
+          ]
+        },
+        {
+          "timestamp": "00:02",
+          "box_2d": [
+            131.481,
+            101.042,
+            790.741,
+            753.125
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"box_2d\": [0, 80, 753, 783], \"timestamp\": \"00:02\"},\n  {\"box_2d\": [0, 70, 712, 775], \"timestamp\": \"00:03\"}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0012_28.mp4"
+  },
+  {
+    "query_id": "meccano_test_72",
+    "query": "0012_28.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        15.855,
+        16.525
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:16",
+          "box_2d": [
+            135.185,
+            534.896,
+            174.074,
+            584.896
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\"timestamp\": \"00:16\", \"box_2d\": [51, 529, 107, 596]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0012_28.mp4"
+  },
+  {
+    "query_id": "meccano_test_73",
+    "query": "0020_28.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        5.875,
+        6.875
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:06",
+          "box_2d": [
+            160.185,
+            769.271,
+            394.444,
+            872.396
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:05\", \"box_2d\": [130, 776, 342, 846]},\n  {\"timestamp\": \"00:19\", \"box_2d\": [0, 688, 142, 822]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0020_28.mp4"
+  },
+  {
+    "query_id": "meccano_test_74",
+    "query": "0020_28.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        26.295,
+        28.295
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:27",
+          "box_2d": [
+            2.778,
+            431.771,
+            237.037,
+            669.792
+          ]
+        },
+        {
+          "timestamp": "00:27",
+          "box_2d": [
+            5.556,
+            539.583,
+            129.63,
+            677.604
+          ]
+        },
+        {
+          "timestamp": "00:28",
+          "box_2d": [
+            0.0,
+            429.167,
+            323.148,
+            670.833
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\"box_2d\": [0, 825, 575, 999], \"timestamp\": \"00:18\"},\n {\"box_2d\": [0, 865, 417, 1000], \"timestamp\": \"00:24\"}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0020_28.mp4"
+  },
+  {
+    "query_id": "meccano_test_75",
+    "query": "0020_28.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        41.625,
+        42.295
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:42",
+          "box_2d": [
+            144.444,
+            925.521,
+            230.556,
+            993.75
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:20\", \"box_2d\": [0, 545, 107, 653]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0020_28.mp4"
+  },
+  {
+    "query_id": "meccano_test_76",
+    "query": "0009_15.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        23.25,
+        24.33
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:24",
+          "box_2d": [
+            0.0,
+            616.667,
+            103.704,
+            683.854
+          ]
+        },
+        {
+          "timestamp": "00:24",
+          "box_2d": [
+            0.0,
+            615.104,
+            117.593,
+            683.333
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\n  \"timestamp\": \"00:00 - 00:02\",\n  \"box\": [0, 615, 66, 680]\n }\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0009_15.mp4"
+  },
+  {
+    "query_id": "meccano_test_77",
+    "query": "0008_9.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        43.324,
+        44.244
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:43",
+          "box_2d": [
+            265.278,
+            657.031,
+            311.111,
+            672.656
+          ]
+        },
+        {
+          "timestamp": "00:44",
+          "box_2d": [
+            575.0,
+            631.25,
+            634.722,
+            664.844
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:01\", \"box\": [0.493, 274, 0.443, 584]},\n  {\"timestamp\": \"00:02\", \"box\": [0.274, 404, 0.435, 568]},\n  {\"timestamp\": \"00:03\", \"box\": [0.297, 437, 0.446, 524]},\n  {\"timestamp\": \"00:04\", \"box\": [0.297, 439, 0.468, 501]},\n  {\"timestamp\": \"00:05\", \"box\": [0.334, 444, 0.477, 497]},\n  {\"timestamp\": \"00:06\", \"box\": [0.329, 446, 0.474, 497]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0008_9.mp4"
+  },
+  {
+    "query_id": "meccano_test_78",
+    "query": "0008_9.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        37.744,
+        38.574
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:38",
+          "box_2d": [
+            391.667,
+            774.219,
+            416.667,
+            786.719
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\"timestamp\": \"00:01\", \"box\": [0.428, 0.443, 0.457, 0.565]},\n {\"timestamp\": \"00:02\", \"box\": [0.437, 0.449, 0.442, 0.565]},\n {\"timestamp\": \"00:03\", \"box\": [0.402, 0.413, 0.449, 0.528]},\n {\"timestamp\": \"00:04\", \"box\": [0.407, 0.444, 0.467, 0.495]},\n {\"timestamp\": \"00:05\", \"box\": [0.418, 0.444, 0.449, 0.505]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0008_9.mp4"
+  },
+  {
+    "query_id": "meccano_test_79",
+    "query": "0008_9.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        42.494,
+        43.494
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:43",
+          "box_2d": [
+            95.833,
+            698.438,
+            119.444,
+            714.063
+          ]
+        },
+        {
+          "timestamp": "00:43",
+          "box_2d": [
+            29.167,
+            703.906,
+            51.389,
+            720.313
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"box_2d\": [46, 307, 169, 408], \"timestamp\": \"00:36\"}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0008_9.mp4"
+  },
+  {
+    "query_id": "meccano_test_80",
+    "query": "0008_9.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        36.324,
+        38.074
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:37",
+          "box_2d": [
+            109.722,
+            378.125,
+            148.611,
+            402.344
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:00\", \"box\": [504, 348, 991, 574]},\n  {\"timestamp\": \"00:01\", \"box\": [178, 502, 991, 993]},\n  {\"timestamp\": \"00:19\", \"box\": [82, 775, 469, 998]},\n  {\"timestamp\": \"00:36\", \"box\": [0, 319, 178, 411]},\n  {\"timestamp\": \"00:38\", \"box\": [219, 762, 706, 993]},\n  {\"timestamp\": \"00:43\", \"box\": [419, 622, 991, 991]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0008_9.mp4"
+  },
+  {
+    "query_id": "meccano_test_81",
+    "query": "0008_9.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        11.654,
+        12.404
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:12",
+          "box_2d": [
+            284.722,
+            503.125,
+            463.889,
+            636.719
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\n  \"timestamp\": \"00:12\",\n  \"box_2\": [223, 706, 323, 848]\n }\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0008_9.mp4"
+  },
+  {
+    "query_id": "meccano_test_82",
+    "query": "0011_8.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        20.615,
+        21.865
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:21",
+          "box_2d": [
+            612.963,
+            899.479,
+            689.815,
+            932.813
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"03:45\", \"box_2d\": [130, 948, 368, 1000]},\n  {\"timestamp\": \"03:46\", \"box_2d\": [131, 951, 370, 1000]},\n  {\"timestamp\": \"03:47\", \"box_2d\": [131, 951, 370, 1000]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0011_8.mp4"
+  },
+  {
+    "query_id": "meccano_test_83",
+    "query": "0019_29.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        30.082,
+        31.672
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:30",
+          "box_2d": [
+            1.852,
+            441.667,
+            351.852,
+            744.271
+          ]
+        },
+        {
+          "timestamp": "00:31",
+          "box_2d": [
+            1.852,
+            449.479,
+            351.852,
+            755.208
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:00\", \"box_2d\": [0, 684, 256, 1000]},\n  {\"timestamp\": \"00:01\", \"box_2d\": [0, 650, 318, 999]},\n  {\"timestamp\": \"00:02\", \"box_2d\": [0, 634, 321, 997]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0019_29.mp4"
+  },
+  {
+    "query_id": "meccano_test_84",
+    "query": "0020_13.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        0.62,
+        1.46
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:01",
+          "box_2d": [
+            54.63,
+            821.875,
+            135.185,
+            864.583
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"box_2d\": [0, 482, 237, 584], \"timestamp\": \"00:36\"},\n  {\"box_2d\": [0, 461, 335, 566], \"timestamp\": \"00:38\"},\n  {\"box_2d\": [0, 585, 245, 719], \"timestamp\": \"00:40\"},\n  {\"box_2d\": [0, 467, 301, 582], \"timestamp\": \"00:42\"},\n  {\"box_2d\": [0, 368, 314, 539], \"timestamp\": \"00:44\"}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0020_13.mp4"
+  },
+  {
+    "query_id": "meccano_test_85",
+    "query": "0020_13.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        27.21,
+        28.54
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:28",
+          "box_2d": [
+            1.852,
+            847.396,
+            138.889,
+            930.729
+          ]
+        },
+        {
+          "timestamp": "00:28",
+          "box_2d": [
+            3.704,
+            950.0,
+            68.519,
+            996.354
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:19\", \"box_2d\": [0, 842, 116, 936]},\n  {\"timestamp\": \"00:20\", \"box_2d\": [88, 650, 467, 777]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0020_13.mp4"
+  },
+  {
+    "query_id": "meccano_test_86",
+    "query": "0020_13.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        31.46,
+        32.71
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:32",
+          "box_2d": [
+            45.37,
+            984.375,
+            84.259,
+            998.437
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:22\", \"box_2d\": [0, 527, 60, 570]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0020_13.mp4"
+  },
+  {
+    "query_id": "meccano_test_87",
+    "query": "0008_2.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        6.159,
+        7.659
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:06",
+          "box_2d": [
+            377.778,
+            535.937,
+            561.111,
+            658.594
+          ]
+        },
+        {
+          "timestamp": "00:07",
+          "box_2d": [
+            356.944,
+            551.562,
+            544.444,
+            667.188
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"box_2d\": [730, 427, 834, 569], \"timestamp\": \"00:43\"}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0008_2.mp4"
+  },
+  {
+    "query_id": "meccano_test_88",
+    "query": "0008_2.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        39.659,
+        40.569
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:40",
+          "box_2d": [
+            519.444,
+            677.344,
+            623.611,
+            728.906
+          ]
+        }
+      ]
+    },
+    "raw_pred": "The action is present in the video during the following time segment: 00:43 - 00:45.",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0008_2.mp4"
+  },
+  {
+    "query_id": "meccano_test_89",
+    "query": "0008_20.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        21.557,
+        22.557
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:22",
+          "box_2d": [
+            5.556,
+            310.937,
+            583.333,
+            527.344
+          ]
+        },
+        {
+          "timestamp": "00:22",
+          "box_2d": [
+            2.778,
+            278.906,
+            640.278,
+            525.781
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\"box_2d\": [0, 442, 332, 668], \"timestamp\": \"00:01\"}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0008_20.mp4"
+  },
+  {
+    "query_id": "meccano_test_90",
+    "query": "0020_9.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        10.451,
+        12.031
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:11",
+          "box_2d": [
+            200.926,
+            490.625,
+            632.407,
+            642.188
+          ]
+        },
+        {
+          "timestamp": "00:11",
+          "box_2d": [
+            166.667,
+            470.313,
+            669.444,
+            652.083
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:13\", \"box_2d\": [189, 623, 679, 874]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0020_9.mp4"
+  },
+  {
+    "query_id": "meccano_test_91",
+    "query": "0020_9.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        8.451,
+        9.371
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:09",
+          "box_2d": [
+            341.667,
+            902.083,
+            503.704,
+            942.708
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\"timestamp\": \"00:07\", \"box_2d\": [178, 796, 353, 874]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0020_9.mp4"
+  },
+  {
+    "query_id": "meccano_test_92",
+    "query": "0020_9.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        24.201,
+        25.281
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:25",
+          "box_2d": [
+            10.185,
+            738.542,
+            145.37,
+            802.083
+          ]
+        },
+        {
+          "timestamp": "00:25",
+          "box_2d": [
+            12.037,
+            836.458,
+            106.481,
+            881.771
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:19\", \"box_2d\": [197, 892, 375, 974]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0020_9.mp4"
+  },
+  {
+    "query_id": "meccano_test_93",
+    "query": "0020_9.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        2.781,
+        3.451
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:03",
+          "box_2d": [
+            420.37,
+            892.188,
+            603.704,
+            975.0
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:02\", \"box_2d\": [486, 898, 706, 996]},\n  {\"timestamp\": \"00:03\", \"box_2d\": [290, 747, 474, 856]},\n  {\"timestamp\": \"00:06\", \"box_2d\": [181, 796, 353, 874]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0020_9.mp4"
+  },
+  {
+    "query_id": "meccano_test_94",
+    "query": "0011_19.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        14.638,
+        16.978
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:15",
+          "box_2d": [
+            226.852,
+            893.75,
+            419.444,
+            978.646
+          ]
+        },
+        {
+          "timestamp": "00:16",
+          "box_2d": [
+            250.0,
+            867.188,
+            387.963,
+            981.25
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:00\", \"box_2d\": [0, 750, 440, 1000],\n  {\"timestamp\": \"00:01\", \"box_2d\": [0, 769, 412, 1000],\n  {\"timestamp\": \"00:02\", \"box_2d\": [0, 712, 388, 950]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0011_19.mp4"
+  },
+  {
+    "query_id": "meccano_test_95",
+    "query": "0011_6.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        41.334,
+        42.164
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:42",
+          "box_2d": [
+            554.63,
+            706.25,
+            656.481,
+            811.979
+          ]
+        },
+        {
+          "timestamp": "00:42",
+          "box_2d": [
+            538.889,
+            713.542,
+            643.519,
+            857.292
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:18\", \"box_2d\": [123, 963, 219, 1000]},\n  {\"timestamp\": \"00:19\", \"box_2d\": [556, 704, 656, 835]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0011_6.mp4"
+  },
+  {
+    "query_id": "meccano_test_96",
+    "query": "0011_6.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        12.504,
+        13.254
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:13",
+          "box_2d": [
+            537.037,
+            742.708,
+            679.63,
+            816.146
+          ]
+        },
+        {
+          "timestamp": "00:13",
+          "box_2d": [
+            515.741,
+            739.583,
+            656.481,
+            790.104
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:09\", \"box_2d\": [542, 751, 657, 788]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0011_6.mp4"
+  },
+  {
+    "query_id": "meccano_test_97",
+    "query": "0020_2.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        15.215,
+        16.045
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:16",
+          "box_2d": [
+            352.778,
+            551.562,
+            375.926,
+            573.438
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:06\", \"box_2d\": [303, 219, 626, 487]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0020_2.mp4"
+  },
+  {
+    "query_id": "meccano_test_98",
+    "query": "0020_2.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        2.375,
+        3.045
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:03",
+          "box_2d": [
+            418.519,
+            450.0,
+            444.444,
+            472.917
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:02\", \"box_2d\": [303, 226, 620, 488]},\n  {\"timestamp\": \"00:04\", \"box_2d\": [412, 149, 998, 474]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0020_2.mp4"
+  },
+  {
+    "query_id": "meccano_test_99",
+    "query": "0020_29.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        28.648,
+        29.318
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:29",
+          "box_2d": [
+            76.852,
+            683.854,
+            254.63,
+            785.937
+          ]
+        },
+        {
+          "timestamp": "00:29",
+          "box_2d": [
+            93.519,
+            459.375,
+            292.593,
+            613.021
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:09\", \"box_2d\": [0, 680, 153, 793]},\n  {\"timestamp\": \"00:10\", \"box_2d\": [0, 501, 62, 606]},\n  {\"timestamp\": \"00:24\", \"box_2d\": [0, 683, 271, 846]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0020_29.mp4"
+  },
+  {
+    "query_id": "meccano_test_100",
+    "query": "0020_16.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        11.357,
+        12.027
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:12",
+          "box_2d": [
+            193.519,
+            491.146,
+            341.667,
+            610.938
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\n  \"timestamp\": \"00:08\",\n  \"box_2d\": [304, 598, 419, 690]\n }\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0020_16.mp4"
+  },
+  {
+    "query_id": "meccano_test_101",
+    "query": "0020_27.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        20.103,
+        21.683
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:20",
+          "box_2d": [
+            62.963,
+            867.188,
+            571.296,
+            997.396
+          ]
+        },
+        {
+          "timestamp": "00:21",
+          "box_2d": [
+            93.519,
+            866.146,
+            609.259,
+            995.833
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\n  \"box_2d\": [0, 470, 334, 659],\n  \"timestamp\": \"00:03\"\n },\n {\n  \"box_2d\": [0, 505, 500, 804],\n  \"timestamp\": \"00:09\"\n },\n {\n  \"box_2d\": [0, 515, 344, 767],\n  \"timestamp\": \"00:14\"\n }\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0020_27.mp4"
+  },
+  {
+    "query_id": "meccano_test_102",
+    "query": "0020_27.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        3.023,
+        3.773
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:03",
+          "box_2d": [
+            15.741,
+            906.771,
+            140.741,
+            997.917
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\"timestamp\":\"00:03\", \"box_2d\":[216, 586, 298, 659]},\n {\"timestamp\":\"00:10\", \"box_2d\":[368, 628, 461, 658]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0020_27.mp4"
+  },
+  {
+    "query_id": "meccano_test_103",
+    "query": "0008_19.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        0.597,
+        3.937
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:00",
+          "box_2d": [
+            1.389,
+            128.125,
+            715.278,
+            746.875
+          ]
+        },
+        {
+          "timestamp": "00:01",
+          "box_2d": [
+            2.778,
+            158.594,
+            688.889,
+            707.812
+          ]
+        },
+        {
+          "timestamp": "00:02",
+          "box_2d": [
+            1.389,
+            410.156,
+            998.611,
+            998.437
+          ]
+        },
+        {
+          "timestamp": "00:03",
+          "box_2d": [
+            376.389,
+            16.406,
+            1000.0,
+            664.844
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:00\", \"box\": [0, 137, 746, 706]},\n  {\"timestamp\": \"00:01\", \"box\": [0, 149, 694, 856]},\n  {\"timestamp\": \"00:02\", \"box\": [0, 233, 1000, 936]},\n  {\"timestamp\": \"00:03\", \"box\": [595, 0, 1000, 637]},\n  {\"timestamp\": \"00:04\", \"box\": [555, 30, 1000, 636]},\n  {\"timestamp\": \"00:05\", \"box\": [680, 0, 1000, 439]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0008_19.mp4"
+  },
+  {
+    "query_id": "meccano_test_104",
+    "query": "0008_19.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        28.767,
+        29.687
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:29",
+          "box_2d": [
+            97.222,
+            685.937,
+            286.111,
+            814.844
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:06\", \"box\": [0, 348, 526, 679]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0008_19.mp4"
+  },
+  {
+    "query_id": "meccano_test_105",
+    "query": "0008_19.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        40.517,
+        42.017
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:41",
+          "box_2d": [
+            329.167,
+            843.75,
+            366.667,
+            860.938
+          ]
+        },
+        {
+          "timestamp": "00:41",
+          "box_2d": [
+            319.444,
+            827.344,
+            370.833,
+            856.25
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\n  \"timestamp\": \"00:29\",\n  \"box_2\": [353, 730, 447, 763]\n },\n {\n  \"timestamp\": \"00:30\",\n  \"box_2\": [362, 679, 471, 748]\n },\n {\n  \"timestamp\": \"00:41\",\n  \"box_2\": [328, 843, 388, 920]\n }\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0008_19.mp4"
+  },
+  {
+    "query_id": "meccano_test_106",
+    "query": "0008_23.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        41.325,
+        42.325
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:42",
+          "box_2d": [
+            575.0,
+            357.031,
+            804.167,
+            485.938
+          ]
+        },
+        {
+          "timestamp": "00:42",
+          "box_2d": [
+            575.0,
+            363.281,
+            718.056,
+            418.75
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\":\"00:41\", \"box_2d\":[528, 337, 830, 501]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0008_23.mp4"
+  },
+  {
+    "query_id": "meccano_test_107",
+    "query": "0008_23.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        10.245,
+        11.165
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:11",
+          "box_2d": [
+            143.056,
+            682.813,
+            305.556,
+            773.438
+          ]
+        },
+        {
+          "timestamp": "00:11",
+          "box_2d": [
+            287.5,
+            697.656,
+            325.0,
+            739.844
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:17\", \"box_2d\": [244, 550, 441, 689]},\n  {\"timestamp\": \"00:18\", \"box_2d\": [252, 469, 483, 585]},\n  {\"timestamp\": \"00:19\", \"box_2d\": [191, 521, 428, 627]},\n  {\"timestamp\": \"00:20\", \"box_2d\": [273, 456, 562, 584]},\n  {\"timestamp\": \"00:21\", \"box_2d\": [238, 449, 442, 547]},\n  {\"timestamp\": \"00:22\", \"box_2d\": [257, 429, 447, 532]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0008_23.mp4"
+  },
+  {
+    "query_id": "meccano_test_108",
+    "query": "0019_28.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        10.175,
+        11.175
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:11",
+          "box_2d": [
+            172.222,
+            894.271,
+            218.519,
+            928.646
+          ]
+        },
+        {
+          "timestamp": "00:11",
+          "box_2d": [
+            309.259,
+            873.958,
+            363.889,
+            922.917
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:11\", \"box_2d\": [173, 878, 218, 914]},\n  {\"timestamp\": \"00:19\", \"box_2d\": [0, 598, 68, 643]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0019_28.mp4"
+  },
+  {
+    "query_id": "meccano_test_109",
+    "query": "0020_22.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        0.571,
+        1.411
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:01",
+          "box_2d": [
+            444.444,
+            638.542,
+            593.519,
+            693.229
+          ]
+        },
+        {
+          "timestamp": "00:01",
+          "box_2d": [
+            437.963,
+            639.583,
+            582.407,
+            683.333
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n  {\"timestamp\": \"00:00\", \"box_2d\": [419, 502, 572, 636]}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0020_22.mp4"
+  },
+  {
+    "query_id": "meccano_test_110",
+    "query": "0020_22.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        38.821,
+        39.411
+      ],
+      "boxes": [
+        {
+          "timestamp": "00:39",
+          "box_2d": [
+            271.296,
+            906.771,
+            468.519,
+            995.833
+          ]
+        }
+      ]
+    },
+    "raw_pred": "```json\n[\n {\"box_2d\": [718, 637, 984, 807], \"timestamp\": \"00:39\"},\n {\"box_2d\": [500, 757, 694, 887], \"timestamp\": \"00:41\"}\n]\n```",
+    "domain_name": "industry",
+    "model_id": "gcp/google/gemini-3.8-flash",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "0020_22.mp4"
+  }
+]

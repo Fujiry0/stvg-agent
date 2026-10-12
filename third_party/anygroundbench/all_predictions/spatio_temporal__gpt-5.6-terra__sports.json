@@ -1,0 +1,6366 @@
+[
+  {
+    "query_id": "american_football_test_0",
+    "query": "kc_wide_clip151.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        29.452,
+        36.019
+      ],
+      "boxes": [
+        {
+          "frame_id": 884,
+          "box": [
+            0.734505,
+            0.638667,
+            0.790833,
+            0.749444
+          ]
+        },
+        {
+          "frame_id": 900,
+          "box": [
+            0.655432,
+            0.581852,
+            0.700839,
+            0.700454
+          ]
+        },
+        {
+          "frame_id": 930,
+          "box": [
+            0.500437,
+            0.559981,
+            0.534417,
+            0.655213
+          ]
+        },
+        {
+          "frame_id": 960,
+          "box": [
+            0.43188,
+            0.555722,
+            0.473453,
+            0.64413
+          ]
+        },
+        {
+          "frame_id": 990,
+          "box": [
+            0.372104,
+            0.547593,
+            0.397781,
+            0.63225
+          ]
+        },
+        {
+          "frame_id": 1020,
+          "box": [
+            0.36299,
+            0.545537,
+            0.388651,
+            0.64587
+          ]
+        },
+        {
+          "frame_id": 1050,
+          "box": [
+            0.403641,
+            0.550074,
+            0.429302,
+            0.650417
+          ]
+        },
+        {
+          "frame_id": 1080,
+          "box": [
+            0.477844,
+            0.602315,
+            0.52437,
+            0.653019
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":17,\"box\":[0.476,0.576,0.575,0.786]},{\"frame\":18,\"box\":[0.429,0.575,0.539,0.791]},{\"frame\":19,\"box\":[0.395,0.584,0.526,0.813]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "kc_wide_clip151.mp4"
+  },
+  {
+    "query_id": "american_football_test_1",
+    "query": "kc_wide_clip076.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        14.595,
+        16.195
+      ],
+      "boxes": [
+        {
+          "frame_id": 438,
+          "box": [
+            0.8625,
+            0.522222,
+            0.877083,
+            0.582407
+          ]
+        },
+        {
+          "frame_id": 450,
+          "box": [
+            0.840104,
+            0.515741,
+            0.854688,
+            0.561111
+          ]
+        },
+        {
+          "frame_id": 480,
+          "box": [
+            0.810937,
+            0.516667,
+            0.819271,
+            0.543519
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":13,\"box\":[0.765,0.535,0.790,0.610]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "kc_wide_clip076.mp4"
+  },
+  {
+    "query_id": "american_football_test_2",
+    "query": "kc_wide_clip176.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        25.927,
+        27.894
+      ],
+      "boxes": [
+        {
+          "frame_id": 778,
+          "box": [
+            0.858214,
+            0.475148,
+            0.894255,
+            0.593185
+          ]
+        },
+        {
+          "frame_id": 780,
+          "box": [
+            0.855052,
+            0.483019,
+            0.891094,
+            0.601056
+          ]
+        },
+        {
+          "frame_id": 810,
+          "box": [
+            0.798141,
+            0.470639,
+            0.829922,
+            0.556398
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":18,\"box\":[0.642,0.535,0.746,0.758]},{\"frame\":19,\"box\":[0.694,0.545,0.832,0.765]},{\"frame\":20,\"box\":[0.729,0.554,0.891,0.772]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "kc_wide_clip176.mp4"
+  },
+  {
+    "query_id": "american_football_test_3",
+    "query": "kc_wide_clip005.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        2.238,
+        4.804
+      ],
+      "boxes": [
+        {
+          "frame_id": 68,
+          "box": [
+            0.263708,
+            0.451713,
+            0.295969,
+            0.561009
+          ]
+        },
+        {
+          "frame_id": 90,
+          "box": [
+            0.325995,
+            0.471333,
+            0.357958,
+            0.568028
+          ]
+        },
+        {
+          "frame_id": 120,
+          "box": [
+            0.355063,
+            0.460407,
+            0.394656,
+            0.544861
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":6,\"box\":[0.348,0.469,0.420,0.608]},{\"frame\":7,\"box\":[0.375,0.475,0.451,0.622]},{\"frame\":8,\"box\":[0.421,0.480,0.505,0.652]},{\"frame\":9,\"box\":[0.457,0.488,0.552,0.670]},{\"frame\":10,\"box\":[0.492,0.501,0.594,0.663]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "kc_wide_clip005.mp4"
+  },
+  {
+    "query_id": "american_football_test_4",
+    "query": "kc_wide_clip063.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        15.702,
+        16.569
+      ],
+      "boxes": [
+        {
+          "frame_id": 472,
+          "box": [
+            0.141146,
+            0.496296,
+            0.201042,
+            0.631481
+          ]
+        },
+        {
+          "frame_id": 480,
+          "box": [
+            0.171875,
+            0.491667,
+            0.23125,
+            0.627778
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":19,\"box\":[0.141,0.666,0.183,0.780]},{\"frame\":20,\"box\":[0.211,0.607,0.283,0.735]},{\"frame\":21,\"box\":[0.219,0.609,0.293,0.731]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "kc_wide_clip063.mp4"
+  },
+  {
+    "query_id": "american_football_test_5",
+    "query": "kc_wide_clip061.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        2.269,
+        3.703
+      ],
+      "boxes": [
+        {
+          "frame_id": 69,
+          "box": [
+            0.519792,
+            0.478704,
+            0.542188,
+            0.563889
+          ]
+        },
+        {
+          "frame_id": 90,
+          "box": [
+            0.539583,
+            0.482407,
+            0.563021,
+            0.568519
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":10,\"box\":[0.589,0.476,0.625,0.583]},{\"frame\":11,\"box\":[0.596,0.492,0.649,0.625]},{\"frame\":12,\"box\":[0.603,0.521,0.670,0.664]},{\"frame\":13,\"box\":[0.602,0.551,0.682,0.681]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "kc_wide_clip061.mp4"
+  },
+  {
+    "query_id": "american_football_test_6",
+    "query": "kc_wide_clip158.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        17.482,
+        17.849
+      ],
+      "boxes": [
+        {
+          "frame_id": 525,
+          "box": [
+            0.770312,
+            0.401852,
+            0.834375,
+            0.617593
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":19,\"box\":[0.770,0.573,0.818,0.724]},{\"frame\":20,\"box\":[0.738,0.600,0.790,0.751]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "kc_wide_clip158.mp4"
+  },
+  {
+    "query_id": "american_football_test_7",
+    "query": "kc_wide_clip016.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        16.086,
+        18.353
+      ],
+      "boxes": [
+        {
+          "frame_id": 483,
+          "box": [
+            0.530729,
+            0.443519,
+            0.566146,
+            0.54537
+          ]
+        },
+        {
+          "frame_id": 510,
+          "box": [
+            0.551562,
+            0.464815,
+            0.584896,
+            0.601852
+          ]
+        },
+        {
+          "frame_id": 540,
+          "box": [
+            0.531771,
+            0.522222,
+            0.560417,
+            0.635185
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":15,\"box\":[0.517,0.535,0.554,0.647]},{\"frame\":16,\"box\":[0.505,0.617,0.550,0.756]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "kc_wide_clip016.mp4"
+  },
+  {
+    "query_id": "american_football_test_8",
+    "query": "ko_wide_clip005.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        15.609,
+        17.276
+      ],
+      "boxes": [
+        {
+          "frame_id": 469,
+          "box": [
+            0.56875,
+            0.365741,
+            0.588542,
+            0.414815
+          ]
+        },
+        {
+          "frame_id": 480,
+          "box": [
+            0.550521,
+            0.358333,
+            0.576562,
+            0.402778
+          ]
+        },
+        {
+          "frame_id": 510,
+          "box": [
+            0.578646,
+            0.368519,
+            0.609375,
+            0.39537
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":21,\"box\":[0.552,0.339,0.639,0.608]},{\"frame\":22,\"box\":[0.545,0.338,0.646,0.664]},{\"frame\":23,\"box\":[0.488,0.291,0.654,0.916]},{\"frame\":24,\"box\":[0.500,0.278,0.665,0.957]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "ko_wide_clip005.mp4"
+  },
+  {
+    "query_id": "american_football_test_9",
+    "query": "ko_wide_clip006.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        21.779,
+        23.679
+      ],
+      "boxes": [
+        {
+          "frame_id": 654,
+          "box": [
+            0.463021,
+            0.433333,
+            0.485417,
+            0.514815
+          ]
+        },
+        {
+          "frame_id": 660,
+          "box": [
+            0.439063,
+            0.424074,
+            0.465104,
+            0.485185
+          ]
+        },
+        {
+          "frame_id": 690,
+          "box": [
+            0.384375,
+            0.371296,
+            0.401562,
+            0.453704
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":21,\"box\":[0.382,0.451,0.428,0.565]},{\"frame\":22,\"box\":[0.365,0.468,0.430,0.590]},{\"frame\":23,\"box\":[0.350,0.477,0.431,0.601]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "ko_wide_clip006.mp4"
+  },
+  {
+    "query_id": "american_football_test_10",
+    "query": "kc_wide_clip084.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        21.551,
+        22.918
+      ],
+      "boxes": [
+        {
+          "frame_id": 647,
+          "box": [
+            0.229167,
+            0.578704,
+            0.246354,
+            0.632407
+          ]
+        },
+        {
+          "frame_id": 660,
+          "box": [
+            0.248958,
+            0.575,
+            0.261458,
+            0.633333
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":17,\"box\":[0.104,0.668,0.126,0.725]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "kc_wide_clip084.mp4"
+  },
+  {
+    "query_id": "american_football_test_11",
+    "query": "kc_wide_clip036.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        16.516,
+        17.249
+      ],
+      "boxes": [
+        {
+          "frame_id": 496,
+          "box": [
+            0.800521,
+            0.477778,
+            0.849479,
+            0.644444
+          ]
+        },
+        {
+          "frame_id": 510,
+          "box": [
+            0.755729,
+            0.450926,
+            0.802083,
+            0.613889
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":18,\"box\":[0.794,0.574,0.833,0.704]},{\"frame\":19,\"box\":[0.798,0.580,0.847,0.716]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "kc_wide_clip036.mp4"
+  },
+  {
+    "query_id": "american_football_test_12",
+    "query": "ko_wide_clip011.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        16.624,
+        18.258
+      ],
+      "boxes": [
+        {
+          "frame_id": 499,
+          "box": [
+            0.214271,
+            0.331759,
+            0.242484,
+            0.40312
+          ]
+        },
+        {
+          "frame_id": 510,
+          "box": [
+            0.230266,
+            0.339593,
+            0.258479,
+            0.410954
+          ]
+        },
+        {
+          "frame_id": 540,
+          "box": [
+            0.285651,
+            0.342546,
+            0.313807,
+            0.40575
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":20,\"box\":[0.278,0.340,0.352,0.492]},{\"frame\":21,\"box\":[0.255,0.361,0.358,0.538]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "ko_wide_clip011.mp4"
+  },
+  {
+    "query_id": "american_football_test_13",
+    "query": "kc_wide_clip044.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        15.286,
+        18.453
+      ],
+      "boxes": [
+        {
+          "frame_id": 459,
+          "box": [
+            0.261333,
+            0.52037,
+            0.292818,
+            0.598019
+          ]
+        },
+        {
+          "frame_id": 480,
+          "box": [
+            0.235698,
+            0.543157,
+            0.267182,
+            0.620806
+          ]
+        },
+        {
+          "frame_id": 510,
+          "box": [
+            0.318151,
+            0.550546,
+            0.349635,
+            0.628204
+          ]
+        },
+        {
+          "frame_id": 540,
+          "box": [
+            0.443214,
+            0.566565,
+            0.474698,
+            0.644213
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":19,\"box\":[0.342,0.644,0.408,0.783]},{\"frame\":20,\"box\":[0.306,0.677,0.385,0.824]},{\"frame\":21,\"box\":[0.338,0.700,0.417,0.845]},{\"frame\":22,\"box\":[0.386,0.730,0.461,0.862]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "kc_wide_clip044.mp4"
+  },
+  {
+    "query_id": "american_football_test_14",
+    "query": "kc_wide_clip022.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        16.895,
+        20.028
+      ],
+      "boxes": [
+        {
+          "frame_id": 507,
+          "box": [
+            0.357964,
+            0.486454,
+            0.376573,
+            0.553602
+          ]
+        },
+        {
+          "frame_id": 510,
+          "box": [
+            0.360974,
+            0.485963,
+            0.379583,
+            0.55312
+          ]
+        },
+        {
+          "frame_id": 540,
+          "box": [
+            0.36275,
+            0.506157,
+            0.381365,
+            0.564046
+          ]
+        },
+        {
+          "frame_id": 570,
+          "box": [
+            0.434026,
+            0.51713,
+            0.463906,
+            0.577898
+          ]
+        },
+        {
+          "frame_id": 600,
+          "box": [
+            0.471198,
+            0.550648,
+            0.497844,
+            0.593028
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":18,\"box\":[0.435,0.484,0.502,0.665]},{\"frame\":19,\"box\":[0.466,0.493,0.541,0.681]},{\"frame\":20,\"box\":[0.501,0.504,0.582,0.695]},{\"frame\":21,\"box\":[0.534,0.512,0.622,0.708]},{\"frame\":22,\"box\":[0.571,0.530,0.659,0.720]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "kc_wide_clip022.mp4"
+  },
+  {
+    "query_id": "american_football_test_15",
+    "query": "kc_wide_clip100.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        7.852,
+        9.818
+      ],
+      "boxes": [
+        {
+          "frame_id": 236,
+          "box": [
+            0.595833,
+            0.505556,
+            0.644271,
+            0.635185
+          ]
+        },
+        {
+          "frame_id": 240,
+          "box": [
+            0.580208,
+            0.514815,
+            0.632812,
+            0.65463
+          ]
+        },
+        {
+          "frame_id": 270,
+          "box": [
+            0.54375,
+            0.612037,
+            0.580729,
+            0.72037
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":16,\"box\":[0.397,0.430,0.444,0.548]},{\"frame\":17,\"box\":[0.341,0.468,0.391,0.585]},{\"frame\":18,\"box\":[0.271,0.515,0.331,0.642]},{\"frame\":19,\"box\":[0.206,0.566,0.275,0.698]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "kc_wide_clip100.mp4"
+  },
+  {
+    "query_id": "american_football_test_16",
+    "query": "kc_wide_clip137.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        22.031,
+        28.231
+      ],
+      "boxes": [
+        {
+          "frame_id": 661,
+          "box": [
+            0.090625,
+            0.505556,
+            0.118229,
+            0.619444
+          ]
+        },
+        {
+          "frame_id": 690,
+          "box": [
+            0.024479,
+            0.535185,
+            0.055729,
+            0.642593
+          ]
+        },
+        {
+          "frame_id": 720,
+          "box": [
+            0.039583,
+            0.599074,
+            0.077604,
+            0.714815
+          ]
+        },
+        {
+          "frame_id": 750,
+          "box": [
+            0.146354,
+            0.647222,
+            0.182292,
+            0.749074
+          ]
+        },
+        {
+          "frame_id": 780,
+          "box": [
+            0.241146,
+            0.631481,
+            0.264062,
+            0.735185
+          ]
+        },
+        {
+          "frame_id": 810,
+          "box": [
+            0.365104,
+            0.656481,
+            0.390625,
+            0.737037
+          ]
+        },
+        {
+          "frame_id": 840,
+          "box": [
+            0.522396,
+            0.658333,
+            0.558854,
+            0.753704
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":19,\"box\":[0.238,0.650,0.292,0.780]},{\"frame\":20,\"box\":[0.230,0.650,0.300,0.805]},{\"frame\":21,\"box\":[0.321,0.655,0.405,0.820]},{\"frame\":22,\"box\":[0.470,0.655,0.580,0.825]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "kc_wide_clip137.mp4"
+  },
+  {
+    "query_id": "american_football_test_17",
+    "query": "kc_wide_clip152.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        14.995,
+        16.328
+      ],
+      "boxes": [
+        {
+          "frame_id": 450,
+          "box": [
+            0.232292,
+            0.574074,
+            0.259375,
+            0.659259
+          ]
+        },
+        {
+          "frame_id": 480,
+          "box": [
+            0.211458,
+            0.547222,
+            0.244271,
+            0.644444
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":18,\"box\":[0.112,0.629,0.148,0.754]},{\"frame\":19,\"box\":[0.133,0.663,0.169,0.788]},{\"frame\":20,\"box\":[0.154,0.689,0.190,0.810]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "kc_wide_clip152.mp4"
+  },
+  {
+    "query_id": "american_football_test_18",
+    "query": "kc_wide_clip032.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        19.312,
+        22.012
+      ],
+      "boxes": [
+        {
+          "frame_id": 580,
+          "box": [
+            0.780036,
+            0.449556,
+            0.810937,
+            0.562593
+          ]
+        },
+        {
+          "frame_id": 600,
+          "box": [
+            0.770948,
+            0.463796,
+            0.801849,
+            0.576833
+          ]
+        },
+        {
+          "frame_id": 630,
+          "box": [
+            0.63626,
+            0.525963,
+            0.661182,
+            0.609417
+          ]
+        },
+        {
+          "frame_id": 660,
+          "box": [
+            0.578641,
+            0.605046,
+            0.615234,
+            0.658491
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":17,\"box\":[0.588,0.583,0.670,0.733]},{\"frame\":18,\"box\":[0.550,0.620,0.650,0.770]},{\"frame\":19,\"box\":[0.522,0.652,0.620,0.806]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "kc_wide_clip032.mp4"
+  },
+  {
+    "query_id": "american_football_test_19",
+    "query": "kc_wide_clip127.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        20.094,
+        24.194
+      ],
+      "boxes": [
+        {
+          "frame_id": 603,
+          "box": [
+            0.166667,
+            0.421296,
+            0.201563,
+            0.52037
+          ]
+        },
+        {
+          "frame_id": 630,
+          "box": [
+            0.178125,
+            0.438889,
+            0.213021,
+            0.548148
+          ]
+        },
+        {
+          "frame_id": 660,
+          "box": [
+            0.253646,
+            0.462037,
+            0.296354,
+            0.557407
+          ]
+        },
+        {
+          "frame_id": 690,
+          "box": [
+            0.240104,
+            0.50463,
+            0.291146,
+            0.569444
+          ]
+        },
+        {
+          "frame_id": 720,
+          "box": [
+            0.209375,
+            0.525926,
+            0.280729,
+            0.568519
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":23,\"box\":[0.245,0.509,0.286,0.600]},{\"frame\":24,\"box\":[0.219,0.547,0.273,0.645]},{\"frame\":25,\"box\":[0.201,0.590,0.274,0.677]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "kc_wide_clip127.mp4"
+  },
+  {
+    "query_id": "american_football_test_20",
+    "query": "kc_wide_clip011.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        8.993,
+        12.393
+      ],
+      "boxes": [
+        {
+          "frame_id": 270,
+          "box": [
+            0.262547,
+            0.566481,
+            0.298177,
+            0.703944
+          ]
+        },
+        {
+          "frame_id": 300,
+          "box": [
+            0.241339,
+            0.547611,
+            0.284177,
+            0.640491
+          ]
+        },
+        {
+          "frame_id": 330,
+          "box": [
+            0.277234,
+            0.515602,
+            0.315036,
+            0.610185
+          ]
+        },
+        {
+          "frame_id": 360,
+          "box": [
+            0.276167,
+            0.545324,
+            0.326245,
+            0.614509
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":14,\"box\":[0.391,0.568,0.494,0.731]},{\"frame\":15,\"box\":[0.370,0.572,0.492,0.748]},{\"frame\":16,\"box\":[0.348,0.585,0.469,0.759]},{\"frame\":17,\"box\":[0.316,0.590,0.446,0.772]},{\"frame\":18,\"box\":[0.276,0.600,0.424,0.783]},{\"frame\":19,\"box\":[0.243,0.608,0.398,0.793]},{\"frame\":20,\"box\":[0.225,0.618,0.374,0.801]},{\"frame\":21,\"box\":[0.220,0.627,0.357,0.806]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "kc_wide_clip011.mp4"
+  },
+  {
+    "query_id": "american_football_test_21",
+    "query": "kc_wide_clip039.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        12.684,
+        14.984
+      ],
+      "boxes": [
+        {
+          "frame_id": 381,
+          "box": [
+            0.602682,
+            0.313037,
+            0.642755,
+            0.403361
+          ]
+        },
+        {
+          "frame_id": 390,
+          "box": [
+            0.59624,
+            0.316852,
+            0.636313,
+            0.407185
+          ]
+        },
+        {
+          "frame_id": 420,
+          "box": [
+            0.647755,
+            0.37088,
+            0.678536,
+            0.456167
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":15,\"box\":[0.626,0.353,0.687,0.508]},{\"frame\":16,\"box\":[0.606,0.374,0.691,0.563]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "kc_wide_clip039.mp4"
+  },
+  {
+    "query_id": "american_football_test_22",
+    "query": "kc_wide_clip046.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        22.159,
+        24.192
+      ],
+      "boxes": [
+        {
+          "frame_id": 665,
+          "box": [
+            0.358333,
+            0.568519,
+            0.413542,
+            0.743519
+          ]
+        },
+        {
+          "frame_id": 690,
+          "box": [
+            0.554688,
+            0.612037,
+            0.605208,
+            0.768519
+          ]
+        },
+        {
+          "frame_id": 720,
+          "box": [
+            0.679688,
+            0.7,
+            0.735938,
+            0.863889
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":22,\"box\":[0.430,0.597,0.477,0.700]},{\"frame\":23,\"box\":[0.482,0.636,0.533,0.746]},{\"frame\":24,\"box\":[0.751,0.634,0.796,0.747]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "kc_wide_clip046.mp4"
+  },
+  {
+    "query_id": "american_football_test_23",
+    "query": "kc_wide_clip136.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        28.358,
+        31.025
+      ],
+      "boxes": [
+        {
+          "frame_id": 851,
+          "box": [
+            0.810937,
+            0.487037,
+            0.834896,
+            0.557407
+          ]
+        },
+        {
+          "frame_id": 870,
+          "box": [
+            0.731771,
+            0.487963,
+            0.752083,
+            0.549074
+          ]
+        },
+        {
+          "frame_id": 900,
+          "box": [
+            0.621354,
+            0.457407,
+            0.650521,
+            0.516667
+          ]
+        },
+        {
+          "frame_id": 930,
+          "box": [
+            0.602604,
+            0.508333,
+            0.615625,
+            0.587037
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\": 20, \"box\": [0.744, 0.440, 0.800, 0.615]}, {\"frame\": 21, \"box\": [0.770, 0.468, 0.829, 0.641]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "kc_wide_clip136.mp4"
+  },
+  {
+    "query_id": "american_football_test_24",
+    "query": "kc_wide_clip098.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        26.093,
+        27.393
+      ],
+      "boxes": [
+        {
+          "frame_id": 783,
+          "box": [
+            0.159896,
+            0.536111,
+            0.198958,
+            0.648148
+          ]
+        },
+        {
+          "frame_id": 810,
+          "box": [
+            0.142708,
+            0.510185,
+            0.182812,
+            0.614815
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":19,\"box\":[0.723,0.578,0.752,0.694]},{\"frame\":20,\"box\":[0.731,0.568,0.761,0.690]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "kc_wide_clip098.mp4"
+  },
+  {
+    "query_id": "american_football_test_25",
+    "query": "kc_wide_clip092.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        19.609,
+        20.909
+      ],
+      "boxes": [
+        {
+          "frame_id": 589,
+          "box": [
+            0.876563,
+            0.510185,
+            0.903646,
+            0.597222
+          ]
+        },
+        {
+          "frame_id": 600,
+          "box": [
+            0.868229,
+            0.506481,
+            0.903125,
+            0.597222
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":17,\"box\":[0.665,0.543,0.705,0.662]},{\"frame\":18,\"box\":[0.677,0.535,0.721,0.662]},{\"frame\":19,\"box\":[0.693,0.531,0.740,0.667]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "kc_wide_clip092.mp4"
+  },
+  {
+    "query_id": "american_football_test_26",
+    "query": "kc_wide_clip079.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        25.488,
+        31.522
+      ],
+      "boxes": [
+        {
+          "frame_id": 765,
+          "box": [
+            0.267844,
+            0.555407,
+            0.299693,
+            0.6585
+          ]
+        },
+        {
+          "frame_id": 780,
+          "box": [
+            0.315474,
+            0.540519,
+            0.347323,
+            0.643611
+          ]
+        },
+        {
+          "frame_id": 810,
+          "box": [
+            0.464021,
+            0.48013,
+            0.48837,
+            0.567139
+          ]
+        },
+        {
+          "frame_id": 840,
+          "box": [
+            0.643526,
+            0.482713,
+            0.674714,
+            0.568037
+          ]
+        },
+        {
+          "frame_id": 870,
+          "box": [
+            0.736505,
+            0.479565,
+            0.767693,
+            0.564889
+          ]
+        },
+        {
+          "frame_id": 900,
+          "box": [
+            0.723922,
+            0.498028,
+            0.755104,
+            0.583343
+          ]
+        },
+        {
+          "frame_id": 930,
+          "box": [
+            0.744292,
+            0.553407,
+            0.775479,
+            0.638722
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":18,\"box\":[0.490,0.560,0.565,0.710]},{\"frame\":19,\"box\":[0.574,0.535,0.643,0.695]},{\"frame\":20,\"box\":[0.691,0.505,0.758,0.670]},{\"frame\":21,\"box\":[0.730,0.472,0.794,0.635]},{\"frame\":22,\"box\":[0.754,0.480,0.825,0.655]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "kc_wide_clip079.mp4"
+  },
+  {
+    "query_id": "american_football_test_27",
+    "query": "ko_wide_clip015.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        22.436,
+        26.57
+      ],
+      "boxes": [
+        {
+          "frame_id": 674,
+          "box": [
+            0.11875,
+            0.342944,
+            0.153474,
+            0.418796
+          ]
+        },
+        {
+          "frame_id": 690,
+          "box": [
+            0.162693,
+            0.343694,
+            0.197422,
+            0.419546
+          ]
+        },
+        {
+          "frame_id": 720,
+          "box": [
+            0.225516,
+            0.381972,
+            0.254323,
+            0.457111
+          ]
+        },
+        {
+          "frame_id": 750,
+          "box": [
+            0.207484,
+            0.408037,
+            0.24687,
+            0.488407
+          ]
+        },
+        {
+          "frame_id": 780,
+          "box": [
+            0.222266,
+            0.451333,
+            0.259547,
+            0.524157
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":24,\"box\":[0.224,0.429,0.306,0.604]},{\"frame\":25,\"box\":[0.220,0.440,0.313,0.632]},{\"frame\":26,\"box\":[0.206,0.445,0.326,0.660]},{\"frame\":27,\"box\":[0.198,0.463,0.350,0.687]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "ko_wide_clip015.mp4"
+  },
+  {
+    "query_id": "american_football_test_28",
+    "query": "kc_wide_clip123.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        14.8,
+        18.967
+      ],
+      "boxes": [
+        {
+          "frame_id": 444,
+          "box": [
+            0.837375,
+            0.419537,
+            0.887656,
+            0.572315
+          ]
+        },
+        {
+          "frame_id": 450,
+          "box": [
+            0.839948,
+            0.431074,
+            0.890229,
+            0.583852
+          ]
+        },
+        {
+          "frame_id": 480,
+          "box": [
+            0.816807,
+            0.457648,
+            0.859359,
+            0.602824
+          ]
+        },
+        {
+          "frame_id": 510,
+          "box": [
+            0.81863,
+            0.592787,
+            0.875469,
+            0.749352
+          ]
+        },
+        {
+          "frame_id": 540,
+          "box": [
+            0.895203,
+            0.576972,
+            0.947042,
+            0.752074
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":14,\"box\":[0.728,0.552,0.783,0.695]},{\"frame\":15,\"box\":[0.751,0.570,0.811,0.731]},{\"frame\":16,\"box\":[0.781,0.600,0.848,0.776]},{\"frame\":17,\"box\":[0.808,0.624,0.880,0.818]},{\"frame\":18,\"box\":[0.842,0.651,0.918,0.864]},{\"frame\":19,\"box\":[0.880,0.674,0.967,0.907]},{\"frame\":20,\"box\":[0.917,0.696,0.999,0.938]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "kc_wide_clip123.mp4"
+  },
+  {
+    "query_id": "american_football_test_29",
+    "query": "kc_wide_clip030.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        11.933,
+        17.586
+      ],
+      "boxes": [
+        {
+          "frame_id": 415,
+          "box": [
+            0.005208,
+            0.458333,
+            0.027083,
+            0.562963
+          ]
+        },
+        {
+          "frame_id": 420,
+          "box": [
+            0.059896,
+            0.452778,
+            0.0875,
+            0.555556
+          ]
+        },
+        {
+          "frame_id": 450,
+          "box": [
+            0.301563,
+            0.498148,
+            0.318229,
+            0.593519
+          ]
+        },
+        {
+          "frame_id": 480,
+          "box": [
+            0.438542,
+            0.518519,
+            0.460938,
+            0.617593
+          ]
+        },
+        {
+          "frame_id": 510,
+          "box": [
+            0.507812,
+            0.528704,
+            0.525521,
+            0.635185
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":16,\"box\":[0.496,0.431,0.530,0.555]},{\"frame\":17,\"box\":[0.437,0.436,0.470,0.564]},{\"frame\":18,\"box\":[0.357,0.454,0.391,0.583]},{\"frame\":19,\"box\":[0.267,0.468,0.300,0.599]},{\"frame\":20,\"box\":[0.180,0.487,0.215,0.618]},{\"frame\":21,\"box\":[0.106,0.502,0.143,0.640]},{\"frame\":22,\"box\":[0.057,0.522,0.108,0.674]},{\"frame\":23,\"box\":[0.216,0.451,0.320,0.755]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "kc_wide_clip030.mp4"
+  },
+  {
+    "query_id": "american_football_test_30",
+    "query": "kc_wide_clip034.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        20.363,
+        25.163
+      ],
+      "boxes": [
+        {
+          "frame_id": 611,
+          "box": [
+            0.773203,
+            0.377648,
+            0.804016,
+            0.471093
+          ]
+        },
+        {
+          "frame_id": 630,
+          "box": [
+            0.788932,
+            0.367778,
+            0.819302,
+            0.478176
+          ]
+        },
+        {
+          "frame_id": 660,
+          "box": [
+            0.699854,
+            0.383102,
+            0.733984,
+            0.483176
+          ]
+        },
+        {
+          "frame_id": 690,
+          "box": [
+            0.620927,
+            0.421583,
+            0.645807,
+            0.511102
+          ]
+        },
+        {
+          "frame_id": 720,
+          "box": [
+            0.483073,
+            0.433722,
+            0.503125,
+            0.504352
+          ]
+        },
+        {
+          "frame_id": 750,
+          "box": [
+            0.377615,
+            0.475306,
+            0.414849,
+            0.528426
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":21,\"box\":[0.605,0.392,0.646,0.505]},{\"frame\":22,\"box\":[0.558,0.405,0.605,0.522]},{\"frame\":23,\"box\":[0.500,0.424,0.550,0.548]},{\"frame\":24,\"box\":[0.438,0.437,0.491,0.566]},{\"frame\":25,\"box\":[0.380,0.451,0.438,0.586]},{\"frame\":26,\"box\":[0.338,0.474,0.400,0.613]},{\"frame\":27,\"box\":[0.323,0.492,0.397,0.635]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "kc_wide_clip034.mp4"
+  },
+  {
+    "query_id": "american_football_test_31",
+    "query": "kc_wide_clip105.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        22.24,
+        23.54
+      ],
+      "boxes": [
+        {
+          "frame_id": 668,
+          "box": [
+            0.892188,
+            0.601852,
+            0.922917,
+            0.694444
+          ]
+        },
+        {
+          "frame_id": 690,
+          "box": [
+            0.900521,
+            0.592593,
+            0.928646,
+            0.709259
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":11,\"box\":[0.651,0.617,0.684,0.707]},{\"frame\":12,\"box\":[0.650,0.621,0.685,0.711]},{\"frame\":13,\"box\":[0.651,0.625,0.688,0.718]},{\"frame\":14,\"box\":[0.646,0.637,0.687,0.733]},{\"frame\":15,\"box\":[0.632,0.649,0.681,0.752]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "kc_wide_clip105.mp4"
+  },
+  {
+    "query_id": "american_football_test_32",
+    "query": "kc_wide_clip128.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        13.026,
+        15.293
+      ],
+      "boxes": [
+        {
+          "frame_id": 391,
+          "box": [
+            0.791667,
+            0.472222,
+            0.821875,
+            0.599074
+          ]
+        },
+        {
+          "frame_id": 420,
+          "box": [
+            0.747917,
+            0.564815,
+            0.798438,
+            0.686111
+          ]
+        },
+        {
+          "frame_id": 450,
+          "box": [
+            0.678646,
+            0.653704,
+            0.761458,
+            0.753704
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":16,\"box\":[0.707,0.559,0.777,0.710]},{\"frame\":17,\"box\":[0.709,0.616,0.793,0.778]},{\"frame\":18,\"box\":[0.716,0.679,0.802,0.808]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "kc_wide_clip128.mp4"
+  },
+  {
+    "query_id": "american_football_test_33",
+    "query": "kc_wide_clip056.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        18.071,
+        19.004
+      ],
+      "boxes": [
+        {
+          "frame_id": 543,
+          "box": [
+            0.740104,
+            0.639815,
+            0.776563,
+            0.80463
+          ]
+        },
+        {
+          "frame_id": 570,
+          "box": [
+            0.677083,
+            0.578704,
+            0.708854,
+            0.7
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":12,\"box\":[0.731,0.570,0.775,0.760]},{\"frame\":13,\"box\":[0.730,0.569,0.776,0.761]},{\"frame\":14,\"box\":[0.730,0.569,0.776,0.761]},{\"frame\":15,\"box\":[0.731,0.568,0.776,0.760]},{\"frame\":16,\"box\":[0.731,0.568,0.776,0.760]},{\"frame\":17,\"box\":[0.731,0.568,0.776,0.760]},{\"frame\":18,\"box\":[0.731,0.568,0.776,0.760]},{\"frame\":19,\"box\":[0.731,0.568,0.776,0.760]},{\"frame\":20,\"box\":[0.731,0.568,0.776,0.760]},{\"frame\":21,\"box\":[0.731,0.568,0.776,0.760]},{\"frame\":22,\"box\":[0.720,0.584,0.764,0.773]},{\"frame\":23,\"box\":[0.701,0.615,0.754,0.785]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "kc_wide_clip056.mp4"
+  },
+  {
+    "query_id": "american_football_test_34",
+    "query": "kc_wide_clip130.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        22.379,
+        25.113
+      ],
+      "boxes": [
+        {
+          "frame_id": 672,
+          "box": [
+            0.554167,
+            0.571296,
+            0.581771,
+            0.687037
+          ]
+        },
+        {
+          "frame_id": 690,
+          "box": [
+            0.516146,
+            0.59537,
+            0.538021,
+            0.725
+          ]
+        },
+        {
+          "frame_id": 720,
+          "box": [
+            0.485938,
+            0.658333,
+            0.522396,
+            0.803704
+          ]
+        },
+        {
+          "frame_id": 750,
+          "box": [
+            0.39375,
+            0.602778,
+            0.430729,
+            0.712963
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":17,\"box\":[0.476,0.650,0.526,0.760]},{\"frame\":18,\"box\":[0.405,0.674,0.459,0.790]},{\"frame\":19,\"box\":[0.306,0.713,0.377,0.829]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "kc_wide_clip130.mp4"
+  },
+  {
+    "query_id": "american_football_test_35",
+    "query": "kc_wide_clip081.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        13.649,
+        15.282
+      ],
+      "boxes": [
+        {
+          "frame_id": 410,
+          "box": [
+            0.828125,
+            0.519444,
+            0.883333,
+            0.665741
+          ]
+        },
+        {
+          "frame_id": 420,
+          "box": [
+            0.900521,
+            0.519444,
+            0.939583,
+            0.683333
+          ]
+        },
+        {
+          "frame_id": 450,
+          "box": [
+            0.917708,
+            0.549074,
+            0.964583,
+            0.701852
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":15,\"box\":[0.726,0.568,0.807,0.819]},{\"frame\":16,\"box\":[0.789,0.578,0.878,0.824]},{\"frame\":17,\"box\":[0.870,0.579,0.969,0.810]},{\"frame\":18,\"box\":[0.883,0.574,0.998,0.814]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "kc_wide_clip081.mp4"
+  },
+  {
+    "query_id": "american_football_test_36",
+    "query": "kc_wide_clip160.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        24.771,
+        26.204
+      ],
+      "boxes": [
+        {
+          "frame_id": 748,
+          "box": [
+            0.736979,
+            0.438889,
+            0.751563,
+            0.499074
+          ]
+        },
+        {
+          "frame_id": 750,
+          "box": [
+            0.732292,
+            0.434259,
+            0.746354,
+            0.497222
+          ]
+        },
+        {
+          "frame_id": 780,
+          "box": [
+            0.664583,
+            0.42037,
+            0.684896,
+            0.474074
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":16,\"box\":[0.822,0.497,0.842,0.567]},{\"frame\":17,\"box\":[0.790,0.508,0.813,0.580]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "kc_wide_clip160.mp4"
+  },
+  {
+    "query_id": "multisports_test_0",
+    "query": "v_1yHWGw8DH4A_c077.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        4.8,
+        5.36
+      ],
+      "boxes": [
+        {
+          "frame_id": 120,
+          "box": [
+            0.288023,
+            0.352778,
+            0.321875,
+            0.456486
+          ]
+        },
+        {
+          "frame_id": 125,
+          "box": [
+            0.286461,
+            0.347222,
+            0.320312,
+            0.450931
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\": 30, \"box\": [0.454, 0.291, 0.501, 0.375]}, {\"frame\": 31, \"box\": [0.481, 0.267, 0.531, 0.358]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_1yHWGw8DH4A_c077.mp4"
+  },
+  {
+    "query_id": "multisports_test_1",
+    "query": "v_4nikeBZNYRE_c006.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        1.72,
+        6.24
+      ],
+      "boxes": [
+        {
+          "frame_id": 43,
+          "box": [
+            0.571875,
+            0.354167,
+            0.625781,
+            0.516667
+          ]
+        },
+        {
+          "frame_id": 50,
+          "box": [
+            0.583594,
+            0.369444,
+            0.6375,
+            0.518056
+          ]
+        },
+        {
+          "frame_id": 75,
+          "box": [
+            0.627344,
+            0.426389,
+            0.7,
+            0.595833
+          ]
+        },
+        {
+          "frame_id": 100,
+          "box": [
+            0.7,
+            0.440278,
+            0.766406,
+            0.604167
+          ]
+        },
+        {
+          "frame_id": 125,
+          "box": [
+            0.761719,
+            0.404167,
+            0.822656,
+            0.576389
+          ]
+        },
+        {
+          "frame_id": 150,
+          "box": [
+            0.758594,
+            0.441667,
+            0.807031,
+            0.591667
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":3,\"box\":[0.464,0.469,0.480,0.494]},{\"frame\":4,\"box\":[0.500,0.452,0.516,0.478]},{\"frame\":5,\"box\":[0.601,0.505,0.618,0.531]},{\"frame\":6,\"box\":[0.606,0.514,0.623,0.540]},{\"frame\":8,\"box\":[0.796,0.557,0.813,0.584]},{\"frame\":9,\"box\":[0.830,0.597,0.847,0.625]},{\"frame\":10,\"box\":[0.676,0.518,0.693,0.546]},{\"frame\":11,\"box\":[0.787,0.600,0.804,0.628]},{\"frame\":12,\"box\":[0.675,0.483,0.692,0.511]},{\"frame\":13,\"box\":[0.690,0.490,0.707,0.518]},{\"frame\":14,\"box\":[0.638,0.525,0.655,0.554]},{\"frame\":15,\"box\":[0.588,0.555,0.606,0.584]},{\"frame\":16,\"box\":[0.580,0.555,0.598,0.584]},{\"frame\":17,\"box\":[0.590,0.546,0.608,0.575]},{\"frame\":18,\"box\":[0.592,0.522,0.610,0.550]},{\"frame\":19,\"box\":[0.596,0.529,0.614,0.557]},{\"frame\":20,\"box\":[0.610,0.548,0.628,0.576]},{\"frame\":21,\"box\":[0.624,0.518,0.642,0.546]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_4nikeBZNYRE_c006.mp4"
+  },
+  {
+    "query_id": "multisports_test_2",
+    "query": "v_2j7kLB-vEEk_c004.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        3.88,
+        4.2
+      ],
+      "boxes": [
+        {
+          "frame_id": 97,
+          "box": [
+            0.404687,
+            0.641667,
+            0.559375,
+            0.848611
+          ]
+        },
+        {
+          "frame_id": 100,
+          "box": [
+            0.386719,
+            0.625,
+            0.522656,
+            0.854167
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":0,\"box\":[0.558,0.385,0.580,0.416]},{\"frame\":1,\"box\":[0.597,0.317,0.619,0.348]},{\"frame\":2,\"box\":[0.621,0.317,0.643,0.348]},{\"frame\":3,\"box\":[0.679,0.331,0.702,0.363]},{\"frame\":4,\"box\":[0.702,0.343,0.725,0.375]},{\"frame\":5,\"box\":[0.733,0.403,0.755,0.435]},{\"frame\":6,\"box\":[0.724,0.459,0.748,0.492]},{\"frame\":7,\"box\":[0.719,0.498,0.743,0.532]},{\"frame\":8,\"box\":[0.710,0.514,0.735,0.548]},{\"frame\":9,\"box\":[0.538,0.627,0.561,0.659]},{\"frame\":10,\"box\":[0.397,0.663,0.421,0.697]},{\"frame\":11,\"box\":[0.450,0.700,0.474,0.735]},{\"frame\":12,\"box\":[0.473,0.744,0.497,0.779]},{\"frame\":13,\"box\":[0.485,0.791,0.509,0.826]},{\"frame\":14,\"box\":[0.403,0.709,0.427,0.744]},{\"frame\":15,\"box\":[0.277,0.635,0.301,0.669]},{\"frame\":16,\"box\":[0.276,0.651,0.300,0.685]},{\"frame\":17,\"box\":[0.276,0.674,0.300,0.708]},{\"frame\":18,\"box\":[0.309,0.731,0.333,0.766]},{\"frame\":19,\"box\":[0.234,0.725,0.258,0.760]},{\"frame\":20,\"box\":[0.157,0.662,0.181,0.696]},{\"frame\":21,\"box\":[0.148,0.632,0.172,0.666]},{\"frame\":22,\"box\":[0.129,0.602,0.153,0.636]},{\"frame\":23,\"box\":[0.116,0.578,0.140,0.612]},{\"frame\":24,\"box\":[0.113,0.578,0.138,0.613]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_2j7kLB-vEEk_c004.mp4"
+  },
+  {
+    "query_id": "multisports_test_3",
+    "query": "v_a-FbBlvBkSE_c004.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        2.48,
+        3.0
+      ],
+      "boxes": [
+        {
+          "frame_id": 62,
+          "box": [
+            0.632812,
+            0.394444,
+            0.675523,
+            0.507403
+          ]
+        },
+        {
+          "frame_id": 75,
+          "box": [
+            0.581773,
+            0.403708,
+            0.617188,
+            0.512042
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":15,\"box\":[0.642,0.397,0.690,0.531]},{\"frame\":16,\"box\":[0.615,0.397,0.662,0.530]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_a-FbBlvBkSE_c004.mp4"
+  },
+  {
+    "query_id": "multisports_test_4",
+    "query": "v_82WN8C8qJmI_c014.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        8.56,
+        9.24
+      ],
+      "boxes": [
+        {
+          "frame_id": 214,
+          "box": [
+            0.480727,
+            0.534264,
+            0.560414,
+            0.748153
+          ]
+        },
+        {
+          "frame_id": 225,
+          "box": [
+            0.506773,
+            0.524069,
+            0.581773,
+            0.744444
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":8,\"box\":[0.291,0.426,0.348,0.658]},{\"frame\":9,\"box\":[0.285,0.415,0.343,0.654]},{\"frame\":10,\"box\":[0.283,0.411,0.341,0.647]},{\"frame\":11,\"box\":[0.277,0.420,0.337,0.658]},{\"frame\":12,\"box\":[0.276,0.426,0.335,0.661]},{\"frame\":13,\"box\":[0.293,0.423,0.354,0.660]},{\"frame\":14,\"box\":[0.301,0.414,0.361,0.654]},{\"frame\":15,\"box\":[0.292,0.416,0.353,0.660]},{\"frame\":16,\"box\":[0.268,0.438,0.332,0.671]},{\"frame\":17,\"box\":[0.250,0.443,0.317,0.672]},{\"frame\":18,\"box\":[0.257,0.446,0.323,0.682]},{\"frame\":19,\"box\":[0.279,0.438,0.345,0.675]},{\"frame\":20,\"box\":[0.286,0.441,0.351,0.678]},{\"frame\":21,\"box\":[0.294,0.453,0.363,0.690]},{\"frame\":22,\"box\":[0.313,0.451,0.380,0.691]},{\"frame\":23,\"box\":[0.335,0.452,0.404,0.690]},{\"frame\":24,\"box\":[0.394,0.452,0.461,0.697]},{\"frame\":25,\"box\":[0.432,0.466,0.497,0.702]},{\"frame\":26,\"box\":[0.444,0.481,0.510,0.711]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_82WN8C8qJmI_c014.mp4"
+  },
+  {
+    "query_id": "multisports_test_5",
+    "query": "v_g34vS_2KvYY_c006.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        6.16,
+        6.36
+      ],
+      "boxes": [
+        {
+          "frame_id": 154,
+          "box": [
+            0.660414,
+            0.580556,
+            0.694273,
+            0.683333
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\": 12, \"box\": [0.262, 0.625, 0.306, 0.747]}, {\"frame\": 13, \"box\": [0.264, 0.622, 0.308, 0.744]}, {\"frame\": 22, \"box\": [0.639, 0.537, 0.694, 0.645]}, {\"frame\": 23, \"box\": [0.639, 0.534, 0.700, 0.650]}, {\"frame\": 24, \"box\": [0.642, 0.533, 0.704, 0.649]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_g34vS_2KvYY_c006.mp4"
+  },
+  {
+    "query_id": "multisports_test_6",
+    "query": "v_gEjQ2Ttbs9M_c002.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        5.04,
+        5.8
+      ],
+      "boxes": [
+        {
+          "frame_id": 126,
+          "box": [
+            0.498961,
+            0.500931,
+            0.55,
+            0.654625
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":23,\"box\":[0.634,0.377,0.648,0.399]},{\"frame\":24,\"box\":[0.622,0.419,0.638,0.442]},{\"frame\":25,\"box\":[0.611,0.439,0.628,0.463]},{\"frame\":26,\"box\":[0.595,0.401,0.612,0.425]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_gEjQ2Ttbs9M_c002.mp4"
+  },
+  {
+    "query_id": "multisports_test_7",
+    "query": "v_4LXTUim5anY_c013.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        26.4,
+        26.92
+      ],
+      "boxes": [
+        {
+          "frame_id": 660,
+          "box": [
+            0.270313,
+            0.470375,
+            0.316664,
+            0.615736
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":10,\"box\":[0.598,0.392,0.704,0.744]},{\"frame\":11,\"box\":[0.620,0.343,0.691,0.685]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_4LXTUim5anY_c013.mp4"
+  },
+  {
+    "query_id": "multisports_test_8",
+    "query": "v_jZj2UkglB9E_c003.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        3.92,
+        4.72
+      ],
+      "boxes": [
+        {
+          "frame_id": 98,
+          "box": [
+            0.282813,
+            0.511111,
+            0.386461,
+            0.729625
+          ]
+        },
+        {
+          "frame_id": 100,
+          "box": [
+            0.282813,
+            0.497222,
+            0.402602,
+            0.721292
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":10,\"box\":[0.324,0.546,0.438,0.742]},{\"frame\":11,\"box\":[0.333,0.500,0.454,0.729]},{\"frame\":12,\"box\":[0.323,0.443,0.443,0.694]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_jZj2UkglB9E_c003.mp4"
+  },
+  {
+    "query_id": "multisports_test_9",
+    "query": "v_-hhDbvY5aAM_c602.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        16.8,
+        17.28
+      ],
+      "boxes": [
+        {
+          "frame_id": 420,
+          "box": [
+            0.417711,
+            0.264819,
+            0.460938,
+            0.378708
+          ]
+        },
+        {
+          "frame_id": 425,
+          "box": [
+            0.413539,
+            0.276847,
+            0.456773,
+            0.388889
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":25,\"box\":[0.373,0.361,0.385,0.381]},{\"frame\":26,\"box\":[0.668,0.271,0.678,0.289]},{\"frame\":28,\"box\":[0.439,0.332,0.449,0.349]},{\"frame\":29,\"box\":[0.508,0.406,0.518,0.426]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_-hhDbvY5aAM_c602.mp4"
+  },
+  {
+    "query_id": "multisports_test_10",
+    "query": "v_Y0SCvur8ZK0_c006.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        0.04,
+        1.28
+      ],
+      "boxes": [
+        {
+          "frame_id": 1,
+          "box": [
+            0.867188,
+            0.523153,
+            0.919789,
+            0.666667
+          ]
+        },
+        {
+          "frame_id": 25,
+          "box": [
+            0.80625,
+            0.504625,
+            0.868227,
+            0.636111
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":2,\"box\":[0.865,0.525,0.934,0.681]},{\"frame\":3,\"box\":[0.858,0.527,0.934,0.679]},{\"frame\":4,\"box\":[0.867,0.529,0.934,0.686]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_Y0SCvur8ZK0_c006.mp4"
+  },
+  {
+    "query_id": "multisports_test_11",
+    "query": "v_Fsbu9m-6xQ4_c016.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        0.04,
+        0.32
+      ],
+      "boxes": [
+        {
+          "frame_id": 1,
+          "box": [
+            0.277086,
+            0.188889,
+            0.891148,
+            0.999069
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":0,\"box\":[0.289,0.217,0.887,0.999]},{\"frame\":1,\"box\":[0.082,0.340,0.141,0.494]},{\"frame\":2,\"box\":[0.084,0.339,0.132,0.486]},{\"frame\":3,\"box\":[0.079,0.342,0.125,0.483]},{\"frame\":4,\"box\":[0.081,0.343,0.126,0.488]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_Fsbu9m-6xQ4_c016.mp4"
+  },
+  {
+    "query_id": "multisports_test_12",
+    "query": "v_KLIa2UaE2KE_c005.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        7.2,
+        7.92
+      ],
+      "boxes": [
+        {
+          "frame_id": 180,
+          "box": [
+            0.390625,
+            0.491667,
+            0.426563,
+            0.671292
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":4,\"box\":[0.473,0.185,0.487,0.210]},{\"frame\":5,\"box\":[0.379,0.231,0.393,0.256]},{\"frame\":6,\"box\":[0.338,0.515,0.352,0.540]},{\"frame\":7,\"box\":[0.350,0.286,0.365,0.311]},{\"frame\":8,\"box\":[0.450,0.104,0.464,0.129]},{\"frame\":9,\"box\":[0.459,0.083,0.473,0.108]},{\"frame\":10,\"box\":[0.464,0.123,0.478,0.148]},{\"frame\":11,\"box\":[0.522,0.306,0.537,0.331]},{\"frame\":12,\"box\":[0.518,0.334,0.532,0.359]},{\"frame\":13,\"box\":[0.504,0.043,0.519,0.068]},{\"frame\":14,\"box\":[0.505,0.050,0.520,0.075]},{\"frame\":16,\"box\":[0.883,0.112,0.898,0.137]},{\"frame\":17,\"box\":[0.836,0.105,0.851,0.130]},{\"frame\":18,\"box\":[0.728,0.155,0.743,0.180]},{\"frame\":19,\"box\":[0.584,0.205,0.599,0.230]},{\"frame\":20,\"box\":[0.442,0.183,0.457,0.208]},{\"frame\":24,\"box\":[0.194,0.137,0.209,0.162]},{\"frame\":25,\"box\":[0.244,0.262,0.259,0.287]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_KLIa2UaE2KE_c005.mp4"
+  },
+  {
+    "query_id": "multisports_test_13",
+    "query": "v_Y0SCvur8ZK0_c014.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        18.72,
+        19.2
+      ],
+      "boxes": [
+        {
+          "frame_id": 468,
+          "box": [
+            0.455211,
+            0.515736,
+            0.490625,
+            0.691667
+          ]
+        },
+        {
+          "frame_id": 475,
+          "box": [
+            0.453125,
+            0.485181,
+            0.483336,
+            0.640736
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":1,\"box\":[0.651,0.374,0.669,0.393]},{\"frame\":2,\"box\":[0.435,0.472,0.450,0.491]},{\"frame\":3,\"box\":[0.434,0.472,0.449,0.490]},{\"frame\":4,\"box\":[0.452,0.175,0.467,0.195]},{\"frame\":5,\"box\":[0.483,0.337,0.498,0.356]},{\"frame\":6,\"box\":[0.334,0.474,0.349,0.493]},{\"frame\":7,\"box\":[0.319,0.194,0.334,0.215]},{\"frame\":8,\"box\":[0.341,0.227,0.356,0.247]},{\"frame\":9,\"box\":[0.426,0.418,0.441,0.438]},{\"frame\":10,\"box\":[0.583,0.488,0.598,0.508]},{\"frame\":11,\"box\":[0.570,0.280,0.585,0.300]},{\"frame\":12,\"box\":[0.547,0.337,0.562,0.357]},{\"frame\":13,\"box\":[0.244,0.617,0.260,0.638]},{\"frame\":14,\"box\":[0.337,0.285,0.353,0.306]},{\"frame\":15,\"box\":[0.396,0.266,0.411,0.287]},{\"frame\":16,\"box\":[0.431,0.225,0.446,0.246]},{\"frame\":17,\"box\":[0.349,0.108,0.364,0.129]},{\"frame\":18,\"box\":[0.493,0.304,0.508,0.325]},{\"frame\":19,\"box\":[0.574,0.281,0.589,0.302]},{\"frame\":20,\"box\":[0.581,0.368,0.596,0.389]},{\"frame\":21,\"box\":[0.424,0.276,0.439,0.297]},{\"frame\":22,\"box\":[0.397,0.266,0.412,0.287]},{\"frame\":23,\"box\":[0.429,0.225,0.444,0.246]},{\"frame\":24,\"box\":[0.349,0.109,0.364,0.130]},{\"frame\":25,\"box\":[0.494,0.306,0.509,0.327]},{\"frame\":26,\"box\":[0.632,0.453,0.647,0.474]},{\"frame\":27,\"box\":[0.607,0.282,0.622,0.303]},{\"frame\":28,\"box\":[0.543,0.443,0.558,0.464]},{\"frame\":29,\"box\":[0.108,0.661,0.124,0.682]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_Y0SCvur8ZK0_c014.mp4"
+  },
+  {
+    "query_id": "multisports_test_14",
+    "query": "v_-hhDbvY5aAM_c003.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        3.88,
+        4.2
+      ],
+      "boxes": [
+        {
+          "frame_id": 97,
+          "box": [
+            0.451039,
+            0.212958,
+            0.475523,
+            0.300931
+          ]
+        },
+        {
+          "frame_id": 100,
+          "box": [
+            0.455727,
+            0.209264,
+            0.480211,
+            0.292597
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":14,\"box\":[0.566,0.268,0.576,0.284]},{\"frame\":15,\"box\":[0.500,0.273,0.510,0.288]},{\"frame\":16,\"box\":[0.460,0.257,0.470,0.274]},{\"frame\":17,\"box\":[0.445,0.239,0.455,0.255]},{\"frame\":18,\"box\":[0.438,0.224,0.448,0.240]},{\"frame\":19,\"box\":[0.429,0.211,0.439,0.227]},{\"frame\":20,\"box\":[0.418,0.213,0.428,0.229]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_-hhDbvY5aAM_c003.mp4"
+  },
+  {
+    "query_id": "multisports_test_15",
+    "query": "v_8Ndq_1uw98w_c042.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        0.48,
+        1.2
+      ],
+      "boxes": [
+        {
+          "frame_id": 12,
+          "box": [
+            0.366148,
+            0.446292,
+            0.413023,
+            0.550931
+          ]
+        },
+        {
+          "frame_id": 25,
+          "box": [
+            0.442711,
+            0.383333,
+            0.4875,
+            0.493514
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":31,\"box\":[0.710,0.597,0.719,0.615]},{\"frame\":32,\"box\":[0.777,0.606,0.784,0.622]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_8Ndq_1uw98w_c042.mp4"
+  },
+  {
+    "query_id": "multisports_test_16",
+    "query": "v_4LXTUim5anY_c008.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        3.28,
+        4.12
+      ],
+      "boxes": [
+        {
+          "frame_id": 82,
+          "box": [
+            0.58125,
+            0.438889,
+            0.628648,
+            0.594444
+          ]
+        },
+        {
+          "frame_id": 100,
+          "box": [
+            0.66875,
+            0.428708,
+            0.760414,
+            0.589819
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":10,\"box\":[0.540,0.382,0.603,0.578]},{\"frame\":10,\"box\":[0.591,0.414,0.652,0.603]},{\"frame\":11,\"box\":[0.539,0.382,0.604,0.579]},{\"frame\":11,\"box\":[0.595,0.411,0.656,0.602]},{\"frame\":12,\"box\":[0.538,0.382,0.604,0.581]},{\"frame\":12,\"box\":[0.598,0.409,0.660,0.603]},{\"frame\":13,\"box\":[0.540,0.383,0.605,0.582]},{\"frame\":13,\"box\":[0.606,0.408,0.667,0.602]},{\"frame\":14,\"box\":[0.544,0.384,0.608,0.583]},{\"frame\":14,\"box\":[0.620,0.408,0.682,0.606]},{\"frame\":15,\"box\":[0.552,0.385,0.616,0.586]},{\"frame\":15,\"box\":[0.641,0.405,0.705,0.604]},{\"frame\":16,\"box\":[0.563,0.389,0.627,0.590]},{\"frame\":16,\"box\":[0.670,0.399,0.733,0.601]},{\"frame\":17,\"box\":[0.575,0.391,0.639,0.592]},{\"frame\":17,\"box\":[0.690,0.390,0.751,0.592]},{\"frame\":18,\"box\":[0.589,0.396,0.653,0.596]},{\"frame\":18,\"box\":[0.709,0.382,0.770,0.586]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_4LXTUim5anY_c008.mp4"
+  },
+  {
+    "query_id": "multisports_test_17",
+    "query": "v_Y0SCvur8ZK0_c015.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        3.16,
+        3.96
+      ],
+      "boxes": [
+        {
+          "frame_id": 79,
+          "box": [
+            0.533852,
+            0.415736,
+            0.578125,
+            0.577778
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":18,\"box\":[0.606,0.260,0.621,0.285]},{\"frame\":19,\"box\":[0.594,0.203,0.609,0.230]},{\"frame\":20,\"box\":[0.582,0.172,0.598,0.201]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_Y0SCvur8ZK0_c015.mp4"
+  },
+  {
+    "query_id": "multisports_test_18",
+    "query": "v_DjtFlW2eHFI_c017.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        2.96,
+        3.32
+      ],
+      "boxes": [
+        {
+          "frame_id": 74,
+          "box": [
+            0.244273,
+            0.579778,
+            0.283852,
+            0.67625
+          ]
+        },
+        {
+          "frame_id": 75,
+          "box": [
+            0.249477,
+            0.579778,
+            0.289586,
+            0.679042
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":7,\"box\":[0.337,0.510,0.348,0.529]},{\"frame\":8,\"box\":[0.441,0.778,0.452,0.798]},{\"frame\":9,\"box\":[0.443,0.666,0.454,0.685]},{\"frame\":10,\"box\":[0.386,0.620,0.399,0.640]},{\"frame\":11,\"box\":[0.328,0.822,0.341,0.843]},{\"frame\":12,\"box\":[0.370,0.836,0.383,0.856]},{\"frame\":13,\"box\":[0.247,0.793,0.268,0.826]},{\"frame\":14,\"box\":[0.254,0.746,0.276,0.779]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_DjtFlW2eHFI_c017.mp4"
+  },
+  {
+    "query_id": "multisports_test_19",
+    "query": "v_4LXTUim5anY_c009.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        4.0,
+        4.92
+      ],
+      "boxes": [
+        {
+          "frame_id": 100,
+          "box": [
+            0.249477,
+            0.331486,
+            0.325,
+            0.497222
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":7,\"box\":[0.460,0.363,0.505,0.550]},{\"frame\":8,\"box\":[0.456,0.361,0.505,0.552]},{\"frame\":9,\"box\":[0.449,0.356,0.501,0.549]},{\"frame\":10,\"box\":[0.445,0.350,0.500,0.542]},{\"frame\":11,\"box\":[0.432,0.350,0.489,0.539]},{\"frame\":12,\"box\":[0.396,0.354,0.454,0.550]},{\"frame\":13,\"box\":[0.332,0.354,0.389,0.553]},{\"frame\":14,\"box\":[0.282,0.357,0.340,0.552]},{\"frame\":15,\"box\":[0.235,0.356,0.294,0.556]},{\"frame\":16,\"box\":[0.206,0.350,0.268,0.553]},{\"frame\":17,\"box\":[0.183,0.345,0.247,0.550]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_4LXTUim5anY_c009.mp4"
+  },
+  {
+    "query_id": "multisports_test_20",
+    "query": "v_6oTxfzKdG6Q_c007.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        3.04,
+        4.2
+      ],
+      "boxes": [
+        {
+          "frame_id": 76,
+          "box": [
+            0.554688,
+            0.358333,
+            0.610156,
+            0.548611
+          ]
+        },
+        {
+          "frame_id": 100,
+          "box": [
+            0.575,
+            0.291667,
+            0.614844,
+            0.559722
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":0,\"box\":[0.556,0.348,0.599,0.542]},{\"frame\":1,\"box\":[0.557,0.348,0.599,0.540]},{\"frame\":2,\"box\":[0.557,0.348,0.599,0.540]},{\"frame\":3,\"box\":[0.558,0.348,0.599,0.540]},{\"frame\":4,\"box\":[0.557,0.348,0.599,0.540]},{\"frame\":5,\"box\":[0.558,0.349,0.600,0.542]},{\"frame\":6,\"box\":[0.558,0.350,0.600,0.542]},{\"frame\":7,\"box\":[0.559,0.350,0.601,0.542]},{\"frame\":8,\"box\":[0.560,0.349,0.601,0.542]},{\"frame\":9,\"box\":[0.560,0.349,0.601,0.542]},{\"frame\":10,\"box\":[0.561,0.349,0.602,0.540]},{\"frame\":11,\"box\":[0.562,0.352,0.603,0.540]},{\"frame\":12,\"box\":[0.563,0.357,0.604,0.542]},{\"frame\":13,\"box\":[0.563,0.369,0.605,0.550]},{\"frame\":14,\"box\":[0.562,0.376,0.606,0.553]},{\"frame\":15,\"box\":[0.562,0.366,0.606,0.551]},{\"frame\":16,\"box\":[0.561,0.351,0.607,0.546]},{\"frame\":17,\"box\":[0.560,0.342,0.608,0.545]},{\"frame\":18,\"box\":[0.562,0.352,0.607,0.551]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_6oTxfzKdG6Q_c007.mp4"
+  },
+  {
+    "query_id": "multisports_test_21",
+    "query": "v_4LXTUim5anY_c006.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        5.04,
+        5.4
+      ],
+      "boxes": [
+        {
+          "frame_id": 126,
+          "box": [
+            0.294273,
+            0.544444,
+            0.397914,
+            0.822222
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":2,\"box\":[0.488,0.669,0.505,0.698]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_4LXTUim5anY_c006.mp4"
+  },
+  {
+    "query_id": "multisports_test_22",
+    "query": "v_-6Os86HzwCs_c004.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        16.44,
+        17.04
+      ],
+      "boxes": [
+        {
+          "frame_id": 411,
+          "box": [
+            0.689063,
+            0.447222,
+            0.751563,
+            0.597222
+          ]
+        },
+        {
+          "frame_id": 425,
+          "box": [
+            0.746094,
+            0.4625,
+            0.803125,
+            0.661111
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":17,\"box\":[0.309,0.382,0.405,0.657]},{\"frame\":18,\"box\":[0.316,0.422,0.399,0.664]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_-6Os86HzwCs_c004.mp4"
+  },
+  {
+    "query_id": "multisports_test_23",
+    "query": "v_2Dnx8BpgUEs_c007.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        0.76,
+        2.92
+      ],
+      "boxes": [
+        {
+          "frame_id": 19,
+          "box": [
+            0.820836,
+            0.383333,
+            0.913023,
+            0.587042
+          ]
+        },
+        {
+          "frame_id": 25,
+          "box": [
+            0.836977,
+            0.370375,
+            0.890625,
+            0.593514
+          ]
+        },
+        {
+          "frame_id": 50,
+          "box": [
+            0.732289,
+            0.487958,
+            0.793227,
+            0.668514
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":1,\"box\":[0.889,0.407,0.902,0.429]},{\"frame\":2,\"box\":[0.815,0.067,0.829,0.089]},{\"frame\":3,\"box\":[0.767,0.094,0.781,0.115]},{\"frame\":4,\"box\":[0.516,0.354,0.530,0.378]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_2Dnx8BpgUEs_c007.mp4"
+  },
+  {
+    "query_id": "multisports_test_24",
+    "query": "v_Y0SCvur8ZK0_c003.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        4.24,
+        4.8
+      ],
+      "boxes": [
+        {
+          "frame_id": 106,
+          "box": [
+            0.466148,
+            0.437042,
+            0.497914,
+            0.633333
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":20,\"box\":[0.455,0.382,0.510,0.672]},{\"frame\":21,\"box\":[0.459,0.386,0.511,0.616]},{\"frame\":22,\"box\":[0.458,0.395,0.509,0.638]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_Y0SCvur8ZK0_c003.mp4"
+  },
+  {
+    "query_id": "multisports_test_25",
+    "query": "v_07uuHJ9yXBw_c085.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        12.8,
+        13.36
+      ],
+      "boxes": [
+        {
+          "frame_id": 320,
+          "box": [
+            0.334375,
+            0.374069,
+            0.374477,
+            0.466667
+          ]
+        },
+        {
+          "frame_id": 325,
+          "box": [
+            0.365102,
+            0.350931,
+            0.411461,
+            0.448153
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":26,\"box\":[0.357,0.352,0.412,0.499]},{\"frame\":27,\"box\":[0.357,0.369,0.412,0.510]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_07uuHJ9yXBw_c085.mp4"
+  },
+  {
+    "query_id": "multisports_test_26",
+    "query": "v_a-FbBlvBkSE_c015.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        9.84,
+        10.92
+      ],
+      "boxes": [
+        {
+          "frame_id": 246,
+          "box": [
+            0.615102,
+            0.260181,
+            0.656773,
+            0.375
+          ]
+        },
+        {
+          "frame_id": 250,
+          "box": [
+            0.585938,
+            0.269444,
+            0.642711,
+            0.371292
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":27,\"box\":[0.554,0.306,0.620,0.382]},{\"frame\":28,\"box\":[0.545,0.325,0.619,0.384]},{\"frame\":29,\"box\":[0.552,0.329,0.631,0.385]},{\"frame\":30,\"box\":[0.562,0.331,0.635,0.384]},{\"frame\":31,\"box\":[0.580,0.334,0.648,0.385]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_a-FbBlvBkSE_c015.mp4"
+  },
+  {
+    "query_id": "multisports_test_27",
+    "query": "v_gEjQ2Ttbs9M_c008.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        4.88,
+        5.44
+      ],
+      "boxes": [
+        {
+          "frame_id": 122,
+          "box": [
+            0.578125,
+            0.520375,
+            0.620836,
+            0.662958
+          ]
+        },
+        {
+          "frame_id": 125,
+          "box": [
+            0.572914,
+            0.520375,
+            0.633852,
+            0.662958
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":4,\"box\":[0.207,0.432,0.220,0.456]},{\"frame\":5,\"box\":[0.181,0.389,0.194,0.412]},{\"frame\":6,\"box\":[0.583,0.487,0.596,0.511]},{\"frame\":7,\"box\":[0.557,0.570,0.571,0.594]},{\"frame\":8,\"box\":[0.584,0.538,0.598,0.562]},{\"frame\":9,\"box\":[0.861,0.122,0.875,0.147]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_gEjQ2Ttbs9M_c008.mp4"
+  },
+  {
+    "query_id": "multisports_test_28",
+    "query": "v_9MHDmAMxO5I_c004.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        2.04,
+        2.48
+      ],
+      "boxes": [
+        {
+          "frame_id": 51,
+          "box": [
+            0.073961,
+            0.645375,
+            0.133852,
+            0.775
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\": 4, \"box\": [0.459, 0.420, 0.474, 0.446]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_9MHDmAMxO5I_c004.mp4"
+  },
+  {
+    "query_id": "multisports_test_29",
+    "query": "v_iO0QqaR5E24_c010.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        0.6,
+        2.24
+      ],
+      "boxes": [
+        {
+          "frame_id": 15,
+          "box": [
+            0.399219,
+            0.391667,
+            0.488281,
+            0.708333
+          ]
+        },
+        {
+          "frame_id": 25,
+          "box": [
+            0.402344,
+            0.35,
+            0.4875,
+            0.716667
+          ]
+        },
+        {
+          "frame_id": 50,
+          "box": [
+            0.296875,
+            0.691667,
+            0.360156,
+            0.997222
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":1,\"box\":[0.421,0.297,0.470,0.747]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_iO0QqaR5E24_c010.mp4"
+  },
+  {
+    "query_id": "multisports_test_30",
+    "query": "v_-hhDbvY5aAM_c001.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        8.88,
+        9.28
+      ],
+      "boxes": [
+        {
+          "frame_id": 222,
+          "box": [
+            0.301563,
+            0.301847,
+            0.352602,
+            0.412042
+          ]
+        },
+        {
+          "frame_id": 225,
+          "box": [
+            0.319273,
+            0.304625,
+            0.364586,
+            0.414819
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":0,\"box\":[0.690,0.400,0.705,0.416]},{\"frame\":1,\"box\":[0.757,0.345,0.768,0.361]},{\"frame\":2,\"box\":[0.436,0.472,0.446,0.487]},{\"frame\":3,\"box\":[0.305,0.375,0.315,0.389]},{\"frame\":4,\"box\":[0.408,0.375,0.418,0.390]},{\"frame\":5,\"box\":[0.518,0.362,0.528,0.377]},{\"frame\":6,\"box\":[0.377,0.629,0.391,0.651]},{\"frame\":7,\"box\":[0.532,0.382,0.542,0.397]},{\"frame\":8,\"box\":[0.589,0.000,0.598,0.015]},{\"frame\":10,\"box\":[0.753,0.308,0.761,0.319]},{\"frame\":11,\"box\":[0.702,0.144,0.712,0.161]},{\"frame\":12,\"box\":[0.570,0.286,0.580,0.301]},{\"frame\":13,\"box\":[0.270,0.289,0.280,0.304]},{\"frame\":14,\"box\":[0.481,0.486,0.491,0.502]},{\"frame\":15,\"box\":[0.611,0.418,0.621,0.434]},{\"frame\":16,\"box\":[0.530,0.382,0.540,0.398]},{\"frame\":17,\"box\":[0.518,0.372,0.528,0.388]},{\"frame\":19,\"box\":[0.580,0.386,0.590,0.402]},{\"frame\":20,\"box\":[0.659,0.390,0.669,0.406]},{\"frame\":21,\"box\":[0.797,0.438,0.807,0.454]},{\"frame\":22,\"box\":[0.810,0.448,0.821,0.464]},{\"frame\":23,\"box\":[0.641,0.457,0.651,0.473]},{\"frame\":24,\"box\":[0.661,0.400,0.671,0.416]},{\"frame\":25,\"box\":[0.232,0.472,0.243,0.489]},{\"frame\":27,\"box\":[0.661,0.421,0.671,0.437]},{\"frame\":28,\"box\":[0.506,0.405,0.516,0.421]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_-hhDbvY5aAM_c001.mp4"
+  },
+  {
+    "query_id": "multisports_test_31",
+    "query": "v_4nikeBZNYRE_c001.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        0.48,
+        1.92
+      ],
+      "boxes": [
+        {
+          "frame_id": 12,
+          "box": [
+            0.492188,
+            0.295833,
+            0.526563,
+            0.445833
+          ]
+        },
+        {
+          "frame_id": 25,
+          "box": [
+            0.471875,
+            0.318056,
+            0.516406,
+            0.468056
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":0,\"box\":[0.313,0.382,0.327,0.402]},{\"frame\":1,\"box\":[0.304,0.404,0.318,0.424]},{\"frame\":2,\"box\":[0.294,0.429,0.309,0.449]},{\"frame\":3,\"box\":[0.306,0.434,0.320,0.454]},{\"frame\":4,\"box\":[0.324,0.421,0.338,0.441]},{\"frame\":5,\"box\":[0.339,0.409,0.353,0.429]},{\"frame\":6,\"box\":[0.355,0.397,0.369,0.417]},{\"frame\":7,\"box\":[0.371,0.386,0.385,0.406]},{\"frame\":8,\"box\":[0.387,0.396,0.401,0.416]},{\"frame\":9,\"box\":[0.402,0.417,0.416,0.437]},{\"frame\":10,\"box\":[0.417,0.439,0.432,0.459]},{\"frame\":11,\"box\":[0.431,0.457,0.446,0.477]},{\"frame\":12,\"box\":[0.445,0.479,0.460,0.499]},{\"frame\":13,\"box\":[0.458,0.451,0.473,0.471]},{\"frame\":14,\"box\":[0.430,0.468,0.445,0.488]},{\"frame\":15,\"box\":[0.372,0.497,0.387,0.517]},{\"frame\":16,\"box\":[0.293,0.516,0.308,0.536]},{\"frame\":17,\"box\":[0.278,0.494,0.293,0.514]},{\"frame\":18,\"box\":[0.272,0.462,0.287,0.482]},{\"frame\":19,\"box\":[0.273,0.426,0.288,0.446]},{\"frame\":20,\"box\":[0.280,0.389,0.295,0.409]},{\"frame\":21,\"box\":[0.286,0.359,0.301,0.379]},{\"frame\":22,\"box\":[0.286,0.339,0.301,0.359]},{\"frame\":23,\"box\":[0.290,0.322,0.305,0.342]},{\"frame\":24,\"box\":[0.294,0.336,0.309,0.356]},{\"frame\":25,\"box\":[0.302,0.357,0.317,0.377]},{\"frame\":26,\"box\":[0.311,0.379,0.326,0.399]},{\"frame\":27,\"box\":[0.321,0.393,0.336,0.413]},{\"frame\":28,\"box\":[0.333,0.406,0.348,0.426]},{\"frame\":29,\"box\":[0.344,0.414,0.359,0.434]},{\"frame\":30,\"box\":[0.353,0.421,0.368,0.441]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_4nikeBZNYRE_c001.mp4"
+  },
+  {
+    "query_id": "multisports_test_32",
+    "query": "v_gEjQ2Ttbs9M_c010.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        5.96,
+        6.88
+      ],
+      "boxes": [
+        {
+          "frame_id": 149,
+          "box": [
+            0.359375,
+            0.588889,
+            0.425,
+            0.772222
+          ]
+        },
+        {
+          "frame_id": 150,
+          "box": [
+            0.367188,
+            0.586111,
+            0.425523,
+            0.776847
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":10,\"box\":[0.400,0.470,0.468,0.745]},{\"frame\":16,\"box\":[0.548,0.365,0.638,0.680]},{\"frame\":26,\"box\":[0.254,0.315,0.338,0.625]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_gEjQ2Ttbs9M_c010.mp4"
+  },
+  {
+    "query_id": "multisports_test_33",
+    "query": "v_DjtFlW2eHFI_c031.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        105.8,
+        106.32
+      ],
+      "boxes": [
+        {
+          "frame_id": 2645,
+          "box": [
+            0.351562,
+            0.463819,
+            0.398438,
+            0.542667
+          ]
+        },
+        {
+          "frame_id": 2650,
+          "box": [
+            0.351562,
+            0.471236,
+            0.388539,
+            0.548236
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":2,\"box\":[0.282,0.339,0.317,0.369]},{\"frame\":24,\"box\":[0.493,0.501,0.546,0.546]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_DjtFlW2eHFI_c031.mp4"
+  },
+  {
+    "query_id": "multisports_test_34",
+    "query": "v_9MHDmAMxO5I_c005.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        3.24,
+        4.32
+      ],
+      "boxes": [
+        {
+          "frame_id": 81,
+          "box": [
+            0.263023,
+            0.515736,
+            0.340102,
+            0.709264
+          ]
+        },
+        {
+          "frame_id": 100,
+          "box": [
+            0.482812,
+            0.403708,
+            0.53125,
+            0.644444
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":20,\"box\":[0.419,0.270,0.431,0.292]},{\"frame\":21,\"box\":[0.431,0.238,0.443,0.260]},{\"frame\":22,\"box\":[0.479,0.211,0.491,0.233]},{\"frame\":23,\"box\":[0.534,0.185,0.546,0.207]},{\"frame\":24,\"box\":[0.583,0.165,0.595,0.187]},{\"frame\":25,\"box\":[0.622,0.148,0.634,0.170]},{\"frame\":26,\"box\":[0.651,0.136,0.663,0.158]},{\"frame\":27,\"box\":[0.678,0.130,0.690,0.152]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_9MHDmAMxO5I_c005.mp4"
+  },
+  {
+    "query_id": "multisports_test_35",
+    "query": "v_-6Os86HzwCs_c007.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        4.68,
+        5.16
+      ],
+      "boxes": [
+        {
+          "frame_id": 117,
+          "box": [
+            0.536719,
+            0.45,
+            0.613281,
+            0.631944
+          ]
+        },
+        {
+          "frame_id": 125,
+          "box": [
+            0.536719,
+            0.375,
+            0.603906,
+            0.638889
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":27,\"box\":[0.472,0.604,0.489,0.627]},{\"frame\":28,\"box\":[0.420,0.627,0.435,0.651]},{\"frame\":29,\"box\":[0.380,0.649,0.396,0.673]},{\"frame\":30,\"box\":[0.306,0.692,0.322,0.716]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_-6Os86HzwCs_c007.mp4"
+  },
+  {
+    "query_id": "multisports_test_36",
+    "query": "v_IATp4zy18jA_c003.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        13.72,
+        14.12
+      ],
+      "boxes": [
+        {
+          "frame_id": 343,
+          "box": [
+            0.641148,
+            0.345375,
+            0.690102,
+            0.481486
+          ]
+        },
+        {
+          "frame_id": 350,
+          "box": [
+            0.525,
+            0.459264,
+            0.620836,
+            0.538889
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":28,\"box\":[0.619,0.282,0.764,0.596]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_IATp4zy18jA_c003.mp4"
+  },
+  {
+    "query_id": "multisports_test_37",
+    "query": "v_gEjQ2Ttbs9M_c009.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        4.16,
+        4.72
+      ],
+      "boxes": [
+        {
+          "frame_id": 104,
+          "box": [
+            0.593227,
+            0.524069,
+            0.630211,
+            0.689819
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":0,\"box\":[0.442,0.625,0.541,0.808]},{\"frame\":1,\"box\":[0.447,0.626,0.544,0.801]},{\"frame\":2,\"box\":[0.449,0.628,0.543,0.800]},{\"frame\":3,\"box\":[0.418,0.647,0.513,0.825]},{\"frame\":4,\"box\":[0.389,0.831,0.483,1.000]},{\"frame\":5,\"box\":[0.398,0.976,0.444,1.000]},{\"frame\":9,\"box\":[0.833,0.106,0.851,0.136]},{\"frame\":10,\"box\":[0.831,0.160,0.850,0.190]},{\"frame\":11,\"box\":[0.804,0.254,0.824,0.285]},{\"frame\":12,\"box\":[0.753,0.337,0.774,0.368]},{\"frame\":13,\"box\":[0.542,0.470,0.564,0.505]},{\"frame\":14,\"box\":[0.487,0.520,0.511,0.556]},{\"frame\":15,\"box\":[0.438,0.549,0.462,0.585]},{\"frame\":16,\"box\":[0.470,0.495,0.492,0.529]},{\"frame\":17,\"box\":[0.507,0.546,0.530,0.580]},{\"frame\":18,\"box\":[0.496,0.417,0.519,0.451]},{\"frame\":19,\"box\":[0.462,0.228,0.484,0.263]},{\"frame\":24,\"box\":[0.325,0.150,0.347,0.185]},{\"frame\":25,\"box\":[0.374,0.239,0.398,0.274]},{\"frame\":26,\"box\":[0.396,0.334,0.420,0.369]},{\"frame\":27,\"box\":[0.461,0.464,0.484,0.500]},{\"frame\":28,\"box\":[0.568,0.427,0.591,0.461]},{\"frame\":29,\"box\":[0.646,0.483,0.669,0.518]},{\"frame\":30,\"box\":[0.616,0.403,0.640,0.438]},{\"frame\":31,\"box\":[0.492,0.229,0.515,0.264]},{\"frame\":32,\"box\":[0.398,0.286,0.421,0.321]},{\"frame\":33,\"box\":[0.376,0.325,0.399,0.360]},{\"frame\":34,\"box\":[0.545,0.424,0.568,0.459]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_gEjQ2Ttbs9M_c009.mp4"
+  },
+  {
+    "query_id": "multisports_test_38",
+    "query": "v_hDBjIvCw7Kk_c001.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        1.2,
+        1.32
+      ],
+      "boxes": [
+        {
+          "frame_id": 30,
+          "box": [
+            0.458852,
+            0.712042,
+            0.529164,
+            0.904625
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":0,\"box\":[0.474,0.709,0.525,0.916]},{\"frame\":1,\"box\":[0.476,0.710,0.526,0.916]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_hDBjIvCw7Kk_c001.mp4"
+  },
+  {
+    "query_id": "multisports_test_39",
+    "query": "v_xd9oKtYYSGQ_c006.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        5.2,
+        5.68
+      ],
+      "boxes": [
+        {
+          "frame_id": 130,
+          "box": [
+            0.6125,
+            0.325,
+            0.649219,
+            0.5
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":0,\"box\":[0.649,0.747,0.714,0.892]},{\"frame\":5,\"box\":[0.541,0.000,0.555,0.025]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_xd9oKtYYSGQ_c006.mp4"
+  },
+  {
+    "query_id": "multisports_test_40",
+    "query": "v_Fsbu9m-6xQ4_c010.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        2.72,
+        3.32
+      ],
+      "boxes": [
+        {
+          "frame_id": 68,
+          "box": [
+            0.0875,
+            0.466667,
+            0.132289,
+            0.587042
+          ]
+        },
+        {
+          "frame_id": 75,
+          "box": [
+            0.126039,
+            0.437042,
+            0.172914,
+            0.579625
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\": 9, \"box\": [0.147, 0.401, 0.160, 0.423]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_Fsbu9m-6xQ4_c010.mp4"
+  },
+  {
+    "query_id": "multisports_test_41",
+    "query": "v_DC3D_JZQUqQ_c012.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        16.88,
+        17.72
+      ],
+      "boxes": [
+        {
+          "frame_id": 422,
+          "box": [
+            0.44375,
+            0.376389,
+            0.5,
+            0.5875
+          ]
+        },
+        {
+          "frame_id": 425,
+          "box": [
+            0.419531,
+            0.344444,
+            0.489844,
+            0.597222
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\": 27, \"box\": [0.351, 0.351, 0.438, 0.648]}, {\"frame\": 28, \"box\": [0.350, 0.360, 0.432, 0.651]}, {\"frame\": 29, \"box\": [0.326, 0.343, 0.407, 0.665]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_DC3D_JZQUqQ_c012.mp4"
+  },
+  {
+    "query_id": "multisports_test_42",
+    "query": "v_8Ndq_1uw98w_c602.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        10.2,
+        10.52
+      ],
+      "boxes": [
+        {
+          "frame_id": 255,
+          "box": [
+            0.294273,
+            0.492597,
+            0.342187,
+            0.586111
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":22,\"box\":[0.331,0.559,0.342,0.577]},{\"frame\":23,\"box\":[0.360,0.575,0.372,0.593]},{\"frame\":24,\"box\":[0.535,0.570,0.546,0.588]},{\"frame\":25,\"box\":[0.638,0.638,0.649,0.656]},{\"frame\":26,\"box\":[0.615,0.657,0.626,0.675]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_8Ndq_1uw98w_c602.mp4"
+  },
+  {
+    "query_id": "multisports_test_43",
+    "query": "v_-hhDbvY5aAM_c009.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        1.44,
+        2.16
+      ],
+      "boxes": [
+        {
+          "frame_id": 36,
+          "box": [
+            0.580211,
+            0.650931,
+            0.622398,
+            0.836111
+          ]
+        },
+        {
+          "frame_id": 50,
+          "box": [
+            0.591148,
+            0.671292,
+            0.648961,
+            0.840736
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":0,\"box\":[0.598,0.676,0.611,0.700]},{\"frame\":1,\"box\":[0.591,0.659,0.605,0.683]},{\"frame\":2,\"box\":[0.590,0.647,0.604,0.671]},{\"frame\":3,\"box\":[0.694,0.493,0.707,0.515]},{\"frame\":4,\"box\":[0.748,0.610,0.761,0.632]},{\"frame\":5,\"box\":[0.744,0.567,0.757,0.589]},{\"frame\":6,\"box\":[0.627,0.600,0.640,0.621]},{\"frame\":7,\"box\":[0.591,0.594,0.604,0.615]},{\"frame\":8,\"box\":[0.651,0.591,0.664,0.613]},{\"frame\":9,\"box\":[0.561,0.565,0.574,0.587]},{\"frame\":10,\"box\":[0.407,0.584,0.420,0.606]},{\"frame\":11,\"box\":[0.471,0.572,0.484,0.593]},{\"frame\":12,\"box\":[0.566,0.596,0.579,0.617]},{\"frame\":13,\"box\":[0.679,0.598,0.692,0.619]},{\"frame\":14,\"box\":[0.555,0.555,0.568,0.577]},{\"frame\":15,\"box\":[0.481,0.600,0.494,0.622]},{\"frame\":16,\"box\":[0.502,0.572,0.515,0.594]},{\"frame\":17,\"box\":[0.606,0.499,0.619,0.521]},{\"frame\":18,\"box\":[0.660,0.521,0.673,0.543]},{\"frame\":19,\"box\":[0.660,0.521,0.673,0.543]},{\"frame\":20,\"box\":[0.655,0.564,0.668,0.586]},{\"frame\":21,\"box\":[0.634,0.574,0.647,0.596]},{\"frame\":22,\"box\":[0.617,0.596,0.630,0.618]},{\"frame\":23,\"box\":[0.621,0.562,0.634,0.584]},{\"frame\":24,\"box\":[0.535,0.541,0.548,0.563]},{\"frame\":25,\"box\":[0.762,0.536,0.775,0.558]},{\"frame\":26,\"box\":[0.749,0.544,0.762,0.566]},{\"frame\":27,\"box\":[0.729,0.500,0.742,0.522]},{\"frame\":28,\"box\":[0.699,0.435,0.712,0.457]},{\"frame\":29,\"box\":[0.633,0.469,0.646,0.491]},{\"frame\":30,\"box\":[0.534,0.344,0.547,0.366]},{\"frame\":31,\"box\":[0.534,0.344,0.547,0.366]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_-hhDbvY5aAM_c009.mp4"
+  },
+  {
+    "query_id": "multisports_test_44",
+    "query": "v_SHFVKZ6HJc8_c011.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        9.56,
+        10.36
+      ],
+      "boxes": [
+        {
+          "frame_id": 239,
+          "box": [
+            0.255727,
+            0.369444,
+            0.334375,
+            0.536111
+          ]
+        },
+        {
+          "frame_id": 250,
+          "box": [
+            0.359375,
+            0.371292,
+            0.420836,
+            0.512958
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":17,\"box\":[0.226,0.485,0.285,0.714]},{\"frame\":18,\"box\":[0.344,0.401,0.405,0.623]},{\"frame\":19,\"box\":[0.408,0.383,0.468,0.588]},{\"frame\":20,\"box\":[0.525,0.395,0.593,0.608]},{\"frame\":21,\"box\":[0.544,0.392,0.610,0.605]},{\"frame\":22,\"box\":[0.488,0.378,0.572,0.595]},{\"frame\":23,\"box\":[0.428,0.385,0.521,0.607]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_SHFVKZ6HJc8_c011.mp4"
+  },
+  {
+    "query_id": "multisports_test_45",
+    "query": "v_xd9oKtYYSGQ_c003.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        7.8,
+        8.32
+      ],
+      "boxes": [
+        {
+          "frame_id": 195,
+          "box": [
+            0.46875,
+            0.533333,
+            0.526563,
+            0.745833
+          ]
+        },
+        {
+          "frame_id": 200,
+          "box": [
+            0.477344,
+            0.484722,
+            0.525781,
+            0.688889
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":0,\"box\":[0.056,0.575,0.075,0.610]},{\"frame\":1,\"box\":[0.056,0.575,0.075,0.610]},{\"frame\":2,\"box\":[0.056,0.575,0.075,0.610]},{\"frame\":3,\"box\":[0.566,0.700,0.681,0.897]},{\"frame\":4,\"box\":[0.548,0.784,0.654,0.962]},{\"frame\":5,\"box\":[0.662,0.639,0.784,0.838]},{\"frame\":5,\"box\":[0.080,0.090,0.128,0.205]},{\"frame\":6,\"box\":[0.662,0.636,0.785,0.839]},{\"frame\":7,\"box\":[0.697,0.717,0.790,0.887]},{\"frame\":8,\"box\":[0.107,0.539,0.126,0.572]},{\"frame\":9,\"box\":[0.358,0.566,0.381,0.600]},{\"frame\":10,\"box\":[0.559,0.548,0.581,0.582]},{\"frame\":11,\"box\":[0.539,0.441,0.561,0.474]},{\"frame\":12,\"box\":[0.524,0.516,0.548,0.550]},{\"frame\":13,\"box\":[0.466,0.599,0.491,0.633]},{\"frame\":14,\"box\":[0.418,0.608,0.443,0.643]},{\"frame\":15,\"box\":[0.522,0.527,0.546,0.563]},{\"frame\":16,\"box\":[0.594,0.450,0.618,0.486]},{\"frame\":17,\"box\":[0.664,0.418,0.688,0.454]},{\"frame\":18,\"box\":[0.704,0.381,0.728,0.416]},{\"frame\":19,\"box\":[0.627,0.415,0.651,0.450]},{\"frame\":20,\"box\":[0.548,0.469,0.573,0.504]},{\"frame\":21,\"box\":[0.465,0.545,0.490,0.580]},{\"frame\":22,\"box\":[0.371,0.664,0.396,0.699]},{\"frame\":23,\"box\":[0.301,0.471,0.325,0.506]},{\"frame\":24,\"box\":[0.365,0.452,0.389,0.487]},{\"frame\":25,\"box\":[0.398,0.455,0.422,0.490]},{\"frame\":26,\"box\":[0.437,0.500,0.462,0.535]},{\"frame\":27,\"box\":[0.470,0.547,0.495,0.582]},{\"frame\":28,\"box\":[0.517,0.582,0.542,0.617]},{\"frame\":29,\"box\":[0.582,0.561,0.607,0.596]},{\"frame\":30,\"box\":[0.533,0.510,0.558,0.545]},{\"frame\":31,\"box\":[0.474,0.461,0.499,0.496]},{\"frame\":32,\"box\":[0.441,0.490,0.466,0.525]},{\"frame\":33,\"box\":[0.505,0.538,0.530,0.573]},{\"frame\":34,\"box\":[0.611,0.614,0.636,0.649]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_xd9oKtYYSGQ_c003.mp4"
+  },
+  {
+    "query_id": "multisports_test_46",
+    "query": "v_iO0QqaR5E24_c004.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        11.44,
+        12.28
+      ],
+      "boxes": [
+        {
+          "frame_id": 286,
+          "box": [
+            0.394531,
+            0.413889,
+            0.453906,
+            0.643056
+          ]
+        },
+        {
+          "frame_id": 300,
+          "box": [
+            0.307812,
+            0.370833,
+            0.388281,
+            0.626389
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":23,\"box\":[0.378,0.389,0.397,0.417]},{\"frame\":24,\"box\":[0.354,0.306,0.372,0.334]},{\"frame\":25,\"box\":[0.329,0.235,0.347,0.263]},{\"frame\":26,\"box\":[0.326,0.209,0.345,0.237]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_iO0QqaR5E24_c004.mp4"
+  },
+  {
+    "query_id": "multisports_test_47",
+    "query": "v_8Ndq_1uw98w_c602.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        10.04,
+        10.56
+      ],
+      "boxes": [
+        {
+          "frame_id": 251,
+          "box": [
+            0.326039,
+            0.482403,
+            0.365625,
+            0.567597
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":0,\"box\":[0.494,0.514,0.506,0.535]},{\"frame\":1,\"box\":[0.445,0.629,0.455,0.650]},{\"frame\":2,\"box\":[0.388,0.738,0.399,0.757]},{\"frame\":4,\"box\":[0.235,0.796,0.247,0.818]},{\"frame\":5,\"box\":[0.266,0.782,0.279,0.803]},{\"frame\":6,\"box\":[0.268,0.783,0.280,0.804]},{\"frame\":7,\"box\":[0.280,0.773,0.292,0.795]},{\"frame\":8,\"box\":[0.307,0.826,0.325,0.851]},{\"frame\":9,\"box\":[0.282,0.840,0.299,0.866]},{\"frame\":10,\"box\":[0.318,0.820,0.335,0.846]},{\"frame\":11,\"box\":[0.330,0.782,0.347,0.808]},{\"frame\":12,\"box\":[0.359,0.755,0.376,0.781]},{\"frame\":13,\"box\":[0.353,0.783,0.371,0.810]},{\"frame\":14,\"box\":[0.509,0.550,0.524,0.572]},{\"frame\":15,\"box\":[0.438,0.488,0.451,0.511]},{\"frame\":16,\"box\":[0.344,0.495,0.357,0.518]},{\"frame\":18,\"box\":[0.344,0.548,0.357,0.571]},{\"frame\":19,\"box\":[0.368,0.539,0.381,0.562]},{\"frame\":20,\"box\":[0.322,0.541,0.335,0.563]},{\"frame\":21,\"box\":[0.334,0.569,0.347,0.592]},{\"frame\":22,\"box\":[0.360,0.572,0.373,0.594]},{\"frame\":23,\"box\":[0.534,0.564,0.548,0.587]},{\"frame\":24,\"box\":[0.638,0.638,0.651,0.662]},{\"frame\":25,\"box\":[0.614,0.663,0.628,0.687]},{\"frame\":26,\"box\":[0.646,0.649,0.660,0.673]},{\"frame\":27,\"box\":[0.646,0.649,0.660,0.674]},{\"frame\":28,\"box\":[0.646,0.649,0.660,0.674]},{\"frame\":29,\"box\":[0.592,0.380,0.606,0.402]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_8Ndq_1uw98w_c602.mp4"
+  },
+  {
+    "query_id": "multisports_test_48",
+    "query": "v_-hhDbvY5aAM_c008.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        17.8,
+        18.44
+      ],
+      "boxes": [
+        {
+          "frame_id": 445,
+          "box": [
+            0.683336,
+            0.562958,
+            0.742711,
+            0.672222
+          ]
+        },
+        {
+          "frame_id": 450,
+          "box": [
+            0.682289,
+            0.572222,
+            0.753125,
+            0.685181
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":17,\"box\":[0.492,0.496,0.536,0.640]},{\"frame\":18,\"box\":[0.469,0.425,0.542,0.632]},{\"frame\":19,\"box\":[0.477,0.516,0.529,0.668]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_-hhDbvY5aAM_c008.mp4"
+  },
+  {
+    "query_id": "multisports_test_49",
+    "query": "v_2Dnx8BpgUEs_c001.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        5.2,
+        5.96
+      ],
+      "boxes": [
+        {
+          "frame_id": 130,
+          "box": [
+            0.309898,
+            0.553708,
+            0.353125,
+            0.849069
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":28,\"box\":[0.293,0.440,0.366,0.738]},{\"frame\":29,\"box\":[0.310,0.430,0.382,0.721]},{\"frame\":30,\"box\":[0.329,0.456,0.397,0.733]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_2Dnx8BpgUEs_c001.mp4"
+  },
+  {
+    "query_id": "multisports_test_50",
+    "query": "v_Fsbu9m-6xQ4_c018.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        2.2,
+        2.72
+      ],
+      "boxes": [
+        {
+          "frame_id": 55,
+          "box": [
+            0.075,
+            0.575,
+            0.129164,
+            0.725
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":8,\"box\":[0.211,0.365,0.225,0.388]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_Fsbu9m-6xQ4_c018.mp4"
+  },
+  {
+    "query_id": "multisports_test_51",
+    "query": "v_07uuHJ9yXBw_c020.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        3.88,
+        4.44
+      ],
+      "boxes": [
+        {
+          "frame_id": 97,
+          "box": [
+            0.239586,
+            0.293514,
+            0.286977,
+            0.386111
+          ]
+        },
+        {
+          "frame_id": 100,
+          "box": [
+            0.245836,
+            0.298153,
+            0.283852,
+            0.4
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":0,\"box\":[0.250,0.391,0.259,0.407]},{\"frame\":1,\"box\":[0.250,0.391,0.259,0.407]},{\"frame\":2,\"box\":[0.250,0.391,0.259,0.407]},{\"frame\":3,\"box\":[0.250,0.391,0.259,0.407]},{\"frame\":4,\"box\":[0.250,0.391,0.259,0.407]},{\"frame\":5,\"box\":[0.250,0.391,0.259,0.407]},{\"frame\":6,\"box\":[0.250,0.391,0.259,0.407]},{\"frame\":7,\"box\":[0.250,0.391,0.259,0.407]},{\"frame\":8,\"box\":[0.250,0.391,0.259,0.407]},{\"frame\":9,\"box\":[0.250,0.391,0.259,0.407]},{\"frame\":10,\"box\":[0.250,0.391,0.259,0.407]},{\"frame\":11,\"box\":[0.250,0.391,0.259,0.407]},{\"frame\":12,\"box\":[0.309,0.310,0.320,0.330]},{\"frame\":13,\"box\":[0.304,0.299,0.315,0.319]},{\"frame\":18,\"box\":[0.554,0.330,0.566,0.348]},{\"frame\":19,\"box\":[0.508,0.365,0.520,0.383]},{\"frame\":20,\"box\":[0.481,0.349,0.493,0.367]},{\"frame\":21,\"box\":[0.468,0.338,0.480,0.356]},{\"frame\":22,\"box\":[0.459,0.331,0.471,0.349]},{\"frame\":23,\"box\":[0.476,0.345,0.488,0.363]},{\"frame\":24,\"box\":[0.486,0.353,0.498,0.371]},{\"frame\":25,\"box\":[0.472,0.343,0.484,0.361]},{\"frame\":26,\"box\":[0.460,0.336,0.472,0.354]},{\"frame\":27,\"box\":[0.466,0.330,0.478,0.348]},{\"frame\":28,\"box\":[0.480,0.335,0.492,0.353]},{\"frame\":29,\"box\":[0.500,0.329,0.512,0.347]},{\"frame\":30,\"box\":[0.542,0.323,0.554,0.341]},{\"frame\":31,\"box\":[0.590,0.318,0.602,0.336]},{\"frame\":32,\"box\":[0.696,0.314,0.708,0.332]},{\"frame\":33,\"box\":[0.689,0.315,0.701,0.333]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_07uuHJ9yXBw_c020.mp4"
+  },
+  {
+    "query_id": "multisports_test_52",
+    "query": "v_07uuHJ9yXBw_c041.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        24.84,
+        26.36
+      ],
+      "boxes": [
+        {
+          "frame_id": 621,
+          "box": [
+            0.471875,
+            0.632403,
+            0.534898,
+            0.781486
+          ]
+        },
+        {
+          "frame_id": 625,
+          "box": [
+            0.457289,
+            0.637042,
+            0.514062,
+            0.785181
+          ]
+        },
+        {
+          "frame_id": 650,
+          "box": [
+            0.403125,
+            0.625,
+            0.454688,
+            0.776847
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":1,\"box\":[0.588,0.754,0.600,0.770]},{\"frame\":2,\"box\":[0.728,0.768,0.740,0.783]},{\"frame\":3,\"box\":[0.708,0.684,0.720,0.700]},{\"frame\":4,\"box\":[0.617,0.389,0.628,0.405]},{\"frame\":5,\"box\":[0.621,0.353,0.632,0.369]},{\"frame\":6,\"box\":[0.571,0.359,0.582,0.375]},{\"frame\":7,\"box\":[0.428,0.293,0.439,0.308]},{\"frame\":8,\"box\":[0.504,0.296,0.515,0.311]},{\"frame\":9,\"box\":[0.588,0.340,0.599,0.356]},{\"frame\":10,\"box\":[0.676,0.350,0.687,0.365]},{\"frame\":11,\"box\":[0.729,0.370,0.740,0.386]},{\"frame\":12,\"box\":[0.708,0.331,0.719,0.347]},{\"frame\":13,\"box\":[0.670,0.333,0.681,0.349]},{\"frame\":14,\"box\":[0.574,0.351,0.585,0.367]},{\"frame\":15,\"box\":[0.565,0.348,0.576,0.364]},{\"frame\":16,\"box\":[0.381,0.271,0.392,0.287]},{\"frame\":17,\"box\":[0.383,0.282,0.394,0.297]},{\"frame\":18,\"box\":[0.450,0.343,0.461,0.359]},{\"frame\":19,\"box\":[0.507,0.386,0.518,0.402]},{\"frame\":20,\"box\":[0.535,0.435,0.546,0.451]},{\"frame\":21,\"box\":[0.590,0.507,0.601,0.523]},{\"frame\":22,\"box\":[0.556,0.581,0.568,0.597]},{\"frame\":23,\"box\":[0.513,0.566,0.524,0.582]},{\"frame\":24,\"box\":[0.439,0.563,0.450,0.579]},{\"frame\":25,\"box\":[0.316,0.570,0.327,0.586]},{\"frame\":26,\"box\":[0.286,0.621,0.297,0.637]},{\"frame\":27,\"box\":[0.293,0.681,0.304,0.697]},{\"frame\":28,\"box\":[0.321,0.728,0.332,0.744]},{\"frame\":29,\"box\":[0.287,0.761,0.298,0.777]},{\"frame\":30,\"box\":[0.303,0.797,0.314,0.813]},{\"frame\":31,\"box\":[0.318,0.784,0.329,0.800]},{\"frame\":32,\"box\":[0.290,0.783,0.301,0.799]},{\"frame\":33,\"box\":[0.266,0.779,0.277,0.795]},{\"frame\":34,\"box\":[0.238,0.775,0.249,0.791]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_07uuHJ9yXBw_c041.mp4"
+  },
+  {
+    "query_id": "multisports_test_53",
+    "query": "v_SHFVKZ6HJc8_c007.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        0.56,
+        0.68
+      ],
+      "boxes": [
+        {
+          "frame_id": 14,
+          "box": [
+            0.544789,
+            0.724069,
+            0.622914,
+            0.996292
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":0,\"box\":[0.574,0.727,0.634,0.999]},{\"frame\":1,\"box\":[0.570,0.707,0.632,0.999]},{\"frame\":2,\"box\":[0.569,0.672,0.623,0.943]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_SHFVKZ6HJc8_c007.mp4"
+  },
+  {
+    "query_id": "multisports_test_54",
+    "query": "v_4LXTUim5anY_c002.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        0.04,
+        1.2
+      ],
+      "boxes": [
+        {
+          "frame_id": 1,
+          "box": [
+            0.550523,
+            0.384264,
+            0.647398,
+            0.589819
+          ]
+        },
+        {
+          "frame_id": 25,
+          "box": [
+            0.563539,
+            0.416667,
+            0.65625,
+            0.637958
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":0,\"box\":[0.704,0.780,0.955,0.881]},{\"frame\":1,\"box\":[0.704,0.780,0.955,0.881]},{\"frame\":2,\"box\":[0.704,0.780,0.955,0.881]},{\"frame\":3,\"box\":[0.704,0.780,0.955,0.881]},{\"frame\":4,\"box\":[0.704,0.780,0.955,0.881]},{\"frame\":5,\"box\":[0.704,0.780,0.955,0.881]},{\"frame\":6,\"box\":[0.704,0.780,0.955,0.881]},{\"frame\":7,\"box\":[0.704,0.780,0.955,0.881]},{\"frame\":8,\"box\":[0.704,0.780,0.955,0.881]},{\"frame\":9,\"box\":[0.704,0.780,0.955,0.881]},{\"frame\":10,\"box\":[0.704,0.780,0.955,0.881]},{\"frame\":11,\"box\":[0.704,0.780,0.955,0.881]},{\"frame\":12,\"box\":[0.704,0.780,0.955,0.881]},{\"frame\":13,\"box\":[0.704,0.780,0.955,0.881]},{\"frame\":14,\"box\":[0.704,0.780,0.955,0.881]},{\"frame\":15,\"box\":[0.704,0.780,0.955,0.881]},{\"frame\":16,\"box\":[0.704,0.780,0.955,0.881]},{\"frame\":17,\"box\":[0.704,0.780,0.955,0.881]},{\"frame\":18,\"box\":[0.704,0.780,0.955,0.881]},{\"frame\":19,\"box\":[0.704,0.780,0.955,0.881]},{\"frame\":20,\"box\":[0.704,0.780,0.955,0.881]},{\"frame\":21,\"box\":[0.704,0.780,0.955,0.881]},{\"frame\":22,\"box\":[0.704,0.780,0.955,0.881]},{\"frame\":23,\"box\":[0.704,0.780,0.955,0.881]},{\"frame\":24,\"box\":[0.704,0.780,0.955,0.881]},{\"frame\":25,\"box\":[0.704,0.780,0.955,0.881]},{\"frame\":26,\"box\":[0.704,0.780,0.955,0.881]},{\"frame\":27,\"box\":[0.704,0.780,0.955,0.881]},{\"frame\":28,\"box\":[0.704,0.780,0.955,0.881]},{\"frame\":29,\"box\":[0.704,0.780,0.955,0.881]},{\"frame\":30,\"box\":[0.704,0.780,0.955,0.881]},{\"frame\":31,\"box\":[0.704,0.780,0.955,0.881]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_4LXTUim5anY_c002.mp4"
+  },
+  {
+    "query_id": "multisports_test_55",
+    "query": "v_4LXTUim5anY_c009.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        2.0,
+        2.28
+      ],
+      "boxes": [
+        {
+          "frame_id": 50,
+          "box": [
+            0.289062,
+            0.333333,
+            0.36875,
+            0.535181
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":2,\"box\":[0.382,0.488,0.401,0.518]},{\"frame\":14,\"box\":[0.220,0.528,0.237,0.559]},{\"frame\":15,\"box\":[0.222,0.515,0.239,0.546]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_4LXTUim5anY_c009.mp4"
+  },
+  {
+    "query_id": "multisports_test_56",
+    "query": "v_jZj2UkglB9E_c005.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        5.04,
+        5.88
+      ],
+      "boxes": [
+        {
+          "frame_id": 126,
+          "box": [
+            0.510938,
+            0.433333,
+            0.611461,
+            0.650931
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":12,\"box\":[0.543,0.442,0.617,0.706]},{\"frame\":13,\"box\":[0.539,0.414,0.625,0.694]},{\"frame\":14,\"box\":[0.544,0.365,0.623,0.658]},{\"frame\":15,\"box\":[0.535,0.388,0.620,0.671]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_jZj2UkglB9E_c005.mp4"
+  },
+  {
+    "query_id": "multisports_test_57",
+    "query": "v_6oTxfzKdG6Q_c004.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        1.96,
+        2.76
+      ],
+      "boxes": [
+        {
+          "frame_id": 49,
+          "box": [
+            0.673438,
+            0.288889,
+            0.723437,
+            0.523611
+          ]
+        },
+        {
+          "frame_id": 50,
+          "box": [
+            0.667188,
+            0.288889,
+            0.726562,
+            0.526389
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":0,\"box\":[0.474,0.315,0.539,0.485]},{\"frame\":1,\"box\":[0.670,0.327,0.738,0.520]},{\"frame\":2,\"box\":[0.675,0.326,0.739,0.523]},{\"frame\":3,\"box\":[0.691,0.344,0.753,0.537]},{\"frame\":4,\"box\":[0.683,0.360,0.773,0.557]},{\"frame\":5,\"box\":[0.666,0.358,0.736,0.576]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_6oTxfzKdG6Q_c004.mp4"
+  },
+  {
+    "query_id": "multisports_test_58",
+    "query": "v_4LXTUim5anY_c007.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        8.92,
+        9.24
+      ],
+      "boxes": [
+        {
+          "frame_id": 223,
+          "box": [
+            0.448437,
+            0.387958,
+            0.503125,
+            0.521292
+          ]
+        },
+        {
+          "frame_id": 225,
+          "box": [
+            0.446352,
+            0.391667,
+            0.501039,
+            0.525
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":19,\"box\":[0.397,0.385,0.458,0.574]},{\"frame\":20,\"box\":[0.361,0.389,0.423,0.600]},{\"frame\":21,\"box\":[0.321,0.402,0.389,0.632]},{\"frame\":22,\"box\":[0.284,0.424,0.363,0.679]},{\"frame\":23,\"box\":[0.252,0.464,0.346,0.735]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_4LXTUim5anY_c007.mp4"
+  },
+  {
+    "query_id": "multisports_test_59",
+    "query": "v_hDBjIvCw7Kk_c002.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        4.12,
+        7.16
+      ],
+      "boxes": [
+        {
+          "frame_id": 103,
+          "box": [
+            0.310937,
+            0.637042,
+            0.422398,
+            0.901847
+          ]
+        },
+        {
+          "frame_id": 125,
+          "box": [
+            0.243227,
+            0.663889,
+            0.329688,
+            0.912042
+          ]
+        },
+        {
+          "frame_id": 150,
+          "box": [
+            0.323437,
+            0.544444,
+            0.4,
+            0.737042
+          ]
+        },
+        {
+          "frame_id": 175,
+          "box": [
+            0.352602,
+            0.478708,
+            0.408336,
+            0.677778
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":10,\"box\":[0.303,0.520,0.322,0.551]},{\"frame\":11,\"box\":[0.258,0.875,0.278,0.907]},{\"frame\":12,\"box\":[0.228,0.885,0.249,0.918]},{\"frame\":13,\"box\":[0.229,0.857,0.249,0.889]},{\"frame\":14,\"box\":[0.232,0.824,0.252,0.856]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_hDBjIvCw7Kk_c002.mp4"
+  },
+  {
+    "query_id": "multisports_test_60",
+    "query": "v_g34vS_2KvYY_c008.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        4.92,
+        5.68
+      ],
+      "boxes": [
+        {
+          "frame_id": 123,
+          "box": [
+            0.448961,
+            0.704625,
+            0.488539,
+            0.848153
+          ]
+        },
+        {
+          "frame_id": 125,
+          "box": [
+            0.444789,
+            0.683333,
+            0.482289,
+            0.849069
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":16,\"box\":[0.421,0.502,0.435,0.524]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_g34vS_2KvYY_c008.mp4"
+  },
+  {
+    "query_id": "multisports_test_61",
+    "query": "v_SHFVKZ6HJc8_c010.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        1.96,
+        2.24
+      ],
+      "boxes": [
+        {
+          "frame_id": 49,
+          "box": [
+            0.560414,
+            0.537042,
+            0.678125,
+            0.799069
+          ]
+        },
+        {
+          "frame_id": 50,
+          "box": [
+            0.561461,
+            0.533333,
+            0.688023,
+            0.801847
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":2,\"box\":[0.618,0.347,0.690,0.617]},{\"frame\":3,\"box\":[0.598,0.335,0.683,0.553]},{\"frame\":4,\"box\":[0.647,0.315,0.713,0.533]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_SHFVKZ6HJc8_c010.mp4"
+  },
+  {
+    "query_id": "multisports_test_62",
+    "query": "v_9MHDmAMxO5I_c007.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        1.04,
+        3.16
+      ],
+      "boxes": [
+        {
+          "frame_id": 26,
+          "box": [
+            0.690102,
+            0.509264,
+            0.773961,
+            0.737958
+          ]
+        },
+        {
+          "frame_id": 50,
+          "box": [
+            0.661461,
+            0.593514,
+            0.760938,
+            0.777778
+          ]
+        },
+        {
+          "frame_id": 75,
+          "box": [
+            0.877602,
+            0.409264,
+            0.947914,
+            0.580556
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":0,\"box\":[0.533,0.108,0.710,0.986]},{\"frame\":1,\"box\":[0.515,0.121,0.706,0.985]},{\"frame\":2,\"box\":[0.475,0.151,0.699,0.998]},{\"frame\":3,\"box\":[0.689,0.510,0.758,0.742]},{\"frame\":4,\"box\":[0.687,0.500,0.756,0.740]},{\"frame\":5,\"box\":[0.684,0.550,0.752,0.773]},{\"frame\":6,\"box\":[0.677,0.586,0.750,0.797]},{\"frame\":7,\"box\":[0.675,0.580,0.746,0.807]},{\"frame\":8,\"box\":[0.676,0.578,0.744,0.806]},{\"frame\":9,\"box\":[0.680,0.544,0.738,0.739]},{\"frame\":10,\"box\":[0.704,0.442,0.759,0.659]},{\"frame\":11,\"box\":[0.902,0.344,0.978,0.585]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_9MHDmAMxO5I_c007.mp4"
+  },
+  {
+    "query_id": "multisports_test_63",
+    "query": "v_-hhDbvY5aAM_c005.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        3.2,
+        3.52
+      ],
+      "boxes": [
+        {
+          "frame_id": 80,
+          "box": [
+            0.710414,
+            0.356486,
+            0.751563,
+            0.461111
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":4,\"box\":[0.801,0.382,0.847,0.503]},{\"frame\":5,\"box\":[0.650,0.344,0.699,0.495]},{\"frame\":6,\"box\":[0.610,0.340,0.658,0.465]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_-hhDbvY5aAM_c005.mp4"
+  },
+  {
+    "query_id": "multisports_test_64",
+    "query": "v_2j7kLB-vEEk_c006.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        3.8,
+        5.28
+      ],
+      "boxes": [
+        {
+          "frame_id": 95,
+          "box": [
+            0.425,
+            0.433333,
+            0.527344,
+            0.677778
+          ]
+        },
+        {
+          "frame_id": 100,
+          "box": [
+            0.421094,
+            0.423611,
+            0.55,
+            0.677778
+          ]
+        },
+        {
+          "frame_id": 125,
+          "box": [
+            0.395313,
+            0.418056,
+            0.467969,
+            0.690278
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":0,\"box\":[0.740,0.455,0.755,0.480]},{\"frame\":1,\"box\":[0.778,0.447,0.793,0.472]},{\"frame\":2,\"box\":[0.315,0.493,0.332,0.520]},{\"frame\":3,\"box\":[0.382,0.490,0.400,0.518]},{\"frame\":4,\"box\":[0.388,0.478,0.405,0.505]},{\"frame\":5,\"box\":[0.575,0.580,0.592,0.607]},{\"frame\":6,\"box\":[0.463,0.729,0.481,0.756]},{\"frame\":7,\"box\":[0.363,0.784,0.381,0.811]},{\"frame\":8,\"box\":[0.347,0.720,0.364,0.747]},{\"frame\":9,\"box\":[0.336,0.658,0.353,0.685]},{\"frame\":10,\"box\":[0.330,0.605,0.347,0.632]},{\"frame\":11,\"box\":[0.337,0.548,0.354,0.575]},{\"frame\":12,\"box\":[0.582,0.417,0.599,0.444]},{\"frame\":13,\"box\":[0.832,0.425,0.849,0.452]},{\"frame\":14,\"box\":[0.839,0.421,0.856,0.448]},{\"frame\":15,\"box\":[0.829,0.411,0.846,0.438]},{\"frame\":16,\"box\":[0.522,0.274,0.539,0.301]},{\"frame\":17,\"box\":[0.549,0.236,0.566,0.263]},{\"frame\":18,\"box\":[0.565,0.176,0.581,0.203]},{\"frame\":19,\"box\":[0.551,0.114,0.568,0.141]},{\"frame\":20,\"box\":[0.497,0.100,0.514,0.127]},{\"frame\":21,\"box\":[0.432,0.126,0.449,0.153]},{\"frame\":22,\"box\":[0.316,0.177,0.334,0.204]},{\"frame\":23,\"box\":[0.300,0.447,0.318,0.474]},{\"frame\":24,\"box\":[0.305,0.368,0.323,0.395]},{\"frame\":25,\"box\":[0.314,0.260,0.332,0.287]},{\"frame\":26,\"box\":[0.316,0.172,0.334,0.199]},{\"frame\":27,\"box\":[0.331,0.619,0.349,0.646]},{\"frame\":28,\"box\":[0.319,0.643,0.337,0.670]},{\"frame\":29,\"box\":[0.305,0.619,0.323,0.646]},{\"frame\":30,\"box\":[0.297,0.596,0.315,0.623]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_2j7kLB-vEEk_c006.mp4"
+  },
+  {
+    "query_id": "multisports_test_65",
+    "query": "v_6oTxfzKdG6Q_c003.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        7.24,
+        7.92
+      ],
+      "boxes": [
+        {
+          "frame_id": 181,
+          "box": [
+            0.642188,
+            0.340278,
+            0.711719,
+            0.6625
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":17,\"box\":[0.741,0.459,0.763,0.492]},{\"frame\":18,\"box\":[0.809,0.365,0.832,0.399]},{\"frame\":19,\"box\":[0.835,0.274,0.858,0.308]},{\"frame\":20,\"box\":[0.857,0.169,0.880,0.203]},{\"frame\":21,\"box\":[0.858,0.297,0.881,0.331]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_6oTxfzKdG6Q_c003.mp4"
+  },
+  {
+    "query_id": "multisports_test_66",
+    "query": "v_SHFVKZ6HJc8_c602.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        2.92,
+        3.48
+      ],
+      "boxes": [
+        {
+          "frame_id": 73,
+          "box": [
+            0.245836,
+            0.529625,
+            0.327602,
+            0.772222
+          ]
+        },
+        {
+          "frame_id": 75,
+          "box": [
+            0.24375,
+            0.521292,
+            0.322914,
+            0.777778
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\": 11, \"box\": [0.191, 0.505, 0.211, 0.540]}, {\"frame\": 12, \"box\": [0.218, 0.450, 0.238, 0.485]}, {\"frame\": 13, \"box\": [0.274, 0.337, 0.295, 0.372]}, {\"frame\": 14, \"box\": [0.300, 0.292, 0.322, 0.326]}, {\"frame\": 15, \"box\": [0.318, 0.245, 0.340, 0.280]}, {\"frame\": 16, \"box\": [0.342, 0.213, 0.362, 0.248]}, {\"frame\": 17, \"box\": [0.366, 0.276, 0.386, 0.310]}, {\"frame\": 18, \"box\": [0.378, 0.340, 0.399, 0.375]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_SHFVKZ6HJc8_c602.mp4"
+  },
+  {
+    "query_id": "multisports_test_67",
+    "query": "v_gEjQ2Ttbs9M_c001.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        4.6,
+        5.36
+      ],
+      "boxes": [
+        {
+          "frame_id": 115,
+          "box": [
+            0.447398,
+            0.575,
+            0.488539,
+            0.733333
+          ]
+        },
+        {
+          "frame_id": 125,
+          "box": [
+            0.422398,
+            0.481486,
+            0.457813,
+            0.692597
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":16,\"box\":[0.440,0.392,0.455,0.417]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_gEjQ2Ttbs9M_c001.mp4"
+  },
+  {
+    "query_id": "multisports_test_68",
+    "query": "v_Y0SCvur8ZK0_c011.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        2.8,
+        3.76
+      ],
+      "boxes": [
+        {
+          "frame_id": 70,
+          "box": [
+            0.499477,
+            0.446292,
+            0.54375,
+            0.584264
+          ]
+        },
+        {
+          "frame_id": 75,
+          "box": [
+            0.502602,
+            0.376847,
+            0.533336,
+            0.554625
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":19,\"box\":[0.539,0.151,0.555,0.169]},{\"frame\":20,\"box\":[0.511,0.187,0.527,0.205]},{\"frame\":21,\"box\":[0.495,0.218,0.511,0.237]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_Y0SCvur8ZK0_c011.mp4"
+  },
+  {
+    "query_id": "multisports_test_69",
+    "query": "v_Fsbu9m-6xQ4_c018.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        0.68,
+        1.76
+      ],
+      "boxes": [
+        {
+          "frame_id": 17,
+          "box": [
+            0.844789,
+            0.373153,
+            0.905727,
+            0.518514
+          ]
+        },
+        {
+          "frame_id": 25,
+          "box": [
+            0.838539,
+            0.388889,
+            0.879687,
+            0.530556
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":0,\"box\":[0.865,0.361,0.912,0.507]},{\"frame\":1,\"box\":[0.866,0.379,0.911,0.533]},{\"frame\":2,\"box\":[0.846,0.359,0.907,0.538]},{\"frame\":3,\"box\":[0.849,0.385,0.904,0.550]},{\"frame\":4,\"box\":[0.842,0.347,0.900,0.557]},{\"frame\":5,\"box\":[0.844,0.410,0.898,0.549]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_Fsbu9m-6xQ4_c018.mp4"
+  },
+  {
+    "query_id": "multisports_test_70",
+    "query": "v_I-tZTTBt3rc_c004.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        10.12,
+        10.96
+      ],
+      "boxes": [
+        {
+          "frame_id": 253,
+          "box": [
+            0.121875,
+            0.406486,
+            0.225523,
+            0.668514
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":21,\"box\":[0.169,0.493,0.310,0.815]},{\"frame\":22,\"box\":[0.207,0.481,0.361,0.805]},{\"frame\":23,\"box\":[0.278,0.449,0.439,0.781]},{\"frame\":24,\"box\":[0.355,0.420,0.524,0.757]},{\"frame\":25,\"box\":[0.418,0.404,0.596,0.736]},{\"frame\":26,\"box\":[0.458,0.391,0.634,0.731]},{\"frame\":27,\"box\":[0.477,0.405,0.653,0.756]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_I-tZTTBt3rc_c004.mp4"
+  },
+  {
+    "query_id": "multisports_test_71",
+    "query": "v_Fsbu9m-6xQ4_c002.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        3.12,
+        4.28
+      ],
+      "boxes": [
+        {
+          "frame_id": 78,
+          "box": [
+            0.340102,
+            0.558333,
+            0.385414,
+            0.711111
+          ]
+        },
+        {
+          "frame_id": 100,
+          "box": [
+            0.293227,
+            0.540736,
+            0.335938,
+            0.717597
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":18,\"box\":[0.313,0.535,0.360,0.724]},{\"frame\":19,\"box\":[0.312,0.536,0.358,0.723]},{\"frame\":20,\"box\":[0.311,0.539,0.357,0.722]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_Fsbu9m-6xQ4_c002.mp4"
+  },
+  {
+    "query_id": "multisports_test_72",
+    "query": "v_iO0QqaR5E24_c001.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        21.52,
+        21.88
+      ],
+      "boxes": [
+        {
+          "frame_id": 538,
+          "box": [
+            0.598437,
+            0.348611,
+            0.635938,
+            0.526389
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":22,\"box\":[0.566,0.337,0.636,0.622]},{\"frame\":23,\"box\":[0.529,0.366,0.594,0.681]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_iO0QqaR5E24_c001.mp4"
+  },
+  {
+    "query_id": "multisports_test_73",
+    "query": "v_xd9oKtYYSGQ_c007.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        12.52,
+        13.08
+      ],
+      "boxes": [
+        {
+          "frame_id": 313,
+          "box": [
+            0.33125,
+            0.341667,
+            0.372656,
+            0.561111
+          ]
+        },
+        {
+          "frame_id": 325,
+          "box": [
+            0.302344,
+            0.363889,
+            0.346094,
+            0.551389
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":1,\"box\":[0.696,0.145,0.729,0.194]},{\"frame\":2,\"box\":[0.000,0.188,0.040,0.277]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_xd9oKtYYSGQ_c007.mp4"
+  },
+  {
+    "query_id": "multisports_test_74",
+    "query": "v_Y0SCvur8ZK0_c008.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        0.04,
+        0.96
+      ],
+      "boxes": [
+        {
+          "frame_id": 1,
+          "box": [
+            0.063539,
+            0.319444,
+            0.108336,
+            0.460181
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":0,\"box\":[0.071,0.323,0.100,0.450]},{\"frame\":1,\"box\":[0.076,0.310,0.102,0.426]},{\"frame\":2,\"box\":[0.076,0.306,0.107,0.442]},{\"frame\":3,\"box\":[0.064,0.366,0.094,0.497]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_Y0SCvur8ZK0_c008.mp4"
+  },
+  {
+    "query_id": "multisports_test_75",
+    "query": "v_1yHWGw8DH4A_c047.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        7.68,
+        8.36
+      ],
+      "boxes": [
+        {
+          "frame_id": 192,
+          "box": [
+            0.695836,
+            0.466667,
+            0.755211,
+            0.574069
+          ]
+        },
+        {
+          "frame_id": 200,
+          "box": [
+            0.740625,
+            0.488889,
+            0.801562,
+            0.593514
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":6,\"box\":[0.711,0.554,0.721,0.570]},{\"frame\":7,\"box\":[0.462,0.154,0.471,0.169]},{\"frame\":8,\"box\":[0.576,0.040,0.584,0.054]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_1yHWGw8DH4A_c047.mp4"
+  },
+  {
+    "query_id": "multisports_test_76",
+    "query": "v_a-FbBlvBkSE_c017.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        5.2,
+        5.8
+      ],
+      "boxes": [
+        {
+          "frame_id": 130,
+          "box": [
+            0.313023,
+            0.352778,
+            0.365102,
+            0.462958
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":21,\"box\":[0.307,0.322,0.353,0.438]},{\"frame\":22,\"box\":[0.309,0.331,0.360,0.449]},{\"frame\":23,\"box\":[0.310,0.336,0.365,0.458]},{\"frame\":24,\"box\":[0.312,0.343,0.370,0.463]},{\"frame\":25,\"box\":[0.312,0.343,0.372,0.473]},{\"frame\":26,\"box\":[0.315,0.356,0.371,0.482]},{\"frame\":27,\"box\":[0.323,0.376,0.366,0.481]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_a-FbBlvBkSE_c017.mp4"
+  },
+  {
+    "query_id": "multisports_test_77",
+    "query": "v_KLIa2UaE2KE_c005.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        2.0,
+        2.48
+      ],
+      "boxes": [
+        {
+          "frame_id": 50,
+          "box": [
+            0.265102,
+            0.562042,
+            0.435414,
+            0.852778
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":6,\"box\":[0.299,0.563,0.429,0.803]},{\"frame\":7,\"box\":[0.310,0.567,0.444,0.771]},{\"frame\":8,\"box\":[0.320,0.590,0.424,0.752]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_KLIa2UaE2KE_c005.mp4"
+  },
+  {
+    "query_id": "multisports_test_78",
+    "query": "v_4LXTUim5anY_c010.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        6.72,
+        6.96
+      ],
+      "boxes": [
+        {
+          "frame_id": 168,
+          "box": [
+            0.510414,
+            0.517597,
+            0.582812,
+            0.735181
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":11,\"box\":[0.614,0.398,0.670,0.610]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_4LXTUim5anY_c010.mp4"
+  },
+  {
+    "query_id": "multisports_test_79",
+    "query": "v_07uuHJ9yXBw_c069.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        12.76,
+        13.28
+      ],
+      "boxes": [
+        {
+          "frame_id": 319,
+          "box": [
+            0.481773,
+            0.595375,
+            0.541148,
+            0.75
+          ]
+        },
+        {
+          "frame_id": 325,
+          "box": [
+            0.490625,
+            0.616667,
+            0.535414,
+            0.736111
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":14,\"box\":[0.165,0.205,0.335,0.810]},{\"frame\":15,\"box\":[0.210,0.225,0.425,0.950]},{\"frame\":16,\"box\":[0.290,0.200,0.440,0.880]},{\"frame\":17,\"box\":[0.310,0.455,0.415,0.845]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_07uuHJ9yXBw_c069.mp4"
+  },
+  {
+    "query_id": "multisports_test_80",
+    "query": "v_DjtFlW2eHFI_c009.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        30.72,
+        31.08
+      ],
+      "boxes": [
+        {
+          "frame_id": 768,
+          "box": [
+            0.577602,
+            0.474028,
+            0.610414,
+            0.601111
+          ]
+        },
+        {
+          "frame_id": 775,
+          "box": [
+            0.598961,
+            0.482375,
+            0.63125,
+            0.594625
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":28,\"box\":[0.542,0.544,0.552,0.558]},{\"frame\":29,\"box\":[0.581,0.562,0.591,0.576]},{\"frame\":30,\"box\":[0.370,0.578,0.379,0.592]},{\"frame\":31,\"box\":[0.247,0.485,0.257,0.499]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_DjtFlW2eHFI_c009.mp4"
+  },
+  {
+    "query_id": "multisports_test_81",
+    "query": "v_9MHDmAMxO5I_c003.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        4.36,
+        5.2
+      ],
+      "boxes": [
+        {
+          "frame_id": 109,
+          "box": [
+            0.492188,
+            0.589819,
+            0.548438,
+            0.787042
+          ]
+        },
+        {
+          "frame_id": 125,
+          "box": [
+            0.420312,
+            0.548153,
+            0.472914,
+            0.799069
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":14,\"box\":[0.486,0.474,0.578,0.742]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_9MHDmAMxO5I_c003.mp4"
+  },
+  {
+    "query_id": "multisports_test_82",
+    "query": "v_4nikeBZNYRE_c005.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        6.92,
+        7.64
+      ],
+      "boxes": [
+        {
+          "frame_id": 173,
+          "box": [
+            0.605469,
+            0.608333,
+            0.658594,
+            0.822222
+          ]
+        },
+        {
+          "frame_id": 175,
+          "box": [
+            0.605469,
+            0.608333,
+            0.658594,
+            0.822222
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":16,\"box\":[0.540,0.605,0.612,0.858]},{\"frame\":17,\"box\":[0.539,0.602,0.616,0.858]},{\"frame\":18,\"box\":[0.542,0.611,0.621,0.857]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_4nikeBZNYRE_c005.mp4"
+  },
+  {
+    "query_id": "multisports_test_83",
+    "query": "v_U8AcLO8xmkg_c006.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        4.32,
+        6.36
+      ],
+      "boxes": [
+        {
+          "frame_id": 108,
+          "box": [
+            0.327086,
+            0.710181,
+            0.380211,
+            0.821292
+          ]
+        },
+        {
+          "frame_id": 125,
+          "box": [
+            0.257289,
+            0.701847,
+            0.296352,
+            0.820375
+          ]
+        },
+        {
+          "frame_id": 150,
+          "box": [
+            0.583852,
+            0.386111,
+            0.665102,
+            0.734264
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":6,\"box\":[0.560,0.360,0.810,1.000]},{\"frame\":7,\"box\":[0.555,0.350,0.805,1.000]},{\"frame\":8,\"box\":[0.550,0.345,0.800,1.000]},{\"frame\":9,\"box\":[0.530,0.320,0.745,1.000]},{\"frame\":10,\"box\":[0.505,0.320,0.705,1.000]},{\"frame\":11,\"box\":[0.495,0.330,0.690,1.000]},{\"frame\":12,\"box\":[0.495,0.350,0.685,1.000]},{\"frame\":13,\"box\":[0.415,0.410,0.635,1.000]},{\"frame\":15,\"box\":[0.685,0.420,0.840,0.790]},{\"frame\":16,\"box\":[0.670,0.425,0.815,0.805]},{\"frame\":17,\"box\":[0.320,0.535,0.435,1.000]},{\"frame\":18,\"box\":[0.295,0.555,0.420,1.000]},{\"frame\":19,\"box\":[0.280,0.575,0.400,1.000]},{\"frame\":20,\"box\":[0.270,0.580,0.385,1.000]},{\"frame\":21,\"box\":[0.265,0.585,0.365,1.000]},{\"frame\":22,\"box\":[0.270,0.560,0.375,1.000]},{\"frame\":23,\"box\":[0.500,0.370,0.700,0.990]},{\"frame\":24,\"box\":[0.490,0.345,0.740,1.000]},{\"frame\":25,\"box\":[0.560,0.335,0.760,0.920]},{\"frame\":26,\"box\":[0.560,0.500,0.710,0.930]},{\"frame\":27,\"box\":[0.545,0.590,0.700,0.920]},{\"frame\":28,\"box\":[0.505,0.590,0.685,0.950]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_U8AcLO8xmkg_c006.mp4"
+  },
+  {
+    "query_id": "multisports_test_84",
+    "query": "v_-6Os86HzwCs_c004.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        11.2,
+        11.76
+      ],
+      "boxes": [
+        {
+          "frame_id": 280,
+          "box": [
+            0.5375,
+            0.513889,
+            0.59375,
+            0.759722
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":19,\"box\":[0.398,0.458,0.486,0.682]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_-6Os86HzwCs_c004.mp4"
+  },
+  {
+    "query_id": "multisports_test_85",
+    "query": "v_07uuHJ9yXBw_c605.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        1.92,
+        2.56
+      ],
+      "boxes": [
+        {
+          "frame_id": 48,
+          "box": [
+            0.540102,
+            0.402778,
+            0.579688,
+            0.496292
+          ]
+        },
+        {
+          "frame_id": 50,
+          "box": [
+            0.513023,
+            0.405556,
+            0.550523,
+            0.499069
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":0,\"box\":[0.322,0.330,0.330,0.343]},{\"frame\":1,\"box\":[0.293,0.326,0.302,0.340]},{\"frame\":2,\"box\":[0.271,0.303,0.281,0.317]},{\"frame\":3,\"box\":[0.268,0.304,0.278,0.319]},{\"frame\":4,\"box\":[0.446,0.339,0.455,0.354]},{\"frame\":5,\"box\":[0.252,0.276,0.262,0.292]},{\"frame\":6,\"box\":[0.086,0.146,0.096,0.161]},{\"frame\":7,\"box\":[0.086,0.146,0.096,0.161]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_07uuHJ9yXBw_c605.mp4"
+  },
+  {
+    "query_id": "multisports_test_86",
+    "query": "v_g34vS_2KvYY_c006.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        4.56,
+        5.4
+      ],
+      "boxes": [
+        {
+          "frame_id": 114,
+          "box": [
+            0.432812,
+            0.660181,
+            0.472398,
+            0.790736
+          ]
+        },
+        {
+          "frame_id": 125,
+          "box": [
+            0.409375,
+            0.570375,
+            0.444273,
+            0.752778
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":19,\"box\":[0.390,0.470,0.406,0.494]},{\"frame\":20,\"box\":[0.407,0.523,0.424,0.550]},{\"frame\":21,\"box\":[0.364,0.452,0.381,0.478]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_g34vS_2KvYY_c006.mp4"
+  },
+  {
+    "query_id": "multisports_test_87",
+    "query": "v_9MHDmAMxO5I_c005.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        0.2,
+        1.24
+      ],
+      "boxes": [
+        {
+          "frame_id": 5,
+          "box": [
+            0.446352,
+            0.135181,
+            0.778648,
+            0.998153
+          ]
+        },
+        {
+          "frame_id": 25,
+          "box": [
+            0.359375,
+            0.000931,
+            0.617711,
+            0.998153
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":0,\"box\":[0.450,0.158,0.792,0.999]},{\"frame\":1,\"box\":[0.452,0.129,0.832,0.999]},{\"frame\":2,\"box\":[0.399,0.175,0.765,0.999]},{\"frame\":3,\"box\":[0.400,0.092,0.748,0.999]},{\"frame\":4,\"box\":[0.391,0.000,0.775,0.999]},{\"frame\":5,\"box\":[0.368,0.000,0.688,0.999]},{\"frame\":6,\"box\":[0.358,0.122,0.642,0.998]},{\"frame\":7,\"box\":[0.104,0.454,0.180,0.685]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_9MHDmAMxO5I_c005.mp4"
+  },
+  {
+    "query_id": "multisports_test_88",
+    "query": "v_SHFVKZ6HJc8_c004.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        20.08,
+        20.28
+      ],
+      "boxes": [
+        {
+          "frame_id": 502,
+          "box": [
+            0.374477,
+            0.598153,
+            0.463023,
+            0.800931
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":14,\"box\":[0.510,0.580,0.575,0.735]},{\"frame\":15,\"box\":[0.560,0.610,0.630,0.755]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_SHFVKZ6HJc8_c004.mp4"
+  },
+  {
+    "query_id": "multisports_test_89",
+    "query": "v_ITo3sCnpw_k_c010.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        9.52,
+        11.44
+      ],
+      "boxes": [
+        {
+          "frame_id": 238,
+          "box": [
+            0.590102,
+            0.410181,
+            0.630727,
+            0.492597
+          ]
+        },
+        {
+          "frame_id": 250,
+          "box": [
+            0.596352,
+            0.442597,
+            0.630727,
+            0.529625
+          ]
+        },
+        {
+          "frame_id": 275,
+          "box": [
+            0.682813,
+            0.421292,
+            0.73125,
+            0.551847
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":3,\"box\":[0.808,0.361,0.859,0.493]},{\"frame\":4,\"box\":[0.883,0.458,0.937,0.604]},{\"frame\":5,\"box\":[0.744,0.438,0.806,0.600]},{\"frame\":6,\"box\":[0.703,0.438,0.748,0.600]},{\"frame\":8,\"box\":[0.539,0.667,0.586,0.833]},{\"frame\":9,\"box\":[0.621,0.646,0.664,0.806]},{\"frame\":10,\"box\":[0.617,0.632,0.668,0.799]},{\"frame\":11,\"box\":[0.590,0.395,0.630,0.550]},{\"frame\":12,\"box\":[0.602,0.405,0.644,0.558]},{\"frame\":13,\"box\":[0.676,0.430,0.723,0.583]},{\"frame\":16,\"box\":[0.418,0.653,0.469,0.826]},{\"frame\":17,\"box\":[0.636,0.611,0.691,0.819]},{\"frame\":18,\"box\":[0.730,0.615,0.782,0.819]},{\"frame\":19,\"box\":[0.704,0.610,0.758,0.771]},{\"frame\":20,\"box\":[0.684,0.340,0.727,0.507]},{\"frame\":21,\"box\":[0.641,0.410,0.684,0.583]},{\"frame\":23,\"box\":[0.820,0.361,0.867,0.493]},{\"frame\":24,\"box\":[0.808,0.347,0.867,0.507]},{\"frame\":26,\"box\":[0.531,0.292,0.578,0.458]},{\"frame\":27,\"box\":[0.445,0.300,0.782,0.847]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_ITo3sCnpw_k_c010.mp4"
+  },
+  {
+    "query_id": "multisports_test_90",
+    "query": "v_g34vS_2KvYY_c009.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        3.88,
+        4.36
+      ],
+      "boxes": [
+        {
+          "frame_id": 97,
+          "box": [
+            0.692711,
+            0.604625,
+            0.71875,
+            0.730556
+          ]
+        },
+        {
+          "frame_id": 100,
+          "box": [
+            0.697914,
+            0.591667,
+            0.721875,
+            0.723153
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":7,\"box\":[0.586,0.612,0.669,0.735]},{\"frame\":8,\"box\":[0.586,0.610,0.674,0.732]},{\"frame\":9,\"box\":[0.589,0.610,0.674,0.728]},{\"frame\":10,\"box\":[0.590,0.607,0.673,0.726]},{\"frame\":11,\"box\":[0.588,0.598,0.663,0.724]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_g34vS_2KvYY_c009.mp4"
+  },
+  {
+    "query_id": "multisports_test_91",
+    "query": "v_Fsbu9m-6xQ4_c005.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        5.28,
+        5.68
+      ],
+      "boxes": [
+        {
+          "frame_id": 132,
+          "box": [
+            0.159375,
+            0.525,
+            0.210414,
+            0.663889
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":28,\"box\":[0.187,0.530,0.244,0.672]},{\"frame\":29,\"box\":[0.174,0.546,0.230,0.676]},{\"frame\":30,\"box\":[0.154,0.567,0.219,0.672]},{\"frame\":31,\"box\":[0.148,0.589,0.207,0.681]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_Fsbu9m-6xQ4_c005.mp4"
+  },
+  {
+    "query_id": "multisports_test_92",
+    "query": "v_4nikeBZNYRE_c005.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        0.2,
+        1.48
+      ],
+      "boxes": [
+        {
+          "frame_id": 5,
+          "box": [
+            0.240625,
+            0.359722,
+            0.310937,
+            0.543056
+          ]
+        },
+        {
+          "frame_id": 25,
+          "box": [
+            0.226562,
+            0.377778,
+            0.302344,
+            0.577778
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":0,\"box\":[0.238,0.367,0.281,0.568]},{\"frame\":1,\"box\":[0.224,0.382,0.278,0.573]},{\"frame\":2,\"box\":[0.228,0.417,0.269,0.571]},{\"frame\":3,\"box\":[0.195,0.416,0.246,0.574]},{\"frame\":4,\"box\":[0.177,0.440,0.235,0.605]},{\"frame\":5,\"box\":[0.179,0.479,0.225,0.669]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_4nikeBZNYRE_c005.mp4"
+  },
+  {
+    "query_id": "multisports_test_93",
+    "query": "v_82WN8C8qJmI_c015.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        7.32,
+        7.68
+      ],
+      "boxes": [
+        {
+          "frame_id": 183,
+          "box": [
+            0.679688,
+            0.523153,
+            0.784898,
+            0.716667
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":0,\"box\":[0.853,0.349,0.916,0.603]},{\"frame\":1,\"box\":[0.851,0.354,0.915,0.610]},{\"frame\":2,\"box\":[0.850,0.365,0.915,0.621]},{\"frame\":3,\"box\":[0.839,0.380,0.908,0.641]},{\"frame\":4,\"box\":[0.808,0.390,0.887,0.654]},{\"frame\":5,\"box\":[0.751,0.405,0.843,0.674]},{\"frame\":6,\"box\":[0.681,0.419,0.777,0.689]},{\"frame\":7,\"box\":[0.637,0.431,0.732,0.699]},{\"frame\":8,\"box\":[0.600,0.435,0.688,0.706]},{\"frame\":9,\"box\":[0.567,0.429,0.659,0.711]},{\"frame\":10,\"box\":[0.542,0.441,0.638,0.727]},{\"frame\":11,\"box\":[0.530,0.466,0.625,0.748]},{\"frame\":12,\"box\":[0.550,0.482,0.648,0.755]},{\"frame\":13,\"box\":[0.609,0.485,0.710,0.752]},{\"frame\":14,\"box\":[0.675,0.491,0.779,0.753]},{\"frame\":15,\"box\":[0.732,0.504,0.838,0.769]},{\"frame\":16,\"box\":[0.748,0.512,0.853,0.776]},{\"frame\":17,\"box\":[0.693,0.526,0.795,0.786]},{\"frame\":18,\"box\":[0.598,0.538,0.698,0.804]},{\"frame\":19,\"box\":[0.510,0.526,0.608,0.794]},{\"frame\":20,\"box\":[0.430,0.492,0.529,0.770]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_82WN8C8qJmI_c015.mp4"
+  },
+  {
+    "query_id": "multisports_test_94",
+    "query": "v_aAb0psypDj4_c009.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        14.0,
+        14.32
+      ],
+      "boxes": [
+        {
+          "frame_id": 350,
+          "box": [
+            0.641664,
+            0.607403,
+            0.691148,
+            0.707403
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":0,\"box\":[0.546,0.846,0.648,0.998]},{\"frame\":2,\"box\":[0.216,0.556,0.232,0.581]},{\"frame\":3,\"box\":[0.249,0.570,0.266,0.596]},{\"frame\":4,\"box\":[0.246,0.544,0.261,0.569]},{\"frame\":5,\"box\":[0.520,0.600,0.536,0.626]},{\"frame\":6,\"box\":[0.531,0.634,0.547,0.660]},{\"frame\":7,\"box\":[0.540,0.495,0.556,0.521]},{\"frame\":8,\"box\":[0.545,0.376,0.561,0.402]},{\"frame\":9,\"box\":[0.543,0.540,0.559,0.566]},{\"frame\":10,\"box\":[0.543,0.534,0.559,0.560]},{\"frame\":11,\"box\":[0.534,0.536,0.550,0.562]},{\"frame\":12,\"box\":[0.488,0.505,0.504,0.531]},{\"frame\":13,\"box\":[0.271,0.473,0.287,0.499]},{\"frame\":14,\"box\":[0.361,0.555,0.377,0.581]},{\"frame\":15,\"box\":[0.406,0.364,0.422,0.390]},{\"frame\":16,\"box\":[0.401,0.500,0.417,0.526]},{\"frame\":17,\"box\":[0.380,0.588,0.396,0.614]},{\"frame\":18,\"box\":[0.380,0.582,0.396,0.608]},{\"frame\":19,\"box\":[0.381,0.568,0.397,0.594]},{\"frame\":20,\"box\":[0.529,0.567,0.545,0.593]},{\"frame\":21,\"box\":[0.531,0.535,0.547,0.561]},{\"frame\":22,\"box\":[0.530,0.478,0.546,0.504]},{\"frame\":23,\"box\":[0.547,0.470,0.563,0.496]},{\"frame\":24,\"box\":[0.581,0.415,0.597,0.441]},{\"frame\":25,\"box\":[0.578,0.404,0.594,0.430]},{\"frame\":26,\"box\":[0.509,0.498,0.525,0.524]},{\"frame\":27,\"box\":[0.532,0.574,0.548,0.600]},{\"frame\":28,\"box\":[0.546,0.530,0.562,0.556]},{\"frame\":29,\"box\":[0.581,0.433,0.597,0.459]},{\"frame\":30,\"box\":[0.584,0.423,0.600,0.449]},{\"frame\":31,\"box\":[0.546,0.520,0.562,0.546]},{\"frame\":32,\"box\":[0.556,0.531,0.572,0.557]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_aAb0psypDj4_c009.mp4"
+  },
+  {
+    "query_id": "multisports_test_95",
+    "query": "v_Fsbu9m-6xQ4_c019.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        3.12,
+        4.2
+      ],
+      "boxes": [
+        {
+          "frame_id": 78,
+          "box": [
+            0.369273,
+            0.495375,
+            0.407289,
+            0.644444
+          ]
+        },
+        {
+          "frame_id": 100,
+          "box": [
+            0.351562,
+            0.444444,
+            0.394273,
+            0.612042
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":10,\"box\":[0.335,0.421,0.349,0.446]},{\"frame\":11,\"box\":[0.370,0.269,0.384,0.295]},{\"frame\":12,\"box\":[0.345,0.112,0.359,0.140]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_Fsbu9m-6xQ4_c019.mp4"
+  },
+  {
+    "query_id": "multisports_test_96",
+    "query": "v_hDBjIvCw7Kk_c008.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        7.68,
+        8.2
+      ],
+      "boxes": [
+        {
+          "frame_id": 192,
+          "box": [
+            0.598961,
+            0.486111,
+            0.672914,
+            0.719444
+          ]
+        },
+        {
+          "frame_id": 200,
+          "box": [
+            0.617711,
+            0.409264,
+            0.66875,
+            0.721292
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":23,\"box\":[0.884,0.421,0.972,0.736]},{\"frame\":24,\"box\":[0.899,0.432,0.983,0.745]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_hDBjIvCw7Kk_c008.mp4"
+  },
+  {
+    "query_id": "multisports_test_97",
+    "query": "v_1yHWGw8DH4A_c606.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        1.2,
+        4.16
+      ],
+      "boxes": [
+        {
+          "frame_id": 30,
+          "box": [
+            0.447914,
+            0.754625,
+            0.485938,
+            0.887958
+          ]
+        },
+        {
+          "frame_id": 50,
+          "box": [
+            0.536461,
+            0.726847,
+            0.588023,
+            0.844444
+          ]
+        },
+        {
+          "frame_id": 75,
+          "box": [
+            0.600523,
+            0.716667,
+            0.663023,
+            0.844444
+          ]
+        },
+        {
+          "frame_id": 100,
+          "box": [
+            0.581773,
+            0.708333,
+            0.638539,
+            0.840736
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":2,\"box\":[0.516,0.704,0.590,0.862]},{\"frame\":3,\"box\":[0.586,0.707,0.657,0.858]},{\"frame\":4,\"box\":[0.576,0.697,0.658,0.849]},{\"frame\":5,\"box\":[0.568,0.671,0.645,0.850]},{\"frame\":20,\"box\":[0.778,0.613,0.846,0.766]},{\"frame\":21,\"box\":[0.786,0.610,0.864,0.766]},{\"frame\":22,\"box\":[0.525,0.676,0.587,0.834]},{\"frame\":23,\"box\":[0.592,0.673,0.671,0.827]},{\"frame\":24,\"box\":[0.651,0.482,0.723,0.595]},{\"frame\":25,\"box\":[0.661,0.474,0.728,0.588]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_1yHWGw8DH4A_c606.mp4"
+  },
+  {
+    "query_id": "multisports_test_98",
+    "query": "v_4LXTUim5anY_c006.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        0.88,
+        1.0
+      ],
+      "boxes": [
+        {
+          "frame_id": 22,
+          "box": [
+            0.540102,
+            0.589819,
+            0.604688,
+            0.829625
+          ]
+        },
+        {
+          "frame_id": 25,
+          "box": [
+            0.525523,
+            0.591667,
+            0.595313,
+            0.830556
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":0,\"box\":[0.548,0.577,0.567,0.607]},{\"frame\":1,\"box\":[0.555,0.566,0.574,0.596]},{\"frame\":2,\"box\":[0.487,0.668,0.506,0.697]},{\"frame\":3,\"box\":[0.384,0.602,0.405,0.633]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_4LXTUim5anY_c006.mp4"
+  },
+  {
+    "query_id": "multisports_test_99",
+    "query": "v_1yHWGw8DH4A_c055.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        13.28,
+        13.56
+      ],
+      "boxes": [
+        {
+          "frame_id": 332,
+          "box": [
+            0.166148,
+            0.467597,
+            0.198961,
+            0.573153
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":24,\"box\":[0.119,0.529,0.164,0.691]},{\"frame\":25,\"box\":[0.113,0.532,0.158,0.710]},{\"frame\":26,\"box\":[0.115,0.539,0.156,0.710]},{\"frame\":27,\"box\":[0.112,0.565,0.142,0.709]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_1yHWGw8DH4A_c055.mp4"
+  },
+  {
+    "query_id": "multisports_test_100",
+    "query": "v_It_vvQR6RPM_c009.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        1.64,
+        2.56
+      ],
+      "boxes": [
+        {
+          "frame_id": 41,
+          "box": [
+            0.405727,
+            0.544444,
+            0.4625,
+            0.725931
+          ]
+        },
+        {
+          "frame_id": 50,
+          "box": [
+            0.435937,
+            0.539819,
+            0.488023,
+            0.767597
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":3,\"box\":[0.400,0.526,0.444,0.707]},{\"frame\":4,\"box\":[0.405,0.542,0.451,0.728]},{\"frame\":5,\"box\":[0.414,0.526,0.459,0.726]},{\"frame\":6,\"box\":[0.417,0.490,0.459,0.716]},{\"frame\":7,\"box\":[0.419,0.541,0.463,0.774]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_It_vvQR6RPM_c009.mp4"
+  },
+  {
+    "query_id": "multisports_test_101",
+    "query": "v_Y0SCvur8ZK0_c009.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        2.76,
+        3.6
+      ],
+      "boxes": [
+        {
+          "frame_id": 69,
+          "box": [
+            0.811977,
+            0.382403,
+            0.85625,
+            0.540736
+          ]
+        },
+        {
+          "frame_id": 75,
+          "box": [
+            0.777602,
+            0.387958,
+            0.822914,
+            0.537958
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":12,\"box\":[0.653,0.181,0.669,0.203]},{\"frame\":13,\"box\":[0.656,0.137,0.672,0.160]},{\"frame\":14,\"box\":[0.628,0.186,0.644,0.209]},{\"frame\":15,\"box\":[0.621,0.296,0.638,0.320]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_Y0SCvur8ZK0_c009.mp4"
+  },
+  {
+    "query_id": "multisports_test_102",
+    "query": "v_a-FbBlvBkSE_c004.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        3.56,
+        4.16
+      ],
+      "boxes": [
+        {
+          "frame_id": 89,
+          "box": [
+            0.485414,
+            0.411111,
+            0.542711,
+            0.525931
+          ]
+        },
+        {
+          "frame_id": 100,
+          "box": [
+            0.486461,
+            0.463889,
+            0.519273,
+            0.570375
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":24,\"box\":[0.504,0.411,0.548,0.558]},{\"frame\":25,\"box\":[0.493,0.421,0.540,0.575]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_a-FbBlvBkSE_c004.mp4"
+  },
+  {
+    "query_id": "multisports_test_103",
+    "query": "v_xd9oKtYYSGQ_c008.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        4.24,
+        4.56
+      ],
+      "boxes": [
+        {
+          "frame_id": 106,
+          "box": [
+            0.551562,
+            0.529167,
+            0.5875,
+            0.777778
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":20,\"box\":[0.451,0.493,0.555,0.755]},{\"frame\":21,\"box\":[0.454,0.486,0.554,0.741]},{\"frame\":22,\"box\":[0.457,0.488,0.552,0.739]},{\"frame\":23,\"box\":[0.459,0.503,0.548,0.749]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_xd9oKtYYSGQ_c008.mp4"
+  },
+  {
+    "query_id": "multisports_test_104",
+    "query": "v_-6Os86HzwCs_c009.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        18.52,
+        19.16
+      ],
+      "boxes": [
+        {
+          "frame_id": 463,
+          "box": [
+            0.665625,
+            0.461111,
+            0.708594,
+            0.658333
+          ]
+        },
+        {
+          "frame_id": 475,
+          "box": [
+            0.655469,
+            0.4125,
+            0.696094,
+            0.620833
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":26,\"box\":[0.682,0.558,0.722,0.714]},{\"frame\":27,\"box\":[0.706,0.514,0.746,0.681]},{\"frame\":28,\"box\":[0.719,0.487,0.755,0.650]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_-6Os86HzwCs_c009.mp4"
+  },
+  {
+    "query_id": "multisports_test_105",
+    "query": "v_1yHWGw8DH4A_c055.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        10.16,
+        11.36
+      ],
+      "boxes": [
+        {
+          "frame_id": 254,
+          "box": [
+            0.344273,
+            0.545375,
+            0.391664,
+            0.633333
+          ]
+        },
+        {
+          "frame_id": 275,
+          "box": [
+            0.205211,
+            0.549069,
+            0.233336,
+            0.638889
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":17,\"box\":[0.235,0.574,0.278,0.719]},{\"frame\":18,\"box\":[0.239,0.557,0.287,0.714]},{\"frame\":19,\"box\":[0.252,0.535,0.303,0.704]},{\"frame\":20,\"box\":[0.314,0.540,0.361,0.699]},{\"frame\":21,\"box\":[0.309,0.544,0.359,0.704]},{\"frame\":22,\"box\":[0.180,0.535,0.229,0.677]},{\"frame\":23,\"box\":[0.164,0.528,0.213,0.671]},{\"frame\":24,\"box\":[0.126,0.522,0.177,0.669]},{\"frame\":25,\"box\":[0.128,0.517,0.181,0.668]},{\"frame\":26,\"box\":[0.111,0.499,0.157,0.648]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_1yHWGw8DH4A_c055.mp4"
+  },
+  {
+    "query_id": "multisports_test_106",
+    "query": "v_07uuHJ9yXBw_c602.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        2.72,
+        9.08
+      ],
+      "boxes": [
+        {
+          "frame_id": 68,
+          "box": [
+            0.356773,
+            0.281486,
+            0.400523,
+            0.352778
+          ]
+        },
+        {
+          "frame_id": 75,
+          "box": [
+            0.34375,
+            0.286111,
+            0.382289,
+            0.360181
+          ]
+        },
+        {
+          "frame_id": 100,
+          "box": [
+            0.310937,
+            0.287042,
+            0.338023,
+            0.363889
+          ]
+        },
+        {
+          "frame_id": 125,
+          "box": [
+            0.298438,
+            0.286111,
+            0.318227,
+            0.375931
+          ]
+        },
+        {
+          "frame_id": 150,
+          "box": [
+            0.290625,
+            0.303708,
+            0.313539,
+            0.382403
+          ]
+        },
+        {
+          "frame_id": 175,
+          "box": [
+            0.278125,
+            0.318514,
+            0.309375,
+            0.394444
+          ]
+        },
+        {
+          "frame_id": 200,
+          "box": [
+            0.297914,
+            0.340736,
+            0.329164,
+            0.430556
+          ]
+        },
+        {
+          "frame_id": 225,
+          "box": [
+            0.270313,
+            0.350931,
+            0.313023,
+            0.443514
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":0,\"box\":[0.463,0.387,0.546,0.555]},{\"frame\":1,\"box\":[0.449,0.347,0.521,0.518]},{\"frame\":2,\"box\":[0.447,0.321,0.507,0.485]},{\"frame\":3,\"box\":[0.413,0.253,0.468,0.390]},{\"frame\":4,\"box\":[0.372,0.245,0.425,0.390]},{\"frame\":5,\"box\":[0.337,0.281,0.397,0.431]},{\"frame\":6,\"box\":[0.302,0.284,0.366,0.430]},{\"frame\":7,\"box\":[0.286,0.276,0.350,0.432]},{\"frame\":8,\"box\":[0.279,0.276,0.344,0.428]},{\"frame\":9,\"box\":[0.274,0.278,0.340,0.435]},{\"frame\":10,\"box\":[0.273,0.301,0.342,0.455]},{\"frame\":11,\"box\":[0.281,0.322,0.351,0.478]},{\"frame\":12,\"box\":[0.294,0.291,0.359,0.448]},{\"frame\":13,\"box\":[0.313,0.303,0.380,0.467]},{\"frame\":14,\"box\":[0.333,0.303,0.404,0.480]},{\"frame\":15,\"box\":[0.351,0.320,0.424,0.495]},{\"frame\":16,\"box\":[0.365,0.341,0.438,0.511]},{\"frame\":17,\"box\":[0.284,0.448,0.356,0.603]},{\"frame\":18,\"box\":[0.282,0.419,0.351,0.568]},{\"frame\":19,\"box\":[0.286,0.384,0.354,0.538]},{\"frame\":20,\"box\":[0.289,0.365,0.359,0.519]},{\"frame\":21,\"box\":[0.287,0.366,0.357,0.522]},{\"frame\":22,\"box\":[0.366,0.333,0.436,0.496]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_07uuHJ9yXBw_c602.mp4"
+  },
+  {
+    "query_id": "multisports_test_107",
+    "query": "v_-6Os86HzwCs_c002.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        2.76,
+        2.92
+      ],
+      "boxes": [
+        {
+          "frame_id": 69,
+          "box": [
+            0.607031,
+            0.356944,
+            0.7,
+            0.845833
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":0,\"box\":[0.522,0.615,0.566,0.837]},{\"frame\":1,\"box\":[0.516,0.610,0.560,0.837]},{\"frame\":2,\"box\":[0.511,0.610,0.554,0.835]},{\"frame\":3,\"box\":[0.502,0.610,0.548,0.834]},{\"frame\":4,\"box\":[0.487,0.610,0.535,0.838]},{\"frame\":5,\"box\":[0.398,0.617,0.443,0.846]},{\"frame\":6,\"box\":[0.644,0.357,0.736,0.679]},{\"frame\":7,\"box\":[0.675,0.359,0.741,0.720]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_-6Os86HzwCs_c002.mp4"
+  },
+  {
+    "query_id": "multisports_test_108",
+    "query": "v_iO0QqaR5E24_c001.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        25.44,
+        26.0
+      ],
+      "boxes": [
+        {
+          "frame_id": 636,
+          "box": [
+            0.542188,
+            0.302778,
+            0.590625,
+            0.484722
+          ]
+        },
+        {
+          "frame_id": 650,
+          "box": [
+            0.570312,
+            0.233333,
+            0.628125,
+            0.493056
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":6,\"box\":[0.493,0.487,0.579,0.759]},{\"frame\":7,\"box\":[0.524,0.372,0.596,0.757]},{\"frame\":8,\"box\":[0.536,0.366,0.606,0.759]},{\"frame\":9,\"box\":[0.579,0.450,0.657,0.831]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_iO0QqaR5E24_c001.mp4"
+  },
+  {
+    "query_id": "multisports_test_109",
+    "query": "v_SHFVKZ6HJc8_c010.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        15.44,
+        15.76
+      ],
+      "boxes": [
+        {
+          "frame_id": 386,
+          "box": [
+            0.571875,
+            0.598153,
+            0.632812,
+            0.887958
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":21,\"box\":[0.431,0.455,0.515,0.702]},{\"frame\":22,\"box\":[0.441,0.488,0.520,0.760]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_SHFVKZ6HJc8_c010.mp4"
+  },
+  {
+    "query_id": "multisports_test_110",
+    "query": "v_2Dnx8BpgUEs_c002.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        3.04,
+        3.68
+      ],
+      "boxes": [
+        {
+          "frame_id": 76,
+          "box": [
+            0.602602,
+            0.382403,
+            0.650523,
+            0.606486
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":13,\"box\":[0.655,0.284,0.724,0.566]},{\"frame\":14,\"box\":[0.657,0.281,0.724,0.567]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_2Dnx8BpgUEs_c002.mp4"
+  },
+  {
+    "query_id": "multisports_test_111",
+    "query": "v_CW0mQbgYIF4_c001.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        6.92,
+        7.2
+      ],
+      "boxes": [
+        {
+          "frame_id": 173,
+          "box": [
+            0.319789,
+            0.470375,
+            0.370312,
+            0.590736
+          ]
+        },
+        {
+          "frame_id": 175,
+          "box": [
+            0.336461,
+            0.465736,
+            0.386977,
+            0.587042
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":17,\"box\":[0.579,0.404,0.632,0.572]},{\"frame\":18,\"box\":[0.581,0.400,0.635,0.571]},{\"frame\":19,\"box\":[0.584,0.395,0.637,0.565]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_CW0mQbgYIF4_c001.mp4"
+  },
+  {
+    "query_id": "multisports_test_112",
+    "query": "v_It_vvQR6RPM_c001.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        1.88,
+        2.32
+      ],
+      "boxes": [
+        {
+          "frame_id": 47,
+          "box": [
+            0.530727,
+            0.622222,
+            0.575523,
+            0.845375
+          ]
+        },
+        {
+          "frame_id": 50,
+          "box": [
+            0.528125,
+            0.625,
+            0.576039,
+            0.847222
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":5,\"box\":[0.532,0.618,0.600,0.855]},{\"frame\":6,\"box\":[0.534,0.618,0.602,0.855]},{\"frame\":8,\"box\":[0.240,0.565,0.307,0.782]},{\"frame\":9,\"box\":[0.244,0.575,0.314,0.802]},{\"frame\":10,\"box\":[0.250,0.582,0.320,0.813]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_It_vvQR6RPM_c001.mp4"
+  },
+  {
+    "query_id": "multisports_test_113",
+    "query": "v_foGDoBblREI_c014.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        4.48,
+        5.24
+      ],
+      "boxes": [
+        {
+          "frame_id": 112,
+          "box": [
+            0.230211,
+            0.409264,
+            0.274477,
+            0.568514
+          ]
+        },
+        {
+          "frame_id": 125,
+          "box": [
+            0.321875,
+            0.388889,
+            0.353648,
+            0.548153
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":21,\"box\":[0.238,0.390,0.309,0.592]},{\"frame\":22,\"box\":[0.250,0.390,0.324,0.588]},{\"frame\":23,\"box\":[0.261,0.387,0.340,0.585]},{\"frame\":24,\"box\":[0.273,0.387,0.354,0.580]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_foGDoBblREI_c014.mp4"
+  },
+  {
+    "query_id": "multisports_test_114",
+    "query": "v_-hhDbvY5aAM_c010.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        5.48,
+        6.04
+      ],
+      "boxes": [
+        {
+          "frame_id": 137,
+          "box": [
+            0.566148,
+            0.425,
+            0.617711,
+            0.544444
+          ]
+        },
+        {
+          "frame_id": 150,
+          "box": [
+            0.433336,
+            0.417597,
+            0.476562,
+            0.552778
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":17,\"box\":[0.608,0.372,0.672,0.510]},{\"frame\":18,\"box\":[0.631,0.407,0.684,0.541]},{\"frame\":19,\"box\":[0.622,0.425,0.679,0.564]},{\"frame\":20,\"box\":[0.606,0.429,0.667,0.572]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_-hhDbvY5aAM_c010.mp4"
+  },
+  {
+    "query_id": "multisports_test_115",
+    "query": "v_2Dnx8BpgUEs_c006.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        0.6,
+        2.84
+      ],
+      "boxes": [
+        {
+          "frame_id": 15,
+          "box": [
+            0.856773,
+            0.265736,
+            0.919789,
+            0.457403
+          ]
+        },
+        {
+          "frame_id": 25,
+          "box": [
+            0.834898,
+            0.273153,
+            0.895836,
+            0.454625
+          ]
+        },
+        {
+          "frame_id": 50,
+          "box": [
+            0.713023,
+            0.305556,
+            0.776563,
+            0.469444
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":2,\"box\":[0.861,0.269,0.906,0.455]},{\"frame\":3,\"box\":[0.856,0.312,0.897,0.457]},{\"frame\":4,\"box\":[0.833,0.315,0.874,0.490]},{\"frame\":5,\"box\":[0.751,0.310,0.807,0.492]},{\"frame\":6,\"box\":[0.783,0.244,0.829,0.445]},{\"frame\":7,\"box\":[0.794,0.212,0.831,0.436]},{\"frame\":8,\"box\":[0.803,0.318,0.829,0.446]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_2Dnx8BpgUEs_c006.mp4"
+  },
+  {
+    "query_id": "multisports_test_116",
+    "query": "v_I-tZTTBt3rc_c004.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        7.0,
+        7.56
+      ],
+      "boxes": [
+        {
+          "frame_id": 175,
+          "box": [
+            0.215625,
+            0.428708,
+            0.316148,
+            0.700931
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":6,\"box\":[0.954,0.154,1.0,0.373]},{\"frame\":7,\"box\":[0.931,0.140,1.0,0.390]},{\"frame\":8,\"box\":[0.904,0.132,1.0,0.405]},{\"frame\":9,\"box\":[0.889,0.120,1.0,0.414]},{\"frame\":10,\"box\":[0.878,0.108,1.0,0.426]},{\"frame\":11,\"box\":[0.870,0.105,1.0,0.430]},{\"frame\":12,\"box\":[0.867,0.099,1.0,0.438]},{\"frame\":13,\"box\":[0.861,0.095,1.0,0.445]},{\"frame\":14,\"box\":[0.855,0.090,1.0,0.455]},{\"frame\":15,\"box\":[0.850,0.085,1.0,0.460]},{\"frame\":16,\"box\":[0.845,0.080,1.0,0.464]},{\"frame\":17,\"box\":[0.842,0.077,1.0,0.467]},{\"frame\":18,\"box\":[0.839,0.074,1.0,0.470]},{\"frame\":19,\"box\":[0.838,0.073,1.0,0.471]},{\"frame\":20,\"box\":[0.836,0.071,1.0,0.474]},{\"frame\":21,\"box\":[0.835,0.070,1.0,0.478]},{\"frame\":22,\"box\":[0.833,0.068,1.0,0.482]},{\"frame\":23,\"box\":[0.832,0.067,1.0,0.486]},{\"frame\":24,\"box\":[0.830,0.066,1.0,0.488]},{\"frame\":25,\"box\":[0.829,0.066,1.0,0.490]},{\"frame\":26,\"box\":[0.829,0.066,1.0,0.490]},{\"frame\":27,\"box\":[0.829,0.066,1.0,0.490]},{\"frame\":28,\"box\":[0.829,0.066,1.0,0.490]},{\"frame\":29,\"box\":[0.829,0.066,1.0,0.490]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_I-tZTTBt3rc_c004.mp4"
+  },
+  {
+    "query_id": "multisports_test_117",
+    "query": "v_7kWJSZRlItU_c028.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        1.04,
+        1.68
+      ],
+      "boxes": [
+        {
+          "frame_id": 26,
+          "box": [
+            0.316148,
+            0.436111,
+            0.348961,
+            0.534264
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":9,\"box\":[0.294,0.365,0.398,0.557]},{\"frame\":10,\"box\":[0.300,0.347,0.402,0.557]},{\"frame\":11,\"box\":[0.304,0.353,0.407,0.565]},{\"frame\":12,\"box\":[0.307,0.371,0.410,0.576]},{\"frame\":13,\"box\":[0.310,0.383,0.411,0.579]},{\"frame\":14,\"box\":[0.307,0.390,0.406,0.579}]}",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_7kWJSZRlItU_c028.mp4"
+  },
+  {
+    "query_id": "multisports_test_118",
+    "query": "v_9MHDmAMxO5I_c003.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        2.52,
+        3.16
+      ],
+      "boxes": [
+        {
+          "frame_id": 63,
+          "box": [
+            0.007812,
+            0.584264,
+            0.049477,
+            0.689819
+          ]
+        },
+        {
+          "frame_id": 75,
+          "box": [
+            0.235414,
+            0.544444,
+            0.266148,
+            0.669444
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":10,\"box\":[0.148,0.601,0.263,0.724]},{\"frame\":11,\"box\":[0.132,0.614,0.249,0.738]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_9MHDmAMxO5I_c003.mp4"
+  },
+  {
+    "query_id": "multisports_test_119",
+    "query": "v_07uuHJ9yXBw_c044.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        12.0,
+        12.48
+      ],
+      "boxes": [
+        {
+          "frame_id": 300,
+          "box": [
+            0.407289,
+            0.669444,
+            0.470313,
+            0.820375
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":32,\"box\":[0.398,0.665,0.469,0.813]},{\"frame\":33,\"box\":[0.387,0.726,0.454,0.889]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_07uuHJ9yXBw_c044.mp4"
+  },
+  {
+    "query_id": "multisports_test_120",
+    "query": "v_rAvkSZKlyVo_c011.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        3.64,
+        4.36
+      ],
+      "boxes": [
+        {
+          "frame_id": 91,
+          "box": [
+            0.585938,
+            0.310181,
+            0.615625,
+            0.486111
+          ]
+        },
+        {
+          "frame_id": 100,
+          "box": [
+            0.591148,
+            0.265736,
+            0.619273,
+            0.446292
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":15,\"box\":[0.575,0.326,0.620,0.593]},{\"frame\":16,\"box\":[0.579,0.294,0.632,0.602]},{\"frame\":17,\"box\":[0.575,0.273,0.638,0.596]},{\"frame\":18,\"box\":[0.580,0.276,0.640,0.584]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_rAvkSZKlyVo_c011.mp4"
+  },
+  {
+    "query_id": "multisports_test_121",
+    "query": "v_IATp4zy18jA_c007.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        33.48,
+        34.04
+      ],
+      "boxes": [
+        {
+          "frame_id": 837,
+          "box": [
+            0.518227,
+            0.45,
+            0.572914,
+            0.600931
+          ]
+        },
+        {
+          "frame_id": 850,
+          "box": [
+            0.402086,
+            0.431486,
+            0.451039,
+            0.600931
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":1,\"box\":[0.618,0.398,0.633,0.422]},{\"frame\":2,\"box\":[0.667,0.411,0.679,0.430]},{\"frame\":5,\"box\":[0.539,0.103,0.553,0.125]},{\"frame\":6,\"box\":[0.653,0.343,0.667,0.365]},{\"frame\":7,\"box\":[0.401,0.218,0.415,0.243]},{\"frame\":8,\"box\":[0.259,0.553,0.273,0.576]},{\"frame\":9,\"box\":[0.335,0.672,0.350,0.697]},{\"frame\":10,\"box\":[0.385,0.707,0.400,0.734]},{\"frame\":11,\"box\":[0.396,0.762,0.410,0.790]},{\"frame\":12,\"box\":[0.522,0.704,0.537,0.729]},{\"frame\":14,\"box\":[0.389,0.645,0.404,0.670]},{\"frame\":15,\"box\":[0.414,0.565,0.429,0.589]},{\"frame\":16,\"box\":[0.414,0.493,0.428,0.518]},{\"frame\":17,\"box\":[0.339,0.547,0.353,0.570]},{\"frame\":18,\"box\":[0.363,0.486,0.377,0.509]},{\"frame\":19,\"box\":[0.249,0.431,0.263,0.454]},{\"frame\":20,\"box\":[0.270,0.426,0.284,0.449]},{\"frame\":21,\"box\":[0.300,0.386,0.314,0.410]},{\"frame\":22,\"box\":[0.357,0.258,0.370,0.282]},{\"frame\":23,\"box\":[0.234,0.262,0.248,0.285]},{\"frame\":25,\"box\":[0.286,0.530,0.300,0.553]},{\"frame\":26,\"box\":[0.390,0.670,0.404,0.695]},{\"frame\":27,\"box\":[0.413,0.708,0.427,0.733]},{\"frame\":28,\"box\":[0.386,0.109,0.400,0.132]},{\"frame\":29,\"box\":[0.233,0.320,0.247,0.344]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_IATp4zy18jA_c007.mp4"
+  },
+  {
+    "query_id": "multisports_test_122",
+    "query": "v_xd9oKtYYSGQ_c004.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        1.28,
+        1.96
+      ],
+      "boxes": [
+        {
+          "frame_id": 32,
+          "box": [
+            0.470313,
+            0.525,
+            0.514062,
+            0.677778
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":8,\"box\":[0.505,0.399,0.521,0.423]},{\"frame\":9,\"box\":[0.507,0.353,0.523,0.378]},{\"frame\":10,\"box\":[0.484,0.316,0.501,0.341]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_xd9oKtYYSGQ_c004.mp4"
+  },
+  {
+    "query_id": "multisports_test_123",
+    "query": "v_4nikeBZNYRE_c006.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        10.64,
+        11.84
+      ],
+      "boxes": [
+        {
+          "frame_id": 266,
+          "box": [
+            0.541406,
+            0.463889,
+            0.585156,
+            0.643056
+          ]
+        },
+        {
+          "frame_id": 275,
+          "box": [
+            0.592969,
+            0.481944,
+            0.666406,
+            0.663889
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":0,\"box\":[0.774,0.479,0.788,0.500]},{\"frame\":1,\"box\":[0.477,0.373,0.489,0.393]},{\"frame\":2,\"box\":[0.548,0.376,0.560,0.397]},{\"frame\":3,\"box\":[0.480,0.431,0.493,0.452]},{\"frame\":5,\"box\":[0.560,0.472,0.574,0.493]},{\"frame\":6,\"box\":[0.574,0.514,0.589,0.536]},{\"frame\":7,\"box\":[0.594,0.542,0.608,0.564]},{\"frame\":8,\"box\":[0.584,0.552,0.599,0.574]},{\"frame\":9,\"box\":[0.807,0.546,0.821,0.568]},{\"frame\":10,\"box\":[0.809,0.550,0.824,0.572]},{\"frame\":11,\"box\":[0.820,0.564,0.835,0.586]},{\"frame\":12,\"box\":[0.680,0.478,0.695,0.500]},{\"frame\":13,\"box\":[0.660,0.473,0.675,0.495]},{\"frame\":14,\"box\":[0.642,0.511,0.657,0.533]},{\"frame\":15,\"box\":[0.631,0.529,0.646,0.551]},{\"frame\":16,\"box\":[0.618,0.535,0.633,0.557]},{\"frame\":17,\"box\":[0.580,0.567,0.595,0.589]},{\"frame\":18,\"box\":[0.548,0.575,0.563,0.597]},{\"frame\":19,\"box\":[0.571,0.542,0.586,0.564]},{\"frame\":20,\"box\":[0.591,0.554,0.606,0.576]},{\"frame\":21,\"box\":[0.603,0.546,0.618,0.568]},{\"frame\":22,\"box\":[0.634,0.550,0.649,0.572]},{\"frame\":23,\"box\":[0.650,0.382,0.665,0.404]},{\"frame\":24,\"box\":[0.653,0.337,0.668,0.359]},{\"frame\":25,\"box\":[0.650,0.207,0.664,0.229]},{\"frame\":26,\"box\":[0.663,0.090,0.677,0.112]},{\"frame\":27,\"box\":[0.364,0.187,0.377,0.208]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_4nikeBZNYRE_c006.mp4"
+  },
+  {
+    "query_id": "multisports_test_124",
+    "query": "v_aAb0psypDj4_c003.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        2.56,
+        3.28
+      ],
+      "boxes": [
+        {
+          "frame_id": 64,
+          "box": [
+            0.284375,
+            0.570375,
+            0.326562,
+            0.692597
+          ]
+        },
+        {
+          "frame_id": 75,
+          "box": [
+            0.396352,
+            0.495375,
+            0.427602,
+            0.653708
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":3,\"box\":[0.341,0.523,0.351,0.538]},{\"frame\":4,\"box\":[0.407,0.355,0.417,0.370]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_aAb0psypDj4_c003.mp4"
+  },
+  {
+    "query_id": "multisports_test_125",
+    "query": "v_6oTxfzKdG6Q_c005.mp4",
+    "demonstrations": [],
+    "gt": {
+      "temporal_range": [
+        13.08,
+        14.12
+      ],
+      "boxes": [
+        {
+          "frame_id": 327,
+          "box": [
+            0.642188,
+            0.359722,
+            0.697656,
+            0.536111
+          ]
+        },
+        {
+          "frame_id": 350,
+          "box": [
+            0.617969,
+            0.358333,
+            0.673438,
+            0.581944
+          ]
+        }
+      ]
+    },
+    "raw_pred": "[{\"frame\":22,\"box\":[0.666,0.456,0.750,0.674]},{\"frame\":23,\"box\":[0.679,0.411,0.744,0.641]},{\"frame\":24,\"box\":[0.693,0.395,0.752,0.651]},{\"frame\":25,\"box\":[0.700,0.429,0.759,0.650]}]",
+    "domain_name": "sports",
+    "model_id": "openai/openai/gpt-5.6-terra",
+    "n_shot": 0,
+    "text_only_demonstration": false,
+    "query_video_path": "v_6oTxfzKdG6Q_c005.mp4"
+  }
+]
